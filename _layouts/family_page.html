@@ -1,0 +1,43 @@
+---
+layout: base
+---
+
+
+{% assign family = site.data.families[page.family] %}
+
+
+
+<!-- Page content -->
+<div class="container page-content">
+    <article>
+      <section> 
+        <div class="row">
+          <div class="col">
+            <h1>Família <i>{{ family.scientificName | escape }}</i></h1>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        {{ content }}
+      </section>
+
+      <section>
+        <ul class="list-unstyled">
+          {% for page in site.pages %}
+            {% assign species = site.data.species[page.species] %}
+            {% if species.family == family.scientificName %}
+              <li class="media">
+                <img class="mr-3" src="/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" alt="" width=128>
+                <div class="media-body">
+                  <h5 class="mt-0 mb-1">{{species.scientificName}}</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+
+    </article>
+</div>

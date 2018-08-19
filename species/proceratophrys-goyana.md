@@ -1,0 +1,18 @@
+---
+layout: species_page
+species: proceratophrys-goyana
+---
+
+É uma espécie de pequeno porte e tem o corpo oval, porte robusto e corpo verrucoso, parecendo um pequeno fusquinha. Espécie é diurna e noturna, fossórea e insetívora. Pode ser encontrada em áreas abertas do bioma Cerrado em altitudes de 1200 metros, próximos à riachos de leito rochoso margeados por gramíneas e arbustos.
+
+Machos vocalizam debaixo de folhas, pedras e, às vezes, expostos. No Distrito Federal já foi registrada em áreas de Matas de Galeria. Tem sua distribuição geográfica restrita às formações abertas dos biomas Cerrado e da Caatinga. As principais ameaças à espécie são expansão das fronteiras agropecuárias e a exploração madeireira.
+
+Esta espécie foi a primeira a ser descrita para a região centro-oeste e é conhecida para o estado do Goiás, Distrito Federal e Minas Gerais. Em Minas Gerais já foi encontrada no município de Uberlândia. No Goiás, existem registros para várias localidades, incluindo: Alto Paraíso de Goiás (localidade-tipo), Niquelândia, Minaçu, Pirenópolis, Matrinchã, Cana Brava, Cavalcante, Colinas do Sul, Catalão e Silvânia.
+
+## Diagnose
+
+Pode ser caracterizado pelo aspecto ovóide do corpo, focinho atarracado, porte robusto e corpo verrucoso, alguns indivíduos podem apresentar uma pele a mais por cima dos olhos, o que lembra chifres. P. goyana pertence ao grupo cristiceps, que é caracterizado tanto pela ausência de apêndices palpebrais quanto de glândulas pós-oculares e distribuição geográfica restrita às formações abertas do biomas Cerrado e Caatinga. Possui um par de cristas dorsais longitudinais, simétricas e contínuas, iniciado na porção medial da pálpebra até o cóccix e cristas oculares dorsais descontínuas na porção central. A coloração dorsal de fundo é, no geral, marrom clara com a crista dorsal margeada externamente por um padrão de ondulações de cor marrom-escuro.
+
+## Curiosidades
+
+Na época do Brasil colônia, em que a capital do Brasil era o Rio de Janeiro, mal se conhecia o interior do país. Um médico que trabalhava com animais para uso em medicamento, entre outros remédios naturais, fez uma viagem até a Chapada dos Veadeiros, um local, até então, quase desconhecido. Lá, ele encontrou o primeiro Proceratophrys goyana, em uma estrada que hoje é conhecida por “estrada velha” e que faz parte do território da Fazenda Volta da Serra e, hoje, é o animal símbolo da Fazenda.

@@ -1,0 +1,41 @@
+---
+layout: base
+---
+
+{% assign species = site.data.species[page.species] %}
+
+{% assign family = species.family | slugify %}
+{% assign family = site.data.families[family] %}
+
+<!-- Subheader -->
+<div class="subheader" style="background-color:{{ family.color }}; color:white;">
+    <div class="container">
+        <h3><a href="/familias/{{family.scientificName | slugify}}">Família {{ site.data.species[page.species].family }}</a></h3>
+    </div>
+</div>
+
+<!-- Page content -->
+<div class="container page-content">
+    <article>
+      <section> 
+        <div class="row">
+          <div class="col-sm-6">
+              <img src="/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg">
+          </div>
+
+          <div class="col-sm-6">
+            <h1>{{ species.scientificName | escape }} <small>({{ species.scientificNameAuthorship }})</small></h1>
+            <h3>{{ species.vernacularName | escape }}</h3>
+          </div>
+        </div>
+      </section>
+
+      <section>
+      </section>
+
+      <section>
+        {{ content }}
+      </section>
+
+    </article>
+</div>
