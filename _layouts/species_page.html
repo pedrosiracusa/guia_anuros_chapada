@@ -13,7 +13,7 @@ layout: base
 <!-- Subheader -->
 <div class="subheader" style="background-color:{{ family.color }}; color:white;">
     <div class="container">
-        <h3><a href="/familias/{{family.scientificName | slugify}}">Família {{ family.scientificName }}</a></h3>
+        <h3><a href="{{site.baseurl}}/familias/{{family.scientificName | slugify}}">Família {{ family.scientificName }}</a></h3>
     </div>
 </div>
 
@@ -23,7 +23,7 @@ layout: base
       <section> 
         <div class="row">
           <div class="col-sm-6">
-              <img src="/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg">
+              <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg">
           </div>
 
           <div class="col-sm-6">

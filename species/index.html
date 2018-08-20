@@ -13,16 +13,16 @@ title: Espécies
     {% assign family = familiesData[i["name"]] %}
     {% assign splist = i["items"] %}
     <ul class="list-unstyled">
-        <li><h3>Família <a href="/familias/{{family.scientificName | slugify}}">{{family.scientificName}}</a></h3></li>
+        <li><h3>Família <a href="{{site.baseurl}}/familias/{{family.scientificName | slugify }}">{{family.scientificName}}</a></h3></li>
 
         <!-- Species list -->
         <ul class="list-unstyled" style="border-left: solid {{family.color}}">
         {% for j in splist %} 
         {% assign species = j[1] %}
-            <a href="/species/{{species.scientificName | slugify }}" class="no-underline">
+            <a href="{{site.baseurl}}/species/{{species.scientificName | slugify }}" class="no-underline">
                 <li class="media species-entry position-relative">
                     <div class="h-100 w-100 position-absolute overlay" style="background-color:{{family.color}}; opacity:0;"></div>
-                    <img class="mr-3" src="/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" alt="" width=128>
+                    <img class="mr-3" src="{{site.baseurl}}/assets/img/sp-avatar/{{species.scientificName | slugify}}.jpg" alt="" width=128>
                     <div class="media-body">
                       <h5 class="mt-0 mb-1">{{species.scientificName}} <small>({{species.scientificNameAuthorship}})</small></h5>
                       <h6>{{species.vernacularName}}</h6>
