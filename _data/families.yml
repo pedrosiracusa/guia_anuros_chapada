@@ -6,3 +6,14 @@ bufonidae:
   scientificName: Bufonidae
   color: "#e8a15a"
 
+hylidae:
+  scientificName: Hylidae
+  color: "#3ab770"
+
+dendrobatidae:
+  scientificName: Dendrobatidae
+  color: "#ffb900"
+
+leptodactylidae:
+  scientificName: Leptodactylidae 
+  color: "#e8a15a"

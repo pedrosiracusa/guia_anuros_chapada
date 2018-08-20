@@ -33,6 +33,7 @@ plugins:
 header_pages:
   - "cerrado/index.md"
   - "species/index.html"
+  - "autores.html"
   
 
 defaults:

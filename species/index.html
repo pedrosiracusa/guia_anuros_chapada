@@ -3,28 +3,37 @@ layout: page
 title: Espécies
 ---
 
+{% assign speciesData = site.data.species %}
+{% assign familiesData = site.data.families %}
+{% assign families-spp =  speciesData | group_by_exp: "i", "i[1].family"  %}
+
+
 <section>
-<ul class="list-unstyled">
-    {% for family in site.data.families %}
-    {% assign familyName = family[1].scientificName %}
-    <li><h3>Família <a href="/familias/{{familyName | slugify}}">{{familyName}}</a></h3>
-        <ul class="list-unstyled" style="border-left: solid {{family[1].color}}">
-            {% for page in site.pages %}
-            {% assign species = site.data.species[page.species] %}
-            {% if species.family == familyName %}
-            <a href="/species/{{species.scientificName | slugify}}" class="no-underline">
-            <li class="media species-entry">
-                <img class="mr-3" src="/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" alt="" width=128>
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">{{species.scientificName}}</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </div>
-            </li>
+{% for i in families-spp %}
+    {% assign family = familiesData[i["name"]] %}
+    {% assign splist = i["items"] %}
+    <ul class="list-unstyled">
+        <li><h3>Família <a href="/familias/{{family.scientificName | slugify}}">{{family.scientificName}}</a></h3></li>
+
+        <!-- Species list -->
+        <ul class="list-unstyled" style="border-left: solid {{family.color}}">
+        {% for j in splist %} 
+        {% assign species = j[1] %}
+            <a href="/species/{{species.scientificName | slugify }}" class="no-underline">
+                <li class="media species-entry position-relative">
+                    <div class="h-100 w-100 position-absolute overlay" style="background-color:{{family.color}}; opacity:0;"></div>
+                    <img class="mr-3" src="/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" alt="" width=128>
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">{{species.scientificName}} <small>({{species.scientificNameAuthorship}})</small></h5>
+                      <h6>{{species.vernacularName}}</h6>
+                    </div>
+                </li>
             </a>
-            {% endif %}
-            {% endfor %}
+            <li></li>
+        {% endfor %} 
         </ul>
-    </li>
-    {% endfor %}
-</ul>
-</section>
+        <!-- -->
+
+    </ul>
+{% endfor %}
+<section>

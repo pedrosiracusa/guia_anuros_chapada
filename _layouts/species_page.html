@@ -2,15 +2,18 @@
 layout: base
 ---
 
-{% assign species = site.data.species[page.species] %}
+{% assign pathSplit = {{page.path}} | split: "/" %}
+{% assign speciesSlug = {{pathSplit[1] | replace: ".md", "" | replace: ".html", ""}} %}
 
-{% assign family = species.family | slugify %}
-{% assign family = site.data.families[family] %}
+{% assign species = site.data.species[speciesSlug] %}
+
+{% assign familySlug = species.family | slugify %}
+{% assign family = site.data.families[familySlug] %}
 
 <!-- Subheader -->
 <div class="subheader" style="background-color:{{ family.color }}; color:white;">
     <div class="container">
-        <h3><a href="/familias/{{family.scientificName | slugify}}">Família {{ site.data.species[page.species].family }}</a></h3>
+        <h3><a href="/familias/{{family.scientificName | slugify}}">Família {{ family.scientificName }}</a></h3>
     </div>
 </div>
 

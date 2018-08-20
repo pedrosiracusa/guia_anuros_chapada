@@ -22,3 +22,7 @@ li.species-entry:hover{
   color: $body-color;
 }
 
+.species-entry .overlay:hover{
+    opacity:0.1 !important;
+}
+

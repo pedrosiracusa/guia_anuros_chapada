@@ -2,17 +2,52 @@ proceratophrys-goyana:
   scientificName: Proceratophrys goyana
   scientificNameAuthorship: Miranda-Ribeiro, 1937
   vernacularName: Sapo-verruga
-  family: Odontophrynidae
-
+  family: odontophrynidae
 
 rhinella-rubescens:
   scientificName: Rhinella rubescens
   scientificNameAuthorship: Lutz, 1925
   vernacularName: Cururu-do-Cerrado
-  family: Bufonidae
+  family: bufonidae
 
 rhinella-mirandaribeiroi:
   scientificName: Rhinella mirandaribeiroi
   scientificNameAuthorship: Gallardo, 1965
   vernacularName: Cururu
-  family: Bufonidae
+  family: bufonidae
+
+boana-ericae:
+  scientificName: Boana ericae
+  scientificNameAuthorship: Caramaschi & Cruz, 2000
+  vernacularName: Perereca-chapadeira
+  family: hylidae
+
+dendropsophus-minutus:
+  scientificName: Dendropsophus minutus
+  scientificNameAuthorship: Peters, 1987
+  vernacularName: Pererequinha-miúda
+  family: hylidae
+
+boana-phaeopleura:
+  scientificName: Boana phaeopleura
+  scientificNameAuthorship: Caramaschi & Cruz, 2000
+  vernacularName: Perereca-de-listras-marrom
+  family: hylidae
+
+boana-lundii:
+  scientificName: Boana lundii
+  scientificNameAuthorship: Burmeister, 1956
+  vernacularName: Perereca-usina
+  family: hylidae
+
+ameerega-flavopicta:
+  scientificName: Ameerega flavopicta
+  scientificNameAuthorship: Lutz, 1925
+  vernacularName: Sapo-flecha
+  family: dendrobatidae
+   
+physalemus-cuvieri:
+  scientificName: Physalemus cuvieri
+  scientificNameAuthorship: Fitzinger, 1826
+  vernacularName: Rã-cachorro
+  family: leptodactylidae
