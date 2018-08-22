@@ -3,7 +3,7 @@ layout: base
 ---
 
 {% assign family = site.data.families[page.family] %}
-{% assign splist = site.data.species | where: "family", page.family %}
+{% assign splist = site.data.species | where: "family_id", page.family %}
 
 
 

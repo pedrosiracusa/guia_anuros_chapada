@@ -6,9 +6,12 @@ layout: base
 {% assign speciesSlug = {{pathSplit[1] | replace: ".md", "" | replace: ".html", ""}} %}
 
 {% assign species = site.data.species[speciesSlug] %}
+{% assign species =  site.data.species | where: "id", speciesSlug %}
+{% assign species = species.first %}
 
 {% assign familySlug = species.family | slugify %}
 {% assign family = site.data.families[familySlug] %}
+
 
 <!-- Subheader -->
 <div class="subheader" style="background-color:{{ family.color }}; color:white;">
@@ -28,12 +31,18 @@ layout: base
 
           <div class="col-sm-6">
             <h1>{{ species.scientificName | escape }} <small>({{ species.scientificNameAuthorship }})</small></h1>
-            <h3>{{ species.vernacularName | escape }}</h3>
+            <h3>{{ species.vernacularNames  }}</h3>
           </div>
         </div>
       </section>
 
       <section>
+        {% if species.endemic_cerrado==1 %}
+            <p>Endêmico do Cerrado</p>
+        {% endif %}
+        {% if species.endemic_chapada==1 %}
+            <p>Endêmico da Chapada dos Veadeiros</p>
+        {% endif %}
       </section>
 
       <section>
