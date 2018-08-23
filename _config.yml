@@ -42,6 +42,20 @@ defaults:
     values:
       image: true 
 
+  -
+    scope:
+      path: "species"
+      type: "pages"
+    values:
+      layout: "species_page"
+
+  - 
+    scope:
+      path: "assets/img/sp-avatar"
+    values:
+      sp-avatar: true
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

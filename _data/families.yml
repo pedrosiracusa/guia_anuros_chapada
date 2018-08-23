@@ -16,15 +16,15 @@ dendrobatidae:
 
 leptodactylidae:
   scientificName: Leptodactylidae 
-  color: "#e8a15a"
+  color: "#5a8ee8"
 
 microhylidae:
   scientificName: Mycrohylidae
-  color: "#c54f4f"
+  color: "#4fc1c5"
 
 aromobatidae:
   scientificName: Aromobatidae
-  color: "#c54f4f"
+  color: "#b37255"
 
 craugastoridae:
   scientificName: Craugastoridae
