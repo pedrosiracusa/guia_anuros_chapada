@@ -1,0 +1,4 @@
+﻿### Rãs ovais
+
+
+Rãs de tamanho pequeno ou médio e é facilmente reconhecíveis por ter o corpo em forma ovalada ou em gota. Além disso, eles possuem uma cabeça triangular com um focinho pontiagudo, olhos pequenos e membros traseiros curtos, com dedos cilíndricos e sem palma entre eles. Todas essas características são devido à sua ecologia, são anuros ativos à noite e têm hábitos mineiros ou semi-subterrâneos, vivendo embaixo do folhiço em regiões alagadas, por isso são muito difíceis de ver. Normalmente, eles são observados quando são agrupados para reproduzir durante as primeiras chuvas da estação.

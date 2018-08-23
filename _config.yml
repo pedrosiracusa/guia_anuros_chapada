@@ -32,7 +32,7 @@ plugins:
 # A list of the pages to display in the navigation bar
 header_pages:
   - "cerrado/index.md"
-  - "species/index.html"
+  - "especies/index.html"
   - "autores.html"
   
 
@@ -44,11 +44,17 @@ defaults:
 
   -
     scope:
-      path: "species"
+      path: "especies"
       type: "pages"
     values:
       layout: "species_page"
-
+  
+  -
+    scope:
+      path: "familias"
+      type: "pages"
+    values:
+      layout: "family_page"
   - 
     scope:
       path: "assets/img/sp-avatar"

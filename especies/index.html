@@ -21,7 +21,7 @@ title: Espécies
         <!-- Species list -->
         <ul class="list-unstyled" style="border-left: solid {{family.color}}">
         {% for species in splist  %} 
-            <a href="{{site.baseurl}}/species/{{species.scientificName | slugify }}" class="no-underline">
+            <a href="{{site.baseurl}}/especies/{{species.scientificName | slugify }}" class="no-underline">
                 <li class="media species-entry position-relative">
                     <div class="h-100 w-100 position-absolute overlay" style="background-color:{{family.color}}; opacity:0;"></div>
                     <img class="mr-3" src="{{site.baseurl}}/assets/img/sp-avatar/{{species.scientificName | slugify}}.jpg" alt="" width=128>
