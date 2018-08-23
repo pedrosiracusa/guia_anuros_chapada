@@ -1,3 +1,0 @@
----
-layout: species_page
----
