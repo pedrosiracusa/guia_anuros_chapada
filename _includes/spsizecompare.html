@@ -1,0 +1,23 @@
+<!-- https://fvsch.com/svg-icons/ -->
+{% assign handsize = 170.0 %}
+{% assign female_size = species.tamanho_femea_max | plus: species.tamanho_femea_min | divided_by: 2 %}
+{% assign male_size = species.tamanho_macho_max | plus: species.tamanho_macho_min | divided_by: 2 %}
+{% assign spsize = female_size | plus: male_size | divided_by: 2 %}
+
+{% assign rendersize = 6 %}
+
+{% if spsize > handsize %}
+  {% assign spsize_render = rendersize %}
+  {% assign handsize_render = handsize | divided_by: spsize | times: rendersize %}
+{% else %}
+  {% assign handsize_render = rendersize %}
+  {% assign spsize_render = spsize | divided_by: handsize | times: rendersize %}
+{% endif %}
+
+<h6>Tamanho médio: <small>{{ spsize | round }} mm</small></h6>
+<svg style="width:{{spsize_render}}em; height:{{rendersize}}em;">
+  <use xlink:href="{{site.baseurl}}/assets/sprite/icons.svg#odontophrynidae" fill="{{family.color}}"></use>
+</svg>
+<svg style="width: {{handsize_render}}em; height:{{rendersize}}em;">
+  <use xlink:href="{{site.baseurl}}/assets/sprite/icons.svg#hand" fill="{{family.color}}"></use>
+</svg>
