@@ -1,6 +1,9 @@
 _site
 .sass-cache
 .jekyll-metadata
+.ipynb_checkpoints
 node_modules
 package-lock.json
 Gemfile.lock
+token.json
+credentials.json
