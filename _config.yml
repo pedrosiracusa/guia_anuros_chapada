@@ -16,7 +16,7 @@
 title: Guia dos Anuros
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  A Bootstrap 4 start up project for Jekyll and Github Pages
+  Um projeto batráquio!
 baseurl: "/guia_anuros_chapada" # the subpath of your site, e.g. /blog
 url: "http://pedrosiracusa.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -31,7 +31,6 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
-  - "cerrado/index.md"
   - "especies/index.html"
   - "autores.html"
   
