@@ -3,4 +3,41 @@
 // theme provided by https://bootswatch.com .
 
 
+header{
+    min-height:50vh;
+}
+
+
+@media (min-width: 768px){
+    header{ min-height:70vh;}
+}
+@media (min-width: 992px){
+  #mainNav {
+      height:25vh;
+  }
+
+  #mainNav.navbar-shrink{
+    height:8vh;
+  }
+
+  #mainNav .navbar-brand{
+   font-size: 2.5em;
+  }
+
+  #mainNav.navbar-shrink .navbar-brand{
+    font-size:1em;
+  }
+}
+
+@media (min-width: 1200px){
+
+    #mainNav .navbar-brand{
+        font-size:3em;
+    }
+}
+
+
+
+
+
 
