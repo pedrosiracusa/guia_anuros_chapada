@@ -3,6 +3,33 @@
 // theme provided by https://bootswatch.com .
 
 
+
+// set root element sizes
+
+html{
+
+    font-size: 10px;
+
+    @media (min-width: 576px){
+        font-size: 12px;
+    }
+
+    @media (min-width: 768px){
+        font-size: 14px;
+    }
+
+    @media (min-width: 992px){
+        font-size: 14px;
+    }
+    
+    @media(min-width: 1200px){
+        font-size: 16px;
+    }
+}
+
+
+
+
 header#landingpage-cover{
     min-height:60vh;
 }
