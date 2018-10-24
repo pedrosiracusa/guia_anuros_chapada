@@ -3,8 +3,14 @@
     padding: 3rem;
   }
   .showcase-img {
-    min-height: 30rem;
+    min-height:  30vh;
     background-size: cover;
+    background-position: center center;
+  }
+  @media (min-width: 576px) {
+    .showcase-img {
+        min-height: 30rem;
+    }
   }
   @media (min-width: 768px) {
     .showcase-text {
