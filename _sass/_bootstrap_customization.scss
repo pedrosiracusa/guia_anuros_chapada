@@ -58,5 +58,9 @@ header#landingpage-cover{
 }
 
 
-
+// Unstyled anchors
+a.unstyled{
+  text-decoration:none;
+  color: $body-color;
+}
 
