@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: base
 title: Espécies
 ---
 
@@ -10,32 +10,36 @@ title: Espécies
 {% assign families-spp = speciesData | group_by: "family" %}
 
 
-<section>
-{% for i in families-spp %}
-    {% assign family_id = i.name | slugify %}
-    {% assign family = familiesData[family_id] %}
-    {% assign splist = i.items %}
-    <ul class="list-unstyled">
-        <li><h3>Família <a href="{{site.baseurl}}/familias/{{family.scientificName | slugify }}">{{family.scientificName}}</a></h3></li>
+  <div class="container p-0">
+  <!-- Families list -->
+  {% for i in families-spp %}
+      {% assign family_id = i.name | slugify %}
+      {% assign family = familiesData[family_id] %}
+      {% assign splist = i.items %}
+      <h3>Família <a style="color:{{family.color}}" href="{{ site.baseurl }}/familias/{{ family.scientificName | slugify }}">{{ family.scientificName }}</a></h3>
 
+      <div class="row no-gutters popup-gallery">
         <!-- Species list -->
-        <ul class="list-unstyled" style="border-left: solid {{family.color}}">
-        {% for species in splist  %} 
-            <a href="{{site.baseurl}}/especies/{{species.scientificName | slugify }}" class="no-underline">
-                <li class="media species-entry position-relative">
-                    <div class="h-100 w-100 position-absolute overlay" style="background-color:{{family.color}}; opacity:0;"></div>
-                    <img class="mr-3" src="{{site.baseurl}}/assets/img/sp-avatar/{{species.scientificName | slugify}}.jpg" alt="" width=128>
-                    <div class="media-body">
-                      <h5 class="mt-0 mb-1">{{species.scientificName}} <small>({{species.scientificNameAuthorship}})</small></h5>
-                      <h6>{{species.vernacularNames | join: ", "}}</h6>
-                    </div>
-                </li>
-            </a>
-            <li></li>
-        {% endfor %} 
-        </ul>
-        <!-- -->
+        {% for species in splist %}
+        <div class="col-6 col-lg-3">
+          <a class="portfolio-box" style="color:{{family.color}}"  >
+            <img class="img-fluid" src="{{site.baseurl}}/assets/img/sp-avatar/{{species.scientificName | slugify}}.jpg" alt="" onError="this.src='https://via.placeholder.com/1800x1200'">
+            <div class="portfolio-box-caption  d-none d-lg-block" style="background-color:{{family.color}}cc;">
+              <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">{{species.vernacularNames[0]}}</div>
+                <div class="project-name text-faded">{{species.scientificName}}</div>
+              </div>
+            </div>
+          </a>
+        </div> 
+        <div class="col-6 d-block d-lg-none">
+          <h5>{{species.vernacularNames[0]}}</h5>
+          <h5>{{species.scientificName}}</h5>
+        </div>
+        {% endfor %}
+        <!-- end Species list -->
+      </div>
 
-    </ul>
-{% endfor %}
-<section>
+  {% endfor %}
+  <!-- end Families list -->
+  </div>

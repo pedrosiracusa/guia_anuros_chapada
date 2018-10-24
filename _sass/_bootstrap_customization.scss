@@ -48,6 +48,14 @@ header#landingpage-cover{
 }
 
 
+.portfolio-box{ 
+  border: none;
+  border-left: solid .3rem;
+}
+
+@media (min-width: 992px){
+    a.portfolio-box{ border: none; }
+}
 
 
 
