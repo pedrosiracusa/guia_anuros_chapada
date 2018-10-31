@@ -1,6 +1,6 @@
 ﻿Esta é uma espécie de porte médio, terrestres, noturnos e insetívoros. Ocorre em áreas abertas do bioma Cerrado, Mata Atlântica e Pampas. Se reproduz em campos alagáveis, próximos a lagos e brejos, temporários ou permanentes, em solos de areia, onde cavam pequenos túneis subterrâneos que utilizam como sítios de vocalização e nidificação. Os ovos são colocados no chão e, após a eclosão dos ovos, os girinos são levados pela água das chuvas até os lagos. 
-Possui uma ampla distribuição e é uma espécie comum. Se adapta bem ao distúrbio antropogênico e existem registros de coletas de L. furnarius em plantações de eucaliptos.
+Possui uma ampla distribuição e é uma espécie comum. Se adapta bem ao distúrbio antropogênico e existem registros de coletas de *L. furnarius* em plantações de eucaliptos.
 
 
--> Diagnose:
+# Diagnose:
 Possuir uma linha dorsal branca que se inicia no focinho e se estende ao ânus, e dois pares de linhas irregulares dorsolaterais de coloração bege, com manchas irregulares pretas, sendo a última linha se iniciando na região posterior dos olhos seguindo até os flancos. Tem presença de três pares de pregas dorsolaterais, que variam em tons de bege ao marrom-escuro, entremeadas por pequenas manchas circulares de cor preta. Lábio superior possui uma faixa de cor bege, que se inicia no focinho e segue até o tímpano.

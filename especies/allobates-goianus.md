@@ -11,7 +11,7 @@ Possuem um comportamento reprodutivo bem curioso, onde os ovos são depositados 
 
 
 # Curiosidades
-Além da ocorrência na chapada dos veadeiros, região tipo onde o primeiro indivíduo foi encontrado (localidade tipo), essa espécie já foi registrada na Floresta Nacional da Silvânia - GO, no município de niquelândia e em Minaçu - GO, desde a criação do barragem da Serra da Mesa.
+Além da ocorrência na Chapada dos Veadeiros, região tipo onde o primeiro indivíduo foi encontrado (localidade tipo), essa espécie já foi registrada na Floresta Nacional da Silvânia - GO, no município de niquelândia e em Minaçu - GO, desde a criação do barragem da Serra da Mesa.
 
 
 

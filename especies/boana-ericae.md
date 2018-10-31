@@ -13,7 +13,3 @@ Existe uma diferença entre *Hypsiboas ericae* e entre outras espécies de *Hyps
 # Referências bibliográficas:
 * Garcia PC, Haddad CF. Vocalizations and comments on the relationships of Hypsiboas ericae (Amphibia, Hylidae). Iheringia. Série Zoologia. 2008 Mar;98(1):161-6.
 * Caramaschi U, Cruz CA. Duas espécies novas de Hyla Laurenti, 1768 do estado de Goiás, Brasil (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, Nova Série, Zoologia. 2000;422:1-2.
-
-
--> Glossário:
-- Endêmico: Significa que aquele animal só ocorre em determinado local, no caso da H. ericae, só ocorre na região da Chapada dos Veadeiros.

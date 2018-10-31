@@ -3,10 +3,10 @@
 Está amplamente distribuída na América do Sul e, principalmente, pelo Brasil. É uma espécie comum e chega a formar grandes grupos durante a época reprodutiva, no início da chuva. Os ninhos são encontrados cerca de 1 metro acima da água de pequenas poças e os ovos são depositados nas folhas acima da água.
 
 
--> Diagnose:
+# Diagnose:
 O Gênero compreende as pererecas arborícolas caracterizadas por possuir pupila da posição vertical e coloração dorsal que vai do verde-limão ao verde-escuro uniforme.
 Essa espécie possui um padrão de barras de coloração preta e vermelha-alaranjada nas faces ocultas dos flancos, faces anterior e posterior das coxas e braços. A maxila possui uma faixa branca estreita, que não atinge a borda da pálpebra. Os dedos internos das mãos são oponíveis aos dos dedos laterais, adaptado à vida arbórea e não possui membrana interdigital. Pele dorsal lisa e pele ventral rugosa de coloração branca. Presença de uma larga faixa dorsal verde ao longo de toda extensão da coxa.     
 
 
--> Curiosidades:
+# Curiosidades:
 Por ser um animal bem carismático e colorido, as vezes é encontrado no comércio internacional de animais de estimação, mas em níveis que atualmente não representam uma grande ameaça.
