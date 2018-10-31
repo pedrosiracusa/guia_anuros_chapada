@@ -94,15 +94,12 @@ a.unstyled{
 .habitat-banner {
   height: 25vw;
   background-image: url('../img/header.jpg');
-  background-position: center center;
+  background-position: center bottom;
   @include background-cover;
 }
 
 .habitat-banner i{
-  font-size: 1rem;
-  @media (min-width:992px){
-    font-size:2rem;
-  }
+  font-size:3vw;
 }
 
 

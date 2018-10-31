@@ -12,6 +12,9 @@ layout: base
 {% assign familySlug = species.family | slugify %}
 {% assign family = site.data.families[familySlug] %}
 
+{% assign habitatPositions = site.data.species_habitat_pos[speciesSlug] %}
+
+
 
 <!-- Subheader -->
 <div class="subheader" style="background-color:{{ family.color }}; color:white;">
@@ -60,7 +63,8 @@ layout: base
 
 <div class="container-fluid p-0">
   <div class="habitat-banner" style="background-image:url('../assets/img/icons/phyto.jpeg'); background-position:center bottom">
-    <i class="fa fa-circle" style="position:relative; top:80%; left:13%; color: {{family.color}}cc;" ></i>
-    <i class="fa fa-circle" style="position:relative; top:85%; left:21%; color: {{family.color}}cc;" ></i>
+    {% for position in habitatPositions %}
+    <i class="fa fa-circle" style="position:relative; top:{{position[0]}}%; left:{{position[1]}}%; color: {{family.color}}cc;" ></i>
+    {% endfor %}
   </div>
 </div>
