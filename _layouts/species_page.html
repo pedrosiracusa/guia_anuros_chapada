@@ -40,6 +40,14 @@ layout: base
             <div class="spbadges">
               {% include spbadges.html species=species %}
             </div>
+            <div class="habitat-banner d-none d-lg-block my-3">
+              <img src="../assets/img/icons/phyto-crop.jpeg" style="">
+              <div class="div-overlay">
+                {% for position in habitatPositions %}
+                <i class="fa fa-circle" style="top:{{position[0]}}%; left:{{position[1]}}%; color: {{family.color}}cc;" ></i>
+                {% endfor %}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -61,10 +69,13 @@ layout: base
     </article>
 </div>
 
-<div class="container-fluid p-0">
-  <div class="habitat-banner" style="background-image:url('../assets/img/icons/phyto.jpeg'); background-position:center bottom">
-    {% for position in habitatPositions %}
-    <i class="fa fa-circle" style="position:relative; top:{{position[0]}}%; left:{{position[1]}}%; color: {{family.color}}cc;" ></i>
-    {% endfor %}
+<div class="container-fluid p-0 d-lg-none">
+  <div class="habitat-banner">
+    <img class="img-fluid" src="../assets/img/icons/phyto-crop.jpeg" style="">
+    <div class="div-overlay">
+      {% for position in habitatPositions %}
+      <i class="fa fa-circle" style="top:{{position[0]}}%; left:{{position[1]}}%; color: {{family.color}}cc;" ></i>
+      {% endfor %}
+    </div>
   </div>
 </div>
