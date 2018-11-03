@@ -40,7 +40,7 @@ layout: base
             <div class="spbadges">
               {% include spbadges.html species=species %}
             </div>
-            <div class="habitat-banner d-none d-lg-block my-3">
+            <div class="habitat-banner d-none d-lg-block mt-3">
               <img src="../assets/img/icons/phyto-crop.jpeg" style="">
               <div class="div-overlay">
                 {% for position in habitatPositions %}
@@ -48,6 +48,22 @@ layout: base
                 {% endfor %}
               </div>
             </div>
+
+            <div class="d-lg-flex justify-content-center mb-3 d-none" style="border: 1px solid {{family.color}}99; border-top:none;">
+                <div class="px-2 py-1">Jan</div>
+                <div class="px-2 py-1">Fev</div>
+                <div class="px-2 py-1">Mar</div>
+                <div class="px-2 py-1">Abr</div>
+                <div class="px-2 py-1">Mai</div>
+                <div class="px-2 py-1">Jun</div>
+                <div class="px-2 py-1" style="background-color: {{family.color}}99;">Jul</div>
+                <div class="px-2 py-1" style="background-color: {{family.color}}99;">Ago</div>
+                <div class="px-2 py-1" style="background-color: {{family.color}};">Set</div>
+                <div class="px-2 py-1" style="background-color: {{family.color}};">Out</div>
+                <div class="px-2 py-1" style="background-color: {{family.color}};">Nov</div>
+                <div class="px-2 py-1" style="background-color: {{family.color}};">Dez</div>
+            </div>
+
           </div>
         </div>
       </section>
