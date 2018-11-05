@@ -1,11 +1,9 @@
-{% if species.endemic_cerrado==1 %}
-<span class="badge badge-pill badge-danger">
-  Endêmico do Cerrado
-</span>
-{% endif %}
-
 {% if species.endemic_chapada==1 %}
 <span class="badge badge-pill badge-danger">
   Endêmico da Chapada dos Veadeiros
+</span>
+{% elsif species.endemic_cerrado==1 %}
+<span class="badge badge-pill badge-danger">
+  Endêmico do Cerrado
 </span>
 {% endif %}
