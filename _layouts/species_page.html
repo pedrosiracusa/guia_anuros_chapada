@@ -60,10 +60,25 @@ layout: base
               {% include spbadges.html species=species %}
             </div>
 
+
             <!-- Habitat banner -->
             <div class="habitat-banner d-none d-lg-block mt-3">
               <img src="../assets/img/icons/phyto-crop.jpeg" style="">
               <div class="div-overlay">
+                <!-- Habit bar -->
+                <div class="habit-bar float-right">
+                    {% if species.atividade_diu==1 %}
+                      {% if species.atividade_not==1 %}
+                      <img src="{{site.baseurl}}/assets/img/icons/habit_day_night.jpg">
+                      {% else %}
+                      <img src="{{site.baseurl}}/assets/img/icons/habit_day.jpg">
+                      {% endif %}
+                    {% elsif species.atividade_not==1 %}
+                      <img src="{{site.baseurl}}/assets/img/icons/habit_night.jpg">
+                    {% endif %}
+                </div>
+
+                <!-- markers -->
                 {% for position in habitatPositions %}
                 <i class="fa fa-circle" style="top:{{position[0]}}%; left:{{position[1]}}%; color: {{family.color}}cc;" ></i>
                 {% endfor %}
