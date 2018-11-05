@@ -40,6 +40,8 @@ layout: base
             <div class="spbadges">
               {% include spbadges.html species=species %}
             </div>
+
+            <!-- Habitat banner -->
             <div class="habitat-banner d-none d-lg-block mt-3">
               <img src="../assets/img/icons/phyto-crop.jpeg" style="">
               <div class="div-overlay">
@@ -49,19 +51,18 @@ layout: base
               </div>
             </div>
 
-            <div class="d-lg-flex justify-content-center mb-3 d-none" style="border: 1px solid {{family.color}}99; border-top:none;">
-                <div class="px-2 py-1">Jan</div>
-                <div class="px-2 py-1">Fev</div>
-                <div class="px-2 py-1">Mar</div>
-                <div class="px-2 py-1">Abr</div>
-                <div class="px-2 py-1">Mai</div>
-                <div class="px-2 py-1">Jun</div>
-                <div class="px-2 py-1" style="background-color: {{family.color}}99;">Jul</div>
-                <div class="px-2 py-1" style="background-color: {{family.color}}99;">Ago</div>
-                <div class="px-2 py-1" style="background-color: {{family.color}};">Set</div>
-                <div class="px-2 py-1" style="background-color: {{family.color}};">Out</div>
-                <div class="px-2 py-1" style="background-color: {{family.color}};">Nov</div>
-                <div class="px-2 py-1" style="background-color: {{family.color}};">Dez</div>
+            <!-- Months bar -->
+            <div class="months-bar d-none d-lg-flex justify-content-end mb-3" style="border-color:{{family.color}}99;">
+                <div class="flex-grow-1 px-2 py-1">Ocorrência</div>
+                {% assign months =  "Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez" | split: "," %}
+                {% for i in (0..11) %}
+                  {% assign selectMonth = species.month_vec[i] %}
+                  {% if selectMonth==1 %}
+                  <div class="px-2 py-1 text-white" style="background-color: {{family.color}}">{{ months[i] }}</div>
+                  {% else %}
+                  <div class="px-2 py-1">{{ months[i] }}</div>
+                  {% endif %}
+                {% endfor %}
             </div>
 
           </div>
