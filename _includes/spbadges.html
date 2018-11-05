@@ -7,3 +7,24 @@
   Endêmico do Cerrado
 </span>
 {% endif %}
+
+
+{% if species.detectability_ff==1 %}
+<span class="badge badge-pill badge-success">
+  Muito frequente
+</span>
+{% elsif species.detectability_f==1 %}
+<span class="badge badge-pill badge-success">
+  Frequente
+</span>
+{% elsif species.detectability_r %}
+<span class="badge badge-pill badge-warning text-white">
+  Pouco frequente
+</span>
+{% else %}
+<span class="badge badge-pill badge-danger">
+  Rara
+</span>
+
+
+{% endif %}
