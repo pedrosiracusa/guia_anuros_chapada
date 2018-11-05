@@ -5,9 +5,16 @@ layout: base
 {% assign pathSplit = page.path | split: "/" %}
 {% assign speciesSlug = pathSplit[1] | replace: ".md", "" | replace: ".html", "" %}
 
-{% assign species = site.data.species[speciesSlug] %}
-{% assign species =  site.data.species | where: "id", speciesSlug %}
-{% assign species = species.first %}
+{% for sp in site.data.species %}
+  {% if sp.id==speciesSlug %}
+    {% assign species = sp %}
+
+    {% assign next_ix = forloop.index %}
+    {% assign prev_ix = forloop.index | minus:2 %}
+    {% assign next_sp = site.data.species[next_ix] %}
+    {% assign prev_sp = site.data.species[prev_ix] %}
+  {% endif %}
+{% endfor %}
 
 {% assign familySlug = species.family | slugify %}
 {% assign family = site.data.families[familySlug] %}
@@ -35,6 +42,13 @@ layout: base
           </div>
 
           <div class="col">
+            <!-- Navigation -->
+            <div class="d-flex justify-content-end">
+              <a href="{{site.baseurl}}/especies/{{prev_sp.id}}" class="mx-2" style="color:{{family.color}};"><i class="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i></a>
+              <a href="{{site.baseurl}}/especies/{{next_sp.id}}" class="mx-2" style="color:{{family.color}};"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>
+            </div>
+
+            <!-- Species info -->
             <h1>{{ species.scientificName | escape }} <small>({{ species.scientificNameAuthorship }})</small></h1>
             <h3>{{ species.vernacularNames  }}</h3>
             <div class="spbadges">
