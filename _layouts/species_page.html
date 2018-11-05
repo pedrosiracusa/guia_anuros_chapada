@@ -37,7 +37,7 @@ layout: base
 
 
 <!-- Page content -->
-<div id="{{species.id}}" class="container page-content">
+<div id="{{species.id}}" class="container page-content species-profile">
     <article>
       <section> 
         <div class="row">
@@ -54,8 +54,10 @@ layout: base
             </div>
 
             <!-- Species info -->
-            <h1>{{ species.scientificName | escape }} <small>({{ species.scientificNameAuthorship }})</small></h1>
-            <h3>{{ species.vernacularNames  }}</h3>
+            <div class="d-flex flex-wrap align-items-baseline">
+              <h1 class="pr-2"><i>{{ species.scientificName | escape }}</i></h1><h3 class="text-muted">({{ species.scientificNameAuthorship }})</h3>
+            </div>
+            <h3>{{ species.vernacularNames | join: ", " }}</h3>
             <div class="spbadges">
               {% include spbadges.html species=species %}
             </div>

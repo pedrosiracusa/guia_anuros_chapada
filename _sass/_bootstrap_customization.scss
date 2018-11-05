@@ -90,6 +90,36 @@ a.unstyled{
 }
 
 
+
+// Overlay div
+.div-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+
+
+
+/*----
+  Species Profile pages
+  ----
+*/
+
+.species-profile{
+
+    h1{
+      font-size:2rem;
+      small{font-size: .6em;}
+    }
+
+    h3{
+      font-size: 1.4rem;
+    }
+}
+
 // Habit bar
 .habit-bar{
     img{height:4em;}
@@ -110,14 +140,6 @@ a.unstyled{
       font-size: calc( 0.03 * 0.5 * #{map-get($container-max-widths, xl)} );
     }
   }
-}
-
-.div-overlay{
-    position:absolute;
-    top:0;
-    left:0;
-    height:100%;
-    width:100%;
 }
 
 
