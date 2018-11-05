@@ -11,8 +11,13 @@ layout: base
 
     {% assign next_ix = forloop.index %}
     {% assign prev_ix = forloop.index | minus:2 %}
+    {% if next_ix == site.data.species.size %}
+      {% assign next_ix = 0 %}
+    {% endif %}
+
     {% assign next_sp = site.data.species[next_ix] %}
     {% assign prev_sp = site.data.species[prev_ix] %}
+
   {% endif %}
 {% endfor %}
 
