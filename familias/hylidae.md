@@ -1,5 +1,4 @@
-﻿# Família: Hylidae
-# Nome popular: Rãs arborícolas
+﻿### Rãs arborícolas
 
 
-Também popularmente conhecido por Pererecas, esse grupo tem uma grande diversidade de tamanhos, colorações e morfologias, no entanto todas possuem como característica em comum discos adesivos nas extremidades dos dedos permitindo com que esses animais consigam escalar regiões lisas e íngrimes. É a família com maior número de espécies na região da Chapada dos Veadeiros e está amplamente distribuída nas fitofisionomias presente nessa região.
+Também popularmente conhecidos como pererecas, este grupo apresenta grande diversidade de tamanhos, colorações e morfologias. Possuem como característica comum discos adesivos nas extremidades dos dedos, que permitem que estes animais escalem superfícies lisas e íngremes. É a família com maior número de espécies na região da Chapada dos Veadeiros e está amplamente distribuída nas fitofisionomias presentes na região.
