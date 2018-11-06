@@ -2,5 +2,5 @@
 Possui uma ampla distribuição tanto no Brasil quanto em outros países da América do sul, não é uma espécie ameaçada de extinção e possui grande tolerância nas modificações do ambiente e ações antrópicas.
 
 
-# Diagnose:
+#### Diagnose
 Possui uma coloração dorsal com fundo pardo-amarronzado, uma faixa marrom mais escura que se inicia na ponta do focinho, passa pelos olhos e vai até os flancos e uma faixa abaixo dos olhos de cor branca, que vai até a boca.

@@ -4,11 +4,11 @@
 
 
 
-# Diagnose:
+#### Diagnose
 A coloração dorsal é castanho com padrões de manchas mais escuras, pouco definidas, sobre os ombros e região lombar. Além disso apresenta barras transversais na região dorsal dos membros posteriores. A pele do dorso é lisa com a presença de grandes verrugas achatadas nos flancos. Franja dérmica nos dedos é ligeiramente desenvolvida e a ponta dos dedos é arredondada. Pode observar calos núpcias bem desenvolvidos em machos reprodutivos. O ventre é liso e sem manchas. A linha vertebral é ausente em *P. ternetzi* e, em alguns indivíduos, é possível distinguir uma curta linha delgada na região do <glossario>uróstilo</glossario>.
 
 
 
 
-# Referências:
+#### Referências
 * Rogério Bastos, Ulisses Caramaschi 2004. Pseudopaludicola ternetzi. In: IUCN 2014

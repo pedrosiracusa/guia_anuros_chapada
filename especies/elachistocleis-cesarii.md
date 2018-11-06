@@ -2,5 +2,5 @@
 É um sapo <glossario>endêmico</glossario> do Cerrado, porém com ampla distribuição nas áreas abertas deste bioma. É comum encontrar a espécie utilizando ambientes alterados para reprodução e as principais ameaças são desmatamento e remoção de hábitat.
 
 
-# Diagnose:
+#### Diagnose
 A cabeça é bem pequena com formato triangular e os membros são curtos e robustos. Possui uma prega transversal situada na região ínfero-posterior da cabeça, apresenta ventre com marcas ou reticulações de coloração branco ou amarelo, Possui uma linha femoral de coloração laranja na região posterior da coxa e pequena mancha inguinal também laranja.

@@ -2,7 +2,7 @@
 Indivíduos encontrados apenas em altitudes maiores que 800 metros. A espécie habita platôs ao longo de Minas Gerais e Goiás e seu limite mais ao sul é a Serra da Mantiqueira que estende-se por três estados: Rio de Janeiro, Minas Gerais e São Paulo 
 
 
-# Diagnose:
+#### Diagnose
 Espécie diagnosticada pela presença de glândulas paratóides em formato ovóide na tíbia, porém no tarso, no metatarso e na região lateral do antebraço as glândulas são mais alongadas, todas possuem coloração avermelhada. Indivíduos apresentam a região dorsal coberta ou não com pequenos grânulos e com uma faixa dorsal de coloração creme-avermelhada desde a paratóide até a virilha. Em uma vista lateral o focinho é vertical.  
 
 
@@ -10,7 +10,7 @@ Espécie diagnosticada pela presença de glândulas paratóides em formato ovói
 
 
 
-# Referências Bibliográficas:
+#### Referências Bibliográficas
 
 
 * Caramaschi, U. & Napoli, M.F. (2012) Taxonomic revision of the Odontophrynus cultripes species group, with description of a new related species (Anura, Cycloramphidae). Zootaxa, 3155, 1–20.

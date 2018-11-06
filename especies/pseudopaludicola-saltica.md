@@ -2,5 +2,5 @@
 É uma espécie <glossario>endêmica</glossario> do Cerrado, mas com ampla distribuição neste bioma. Apresenta algum grau de tolerância às modificações no habitat, uma vez que já foi observada utilizando áreas de pastagem. No entanto suas principais ameaças são construções de reservatórios hidroelétricos e expansão das fronteiras agropecuárias.
 
 
-# Diagnose:
+#### Diagnose
 Pode ser diagnosticada das demais espécies deste gênero por apresentar pernas posteriores mais longas e robustas. Possui uma linha vertebral que está presente em 30% dos indivíduos e podem também apresentar manchas dorsolaterais de coloração bege-clara. A coloração dorsal pode variar de marrom-claro ao marrom-oliváceo com padrão de manchas indistintas de coloração marrom-escuro presente também na região posterior da coxa, tíbia e pés. O focinho é acuminado em vista lateral, os dedos possuem franjas dérmicas vestigiais e as pontas são arredondadas.

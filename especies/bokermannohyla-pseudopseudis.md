@@ -2,22 +2,22 @@
 *B. pseudopseudis* é um <glossario>predador generalista</glossario>, alimentando-se de artrópodes terrestres que são muito comum em áreas rochosas dos cursos d’água. Essa característica é de grande importância para a espécie, uma vez que possui pequena distribuição geográfica e isso, aliado à dieta especializada, facilmente seria levado à categoria de ameaça de extinção. A conservação da espécie está intimamente ligada à manutenção de áreas favoráveis para sua ocorrência que são regiões de planalto com rios ricos em formações rochosas, sendo que as principais ameaças para espécie estão associadas a atividades humanas, como a agricultura e o turismo.
 
 
-# Diagnose:
+#### Diagnose
 Essa espécie possui algumas características distinguíveis, como ter o corpo todo acinzentado com algumas manchas mais escuras distribuídas pelo corpo todo, possui o corpo arredondado quando visto de cima, <glossario>prepólex</glossario> bem desenvolvido. No entanto, a sua principal característica diagnóstica é o seu canto.
 
 
-# Curiosidades:
+#### Curiosidades
 Os machos dessa espécies podem ser facilmente distinguidos das fêmeas por duas características, que são as marcas de arranhão no dorso do animal e a hipertrofia do antebraço e dos espinhos do pré-pólex que estão envolvidos no <glossario>amplexo</glossario>. Porém, essas duas características indicam um outro tipo de comportamento que não é tão comum nos anuros, trata-se da defesa do territórios através do combate físico, uma vez que os espinhos do pré-pólex desenvolvidos são utilizados como armas no combate e as marcas de arranhão no dorso dos animais são marcas de guerra.
 
 
-# Curiosidades:
+#### Curiosidades
 Os girinos desta espécie é predadora se alimentando de invertebrados aquáticos e até de girinos irmãos ou de girinos de outras espécies menos desenvolvidos ou menores. Uma característica bem interessante é que os girinos podem chegar até 15 cm, sendo que o girino tem um corpo maior que o do adulto.
 
 
-# Curiosidades:
+# Curiosidades
 O <glossario>epíteto específico</glossario> (pseudopseudis) vem do termo “falso”, sendo essa espécie uma “falsa perereca”. Isso significa que essa perereca não é encontrada em arbustos ou árvores como as outras representantes da família Hylidae, ela é encontrada em ambientes rochosos onde elas possam se camuflar no meio das pedras.
 
 
-# Referências bibliográficas:
+#### Referências bibliográficas
 * de Magalhães RF, Garda AA, Marques NC, Brandão RA. Sexual dimorphism and resource utilisation by the Veadeiros waterfall frog Bokermannohyla pseudopseudis (Anura: Hylidae). SALAMANDRA. 2016 Jun 30;52(2):171-7.
 * Leite FS, Pezzuti TL, de Anchietta Garcia PC. A new species of the Bokermannohyla pseudopseudis group from the Espinhaço range, central Bahia, Brazil (Anura: Hylidae). Herpetologica. 2012 Sep;68(3):401-9.

@@ -2,5 +2,5 @@
 Possui uma distribuição mais restrita, associada às serras e chapadas dos estados de Goiás e Minas Gerais. No Distrito Federal, foi registrada na Fazenda Água Limpa (FAL/UnB), se tornando <glossario>endêmico</glossario> do Cerrado. Não é tolerante às mudanças ambientais abruptas naturais e nem às ações antrópicas como o avanço das fronteiras agropecuárias e fragmentação de habitats.
 
 
-# Diagnose:
+#### Diagnose
 A coloração dorsal de fundo pode variar do amarelo esverdeado ao cinza esverdeado, com faixas irregulares longitudinais de cor marrom, que vão desde a cabeça até região inguinal. A região posterior da coxa apresenta variações de barras transversais e manchas irregulares de cor marrom. Possui braços esguios e pernas robustas e as membranas interdigitais são ausentes nas mãos e visíveis nos artelhos, com discos digitais desenvolvidos.

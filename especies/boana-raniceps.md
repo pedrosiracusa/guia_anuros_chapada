@@ -2,9 +2,9 @@
 É uma espécie é bem distribuída na Amazônia mas está presente em praticamente todos os biomas brasileiros (menos nos pampas) e recentemente foi encontrada em áreas abertas no bioma Mata Atlântica, no estado de São Paulo. Pela sua grande distribuição pelo Brasil, é uma espécie que não possui relações diretas com nenhum tipo de ameaça e possui populações bem estáveis.
 
 
-# Diagnose:
+#### Diagnose
 Possui coloração dorsal em tons de marrom-claro ao amarelo-pardo, com ou sem um padrão de faixas transversais irregulares de cor marrom mais escura que a cor geral do dorso, também presentes nas coxas e tíbias. Possui uma linha de coloração marrom-escuro que se inicia no focinho e segue contornando a prega supra-timpânica e possui a maxila inferior de cor branca. Possui um tímpano grande, sendo este metade do tamanho do olho.
 
 
-# Bibliografia:
+#### Bibliografia
 * Brasileiro CA, Lucas EM, Oyamaguchi HM, Thomé MT, Dixo M. Anurans, Northern Tocantins River Basin, states of Tocantins and Maranhão, Brazil. Check List. 2008 Jun 1;4(2):185-97

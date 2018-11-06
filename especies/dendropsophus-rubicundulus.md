@@ -3,5 +3,5 @@
 Pode ser encontrada com mais facilidade na época chuvosa, de outubro a janeiro. Os machos cantam no início da noite (das 19:00 às 21:00) da vegetação herbácea, em ramos ou folhas (geralmente 40-50 cm acima do solo), perto de lagoas temporárias e permanentes. O <glossario>amplexo1</glossario> é axilar (abraço) e o desenvolvimento dura cerca de 30 dias.
 
 
-# Diagnose:
+#### Diagnose
 Possui coloração dorsal verde claro, escuro até amarronzado, duas faixas laterais de coloração amarronzada iniciando da ponta do focinho, passando pelo meio dos olhos e chegando até a região sacral. A região abaixo destas faixas possui coloração amarronzada mais clara que as faixas laterais. Focinho arredondado.

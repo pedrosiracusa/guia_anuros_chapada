@@ -5,13 +5,13 @@ Espécie de ampla distribuição, desde o leste dos Andes, Bolívia, Paraguai, A
 
 
 
-# Diagnose:
+#### Diagnose
 Pode ser caracterizada por apresentar uma coloração dorsal, variando em tons vívidos de amarelo-dourado e vermelho, e pequenos pontos pretos esparsos. Não possui linha vertebral. Faixas dorsolaterais preta, desde a região inguinal até a altura do tímpano.
 Apresenta uma faixa labial de cor branca, que passa o pela região inferior do tímpano e encontra o braço, e logo acima, uma faixa preta, que se inicia na ponta do focinho, passa os olhos e membrana supratimpânica, até os ombros. Além disso, possui até dois pares de pregas longitudinais, contínuas ou descontínuas, situadas na região dorsolateral. 
 Região lateral com padrões de pontos e listras de cor preta bem evidentes e glândulas irregulares. Tíbia com grânulos de cor branca. Cabeça relativamente curta. Tímpano grande e membrana supratimpânica evidente, até o ombro
 
 
-# Curiosidades:
+#### Curiosidades
 Já foi registrado cuidado parental aos ovos, realizados provavelmente pelos machos e isto pode ser considerado uma fonte de consumo de energia. 
 
 
@@ -19,7 +19,7 @@ Já foi registrado cuidado parental aos ovos, realizados provavelmente pelos mac
 
 
 
-# Referências:
+#### Referências
 * HEYER, M.M., HEYER, W.R., SPEAR, S. & SÁ, R.O. 2003. Leptodactylus mystacinus. Catalogue of American Amphibians and Reptiles (767):1-11.
 * ROSSA-FERES, D.C. & JIM, J. 1996. Distribuição espacial em comunidades de girinos na região de Botucatu, São Paulo (Amphibia: Anura). Rev. Bras. Biol. = Braz. J. Biol. 56(2):309-316.
 * TOLEDO, L.F. & HADDAD, C.F.B. 2003. Distribuição espacial e temporal de uma comunidade de anfíbios anuros do município de Rio Claro, São Paulo, Brasil. Holos Environment 3(2):136-149.

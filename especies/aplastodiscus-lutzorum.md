@@ -4,11 +4,11 @@
 Aplastodiscus lutzorum sp. n. pertence ao grupo A. perviridis e por isso tem íris bicolores, não tem membrana entre os dedos I e II, reduziu as membranas entre os dedos restantes, e carece de ornamentação peri-cloacal.
 
 
- A espécie é diagnosticada pelo seu pequeno comprimento rostro-cloacal para o grupo A. perviridis (30–36 mm) e pelo canto de anúncio ser mais longo (0,12 a 0,15 s) e por apresentar 39 cantos/minuto (desvio padrão = 8)
+A espécie é diagnosticada pelo seu pequeno comprimento rostro-cloacal para o grupo A. perviridis (30–36 mm) e pelo canto de anúncio ser mais longo (0,12 a 0,15 s) e por apresentar 39 cantos/minuto (desvio padrão = 8)
 
 
 
-Curiosidade
+#### Curiosidade
 
 
 O nome da espécie é em homenagem aos cientistas brasileiros Adolfo e Bertha Lutz, pioneiros em descobrir e estudar o gênero Aplastodiscus spp
@@ -19,4 +19,4 @@ O nome da espécie é em homenagem aos cientistas brasileiros Adolfo e Bertha Lu
 
 
 
-Referências
+#### Referências
