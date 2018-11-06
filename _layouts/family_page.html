@@ -15,34 +15,16 @@ layout: base
 <!-- Page content -->
 <div class="container page-content">
     <article>
-      <section> 
+
         <div class="row">
           <div class="col">
             <h1>Família <i>{{ family.scientificName | escape }}</i></h1>
           </div>
         </div>
-      </section>
 
-      <section>
         {{ content }}
-      </section>
-
-      <section>
-        <ul class="list-unstyled" style="border-left: solid {{family.color}}">
-        {% for species in splist %}
-          <a href="{{site.baseurl}}/especies/{{species.scientificName | slugify }}" class="no-underline">
-              <li class="media species-entry position-relative">
-                <div class="h-100 w-100 position-absolute overlay" style="background-color:{{family.color}}; opacity:0;"></div>
-                <img class="mr-3" src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" alt="" width=128>
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">{{species.scientificName}}</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </div>
-              </li>
-          </a>
-        {% endfor %}
-        </ul>
-      </section>
+        
+        {% include specieslist.html splist=splist %}
 
     </article>
 </div>
