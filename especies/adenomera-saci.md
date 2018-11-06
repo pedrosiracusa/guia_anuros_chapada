@@ -2,9 +2,9 @@
 Espécie <glossario>endêmica</glossario> do Cerrado, possuindo distribuição no Centro-Oeste. No estado de Goiás é encontrada em alguns pontos, com distribuição para o estado de Mato Grosso do Sul e com maior localidades encontradas ao Norte nos estados de Tocantins e Mato Grosso.
 
 
-# Diagnose:
+#### Diagnose
 A espécie pode ser identificada pelas 2 ou 3 três pares fileiras simétricas na região dorsal de pontos de cor negra, por possuir as pontas dos dedos não achatadas e não alongadas, possui também uma linha ventral de coloração bege e seu canto a ouvido humano não possui pulsos, assemelhando-se a um apito.
 
 
-# Referências Bibliográficas:
+#### Bibliografia
 * Carvalho, T. R. de, and A. A. Giaretta. 2013. Taxonomic circumscription of Adenomera martinezi(Bokermann, 1956) (Anura: Leptodactylidae: Leptodactylinae) with the recognition of a new cryptic taxon through a bioacoustic approach . Zootaxa 3701: 207–237.
