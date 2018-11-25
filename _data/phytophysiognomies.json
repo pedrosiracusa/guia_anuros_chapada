@@ -1,0 +1,43 @@
+{
+  "mc":{
+    "text": "Mata Ciliar",
+    "x_left": 0
+  },
+  "mg":{
+    "text": "Mata de Galeria",
+    "x_left": 16
+  },
+  "ce":{
+    "text": "Cerrado",
+    "x_left": 32
+  },
+  "ct":{
+    "text": "Cerrado Típico",
+    "x_left": 32
+  },
+  "cr":{
+    "text": "Cerrado Rupestre",
+    "x_left": 32
+  },
+  "ca":{
+    "text": "Campos",
+    "x_left": 48
+  },
+  "cl":{
+    "text": "Campo Limpo",
+    "x_left": 48
+  },
+  "cr":{
+    "text": "Campo Rupestre",
+    "x_left": 48
+  },
+  "ve":{
+    "text": "Veredas",
+    "x_left": 64
+  },
+  "ur":{
+    "text": "Áreas Urbanas",
+    "x_left": 80
+  }
+}
+

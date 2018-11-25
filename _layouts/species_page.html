@@ -27,6 +27,7 @@ layout: base
 {% assign habitatPositions = site.data.species_habitat_pos[speciesSlug] %}
 
 
+{% assign phyto_data = site.data.phytophysiognomies %}
 
 <!-- Subheader -->
 <div class="subheader" style="background-color:{{ family.color }}; color:white;">
@@ -64,10 +65,51 @@ layout: base
 
 
             <!-- Habitat banner -->
-            <div class="habitat-banner d-none d-lg-block mt-3">
-              <img src="../assets/img/icons/phyto-crop.jpeg" style="">
-              <div class="div-overlay">
+            <div class="habitat-banner d-none d-lg-block" style="margin-top:3.5rem;">
+              <img src="{{site.baseurl}}/assets/img/icons/phyto-crop.jpeg" style="">
+              <div class="div-overlay" style="background-color: #fff5;">
                 <!-- Habit bar -->
+                {% assign phytos = "mc,mg,ce,ve,ur" | split: "," %}
+
+                {% capture get_xlefts %}
+                  {% for p in phytos %}
+                  {{phyto_data[p].x_left}}
+                  {% endfor %}
+                {% endcapture %}
+
+                {% assign x_lefts = get_xlefts | split: " " | sort %}
+
+                {% for phyto in phytos %}
+                {% if forloop.last == true %}
+                  {% assign x_width = 100 | minus: x_lefts[forloop.index0] %}
+                {% else %}
+                  {% assign next_index = forloop.index0 | plus: 1 %}
+                  {% assign x_width = x_lefts[next_index] | minus: x_lefts[forloop.index0] %}
+                {% endif %}
+
+                <div class="position-absolute justify-content-left" style="top:0; left: {{x_lefts[forloop.index0]}}%; width: {{x_width}}%; height:100%;">
+                    <div style="font-size:.8rem; font-weight:700; margin-top:-3rem;">{{phyto_data[phyto].text}}</div>
+                    <div class="d-flex flex-column flex-wrap align-items-start mt-1">
+                      <div class="mx-2 mb-1 px-1" style="font-size: .7rem; font-weight:700; background-color:{{family.color}}; color:white; border-radius:10px; padding-bottom: .1em;">Fossorial</div>
+                      <div class="mx-2 mb-1 px-1" style="font-size: .7rem; font-weight:700; background-color:{{family.color}}; color:white; border-radius:10px; padding-bottom: .1em;">
+                        {% assign text = "Canta em troncos" %}
+                        {% if x_width > 16 %}
+                        Canta em troncos
+                        {% else %}
+                        Canta em<br/>troncos
+                        {% endif %}
+                      </div>
+                    </div>
+                    <!-- circle -->
+                    <div class="position-absolute" style="border-left: dotted 3px {{family.color}}; top:-20%; left:0; height:68%; width:100%">
+                    </div>
+                    <svg height="50%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="xMinYMax meet" style="position:absolute; top:50%;">
+                      <circle cx="50" cy="50" r="45" stroke="{{family.color}}" stroke-width="4" fill="none" />
+                      <line x1="0" y1="0" x2="20" y2="20" style="stroke: {{family.color}}; stroke-width: 5;" stroke-dasharray="4" />
+                    </svg>
+                </div>
+                {% endfor %}
+
                 <div class="habit-bar float-right">
                     {% if species.atividade_diu==1 %}
                       {% if species.atividade_not==1 %}
@@ -80,10 +122,6 @@ layout: base
                     {% endif %}
                 </div>
 
-                <!-- markers -->
-                {% for position in habitatPositions %}
-                <i class="fa fa-circle" style="top:{{position[0]}}%; left:{{position[1]}}%; color: {{family.color}}cc;" ></i>
-                {% endfor %}
               </div>
             </div>
 
