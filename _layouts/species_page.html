@@ -69,7 +69,7 @@ layout: base
               <img src="{{site.baseurl}}/assets/img/icons/phyto-crop.jpeg" style="">
               <div class="div-overlay" style="background-color: #fff7;">
                 <!-- Habit bar -->
-                {% assign phytos = "mc,mg,ce,ca,ve,ur" | split: "," %}
+                {% assign phytos = "mc,mg,cc,cer,car,ve,ur" | split: "," %}
 
                 {% capture get_xlefts %}
                   {% for p in phytos %}
@@ -88,9 +88,9 @@ layout: base
                 {% endif %}
 
                 <div class="position-absolute justify-content-left" style="top:0; left: {{x_lefts[forloop.index0]}}%; width: {{x_width}}%; height:100%;">
-                    <div style="font-size:.8rem; font-weight:700; margin-top:-1.3rem;">{{phyto_data[phyto].text}}</div>
+                    <div class="ml-2 mr-1" style="font-size:.8rem; font-weight:700; margin-top:-1.6rem;">{{phyto_data[phyto].text}}</div>
                     <!-- circle -->
-                    <div class="position-absolute" style="border-left: dotted 3px {{family.color}}; top:0; left:0; height:48%; width:100%">
+                    <div class="position-absolute" style="border-left: dotted 3px {{family.color}}; top:-20px; left:0; height:65%; width:100%">
                     </div>
                     <svg height="50%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="xMinYMax meet" style="position:absolute; top:50%;">
                       <circle cx="50" cy="50" r="45" stroke="{{family.color}}" stroke-width="4" fill="none" />
