@@ -1,5 +1,5 @@
 ﻿Essa espécie de anuro é bem legal de se ver, mas é bem difícil de ser encontrada. O *Allobates goianus* possui uma coloração amarronzada com duas faixas pretas na lateral do corpo e com uma mancha nas costas em formato de ampulheta.
-Essa espécie é diurna, no qual os machos cantam durante a tarde até o pôr do sol e eles tem seu pico de atividade na época chuvosa. O *A. goianus* ocorre em áreas florestais e é um sapo com hábitos terrestres, que canta em <glossario>poleiros</glossario> terrestres e na época de sua reprodução os ovos são colocados diretamente no solo. Dentro do gênero *Allobates*, essa espécie é a única que ocorre na Chapada dos Veadeiros - GO e tem uma distribuição muito restrita, sendo uma espécie endêmica do Bioma Cerrado e endêmica de Goiás.
+Essa espécie é diurna, no qual os machos cantam durante a tarde até o pôr do sol e eles tem seu pico de atividade na época chuvosa. O *A. goianus* ocorre em áreas florestais de ambiente rochoso e é um sapo com hábitos terrestres, que canta em <glossario>poleiros</glossario> terrestres e na época de sua reprodução os ovos são colocados diretamente no solo. Dentro do gênero *Allobates*, essa espécie é a única que ocorre na Chapada dos Veadeiros - GO e tem uma distribuição muito restrita, sendo uma espécie endêmica do Bioma Cerrado e endêmica de Goiás.
 O *Allobates goianus*, bem como outras espécies de anuros que já foram encontradas neste local, precisam de um estudo muito mais aprofundado para entender o seu estado de conservação, já que essa espécie nunca mais foi encontrada nessa região desde quando ela foi descrita. As principais ameaças à essa espécie são a agricultura (cultivo de culturas e criação de gado), bem como extração de madeira, mineração e construção de barragens, já que tudo isso leva à fragmentação do hábitat e à perda de seu ambiente natural.
  
 #### Diagnose
@@ -12,6 +12,10 @@ Possuem um comportamento reprodutivo bem curioso, onde os ovos são depositados 
 
 #### Curiosidades
 Além da ocorrência na Chapada dos Veadeiros, região tipo onde o primeiro indivíduo foi encontrado (localidade tipo), essa espécie já foi registrada na Floresta Nacional da Silvânia - GO, no município de niquelândia e em Minaçu - GO, desde a criação do barragem da Serra da Mesa.
+
+
+#### Curiosidades
+Este espécie não é mais encontrada na sua localidade tipo (Chapada dos Veadeiros) há muitos anos. Alguns pesquisadores dizem 20 anos.
 
 
 

@@ -5,5 +5,9 @@
 Linha longitudinal no dorso, corpo granuloso que varia entre marrom e amarelado, cabeça alongada, focinho mais largo e achatado dorsoventralmente e <glossario>região loreal</glossario> claramente visível em vista dorsal.
 
 
+#### Curiosidades
+Um indivíduo da Fazenda Trijunção foi encontrado dentro de um cupinzeiro.
+
+
 #### Referências bibliográficas
 Narvaes P, Rodrigues MT. Taxonomic revision of Rhinella granulosa species group (Amphibia, Anura, Bufonidae), with a description of a new species. Arquivos de Zoologia (São Paulo). 2009 Jun 1;40(1):1-73.
