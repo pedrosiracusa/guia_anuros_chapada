@@ -1,47 +1,58 @@
 {
   "mc":{
     "text": "Mata Ciliar",
-    "x_left": 0
+    "x_left": 0,
+    "width": 14
   },
   "mg":{
     "text": "Mata de Galeria",
-    "x_left": 14
+    "x_left": 14,
+    "width": 18
   },
   "cc":{
     "text": "Cerradão",
-    "x_left": 32
+    "x_left": 32,
+    "width": 13
   },
   "ce":{
     "text": "Cerrado",
-    "x_left": 45
+    "x_left": 45,
+    "width": 13
   },
   "cet":{
     "text": "Cerrado Típico",
-    "x_left": 45
+    "x_left": 45,
+    "width": 13
   },
   "cer":{
     "text": "Cerrado Rupestre",
-    "x_left": 45
+    "x_left": 45,
+    "width": 13
   },
   "ca":{
     "text": "Campos",
-    "x_left": 58
+    "x_left": 58,
+    "width": 13
   },
   "cal":{
     "text": "Campo Limpo",
-    "x_left": 58
+    "x_left": 58,
+    "width": 13
   },
   "car":{
     "text": "Campo Rupestre",
-    "x_left": 58
+    "x_left": 58,
+    "width": 13
   },
   "ve":{
     "text": "Veredas",
-    "x_left": 71
+    "x_left": 71,
+    "width": 13
   },
   "ur":{
     "text": "Áreas Urbanas",
-    "x_left": 84
+    "x_left": 84,
+    "width": 16
   }
 }
 

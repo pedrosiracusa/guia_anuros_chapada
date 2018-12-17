@@ -69,25 +69,10 @@ layout: base
               <img src="{{site.baseurl}}/assets/img/icons/phyto-crop.jpeg" style="">
               <div class="div-overlay" style="background-color: #fff7;">
                 <!-- Habit bar -->
-                {% assign phytos = "mc,mg,cc,cer,car,ve,ur" | split: "," %}
-
-                {% capture get_xlefts %}
-                  {% for p in phytos %}
-                  {{phyto_data[p].x_left}}
-                  {% endfor %}
-                {% endcapture %}
-
-                {% assign x_lefts = get_xlefts | split: " " | sort %}
+                {% assign phytos = species.phytos | split: "," %}
 
                 {% for phyto in phytos %}
-                {% if forloop.last == true %}
-                  {% assign x_width = 100 | minus: x_lefts[forloop.index0] %}
-                {% else %}
-                  {% assign next_index = forloop.index0 | plus: 1 %}
-                  {% assign x_width = x_lefts[next_index] | minus: x_lefts[forloop.index0] %}
-                {% endif %}
-
-                <div class="position-absolute justify-content-left" style="top:0; left: {{x_lefts[forloop.index0]}}%; width: {{x_width}}%; height:100%;">
+                <div class="position-absolute justify-content-left" style="top:0; left: {{phyto_data[phyto].x_left}}%; width: {{phyto_data[phyto].width}}%; height:100%;">
                     <div class="ml-2 mr-1" style="font-size:.8rem; font-weight:700; margin-top:-1.6rem;">{{phyto_data[phyto].text}}</div>
                     <!-- circle -->
                     <div class="position-absolute" style="border-left: dotted 3px {{family.color}}; top:-20px; left:0; height:65%; width:100%">
