@@ -1,4 +1,6 @@
-﻿*Ameerega flavopicta* é um anuro que chama muita atenção! Sua coloração chamativa, denominada de coloração <glossario aposematico>aposemática</glossario>, avisa aos predadores potenciais (especialmente aves e mamíferos) que existem toxinas na pele desse simpático sapinho. O sapo obtêm essas toxinas através da dieta, composta basicamente por formigas e ácaros. Na época reprodutiva, os machos vocalizam durante o dia, em meio à pedras e à vegetação que margeiam riachos. Seu canto lembra assobios curtos e repetitivos, parecendo um grilo. O seu <glossario>epíteto específico</glossario> (*flavopicta*) significa pontos amarelos, uma característica da espécie em vida.
+﻿*Ameerega flavopicta* é um anuro que chama muita atenção! Sua coloração chamativa, denominada de coloração <glossario>aposemática</glossario>, avisa aos predadores potenciais (especialmente aves e mamíferos) que existem toxinas na pele desse simpático sapinho.
+A espécie obtêm essas toxinas através da dieta, composta basicamente por formigas e ácaros.  O seu <glossario>epíteto específico</glossario> (*flavopicta*) significa pontos amarelos, uma característica da espécie em vida.
+Na época reprodutiva, os machos vocalizam durante o dia, em meio à pedras e à vegetação que margeiam riachos. Seu canto lembra assobios curtos e repetitivos, parecendo um grilo. Possui uma ampla distribuição ao longo do Cerrado, sendo encontrada em vários estados
 
 
 #### Diagnose

@@ -1,4 +1,5 @@
-﻿É o famoso sapo cururu! Essa espécie pode chegar à grandes tamanhos, e pode ser prontamente identificada por apresentar enormes <glossario>glândulas paratóides</glossario> e <glossario>tibiais</glossario> e o corpo coberto por tubérculos. Esse sapo é terrestre e noturno e pode ser encontrado em áreas abertas perto de um corpo d’água ou até mesmo onde não tenha água por perto.
+﻿Esse é o famoso sapo cururu! Essa espécie pode chegar à grandes tamanhos, e pode ser prontamente identificada por apresentar enormes <glossario>glândulas paratóides</glossario> e <glossario>tibiais</glossario> e o corpo coberto por tubérculos.
+Esse sapo pode ser encontrado em áreas abertas perto de um corpo d’água ou até mesmo onde não tenha água por perto.
 É considerada uma das espécies que mais usa ambiente antropizado, sendo facilmente encontrado perto de casas e fazendas e tem uma ampla distribuição pelas áreas abertas do Mata Atlântica, Cerrado e Chaco.
 
 
@@ -12,3 +13,6 @@ Quando chega a época de reprodução, os machos cantam nas margens de um corpo 
 
 #### Referências bibliográficas
 https://drive.google.com/drive/folders/0B0M5IL0AEOXic2ZuMTBiYjBHODg
+
+
+Lavilla EO, Brusquetti F. On the identity of Bufo diptychus Cope, 1862 (Anura: Bufonidae). Zootaxa. 2018 Jun;4442(1):161-70.

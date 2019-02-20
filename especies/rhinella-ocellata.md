@@ -1,4 +1,6 @@
-﻿*Rhinella ocellata* é uma espécie relativamente desconhecida que ocorre no Cerrado brasileiro. Seu encontro na região da Chapada dos Veadeiros representa um importante registro biogeográfico. É uma espécie de pequeno porte, que habita Mata Ciliar. Diferentemente das outras espécies da mesma família, os machos de *R. ocellata* não migram para poças ou outros ambientes aquáticos para formar <glossario>agregações reprodutivas</glossario>. Assim, a espécie tem um período reprodutivo prolongado, onde os machos vocalizam em ambiente terrestre, sobre solo arenoso, próximo a gramíneas ou moitas de vegetação. 
+﻿*Rhinella ocellata* é uma espécie relativamente desconhecida que ocorre no Cerrado brasileiro. É uma espécie de pequeno porte, que possui manchas em formas de ocelos em suas costas, conferindo seu nome ocellata.
+Diferentemente das outras espécies da mesma família, os machos de *R. ocellata* não migram para poças ou outros ambientes aquáticos para formar <glossario>agregações reprodutivas</glossario>. Assim, a espécie tem um período reprodutivo prolongado, onde os machos vocalizam em solos arenosos, próximo a gramíneas ou moitas de vegetação. 
+O Rhinella ocellata* é uma espécie <glossario>endêmica</glossario> do Cerrado em regiões que variam de 200 metros até 1500 metros acima do mar. Seu encontro na região da Chapada dos Veadeiros representa um importante registro biogeográfico, sendo este o primeiro registro de distribuição desta espécie para esta região.
 
 
 #### Diagnose

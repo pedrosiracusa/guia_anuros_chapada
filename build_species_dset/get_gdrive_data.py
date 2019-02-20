@@ -1,11 +1,11 @@
 # coding: utf-8
 
-from __future__ import print_function
 from apiclient.discovery import build
 from apiclient.http import MediaIoBaseDownload
 from httplib2 import Http
 from oauth2client import file, client, tools
 import io,os
+from re import match
 
 
 
@@ -16,6 +16,7 @@ service = build(serviceName='drive', version='v3', http=creds.authorize(Http()))
 
 
 project_id = service.files().list( q="name contains 'Guia Anuro' " ).execute().get('files')[0].get('id')
+project_id = '0B0M5IL0AEOXidHZmTjZzMHlLLWc'
 project_root_items = service.files().list( q=f"'{project_id}' in parents").execute()
 
 
@@ -32,11 +33,11 @@ print(f"Done! Created file {fname} with species data.\n")
 
 # Get species and families articles
 print("Getting species and families articles ids")
-articlesFolderId = list(filter( lambda x: x.get('name')=='Artigos', project_root_items.get('files')))[0].get('id')
+articlesFolderId = list(filter( lambda x: x.get('name')=='Perfil', project_root_items.get('files')))[0].get('id')
 def getFamiliesFoldersIds():
     results = service.files().list( q=f"'{articlesFolderId}' in parents and mimeType contains 'vnd.google-apps.folder'",
                                   fields='files(id,name)').execute().get('files')
-    return  { r['name']: r['id'] for r in results }
+    return  { r['name']: r['id'] for r in results if match('^[a-zA-Z]*ae$',r['name'])}
 
 def getFamilyDocuments( family, families_folders_ids ):
     family_folder_id = families_folders_ids.get(family)

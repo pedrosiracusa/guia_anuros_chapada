@@ -1,4 +1,4 @@
-﻿Esta é uma espécie de porte médio, terrestres, noturnos e insetívoros. Ocorre em áreas abertas do bioma Cerrado, Mata Atlântica e Pampas. Se reproduz em campos alagáveis, próximos a lagos e brejos, temporários ou permanentes, em solos de areia, onde cavam pequenos túneis subterrâneos que utilizam como sítios de vocalização e nidificação. Os ovos são colocados no chão e, após a eclosão dos ovos, os girinos são levados pela água das chuvas até os lagos. 
+﻿Esta é uma espécie de porte médio, terrestre, noturno e insetívoro. Ocorre em áreas abertas do bioma Cerrado, Mata Atlântica e Pampas. Se reproduz em campos alagáveis, próximos a lagos e brejos, temporários ou permanentes, em solos de areia, onde cavam pequenos túneis subterrâneos que utilizam como sítios de vocalização e nidificação. Os ovos são colocados no chão e, após a eclosão dos ovos, os girinos são levados pela água das chuvas até os lagos. 
 Possui uma ampla distribuição e é uma espécie comum. Se adapta bem ao distúrbio antropogênico e existem registros de coletas de *L. furnarius* em plantações de eucaliptos.
 
 

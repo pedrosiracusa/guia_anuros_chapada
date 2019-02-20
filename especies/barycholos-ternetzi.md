@@ -1,4 +1,5 @@
-﻿Essa espécie é uma rãzinha de tamanho pequeno. Ela tem o corpo marrom-avermelhado e uma característica bem marcante é uma mancha preta que ela tem em cima do tímpano. A espécie tem hábitos diurnos e são terrestres, vivendo no folhiço em matas de galeria, bordas de mata e áreas abertas do Cerrado. É um animal que não se adapta bem onde tem ambientes alterados, mas podem ser encontrados em ambientes antropizados.
+﻿Essa espécie é uma rãzinha de tamanho pequeno com o corpo marrom-avermelhado e uma característica bem marcante é uma mancha preta que ela tem em cima do tímpano.
+Essa rãzinha é uma espécie terrestre e canta durante o dia, vivendo no folhiço em matas de galeria, bordas de mata e áreas abertas do Cerrado.
 Outro fato muito importante é que é uma rã <glossario>endêmica</glossario> do Bioma Cerrado e sua população vem diminuindo com o tempo. Os maiores problemas que mais ameaçam essa espécie são o avanço da agricultura, como a pecuária, a exploração de madeira, poluição agrícolas, os incêndios e a construção de barragens.
 
 
