@@ -59,66 +59,40 @@ layout: base
               <h1 class="pr-2"><i>{{ species.scientificName | escape }}</i></h1><h3 class="text-muted">({{ species.scientificNameAuthorship }})</h3>
             </div>
             <h3>{{ species.vernacularNames | join: ", " }}</h3>
+            <!-- Species badges -->
             <div class="spbadges">
               {% include spbadges.html species=species %}
             </div>
-
-
+            
             <!-- Habitat banner -->
-            <div class="habitat-banner d-none d-lg-block" style="margin-top:2.5rem;">
-              <img src="{{site.baseurl}}/assets/img/icons/phyto-crop.jpeg" style="">
-              <div class="div-overlay" style="background-color: #fff7;">
-                <!-- Habit bar -->
-                {% assign phytos = species.phytos | split: "," %}
-
-                {% for phyto in phytos %}
-                <div class="position-absolute justify-content-left" style="top:0; left: {{phyto_data[phyto].x_left}}%; width: {{phyto_data[phyto].width}}%; height:100%;">
-                    <div class="ml-2 mr-1" style="font-size:.8rem; font-weight:700; margin-top:-1.6rem;">{{phyto_data[phyto].text}}</div>
-                    <!-- circle -->
-                    <div class="position-absolute" style="border-left: dotted 3px {{family.color}}; top:-20px; left:0; height:65%; width:100%">
-                    </div>
-                    <svg height="50%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="xMinYMax meet" style="position:absolute; top:50%;">
-                      <circle cx="50" cy="50" r="45" stroke="{{family.color}}" stroke-width="4" fill="none" />
-                      <line x1="0" y1="0" x2="20" y2="20" style="stroke: {{family.color}}; stroke-width: 5;" stroke-dasharray="4" />
-                    </svg>
-                </div>
-                {% endfor %}
-
-                <div class="habit-bar float-right">
-                    {% if species.atividade_diu==1 %}
-                      {% if species.atividade_not==1 %}
-                      <img src="{{site.baseurl}}/assets/img/icons/habit_day_night.jpg">
-                      {% else %}
-                      <img src="{{site.baseurl}}/assets/img/icons/habit_day.jpg">
-                      {% endif %}
-                    {% elsif species.atividade_not==1 %}
-                      <img src="{{site.baseurl}}/assets/img/icons/habit_night.jpg">
-                    {% endif %}
-                </div>
-
-              </div>
+            <div class="d-none d-lg-block">
+              {% include habitatbanner.html species=species %}
             </div>
 
             <!-- Months bar -->
-            <div class="months-bar d-none d-lg-flex justify-content-end mb-3" style="border-color:{{family.color}}99;">
-                <div class="flex-grow-1 px-2 py-1">Ocorrência</div>
-                {% assign months =  "Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez" | split: "," %}
-                {% for i in (0..11) %}
-                  {% assign selectMonth = species.month_vec[i] %}
-                  {% if selectMonth==1 %}
-                  <div class="px-2 py-1 text-white" style="background-color: {{family.color}}">{{ months[i] }}</div>
-                  {% else %}
-                  <div class="px-2 py-1">{{ months[i] }}</div>
-                  {% endif %}
-                {% endfor %}
+            <div class="d-none d-lg-block">
+              {% include monthsbar.html species=species %}
             </div>
 
           </div>
         </div>
       </section>
 
+      <!-- For screens smaller than lg -->
       <div class="row">
+        <div class="col">
+          <!-- Habitat banner -->
+          <div class="d-lg-none">
+            {% include habitatbanner.html species=species %}
+          </div>
+          <!-- Months bar -->
+          <div class="d-lg-none">
+            {% include monthsbar.html species=species %}
+          </div>
+        </div>
+      </div>
 
+      <div class="row">
         <div class="col-lg-auto order-lg-12 sidebar">
           <div class="spsize-compare">
             {% include spsizecompare.html species=species %}
@@ -132,15 +106,4 @@ layout: base
 
 
     </article>
-</div>
-
-<div class="container-fluid p-0 d-lg-none">
-  <div class="habitat-banner">
-    <img class="img-fluid" src="../assets/img/icons/phyto-crop.jpeg" style="">
-    <div class="div-overlay">
-      {% for position in habitatPositions %}
-      <i class="fa fa-circle" style="top:{{position[0]}}%; left:{{position[1]}}%; color: {{family.color}}cc;" ></i>
-      {% endfor %}
-    </div>
-  </div>
 </div>

@@ -1,0 +1,12 @@
+<div class="months-bar d-flex justify-content-end mb-3" style="border-color:{{family.color}}99;">
+    <div class="flex-grow-1 px-2 py-1">Ocorrência</div>
+    {% assign months =  "Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez" | split: "," %}
+    {% for i in (0..11) %}
+      {% assign selectMonth = species.month_vec[i] %}
+      {% if selectMonth==1 %}
+      <div class="px-2 py-1 text-white" style="background-color: {{family.color}}">{{ months[i] }}</div>
+      {% else %}
+      <div class="px-2 py-1">{{ months[i] }}</div>
+      {% endif %}
+    {% endfor %}
+</div>
