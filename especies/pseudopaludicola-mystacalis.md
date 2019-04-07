@@ -1,6 +1,4 @@
 ﻿É uma espécie de tamanho bem pequeno e é encontrada em áreas abertas como Campos Sujos e Campos Rupestres em regiões de altitude do planalto central brasileiro, e em campos inundáveis em áreas de planícies. São anuros terrestres e podem vocalizar durante o dia em áreas recobertas por gramíneas como touceiras, sobre o solo ou folhas. A reprodução ocorre em pequenas poças de águas rasas e geralmente expostas.
 Não é uma espécie ameaçada, mas pode não ser muito tolerante à severas modificações no ambiente (apesar de já ter sido encontrada em cultivos de arroz). Possui uma imensa distribuição geográfica, ocorrendo desde a região sudeste, Centro-Oeste e Sul do Brasil, e na América do Sul ocorre na Argentina, Paraguai, Bolívia e possivelmente no Uruguai.
-
-
 #### Diagnose
 Possui a pele do dorso lisa com apenas algumas verrugas achatadas, principalmente, na região inguinal, e coloração dorsal varia em tons de cinza e manchas marrom claro. Alguns indivíduos podem apresentar linha vertebral e linhas dorsolaterais de coloração bege. O focinho é obtuso ou pouco-acuminado em vista lateral. A região gular é amarela nos machos e o ventre é branco. Os dedos possuem franjas dérmicas vestigiais e as pontas são arredondadas.
