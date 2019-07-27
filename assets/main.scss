@@ -6,9 +6,14 @@
 @import "bootstrap/bootstrap";
 @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
-@import "startbootstrap-landing-page/landing-page";
 @import "startbootstrap-creative/creative";
 @import "bootstrap_customization";
+
+
+a{
+  color: $custom-primary;
+  &:hover{color:darken($custom-primary,10%)}
+}
 
 
 div.subheader a{

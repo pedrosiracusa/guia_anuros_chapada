@@ -3,60 +3,37 @@ layout: landing
 title: home
 ---
 
-<!-- Icons Grid -->
-<header id="landingpage-cover" class="masthead text-center text-white" style="background-image:url('./assets/img/landingpage/cover.jpg')">
-</header>
 
-<section class="features-icons bg-dark text-white text-center">
-<div class="container">
-  <div class="row">
-			<div class="col-lg-4">
-				<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-					<div class="features-icons-icon d-flex">
-						<i class="icon-list m-auto text-primary"></i>
-					</div>
-					<h3>Conheça as Espécies</h3>
-					<p class="lead mb-0">São mais de 50! Descubra a diversidade de cores, formas e comportamentos.</p>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-					<div class="features-icons-icon d-flex">
-						<i class="icon-map m-auto text-primary"></i>
-					</div>
-					<h3>Saiba onde encontrá-las</h3>
-					<p class="lead mb-0">Cada uma ocorre em períodos, épocas e tipos de lugares diferentes.<p>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<div class="features-icons-item mx-auto mb-0 mb-lg-3">
-					<div class="features-icons-icon d-flex">
-						<i class="icon-check m-auto text-primary"></i>
-					</div>
-					<h3>Saiba identificá-los</h3>
-					<p class="lead mb-0">Observando suas principais características físicas.</p>
-				</div>
-			</div>
+<header class="masthead">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center" >
+      <div class="col-md-6 col-xl-5 d-flex flex-column">
+        <h1 class="font-weight-light" style="line-height:1.1em;">Anfíbios dos <span class="font-weight-bold" style="font-size:112%; color:#e08f1b;">Veadeiros</span></h1>
+        <h3 class="mt-5 text-uppercase font-weight-light">Guia de Identificação</h3>
+        <!-- This does NOT SHOW in mobile layouts -->
+        <div class= "d-none d-md-block">
+          <h4 style="margin-top:10em;"><a class="text-decoration-none font-weight-bold" href="especies">> Conheça as espécies</a></h4>
+          <h4><a class="text-decoration-none font-weight-bold" href="autores">> Autores</a></h4>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-xl-7 align-self-center">
+        <img src="assets/img/landingpage/cover2.png" class="img-fluid">
+      </div>
+      
+      <!-- This shows ONLY in mobile layout -->
+      <div class= "col d-md-none">
+        <h1 class="text-center">...</h1>
+      </div>
+    </div>
   </div>
+</header>
+<!-- This shows ONLY in mobile layout -->
+<div class="d-md-none" style="background-color: #e08f1b; color:white;">
+  <h3><a class="text-decoration-none font-weight-bold text-reset" href="especies">> Conheça as espécies</a></h3>
+  <h3><a class="text-decoration-none font-weight-bold text-reset" href="autores">> Autores</a></h3>
 </div>
-</section>
 
-<!-- Image Showcases -->
-<section class="showcase">
-	<div class="container-fluid p-0">
-		<div class="row no-gutters">
-			<div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/landingpage/chapada.jpg');"></div>
-			<div class="col-lg-6 my-auto showcase-text">
-				<h2>A Chapada dos Veadeiros</h2>
-				<p class="lead mb-0">A Chapada dos Veadeiros é uma região no nordeste do estado de Goiás. Possui clima tropical, com duas estações bem-definidas: verão chuvoso, entre os meses de Outubro a Abril; e um inverno seco, de Maio a Setembro. Saiba mais.</p>
-			</div>
-		</div>
-		<div class="row no-gutters">
-			<div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/landingpage/anuros.jpg');"></div>
-			<div class="col-lg-6 order-lg-1 my-auto showcase-text">
-				<h2>Os Anuros</h2>
-				<p class="lead mb-0">Anuros são aníbios que não possuem cauda na fase adulta. São normalmente encontrados próximos a fontes de água, em ambientes úmidos. Saiba mais sobre a vida destes animais.</p>
-			</div>
-		</div>
-	</div>
-</section>
+
+
+

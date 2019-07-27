@@ -28,13 +28,17 @@ html{
 }
 
 
-
-
-
-
-header#landingpage-cover{
-    min-height:60vh;
+// Masthead (landing page)
+header.masthead{
+  height:100vh;
+  min-height:500px;
+  background-color:white;
+  padding-top:0;
+  padding-bottom:0;
+  h1{ font-size:4em;}
+  h3{font-size:1.75em;}
 }
+
 
 
 
