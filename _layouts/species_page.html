@@ -41,6 +41,68 @@ layout: base
 <div id="{{species.id}}" class="container page-content species-profile">
     <article>
       <section> 
+        <!-- For mobile -->
+        <div class="d-sm-none">
+         
+        <div class="row">
+          <div class="col">
+              <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" onError="this.src='https://via.placeholder.com/350x250';">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-1 align-self-stretch px-0" style="background-color: {{family.color}};">
+            <a href="{{site.baseurl}}/especies/{{prev_sp.id}}">
+              <div class="d-flex align-items-center justify-content-center" style="height:100%; color:white;" >
+                <<
+              </div>
+            </a>
+          </div>
+          <div class="col-10 px-0">
+                <!-- Species name -->
+                <div class="d-flex flex-column px-4">
+                  <div class="d-flex flex-wrap align-items-baseline">
+                    <h1 class="pr-2"><i>{{ species.scientificName | escape }}</i></h1><h3 class="text-muted">({{ species.scientificNameAuthorship }})</h3>
+                  </div>
+                  <h3>{{ species.vernacularNames | join: ", " }}</h3>
+                </div>
+          </div>
+          <div class="col-1 align-self-stretch px-0" style="background-color: {{family.color}};">
+            <a href="{{site.baseurl}}/especies/{{next_sp.id}}">
+              <div class="d-flex align-items-center justify-content-center" style="height:100%; color:white;">
+              >>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col offset-1">
+            <!-- Species badges -->
+            <div class="spbadges">
+              {% include spbadges.html species=species %}
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <!-- Habitat banner -->
+            <div class="">
+              {% include habitatbanner.html species=species %}
+            </div>
+            <!-- Months bar -->
+            <div class="">
+              {% include monthsbar.html species=species %}
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <!-- //mobile -->
+
+
+        <!-- For Desktop -->
+        <div class="d-none d-sm-block">
         <div class="row">
           <div class="col-sm-6 col-lg-5">
               <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" onError="this.src='https://via.placeholder.com/350x250';">
@@ -49,7 +111,7 @@ layout: base
 
           <div class="col">
             <!-- Navigation -->
-            <div class="d-flex justify-content-end">
+            <div class="d-flex justify-content-between">
               <a href="{{site.baseurl}}/especies/{{prev_sp.id}}" class="mx-2" style="color:{{family.color}};"><i class="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i></a>
               <a href="{{site.baseurl}}/especies/{{next_sp.id}}" class="mx-2" style="color:{{family.color}};"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>
             </div>
@@ -65,32 +127,20 @@ layout: base
             </div>
             
             <!-- Habitat banner -->
-            <div class="d-none d-lg-block">
+            <div class="">
               {% include habitatbanner.html species=species %}
             </div>
 
             <!-- Months bar -->
-            <div class="d-none d-lg-block">
+            <div class="">
               {% include monthsbar.html species=species %}
             </div>
 
           </div>
         </div>
+        </div>
       </section>
 
-      <!-- For screens smaller than lg -->
-      <div class="row">
-        <div class="col">
-          <!-- Habitat banner -->
-          <div class="d-lg-none">
-            {% include habitatbanner.html species=species %}
-          </div>
-          <!-- Months bar -->
-          <div class="d-lg-none">
-            {% include monthsbar.html species=species %}
-          </div>
-        </div>
-      </div>
 
       <div class="row">
         <div class="col-lg-auto order-lg-12 sidebar">
@@ -106,4 +156,6 @@ layout: base
 
 
     </article>
+
+
 </div>
