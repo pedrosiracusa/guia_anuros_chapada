@@ -7,57 +7,57 @@
   "fg":{
     "text": "Mata de Galeria",
     "x_left": 14,
-    "width": 18
+    "width": 14
   },
   "ce":{
     "text": "Cerradão",
-    "x_left": 32,
-    "width": 13
+    "x_left": 28,
+    "width": 14
   },
   "css":{
     "text": "Cerrado",
-    "x_left": 45,
-    "width": 13
+    "x_left": 42,
+    "width": 14
   },
   "sc":{
     "text": "Cerrado Típico",
-    "x_left": 45,
-    "width": 13
+    "x_left": 42,
+    "width": 14
   },
   "scr":{
     "text": "Cerrado Rupestre",
-    "x_left": 45,
-    "width": 13
+    "x_left": 42,
+    "width": 14
   },
   "c":{
     "text": "Campos",
-    "x_left": 58,
-    "width": 13
+    "x_left": 56,
+    "width": 14
   },
   "cls":{
     "text": "Campo Limpo e Sujo",
-    "x_left": 58,
-    "width": 13
+    "x_left": 56,
+    "width": 14
   },
   "cr":{
     "text": "Campo Rupestre",
-    "x_left": 58,
-    "width": 13
+    "x_left": 56,
+    "width": 14
   },
   "ccr":{
     "text": "Campos, Campo Rupestre",
-    "x_left": 58,
-    "width": 13
+    "x_left": 56,
+    "width": 14
   },
   "v":{
     "text": "Veredas",
-    "x_left": 71,
-    "width": 13
+    "x_left": 70,
+    "width": 14
   },
   "aa":{
     "text": "Áreas Antrópicas",
     "x_left": 84,
-    "width": 16
+    "width": 14
   }
 }
 
