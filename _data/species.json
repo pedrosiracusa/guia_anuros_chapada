@@ -201,18 +201,18 @@
   "atividade_not": 1,
   "tamanho_femea_med": 61.0,
   "tamanho_macho_med": 55.5,
-  "tamanho_med": 58.25,
+  "tamanho_med": 60,
   "month_vec": [
+   1,
+   1,
    0,
    0,
    0,
    0,
    0,
    0,
-   0,
-   0,
-   0,
-   0,
+   1,
+   1,
    0,
    0
   ]
