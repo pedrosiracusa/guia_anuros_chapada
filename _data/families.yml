@@ -1,31 +1,39 @@
 odontophrynidae:
   scientificName: Odontophrynidae
-  color: "#c54f4f"
+  color: "#ff914d"
 
 bufonidae:
   scientificName: Bufonidae
-  color: "#e8a15a"
+  color: "#d8842c"
 
 hylidae:
   scientificName: Hylidae
-  color: "#3ab770"
+  color: "#c9e265"
 
 dendrobatidae:
   scientificName: Dendrobatidae
-  color: "#ffb900"
+  color: "#ffc107"
 
 leptodactylidae:
   scientificName: Leptodactylidae 
-  color: "#5a8ee8"
+  color: "#007bff"
 
 microhylidae:
   scientificName: Microhylidae
-  color: "#4fc1c5"
+  color: "#6f42c1"
 
 aromobatidae:
   scientificName: Aromobatidae
-  color: "#b37255"
+  color: "#dc3545"
 
 craugastoridae:
   scientificName: Craugastoridae
-  color: "#c54f4f"
+  color: "#03989e"
+  
+phyllomedusidae:
+  scientificName: Phyllomedusidae
+  color: "#06893e"
+  
+siphonopidae:
+  scientificName: Siphonopidae
+  color: "#ffbce6"
