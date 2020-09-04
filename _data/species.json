@@ -91,20 +91,20 @@
   "atividade_not": 1,
   "tamanho_femea_med": 180.0,
   "tamanho_macho_med": 68.0,
-  "tamanho_med": 124.0,
+  "tamanho_med": 140.0,
   "month_vec": [
+   1,
+   1,
+   1,
    0,
    0,
    0,
    0,
    0,
    0,
-   0,
-   0,
-   0,
-   0,
-   0,
-   0
+   1,
+   1,
+   1
   ]
  },
  {
