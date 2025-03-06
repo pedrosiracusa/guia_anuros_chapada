@@ -7,3 +7,4 @@ package-lock.json
 Gemfile.lock
 token.json
 credentials.json
+.bundle/config

@@ -1,15 +1,21 @@
-﻿Uma perereca arborícola de médio porte. Sua distribuição é extremamente restrita, sendo encontrada apenas na região da Chapada dos Veadeiros, no município de Alto Paraíso de Goiás - GO, o que faz com que ela seja considerada <glossario>endêmica</glossario> da Chapada dos Veadeiros. Por ser uma espécie de distribuição pequena, as maiores ameaças são exploração madeireira, mineração e os incêndios, que apesar de serem comuns nesse bioma, também existe ainda muito fogo criminoso.
-Vivem nas bordas e dentro das matas de galeria, onde os machos vocalizam na época reprodutiva, que vai de dezembro a janeiro, próximos de corpos d’água, se empoleirando em alturas que variam de 0,1m a 1m.
+﻿Boana ericae é uma perereca arborícola de médio porte. O epíteto específico ericae homenageia a Dra. Érica Pellegrini Caramaschi, pelo seu esforço para o conhecimento biológico dos peixes brasileiros.
+Vivem nas bordas e dentro das matas de galeria, onde os machos vocalizam na época reprodutiva (chuva), que vai de novembro a janeiro, próximos de corpos d’água, se empoleirando em arbustos e árvores, em alturas que variam de 0,1m a 1m.  Ainda não se sabe muito sobre a ovoposição e sobre os girinos dessa espécie. Sua distribuição é extremamente restrita, sendo encontrada apenas na região da Chapada dos Veadeiros, no município de Alto Paraíso de Goiás e Cavalcante – GO , o que faz com que ela seja considerada endêmica da Chapada dos Veadeiros. Por ser uma espécie de distribuição pequena, as maiores ameaças são exploração madeireira, mineração e os incêndios, que apesar de serem comuns nesse bioma, também existe ainda muito fogo criminoso.
+
+
 #### Diagnose
-Possui uma coloração dorsal marrom ou verde, com ou sem manchas grandes e mais escuras que a cor dorsal, irregulares e que não forma um desenho definido. Possui uma faixa amarronzada que parte do começo do focinho, passa pela região média dos olhos e segue até o final do corpo. Nesta região (parte lateral do corpo), possui também manchas arredondadas de cor amarelo-claro.
-<div class="col-lg-12">
-  <div class="jumbotron">
-    <h1 class="display-4">Você sabia?</h1>
-    <hr class="my-4">
-    <p><p>Existe uma diferença entre <em>Hypsiboas ericae</em> e entre outras espécies de <em>Hypsiboas</em> relacionadas na osteologia, ou seja, nos ossos. Primeiramente, alguns indivíduos dessa espécie possuem os ossos esverdeados e outros possuem os ossos esbranquiçados. Outras diferenças é na formação em si dos ossos, como  a formação de um prepólex presente e muito curvado (90°) e desenvolvido. O prepólex é um espinho nos dedos das mãos que é um caráter sexual secundário. Ele está presente no macho e serve para ele segurar melhor a fêmea na hora da cópula.</p></p>
-  </div>
-</div>
+Possui porte médio (comprimento rostro-cloacal 29,2 mm nos machos e 36,9 mm nas fêmeas), focinho arredondado, dedos com discos adesivos grandes, membrana interdigital bem desenvolvida entre os <glossario>artelhos</glossario>. A coloração dorsal apresenta manchas irregulares de cor marrom-escuro e, lateralmente, apresenta uma estreita faixa amarelo-claro que vai desde a ponta do focinho até a coxa. Nos flancos, há manchas arredondadas de cor amarelo.
+
+
+#### Curiosidades
+1) Existe uma diferença entre *Boana ericae* e entre outras espécies de Boana relacionadas na osteologia, ou seja, nos ossos. Primeiramente, alguns indivíduos dessa espécie possuem os ossos esverdeados e outros possuem os ossos esbranquiçados. Outras diferenças é na formação em si dos ossos, como  a formação de um prepólex presente e muito curvado (90°) e desenvolvido. O prepólex é um espinho nos dedos das mãos que é um caráter sexual secundário. Ele está presente no macho e serve para ele segurar melhor a fêmea na hora da cópula.
+  
+
+Imagem retirada do artigo , onde PPE: prepólex proximal, PDE: prepólex distal, CV: crista ventral, S: espinha (coluna vertebral).
+
+
+2) Ocorrem variações no padrão do colorido dorsal em *Boana ericae* quanto ao tamanho e forma das manchas marrom-escuro e a pigmentação esbranquiçada esparsa, assim como quanto à forma e número de manchas brancas laterais. 
+
 
 #### Referências bibliográficas
-* Garcia PC, Haddad CF. Vocalizations and comments on the relationships of Hypsiboas ericae (Amphibia, Hylidae). Iheringia. Série Zoologia. 2008 Mar;98(1):161-6.
-* Caramaschi U, Cruz CA. Duas espécies novas de Hyla Laurenti, 1768 do estado de Goiás, Brasil (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, Nova Série, Zoologia. 2000;422:1-2.
+Garcia PC & Haddad CF. (2008). Vocalizations and comments on the relationships of Hypsiboas ericae (Amphibia, Hylidae). Iheringia. Série Zoologia, 98(1):161-6.
+Caramaschi U & Cruz CA. (2000). Duas espécies novas de Hyla Laurenti, 1768 do estado de Goiás, Brasil (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, Nova Série, Zoologia, 422:1-2.

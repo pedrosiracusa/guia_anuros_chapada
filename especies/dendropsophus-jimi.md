@@ -1,15 +1,27 @@
-﻿É uma espécie de pequeno porte e pertence ao grupo *rubicundulus*. Está associada a ambientes campestres alagados no bioma Cerrado e é encontrada vocalizando em gramíneas e pequenos arbustos de até 1 metro de altura. É uma espécie endêmica do bioma Cerrado, mas está amplamente distribuída nos estado em que esse bioma ocorre, e as principais ameaças é a exploração de madeira, construção de reservatórios hidroelétricos e a fragmentação de seu hábitat. Porém, se adapta muito bem a distúrbios antropizados. 
-Ocorre nas partes superiores da vegetação baixa, e habita nascentes, córregos e lagoas. Sua época de reprodução é na época chuvosa, no qual os machos cantam na grama, principalmente perto de lagoas temporárias e em região alagadas.
+﻿É uma espécie de pequeno porte e pertence ao grupo *rubicundulus*, espécies com padrão dorsal com duas listras marrons que seguem das bordas posteriores das órbitas até quase o meio do corpo, seguida por uma única tira <glossario>sacral</glossario> da mesma cor. O nome da espécie homenageia o Dr. Jorge Jim pela sua contribuição para o conhecimento dos anuros brasileiros. É encontrada vocalizando em partes superiores da grama (acima de 1 metro de altura) e habitam nascentes, córregos e poças permanentes de área aberta. Possui padrão reprodutivo prolongado, onde o macho vocaliza de outubro a fevereiro e os girinos são abundantes ao longo de toda a estação chuvosa. *D. jimi* possui modo reprodutivo tipo 1, onde os ovos e girinos são <glossario>exotróficos</glossario> e ocupam corpos d’água <glossario>lênticos</glossario>. A espécie é endêmica do bioma Cerrado e as áreas conhecidas para sua distribuição são: São Paulo, Brasília, Chapada dos Veadeiros, oeste de Minas Gerais e centro-leste do Paraguai. Apesar de ser classificada como LC (Menos preocupante) pela IUCN, a espécie sofre ameaças pelo uso de recursos biológicos (extração de madeira) e modificações do sistema natural (supressão de fogo e barragens e gerenciamento do uso da água). 
+
+
 #### Diagnose
-Caracteriza-se por possuir coloração dorsal esverdeada, com faixas estreitas na lateral de cor marrom, que se iniciam no canto posterior do olho até o meio do corpo. A cabeça é mais longa do que larga, o tímpano é pequeno porém evidente e as mãos possuem discos digitais pequenos com a membrana interdigital pouco desenvolvida, não evidente.
-<div class="col-lg-12">
-  <div class="jumbotron">
-    <h1 class="display-4">Você sabia?</h1>
-    <hr class="my-4">
-    <p><p>Atividade reprodutiva estendeu-se durante toda a estação chuvosa caracterizando essa espécie como de reprodução prolongada. Utiliza corpos temporários e permanentes para a reprodução. Os machos são territoriais, sendo os <glossario>sítios</glossario> principalmente arbustos e gramíneas, onde vocalizam a alturas de aproximadamente 50 cm. O amplexo é do tipo axilar e o número de ovos é de 400 a 500 em média.</p></p>
-  </div>
-</div>
+Caracteriza-se pelo pequeno tamanho (17,6-20,9 milímetros para machos e 20,6-22,6 milímetros para fêmeas), coloração dorsal esverdeada, com duas faixas paralelas e irregulares na lateral de cor marrom, que se iniciam no canto posterior do olho até o meio do corpo. A cabeça é mais longa do que larga, o tímpano é pequeno porém evidente e as mãos possuem discos digitais pequenos com a membrana interdigital pouco desenvolvida. Em coleções científicas, os indivíduos preservados apresentam coloração dorsal rosa com as listras na cor marrom, o canto do olho delimitado por uma faixa branca acima e uma faixa marrom abaixo, flancos com uma faixa marrom dorsolateral. 
+
+
+#### Curiosidades
+O <glossario>amplexo</glossario> de *D. jimi* é do tipo axilar, onde o macho usa as patas dianteiras para segurar a fêmea na região peitoral. Além disso, o número de ovos é de 400 a 500 em média. 
+
+
+Machos de *D. jimi* competem pelos melhores poleiros para que ocorra uma divisão de habitat entre eles. Os que apresentam melhores condições corporais ocupam os <glossario>poleiros</glossario> mais altos. 
+
+
+A espécie apresenta diversos tipos de padrões dorsais, que variam de localidade e podem ser observados na ilustração abaixo (retirada do artigo Napoli M & Caramaschi U. (1999). Variation and description of two new brazilian Hyla of the *H. tritaeniata* complex (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, 407:1-11). 
+  
+
+
 
 #### Referências Bibliográficas
-* Brasileiro CA, Sawaya RJ, Kiefer MC, Martins M. Amphibians of an open Cerrado fragment in southeastern Brazil. Biota Neotropica. 2005;5(2):93-109.
-* ​Guimarães LDA. Ecologia e conservação de anfíbios anuros do estado de Goiás. Tese de Doutorado. Universidade Federal de Goiás. 2006. 158p.
+https://www.iucnredlist.org/species/55520/11324324
+Pombal Jr JP & Haddah CFB. (2007). Estratégias e modos reprodutivos em anuros. In: Nascimento LB & Oliveira ME. Herpetologia no Brasil II. Sociedade Brasileira de Herpetologia. ISBN: 8599251015. 354p.
+Napoli M & Caramaschi U. (1999). Variation and description of two new brazilian Hyla of the *H. tritaeniata* complex (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, 407:1-11.
+Kopp K, Signorelli L & Bastos RP. (2010). Distribuição temporal e diversidade de modos reprodutivos de anfíbios anuros no Parque Nacional das Emas e entorno, estado de Goiás, Brasil. Iheringia, Série Zoologia, 100(3):192-200.
+Juliano R. (2007). Distribuição espacial e temporal de uma comunidade de anuros do município de Morrinhos, Goiás, Brasil (Amphibia: Anura). Neotropical Biology and Conservation, 2(1):21-27.
+Faivovich J, Haddad C, Garcia PCA & Frost D. (2005). Systematic review of the frog family Hylidae, with special reference Hylinae: Phylogenetic analysis and taxonomic revision. Bulletin of the American Museum of Natural History. ISSN 0003-0090.
+Santoro G & Brandão R. (2014). Reproductive modes, habitat use, and richness of anurans from Chapada dos Veadeiros, central Brazil. North-Western Journal of Zoology, 10(2):365-373.

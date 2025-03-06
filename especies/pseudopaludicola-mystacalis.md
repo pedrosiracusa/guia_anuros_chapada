@@ -1,4 +1,14 @@
-﻿É uma espécie de tamanho bem pequeno e é encontrada em áreas abertas como Campos Sujos e Campos Rupestres em regiões de altitude do planalto central brasileiro, e em campos inundáveis em áreas de planícies. São anuros terrestres e podem vocalizar durante o dia em áreas recobertas por gramíneas como touceiras, sobre o solo ou folhas. A reprodução ocorre em pequenas poças de águas rasas e geralmente expostas.
-Não é uma espécie ameaçada, mas pode não ser muito tolerante à severas modificações no ambiente (apesar de já ter sido encontrada em cultivos de arroz). Possui uma imensa distribuição geográfica, ocorrendo desde a região sudeste, Centro-Oeste e Sul do Brasil, e na América do Sul ocorre na Argentina, Paraguai, Bolívia e possivelmente no Uruguai.
+﻿É uma espécie de tamanho bem pequeno e, como o próprio nome diz, é encontrada vocalizando no solo de áreas úmidas associadas a brejos. Em alguns locais de ocorrência, é comum encontrá-la reproduzindo o ano todo, a reprodução ocorre em pequenas poças de águas rasas e geralmente expostas. Além disso, possuem amplexo axilar, onde o macho sobe nas costas da fêmea e segura-a fortemente, com seus braços próximos às axilas dela. As espécies do gênero Pseudopaludicola do Cerrado são muito semelhantes, então conhecer o canto delas é essencial para diferenciá-las. Distribui-se ao sul e leste do Brasil e, no Goiás, é amplamente distribuída. Não é uma espécie ameaçada, sendo classificada como “Pouco preocupante” pela IUCN. 
+
+
 #### Diagnose
-Possui a pele do dorso lisa com apenas algumas verrugas achatadas, principalmente, na região inguinal, e coloração dorsal varia em tons de cinza e manchas marrom claro. Alguns indivíduos podem apresentar linha vertebral e linhas dorsolaterais de coloração bege. O focinho é obtuso ou pouco-acuminado em vista lateral. A região gular é amarela nos machos e o ventre é branco. Os dedos possuem franjas dérmicas vestigiais e as pontas são arredondadas.
+Espécie pequena, com região dorsal pouco granular, porém apresenta coloração e região gular castanhas com algumas manchas esparsas mais escuras e ventre branco. Não possuem prega supratimpânica e tímpano. Diferente de *Pseudopaludicola ternetzi*, apresenta menor tamanho. Como o canto é essencial para identificação das espécies do gênero, o canto de *P. mystacalis* é pulsionado e com mais notas. 
+
+
+####Referências
+
+
+Base de dados AmphibiaWeb: https://amphibiaweb.org/cgi/amphib_query?where-genus=Pseudopaludicola&where-species=mystacalis
+
+
+Vaz-Silva et al. (2020). Guia de identificação das espécies de anfíbios (Anura e Gymnophiona) do estado de Goiás e do Distrito Federal, Brasil Central. Sociedade Brasileira de Zoologia, 223.

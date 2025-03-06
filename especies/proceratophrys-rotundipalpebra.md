@@ -1,17 +1,16 @@
-﻿É uma espécie de sapo com o corpo <glossario>verrucoso</glossario>, em formato ovóide, robusto e gordinho. É um sapo terrestre e pode ser encontrado na beira de estradas de terra. A espécie é endêmica da região da Chapada dos Veadeiros e ainda se sabe bem pouco sobre ela.
-#### Diagnose
-Seu corpo é todo granuloso, porém não possui glândulas. Possui cristas óculo-dorsais bem definidas na metade anterior e algumas interrompidas na região sacral. As pálpebras são curtas e arredondadas, as cristas frontoparietais não são desenvolvidas e possuem tubérculos no antebraço organizado em 2 linhas. Sua coloração varia de 3–4 tonalidades de cinza.
+﻿É uma espécie de sapo com o corpo <glossario>verrucoso</glossario>, em formato ovóide e robusto. O epíteto específico *rotundipalpebra* é derivado de duas palavras latinas: “rotunda” que significa arredondado e “palpebra” que significa pálpebra. É uma referência à pálpebra superior arredondada da espécie. Ela é encontrada vocalizando em ambientes de campo rupestre, em locais encharcados por águas de chuva ou nas margens de riachos com fundo pedregoso/arenoso. É ativa durante a estação chuvosa. A espécie ocorre apenas no Parque Nacional da Chapada dos Veadeiros, nos municípios de Alto Paraíso e Teresina de Goiás. Como ainda não se sabe muito sobre a espécie, não é possível listar as ameaças que sofre.
 
 
-Difere-se de *P. goyana* pelas pálpebras superiores curtas e arredondadas (pálpebras superiores triangulares, com uma ponta carnuda e ligeiramente expandida), pelo par simétrico de cristas dorsais não contínuas na região sacral (bem definida e contínua), pela crista frontoparietal não bem definidas (cristas frontoparietais visíveis como ligeiras elevações, delimitando uma depressão superficial entre elas) e pelo padrão de cores geral manchado por 3-4 tonalidades de cinza, sem um fundo claro colo.
-<div class="col-lg-12">
-  <div class="jumbotron">
-    <h1 class="display-4">Você sabia?</h1>
-    <hr class="my-4">
-    <p><p>O epíteto específico, <em>rotundipalpebra</em>, é derivado de duas palavras latinas, “rotunda”, que significa arredondado, e “palpebra”, que significa pálpebra. É uma referência à pálpebra superior arredondada da nova espécie, o que ajuda a diferenciá-la de <em>P. goyana</em>.</p></p>
-  </div>
-</div>
 
-#### Referências bibliográficas
-* CAMPOS LA. Three new species of Proceratophrys Miranda-Ribeiro 1920 from Brazilian Cer-rado (Anura, Odontophrynidae). Zootaxa. 2013;3750(4):321-47.
-* Martins LB, Giaretta AA. Morphological and acoustic characterization of Proceratophrys goyana (Lissamphibia: Anura: Odontophrynidae), with the description of a sympatric and related new species. Zootaxa. 2013 Dec 20;3750(4):301-20.
+
+Diagnose
+O macho possui entre 30,4–39,3 mm. A espécie possui pele rugosa com pequenos grânulos. As pálpebras são curtas e arredondadas. Possui um par simétrico de cristas dorsais estendendo-se das pálpebras superiores até a região sacral. O padrão de cor varia entre 3-4 tonalidades de cinza, sem uma cor de fundo clara. 
+
+
+Referências
+
+
+Campos, LA. 2013. Three new species of Proceratophrys Miranda-Ribeiro 1920 from Brazilian Cer-rado (Anura, Odontophrynidae). Zootaxa, 3750(4):321-347.
+
+
+Martins, LB & Giaretta, AA. 2013. Morphological and acoustic characterization of Proceratophrys goyana (Lissamphibia: Anura: Odontophrynidae), with the description of a sympatric and related new species. Zootaxa, 3750(4):301-320.
