@@ -1,3 +1,22 @@
+# Guia Anfíbios dos Veadeiros
+
+
+## Instalação
+Para construir o projeto, é necessário instalar o Ruby:
+```sudo apt-get install ruby-full```
+
+Instalar a gem bundler:
+```sudo gem install bundler```
+
+
+Em seguida, ajustar a configuração do bundler para o diretório de instalação das gems:
+```bundle config set --local path '~/.gem'```
+
+Para executar localmente, após a instalação:
+```bundle exec jekyll serve --livereload```
+
+
+
 
 # Boostrap 4 Github Pages
 

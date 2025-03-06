@@ -46,7 +46,7 @@ layout: base
          
         <div class="row">
           <div class="col">
-              <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" onError="this.src='https://via.placeholder.com/350x250';">
+              <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" onError="this.src='https://placehold.co/350x250';">
           </div>
         </div>
 
@@ -103,9 +103,9 @@ layout: base
 
         <!-- For Desktop -->
         <div class="d-none d-sm-block">
-        <div class="row">
+          <div class="row">
           <div class="col-sm-6 col-lg-5">
-              <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" onError="this.src='https://via.placeholder.com/350x250';">
+              <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" onError="this.src='https://placehold.co/350x250';">
 
           </div>
 
@@ -161,22 +161,23 @@ layout: base
             </div>
 
           </div>
-        </div>
+          </div>
         </div>
       </section>
 
+      <section class="px-5 px-sm-0">
+        <div class="row">
+          <div class="col-lg-auto order-lg-12 sidebar">
+            <div class="spsize-compare">
+              {% include spsizecompare.html species=species %}
+            </div>
+          </div>
 
-      <div class="row">
-        <div class="col-lg-auto order-lg-12 sidebar">
-          <div class="spsize-compare">
-            {% include spsizecompare.html species=species %}
+          <div class="col species-profile-article">
+            {{ content }}
           </div>
         </div>
-
-        <div class="col species-profile-article">
-          {{ content }}
-        </div>
-      </div>
+      </section>
 
 
     </article>

@@ -19,6 +19,7 @@ $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
+$gray-650: #666 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
@@ -27,9 +28,9 @@ $custom-primary:  #e08f1b !default;
 
 // Font customization
 
-$font-family-sans-serif:      "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-sans-serif:      "Open sans", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
-$font-weight-normal:          300;
-$line-height-base:            1.4;
+$font-weight-normal:          400;
+$line-height-base:            1.6;
 
-$body-color:                $gray-700;
+$body-color:                $gray-650;

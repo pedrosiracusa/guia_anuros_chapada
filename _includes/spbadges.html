@@ -1,28 +1,28 @@
 {% if species.endemic_chapada==1 %}
-<span class="badge badge-pill badge-danger">
+<span class="badge text-bg-danger">
   Endêmico da Chapada dos Veadeiros
 </span>
 {% elsif species.endemic_cerrado==1 %}
-<span class="badge badge-pill badge-danger">
+<span class="badge text-bg-danger">
   Endêmico do Cerrado
 </span>
 {% endif %}
 
 
 {% if species.detectability_ff==1 %}
-<span class="badge badge-pill badge-success">
+<span class="badge text-bg-success">
   Muito comum
 </span>
 {% elsif species.detectability_f==1 %}
-<span class="badge badge-pill badge-success">
+<span class="badge text-bg-success">
   Comum
 </span>
 {% elsif species.detectability_r %}
-<span class="badge badge-pill badge-warning text-white">
+<span class="badge text-bg-warning">
   Pouco comum
 </span>
 {% else %}
-<span class="badge badge-pill badge-danger">
+<span class="badge text-bg-danger">
   Rara
 </span>
 
