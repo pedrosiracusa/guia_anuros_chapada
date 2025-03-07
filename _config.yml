@@ -71,3 +71,4 @@ exclude:
   - node_modules
   - update_boostrap.sh
   - build_species_dset
+  - build
