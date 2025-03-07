@@ -1,0 +1,28 @@
+{"autores":[
+    {
+        "nome": "Ana Cecília Holler",
+        "avatar-img": "ana_avatar",
+        "papel":"Produtor de Conteúdo",
+        "descricao": "Sou graduanda em Ciências Biológicas pela Universidade de Brasília (UnB) e já atuei em várias áreas, como: na anatomia com monitoria, na ecologia com projeto de extensão, na entomologia forense com um projeto sobre o uso de carcaças por formigas e na herpeto desde sempre, com projeto de demografia de lagartos em matas de galeria, entre outros assuntos. Fiz graduação sanduíche na Florida State University (FSU) por 3 meses (2016), e atualmente sou bolsista do PET-Biologia UnB e aluna do Laboratório de Fauna e Unidade de Conservação (LAFUC - UnB) sob orientação do Prof. Dr. Reuber Albuquer Brandão neste projeto de Guia de Anuros da Chapada dos Veadeiros - GO. Sou amante da natureza e tenho como hobbie a fotografia e foi disso que nasceu a ideia deste guia de anuros, para juntar a necessidade de preencher lacunas de várias áreas do conhecimento e registrar, através da fotografia, importantes momentos sobre a vida desses incríveis animais",
+        "links":{"CV Lattes":"http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K8788981U2", "Site":"#2"}
+    },
+    {
+        "nome": "José Marcos do Nascimento dos Santos Abreu (Zé)",
+        "avatar-img": "ze_avatar",
+        "papel": "Produtor de Conteúdo",
+        "descricao": "Sou estudante de biologia da Universidade de Brasília (UnB), estagiário do Laboratório de Fauna e Unidades de Conservação e do Laboratório de Manejo e Conservação de Aves do Cerrado. Atuo nas áreas de Biologia da Conservação, divulgação cientifica e educação ambiental. Meus projetos buscam aumentar o conhecimento sobre como vertebrados são afetados pelos impactos antrópicos, principalmente o avanço do agronegócio, mudanças e diminuição nos corpos de água, caça e efeito de borda com o aumento da urbanização. Para estudar os ecossistemas e a conservação dos recursos naturais do Cerrado, eu pesquiso o predador topo de cadeia jacaré-paguá (Paleosuchus palpebrosus), aves ameaçadas da família Traupidae, Tyrannidae e Scleruridae e a espécie de anuro Physalaemus centralis",
+        "links":{"CV Lattes":"http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K8200509P8"}
+    },
+    {
+        "nome": "Pedro Correia de Siracusa",
+        "avatar-img": "psiracusa_avatar",
+        "papel": "Programador e Fotógrafo",
+        "descricao": "Biólogo e mestre em modelagem computacional. Apaixonado por natureza, arte e máquinas. É o responsável pela construção e manutenção do guia web, além de parte do material fotográfico",
+        "links":{"Site":"https://pedrosiracusa.github.io","CV Lattes":"http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&amp;id=K4365211E8"}
+    }
+    ],
+    "colaboradores":[
+        {"nome":"Colaborador 1"},
+        {"nome":"Colaborador 2"}
+    ]
+}
