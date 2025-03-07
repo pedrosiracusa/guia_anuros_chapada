@@ -10,7 +10,7 @@ title: Espécies
 {% assign families-spp = speciesData | group_by: "family" %}
 
 <section id="species-list">
-  <div class="container p-0">
+  <div class="container">
   <!-- Families list -->
   {% for i in families-spp %}
       {% assign family_id = i.name | slugify %}

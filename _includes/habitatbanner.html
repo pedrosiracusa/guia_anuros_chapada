@@ -7,7 +7,7 @@
     {% for phyto in phytos %}
     <div class="position-absolute justify-content-left" style="top:0; left: {{phyto_data[phyto].x_left}}%; width: {{phyto_data[phyto].width}}%; height:100%;">
       <div class="d-flex flex-column" style="height:100%;">
-        <div class="mr-1 pb-1" style="font-size:.8rem; font-weight:700;">{{phyto_data[phyto].text}}</div>
+        <div class="me-1 pb-1" style="font-size:.8rem; font-weight:700;">{{phyto_data[phyto].text}}</div>
 
         <div class="flex-grow-1" style="border-left: .2em dashed {{family.color}}"></div>
 
@@ -21,7 +21,7 @@
     </div>
     {% endfor %}
 
-    <div class="habit-bar float-right">
+    <div class="habit-bar float-end">
         {% if species.atividade_diu==1 %}
           {% if species.atividade_not==1 %}
           <img src="{{site.baseurl}}/assets/img/icons/habit_day_night.jpg">
