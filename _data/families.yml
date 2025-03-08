@@ -37,3 +37,8 @@ phyllomedusidae:
 siphonopidae:
   scientificName: Siphonopidae
   color: "#ffbce6"
+
+strabomantidae:
+  scientificName: Strabomantidae
+  color: "#007bff"
+

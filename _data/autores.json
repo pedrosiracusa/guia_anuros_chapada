@@ -51,7 +51,9 @@
    "nome": "Pedro Oliveira",
    "papel": "Ilustrador",
    "descricao": "Biólogo, mestrando pela UnB, com experiência em Divulgação Científica e coloração, evolução e morfologia de Scarabaeidae. No projeto, contribuiu com belas ilustrações e componentes de tela.",
-   "links": {},
+   "links": {
+    "Portfólio": "https://www.behance.net/gallery/59724787/Botanical-Watercolor"
+   },
    "avatar-img": "pholiveira"
   }
  ]
