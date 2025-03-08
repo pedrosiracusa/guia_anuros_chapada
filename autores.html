@@ -29,12 +29,12 @@ Esse guia foto carinho e profissionalismo, feito tanto para a comunidade cientí
 <p class="text-center lead">Conheça o time responsável pela construção deste projeto</p>
 
   {% for autor in site.data.autores.autores %}
-  <div class="row my-5">
-    <div class="col-4 col-md-3">
+  <div class="row my-5 justify-content-center">
+    <div class="col-4 col-md-3 col-lg-2">
       <img class="rounded-circle img-fluid" src="{{site.baseurl}}/assets/img/authors-avatar/{{autor.avatar-img}}.jpg" alt="Generic placeholder image">
     </div>
 
-    <div class="col">
+    <div class="col col-lg-6">
       <h5 class="mt-0">{{autor.nome}}</h5>
       <h6 class="text-muted">{{autor.papel}}</h6>
       <p>{{autor.descricao}}</p>
