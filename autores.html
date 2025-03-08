@@ -55,41 +55,18 @@ Esse guia foto carinho e profissionalismo, feito tanto para a comunidade cientí
 <div class="row mb-5">
   {% for colaborador in site.data.autores.colaboradores %}
   <div class="col-6 col-sm-3 text-center">
-    <img class="image-fluid rounded-circle w-75 py-3" src="{{site.baseurl}}/assets/img/authors-avatar/carlos_avatar.jpg" alt="Generic placeholder image">
+    <img class="image-fluid rounded-circle w-75 py-3" src="{{site.baseurl}}/assets/img/authors-avatar/{{colaborador.avatar-img}}.jpg" alt="Generic placeholder image">
     <h5>{{ colaborador.nome }}</h5>
-      <a class="btn btn-outline-primary mx-1" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4672525A6" target="_blank" role="button">CV Lattes</a>
+    <h6 class="text-muted">{{colaborador.papel}}</h6>
+    <p>{{colaborador.descricao}}</p>
+    <div class="btn-group" role="group">
+      {% for link in colaborador.links %}
+      <a class="btn btn-outline-primary" href="{{link[1]}}" target="_blank" role="button">{{link[0]}}</a>
+      {% endfor %}
+    </div>
   </div>
   {% endfor %}
 
-  <div class="col-6 col-sm-3 text-center">
-    <img class="image-fluid rounded-circle w-75 py-3" src="{{site.baseurl}}/assets/img/authors-avatar/carlos_avatar.jpg" alt="Generic placeholder image">
-    <h5>Carlos José da Silva Morais</h5>
-      <a class="btn btn-outline-primary mx-1" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4672525A6" target="_blank" role="button">CV Lattes</a>
-  </div>
-
-  <div class="col-6 col-sm-3 text-center text-center">
-    <img class="image-fluid rounded-circle w-75 py-3" src="{{site.baseurl}}/assets/img/authors-avatar/yan_avatar.png" alt="Generic placeholder image">
-    <h5>Yan Felipe Figueira Soares</h5>
-      <a class="btn btn-outline-primary mx-1" href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4859576Z6" target="_blank" role="button">CV Lattes</a>
-  </div>
-
-  <div class="col-6 col-sm-3 text-center">
-    <img class="image-fluid rounded-circle w-75 py-3" src="{{site.baseurl}}/assets/img/authors-avatar/lafuc_avatar.jpg" alt="Generic placeholder image">
-    <h5>LAFUC</h5>
-      <a class="btn btn-outline-primary mx-1" href="https://www.lafuc.com/" target="_blank" role="button">Página</a>
-  </div>
-
-  <div class="col-6 col-sm-3 text-center">
-    <img class="image-fluid rounded-circle w-75 py-3" src="{{site.baseurl}}/assets/img/authors-avatar/fvs_avatar.jpg" alt="Generic placeholder image">
-    <h5>Santuário de Vida Silvestre Fazenda Volta da Serra</h5>
-      <a class="btn btn-outline-primary mx-1" href="https://www.facebook.com/santuariovoltadaserra/" target="_blank" role="button">Facebook</a>
-  </div>
-
-  <div class="col-6 col-sm-3 text-center">
-    <img class="image-fluid rounded-circle w-75 py-3" src="{{site.baseurl}}/assets/img/authors-avatar/pet_avatar.jpg" alt="Generic placeholder image">
-    <h5>PET-Biologia UnB</h5>
-      <a class="btn btn-outline-primary mx-1" href="https://www.facebook.com/unbpetbio/" target="_blank" role="button">Facebook</a>
-  </div>
 
 </div>
 

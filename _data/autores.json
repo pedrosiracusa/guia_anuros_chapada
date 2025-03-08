@@ -18,9 +18,7 @@
    "nome": "José Marcos Abreu",
    "papel": "Produtor de conteúdo",
    "descricao": "Em formação em Ciência Biológicas. Pesquisa história natural de jacarés e possui experiência com inventário de avifauna do Cerrado. Particularmente, é interessado em divulgação científica e plantio de lúpulo para produção de cerveja.",
-   "links": {
-    "Site": "https://teste.com"
-   },
+   "links": {},
    "avatar-img": "jmabreu"
   },
   {
@@ -48,6 +46,13 @@
    "descricao": "Biólogo, mestre em Zoologia/UnB e aluno de doutorado em Ecologia/UnB. No doutorado estudo peixes de riachos do Brasil central.",
    "links": {},
    "avatar-img": "ysoares"
+  },
+  {
+   "nome": "Pedro Oliveira",
+   "papel": "Ilustrador",
+   "descricao": "Biólogo, mestrando pela UnB, com experiência em Divulgação Científica e coloração, evolução e morfologia de Scarabaeidae. No projeto, contribuiu com belas ilustrações e componentes de tela.",
+   "links": {},
+   "avatar-img": "pholiveira"
   }
  ]
 }
