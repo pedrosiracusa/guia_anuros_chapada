@@ -29,12 +29,24 @@ layout: base
 
 {% assign phyto_data = site.data.phytophysiognomies %}
 
+
+<!-- Helper subnav for when mainnav is collapsed -->
+<div id="helper-subnav" class="navbar bg-body-tertiary d-lg-none" aria-label="breadcrumb">
+  <div class="container d-flex flex-row">
+    <a href="{{site.baseurl}}/especies" style="text-decoration:none; color:#8c8c8c;">
+      <i class="fa fa-chevron-left fa-1x me-2" aria-hidden="true"></i>
+      <span class="fs-5">Lista de espécies</span></a>
+  </div>
+</div>
+
+
 <!-- Subheader -->
 <div class="subheader" style="background-color:{{ family.color }}; color:white;">
     <div class="container">
-        <h3 class="py-1"><a href="{{site.baseurl}}/familias/{{family.scientificName | slugify}}">Família {{ family.scientificName }}</a></h3>
+        <h3 class="py-2"><a href="{{site.baseurl}}/familias/{{family.scientificName | slugify}}">Família {{ family.scientificName }}</a></h3>
     </div>
 </div>
+
 
 
 <!-- Page content -->
