@@ -17,8 +17,8 @@ title: Anfíbios dos Veadeiros
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
   Um projeto batráquio!
-baseurl: "/guia_anuros_chapada" # the subpath of your site, e.g. /blog
-url: "http://pedrosiracusa.com" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "/guia_anuros_chapada" # the subpath of your site, e.g. /blog
+#url: "http://pedrosiracusa.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
