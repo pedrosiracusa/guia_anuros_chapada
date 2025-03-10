@@ -19,15 +19,14 @@ layout: base
   </div>
 </div>
 
+<div class="py-1 mb-3" style="background-color:{{ family.color }}; color:white;">
+  <div class="container">
+    <h1>Família <i>{{ family.scientificName | escape }}</i></h1>
+  </div>
+</div>
 <!-- Page content -->
 <div class="container page-content">
     <article>
-
-        <div class="row">
-          <div class="col">
-            <h1>Família <i>{{ family.scientificName | escape }}</i></h1>
-          </div>
-        </div>
 
         {{ content }}
         
