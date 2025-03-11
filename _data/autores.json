@@ -1,10 +1,13 @@
 {
  "autores": [
   {
-   "nome": "Ana Cecília Holler",
+   "nome": "Ana Cecília del Prette",
    "papel": "Produtora de conteúdo e Diagramadora",
-   "descricao": "Bióloga e mestranda do LAFUC - PPGZOO/UnB com o professor Reuber Brandão. Apaixonada pelas formas da natureza, hoje trabalha com descrição genética críptica da perereca reticulada Pithecopus oreades e sua distribuição interessantíssima ao longo dos picos de montanha do Cerrado. Faz parte deste projeto desde sua origem.",
-   "links": {},
+   "descricao": "Bióloga formada pela UnB e doutorando em Zoologia na UFMG. Apaixonada pelas formas da natureza, herpetofauna e evolução, Investiga fluxo gênico entre duas espécies de pererecas-das-folhagens do gênero Pithecopus e busca compreender como processos evolutivos atuaram e moldaram na estruturação genética e distribuição das espécies. Além disso, faz parte deste projeto desde sua criação e origem.",
+   "links": {
+    "Instagram": "https://www.instagram.com/anaceciliaholler/",
+    "Herpeto em Foco": "https://www.instagram.com/herpetoemfoco/"
+   },
    "avatar-img": "acholler"
   },
   {
@@ -41,6 +44,13 @@
  ],
  "colaboradores": [
   {
+   "nome": "Reuber Albuquerque Brandão",
+   "papel": "Coordenador",
+   "descricao": NaN,
+   "links": {},
+   "avatar-img": "rbrandao"
+  },
+  {
    "nome": "Yan Soares",
    "papel": "Apoio em campo",
    "descricao": "Biólogo, mestre em Zoologia/UnB e aluno de doutorado em Ecologia/UnB. No doutorado estudo peixes de riachos do Brasil central.",
@@ -55,6 +65,49 @@
     "Portfólio": "https://www.behance.net/gallery/59724787/Botanical-Watercolor"
    },
    "avatar-img": "pholiveira"
+  },
+  {
+   "nome": "Carlos José",
+   "papel": "Apoio em campo",
+   "descricao": NaN,
+   "links": {},
+   "avatar-img": "caze"
+  },
+  {
+   "nome": "Santuário Volta da Serra",
+   "papel": "Apoio logístico",
+   "descricao": "Santuário ecológico que promove o turismo sustentável na região da Chapada. Foi onde o projeto do Guia começou!",
+   "links": {
+    "Site": "https://fazendavoltadaserra.com.br/"
+   },
+   "avatar-img": "fvs"
+  },
+  {
+   "nome": "Parque Nacional da Chapada dos Veadeiros",
+   "papel": "Apoio logístico",
+   "descricao": NaN,
+   "links": {
+    "Site": "https://pnchapadadosveadeiros.com.br/"
+   },
+   "avatar-img": "pncv"
+  },
+  {
+   "nome": "PETBio",
+   "papel": "Apoio logístico, financeiro e em campo",
+   "descricao": NaN,
+   "links": {
+    "Instagram": "https://www.instagram.com/unbpetbio/"
+   },
+   "avatar-img": "petbio"
+  },
+  {
+   "nome": "UNB Cerrado",
+   "papel": "Apoio financeiro",
+   "descricao": NaN,
+   "links": {
+    "Site": "https://unbcerrado.unb.br/"
+   },
+   "avatar-img": "unbcerrado"
   }
  ]
 }

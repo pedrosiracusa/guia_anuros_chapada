@@ -1,18 +1,27 @@
-<div class="months-bar d-flex justify-content-end text-center mb-3" style="border-color:{{family.color}}99;">
-    <div class="d-none d-sm-block flex-sm-grow-1 px-2 py-1 text-left">Ocorrência</div>
-    {% assign months =  "Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez" | split: "," %}
-    {% for i in (0..11) %}
-      {% assign selectMonth = species.month_vec[i] %}
-      {% assign nextitem = forloop.index0 | plus: 1 %}
-      {% assign nextMonth = species.month_vec[nextitem] %}
-      {% if selectMonth==1 %}
-      <div class="py-1 text-white flex-grow-1 flex-sm-grow-0" style="background-color: {{family.color}};">
-        <div class="px-2" {% if nextMonth==1 %}style="border-right:1px solid rgba(255,255,255,0.6);"{% endif %}>{{ months[i] }}</div>
-      </div>
-      {% else %}
-      <div class="py-1 flex-grow-1 flex-sm-grow-0">
-        <div class="px-2" {% if nextMonth==0 %}style="border-right:1px solid rgba(0,0,0,0.2);"{% endif %}>{{ months[i] }}</div>
-      </div>
-      {% endif %}
-    {% endfor %}
+<div class="months-bar d-flex flex-row justify-content-evenly align-items-center mb-3" style="border-color:{{family.color}}99;">
+  <div class="d-none d-sm-block flex-sm-grow-1 px-2 py-1 text-left"><b>Ocorrência</b></div>
+  {% assign months =  "Jan,Fev,Mar,Abr,Mai,Jun,Jul,Ago,Set,Out,Nov,Dez" | split: "," %}
+  {% for i in (0..11) %}
+    {% assign selectMonth = species.month_vec[i] %}
+    {% assign nextitem = forloop.index0 | plus: 1 %}
+    {% assign nextMonth = species.month_vec[nextitem] %}
+    {% if selectMonth==1 %}
+    <div class="d-flex flex-fill text-center align-items-center justify-content-center text-white py-1 py-md-2" style="background-color: {{family.color}}" >
+      <span class="flex-grow-1"
+        {% if nextMonth==1 %} style="border-right:1px solid rgba(255,255,255,0.6);"
+        {% endif %}>
+        {{months[i]}}
+      </span>
+    </div>
+    {% else %}
+    
+    <div class="d-flex flex-fill text-center align-items-center justify-content-center">
+      <span class="flex-grow-1"       
+        {% if nextMonth==0 %}style="border-right:1px solid rgba(0,0,0,0.2);"
+        {% endif %}>
+        {{ months[i] }}
+      </span>
+    </div>
+    {% endif %}
+  {% endfor %}
 </div>
