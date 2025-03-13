@@ -179,7 +179,13 @@ layout: base
 
       <section class="px-5 px-sm-0">
         <div class="row">
-          <div class="col-lg-auto order-lg-last sidebar">
+          <div id="sidebar" class="d-none d-lg-block col-lg-auto order-lg-last">
+            <div class="spsize-compare">
+              {% include spsizecompare.html species=species %}
+            </div>
+          </div>
+
+          <div id="sidebar-mobile" class="d-lg-none d-flex flex-row-reverse">
             <div class="spsize-compare">
               {% include spsizecompare.html species=species %}
             </div>
