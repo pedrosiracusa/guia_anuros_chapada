@@ -58,13 +58,8 @@ layout: base
          
         <div class="row">
           <div class="col">
-              <div class="position-relative">
-              <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" onError="this.src='https://placehold.co/350x250';">
-                <div class="position-absolute top-0 end-top mt-4 ms-4">
-                  {% include iucn_badge.html %}
-                </div>
-              </div>
-            </div>
+            <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" onError="this.src='https://placehold.co/350x250';">
+          </div>
         </div>
 
         <div class="row">
@@ -79,7 +74,10 @@ layout: base
                 <!-- Species name -->
                 <div class="d-flex flex-column px-4">
                   <div class="d-flex flex-wrap align-items-baseline">
-                    <h1 class="pe-2"><i>{{ species.scientificName | escape }}</i></h1><h3 class="text-muted">({{ species.scientificNameAuthorship }})</h3>
+                    <h1 class="pe-2">
+                      <i>{{ species.scientificName | escape }}</i>
+                      {% include iucn_badge.html %}
+                    </h1><h3 class="text-muted">({{ species.scientificNameAuthorship }})</h3>
                   </div>
                   <h3>{{ species.vernacularNames | join: ", " }}</h3>
                 </div>
@@ -122,12 +120,7 @@ layout: base
         <div class="d-none d-sm-block">
           <div class="row">
           <div class="col-sm-6 col-lg-5">
-              <div class="position-relative">
                 <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" onError="this.src='https://placehold.co/350x250';">
-                <div class="position-absolute top-0 end-top mt-xl-4 ms-xl-4">
-                  {% include iucn_badge.html %}
-                </div>
-              </div>
           </div>
 
           <!-- visible for small and medium displays -->
