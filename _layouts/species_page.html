@@ -67,8 +67,8 @@ layout: base
             <a href="{{site.baseurl}}/especies/{{prev_sp.id}}">
             </a>
           </div>
-          <div class="d-flex flex-row">
-            <div class="me-3">
+          <div class="d-flex flex-row gap-3">
+            <div class="">
               <a href="{{site.baseurl}}/especies/{{prev_sp.id}}">
                 <i id="nav-prev-species" class="bi bi-arrow-left-circle" style="color:{{family.color}};"></i>
               </a>
@@ -83,7 +83,7 @@ layout: base
                   </div>
                   <h3>{{ species.vernacularNames | join: ", " }}</h3>
                 </div>
-              <div class="ms-3">
+              <div class="ms-auto">
                 <a href="{{site.baseurl}}/especies/{{next_sp.id}}">
                   <i id="nav-next-species" class="bi bi-arrow-right-circle" style="color:{{family.color}};"></i>
                 </a>
