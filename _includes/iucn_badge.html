@@ -1,6 +1,4 @@
-<h3>
-{% if species.redlist_eval=="en" %} <span class="px-3 py-2 badge rounded-pill border border-2 text-danger border-danger" style="font-family:monospace;">AMEAÇADA</span>
-{% elsif species.redlist_eval=="vu" %} <span class="px-3 py-2 badge rounded-pill border border-2 text-warning border-warning" style="font-family:monospace;">VULNERÁVEL</span>
-{% elsif species.redlist_eval=="nt" %} <span class="px-3 py-2 badge rounded-pill border border-2" style="color: #006666; border-color:#006666 !important; font-family:monospace;">QUASE AMEAÇADA</span>
+{% if species.redlist_eval=="en" %} <span class="iucn-en px-2 py-2 badge rounded-pill border border-2">EN</span>
+{% elsif species.redlist_eval=="vu" %} <span class="iucn-vu px-2 py-2 badge rounded-pill border border-2">VU</span>
+{% elsif species.redlist_eval=="nt" %} <span class="iucn-nt px-2 py-2 badge rounded-pill border border-2">NT</span>
 {% endif %}
-</h3>

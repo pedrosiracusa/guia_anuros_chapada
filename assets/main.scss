@@ -30,3 +30,32 @@ li.species-entry:hover{
     opacity:0.1 !important;
 }
 
+
+
+// Species profile page
+
+i#nav-prev-species,
+i#nav-next-species{
+  font-size:3rem;
+}
+
+
+.iucn-en{
+  color: #e40420;
+  border-color: #e40420 !important;
+  font-family: monospace;
+  font-size: 1rem;
+}
+.iucn-vu{
+  color: #e29b00;
+  border-color: #e29b00 !important;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.iucn-nt{
+  color: #006f5f;
+  border-color: #006f5f !important;
+  font-family: monospace;
+  font-size: 1rem;
+}
