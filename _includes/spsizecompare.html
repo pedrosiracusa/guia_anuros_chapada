@@ -13,9 +13,11 @@
 {% endif %}
 
 <h6>Tamanho médio: <small>{{ spsize | divided_by: 10 | round: 1 }} cm</small></h6>
+<div class="d-flex justify-content-center">
 <svg style="width:{{spsize_render}}em; height:{{rendersize}}em;">
   <use xlink:href="{{site.baseurl}}/assets/sprite/icons.svg#{{species.family_id}}" fill="{{family.color}}"></use>
 </svg>
 <svg style="width: {{handsize_render}}em; height:{{rendersize}}em;">
   <use xlink:href="{{site.baseurl}}/assets/sprite/icons.svg#hand" fill="{{family.color}}"></use>
 </svg>
+</div>
