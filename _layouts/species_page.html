@@ -65,14 +65,16 @@ layout: base
         <div class="row">
           <div class="col-1 align-self-stretch px-0" style="background-color: {{family.color}};">
             <a href="{{site.baseurl}}/especies/{{prev_sp.id}}">
-              <div class="d-flex align-items-center justify-content-center" style="height:100%; color:white;" >
-                <<
-              </div>
             </a>
           </div>
-          <div class="col-10 px-0">
+          <div class="d-flex flex-row">
+            <div class="me-3">
+              <a href="{{site.baseurl}}/especies/{{prev_sp.id}}">
+                <i id="nav-prev-species" class="bi bi-arrow-left-circle" style="color:{{family.color}};"></i>
+              </a>
+            </div>
                 <!-- Species name -->
-                <div class="d-flex flex-column px-4">
+                <div class="d-flex flex-column">
                   <div class="d-flex flex-wrap align-items-baseline">
                     <h1 class="pe-2">
                       <i>{{ species.scientificName | escape }}</i>
@@ -81,13 +83,11 @@ layout: base
                   </div>
                   <h3>{{ species.vernacularNames | join: ", " }}</h3>
                 </div>
-          </div>
-          <div class="col-1 align-self-stretch px-0" style="background-color: {{family.color}};">
-            <a href="{{site.baseurl}}/especies/{{next_sp.id}}">
-              <div class="d-flex align-items-center justify-content-center" style="height:100%; color:white;">
-              >>
-            </div>
-            </a>
+              <div class="ms-3">
+                <a href="{{site.baseurl}}/especies/{{next_sp.id}}">
+                  <i id="nav-next-species" class="bi bi-arrow-right-circle" style="color:{{family.color}};"></i>
+                </a>
+              </div>
           </div>
         </div>
 
@@ -113,8 +113,6 @@ layout: base
         </div>
 
         </div>
-        <!-- //mobile -->
-
 
         <!-- For Desktop -->
         <div class="d-none d-sm-block">
@@ -127,8 +125,8 @@ layout: base
           <div class="col d-none d-sm-block d-lg-none">
               <!-- Navigation -->
               <div class="d-flex justify-content-between">
-                <a href="{{site.baseurl}}/especies/{{prev_sp.id}}" class="mx-2" style="color:{{family.color}};"><i class="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i></a>
-                <a href="{{site.baseurl}}/especies/{{next_sp.id}}" class="mx-2" style="color:{{family.color}};"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>
+                <a href="{{site.baseurl}}/especies/{{prev_sp.id}}" ><i id="nav-prev-species" class="bi bi-arrow-left-circle" style="color:{{family.color}}" aria-hidden="true"></i></a>
+                <a href="{{site.baseurl}}/especies/{{next_sp.id}}" ><i id="nav-next-species" class="bi bi-arrow-right-circle" style="color:{{family.color}}" aria-hidden="true"></i></a>
               </div>
 
               <!-- Species info -->
@@ -148,8 +146,8 @@ layout: base
             <div class="d-none d-lg-block">
             <!-- Navigation (lg)-->
             <div class="d-flex justify-content-between">
-              <a href="{{site.baseurl}}/especies/{{prev_sp.id}}" class="mx-2" style="color:{{family.color}};"><i class="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i></a>
-              <a href="{{site.baseurl}}/especies/{{next_sp.id}}" class="mx-2" style="color:{{family.color}};"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>
+              <a href="{{site.baseurl}}/especies/{{prev_sp.id}}" ><i id="nav-prev-species" class="bi bi-arrow-left-circle" style="color:{{family.color}}" aria-hidden="true"></i></a>
+              <a href="{{site.baseurl}}/especies/{{next_sp.id}}" ><i id="nav-next-species" class="bi bi-arrow-right-circle" style="color:{{family.color}}" aria-hidden="true"></i></a>
             </div>
 
             <!-- Species info (lg) -->
