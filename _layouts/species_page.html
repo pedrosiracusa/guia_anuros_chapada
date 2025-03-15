@@ -66,7 +66,7 @@ layout: base
           </div>
 
           <!-- Species basic info -->
-          <div class="col-md-7">
+          <div id="species-basicinfo" class="col-md-7">
 
             <div class="d-flex flex-row gap-3 justify-content-between">
               <a href="{{site.baseurl}}/especies/{{prev_sp.id}}">
@@ -77,14 +77,15 @@ layout: base
 
                 <!-- Species name -->
                 <div class="d-flex flex-wrap align-items-baseline">
-                  <h1 class="pe-2">
+                  <h1 class="pe-2 mb-0">
                     <i>{{ species.scientificName | escape }}</i>
-                    {% include iucn_badge.html %}
-                  </h1><h3 class="text-muted">({{ species.scientificNameAuthorship }})</h3>
+                    {% include iucn_badge.html %}</h1>
+                    <h1><small class="text-muted">({{ species.scientificNameAuthorship }})</small>
+                  </h1>
                 </div>
                 <!-- Species vernacular names -->
                 <div>
-                  <h3>{{ species.vernacularNames | join: ", " }}</h3>
+                  <p class="fw-bold">{{ species.vernacularNames | join: ", " }}</p>
                 </div>    
                 
                 <!-- Species badges -->

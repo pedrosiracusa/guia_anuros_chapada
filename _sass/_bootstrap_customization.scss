@@ -107,57 +107,6 @@ a.unstyled{
 
 
 
-/*----
-  Species Profile pages
-  ----
-*/
-
-.species-profile{
-
-    h1{
-      font-size:2rem;
-      small{font-size: .6em;}
-    }
-
-    h3{
-      font-size: 1.4rem;
-    }
-}
-
-.species-profile .species-profile-article{
-    h4{ font-size: 1.1rem;}
-}
-
-// Habit bar
-.habit-bar{
-    img{height:4em;}
-}
-
-// Habitat banner
-.habitat-banner{
-  position:relative;
-
-  i{
-    position:absolute;
-    -webkit-transform: translate(-50%,-50%);
-    font-size: 3vw;
-    @include media-breakpoint-up(lg){
-      font-size: calc( 0.03 * 0.5 * #{map-get($container-max-widths, lg)} );
-    }
-    @include media-breakpoint-up(xl){
-      font-size: calc( 0.03 * 0.5 * #{map-get($container-max-widths, xl)} );
-    }
-  }
-}
-
-
-// Occurrence-months
-.months-bar{
-    border:1px solid;
-    border-top:none;      
-    font-size: .8rem;
-}
-
 
 
 
