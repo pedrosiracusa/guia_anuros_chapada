@@ -1,44 +1,46 @@
 odontophrynidae:
   scientificName: Odontophrynidae
+  commonName: "Sapos-verruga"
   color: "#ff914d"
 
 bufonidae:
   scientificName: Bufonidae
+  commonName: "Sapos verdadeiros"
   color: "#d8842c"
 
 hylidae:
   scientificName: Hylidae
+  commonName: "Pererecas"
   color: "#8ac64f"
 
 dendrobatidae:
   scientificName: Dendrobatidae
+  commonName: "Sapos-flecha"
   color: "#ffc107"
 
 leptodactylidae:
-  scientificName: Leptodactylidae 
+  scientificName: Leptodactylidae
+  commonName: "Rãs"
   color: "#007bff"
 
 microhylidae:
   scientificName: Microhylidae
+  commonName: "Rãs ovais"
   color: "#6f42c1"
 
 aromobatidae:
   scientificName: Aromobatidae
+  commonName: "Sapos venenosos"
   color: "#dc3545"
 
-craugastoridae:
-  scientificName: Craugastoridae
-  color: "#03989e"
-  
-phyllomedusidae:
-  scientificName: Phyllomedusidae
-  color: "#06893e"
   
 siphonopidae:
   scientificName: Siphonopidae
+  commonName: "Cecílias"
   color: "#f984cd"
 
 strabomantidae:
   scientificName: Strabomantidae
-  color: "#007bff"
+  commonName: "Rãs-de-chuva"
+  color: "#03989e"
 

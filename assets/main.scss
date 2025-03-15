@@ -32,12 +32,73 @@ li.species-entry:hover{
 
 
 
-// Species profile page
 
-i#nav-prev-species,
-i#nav-next-species{
-  font-size:3rem;
+/*----
+  Species Profile pages
+  ----
+*/
+
+.species-page{
+
+  #species-basicinfo{
+    h1{
+      font-size:1.4rem;
+      small{font-size: .6em;}
+    }
+
+    h3{
+      font-size: 1.0rem;
+    }
+
+    h4{ font-size: 1.1rem;}
+
+    p{ font-size:1.4rem; }
+  }
+
+  // Occurrence-months
+  .months-bar{
+    border:1px solid;
+    border-top:none;      
+    font-size: .8rem;
+  }
+
+
+  // Species profile page
+
+  i#nav-prev-species,
+  i#nav-next-species{
+    font-size:3rem;
+  }
+
+
+  // Habit bar
+  .habit-bar{
+    img{height:4em;}
+  }
+
+  // Habitat banner
+  .habitat-banner{
+  position:relative;
+    i{
+      position:absolute;
+      -webkit-transform: translate(-50%,-50%);
+      font-size: 3vw;
+      @include media-breakpoint-up(lg){
+        font-size: calc( 0.03 * 0.5 * #{map-get($container-max-widths, lg)} );
+      }
+      @include media-breakpoint-up(xl){
+        font-size: calc( 0.03 * 0.5 * #{map-get($container-max-widths, xl)} );
+      }
+    }
+  }
+
 }
+
+
+
+
+
+
 
 
 .iucn-en{
