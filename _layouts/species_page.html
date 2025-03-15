@@ -52,140 +52,71 @@ layout: base
 <!-- Page content -->
 <div id="{{species.id}}" class="container page-content species-profile">
     <article>
-      <section> 
-        <!-- For mobile -->
-        <div class="d-sm-none">
-         
+      <section>
         <div class="row">
-          <div class="col">
+          <!-- Species image -->
+          <div class="col-md-5">
             <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" onError="this.src='https://placehold.co/350x250';">
           </div>
-        </div>
 
-        <div class="row">
-          <div class="col-1 align-self-stretch px-0" style="background-color: {{family.color}};">
-            <a href="{{site.baseurl}}/especies/{{prev_sp.id}}">
-            </a>
-          </div>
-          <div class="d-flex flex-row gap-3">
-            <div class="">
+          <!-- Species basic info -->
+          <div class="col-md-7">
+
+            <div class="d-flex flex-row gap-3 justify-content-between">
               <a href="{{site.baseurl}}/especies/{{prev_sp.id}}">
                 <i id="nav-prev-species" class="bi bi-arrow-left-circle" style="color:{{family.color}};"></i>
               </a>
-            </div>
+
+              <div class="flex-column me-auto">
+
                 <!-- Species name -->
-                <div class="d-flex flex-column">
-                  <div class="d-flex flex-wrap align-items-baseline">
-                    <h1 class="pe-2">
-                      <i>{{ species.scientificName | escape }}</i>
-                      {% include iucn_badge.html %}
-                    </h1><h3 class="text-muted">({{ species.scientificNameAuthorship }})</h3>
-                  </div>
-                  <h3>{{ species.vernacularNames | join: ", " }}</h3>
+                <div class="d-flex flex-wrap align-items-baseline">
+                  <h1 class="pe-2">
+                    <i>{{ species.scientificName | escape }}</i>
+                    {% include iucn_badge.html %}
+                  </h1><h3 class="text-muted">({{ species.scientificNameAuthorship }})</h3>
                 </div>
-              <div class="ms-auto">
-                <a href="{{site.baseurl}}/especies/{{next_sp.id}}">
-                  <i id="nav-next-species" class="bi bi-arrow-right-circle" style="color:{{family.color}};"></i>
-                </a>
-              </div>
-          </div>
-        </div>
+                <!-- Species vernacular names -->
+                <div>
+                  <h3>{{ species.vernacularNames | join: ", " }}</h3>
+                </div>    
+                
+                <!-- Species badges -->
+                <div class="spbadges">
+                  {% include spbadges.html species=species %}
+                </div> 
 
-        <div class="row">
-          <div class="col offset-1">
-            <!-- Species badges -->
-            <div class="spbadges">
-              {% include spbadges.html species=species %}
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <!-- Habitat banner -->
-            <div class="">
-              {% include habitatbanner.html species=species %}
-            </div>
-            <!-- Months bar -->
-            <div class="">
-              {% include monthsbar.html species=species %}
-            </div>
-          </div>
-        </div>
-
-        </div>
-
-        <!-- For Desktop -->
-        <div class="d-none d-sm-block">
-          <div class="row">
-          <div class="col-sm-6 col-lg-5">
-                <img src="{{site.baseurl}}/assets/img/sp-avatar/{{ species.scientificName | slugify }}.jpg" onError="this.src='https://placehold.co/350x250';">
-          </div>
-
-          <!-- visible for small and medium displays -->
-          <div class="col d-none d-sm-block d-lg-none">
-              <!-- Navigation -->
-              <div class="d-flex justify-content-between">
-                <a href="{{site.baseurl}}/especies/{{prev_sp.id}}" ><i id="nav-prev-species" class="bi bi-arrow-left-circle" style="color:{{family.color}}" aria-hidden="true"></i></a>
-                <a href="{{site.baseurl}}/especies/{{next_sp.id}}" ><i id="nav-next-species" class="bi bi-arrow-right-circle" style="color:{{family.color}}" aria-hidden="true"></i></a>
               </div>
 
-              <!-- Species info -->
-              <div class="d-flex flex-wrap align-items-baseline">
-                <h1 class="pe-2"><i>{{ species.scientificName | escape }}</i></h1><h3 class="text-muted">({{ species.scientificNameAuthorship }})</h3>
+              <a href="{{site.baseurl}}/especies/{{next_sp.id}}">
+                <i id="nav-next-species" class="bi bi-arrow-right-circle" style="color:{{family.color}};"></i>
+              </a>
+
+            </div>
+
+              <!-- Habitat banner -->
+              <div class="">
+                {% include habitatbanner.html species=species %}
               </div>
-              <h3>{{ species.vernacularNames | join: ", " }}</h3>
-              <!-- Species badges -->
-              <div class="spbadges">
-                {% include spbadges.html species=species %}
+
+              <!-- Months bar -->
+              <div class="">
+                {% include monthsbar.html species=species %}
               </div>
-          </div>
-          <!-- // visible for small and medium displays -->
 
-          <div class="col">
-            <!-- visible for >= large displays -->
-            <div class="d-none d-lg-block">
-            <!-- Navigation (lg)-->
-            <div class="d-flex justify-content-between">
-              <a href="{{site.baseurl}}/especies/{{prev_sp.id}}" ><i id="nav-prev-species" class="bi bi-arrow-left-circle" style="color:{{family.color}}" aria-hidden="true"></i></a>
-              <a href="{{site.baseurl}}/especies/{{next_sp.id}}" ><i id="nav-next-species" class="bi bi-arrow-right-circle" style="color:{{family.color}}" aria-hidden="true"></i></a>
-            </div>
-
-            <!-- Species info (lg) -->
-            <div class="d-flex flex-wrap align-items-baseline">
-              <h1 class="pe-2"><i>{{ species.scientificName | escape }}</i></h1><h3 class="text-muted">({{ species.scientificNameAuthorship }})</h3>
-            </div>
-            <h3>{{ species.vernacularNames | join: ", " }}</h3>
-            <!-- Species badges (lg) -->
-            <div class="spbadges">
-              {% include spbadges.html species=species %}
-            </div>
-            </div>
-            <!-- // visible for >= large displays -->
-            
-            <!-- Habitat banner -->
-            <div class="">
-              {% include habitatbanner.html species=species %}
-            </div>
-
-            <!-- Months bar -->
-            <div class="">
-              {% include monthsbar.html species=species %}
-            </div>
-
-          </div>
           </div>
         </div>
       </section>
 
       <section class="px-5 px-sm-0">
         <div class="row">
-          <div id="sidebar" class="d-none d-lg-block col-lg-auto order-lg-last">
+          <div id="sidebar" class="d-none d-md-block col-md-auto order-md-last">
             <div class="spsize-compare">
               {% include spsizecompare.html species=species %}
             </div>
           </div>
 
-          <div id="sidebar-mobile" class="d-lg-none d-flex flex-row-reverse">
+          <div id="sidebar-mobile" class="d-md-none d-flex flex-row-reverse">
             <div class="spsize-compare">
               {% include spsizecompare.html species=species %}
             </div>
@@ -196,7 +127,6 @@ layout: base
           </div>
         </div>
       </section>
-
 
     </article>
 
