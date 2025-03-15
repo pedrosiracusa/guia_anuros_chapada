@@ -39,9 +39,11 @@ li.species-entry:hover{
 */
 
 .species-page{
-
   #species-basicinfo{
     h1{
+      font-size:1.7rem;
+    }
+    h2{
       font-size:1.2rem;
       small{font-size: .7em;}
     }
@@ -52,7 +54,7 @@ li.species-entry:hover{
 
     h4{ font-size: 1.1rem;}
 
-    p{ font-size:1.2rem; }
+    p{ font-size:1rem; }
   }
 
   // Occurrence-months

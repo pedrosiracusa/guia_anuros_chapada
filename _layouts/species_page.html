@@ -45,7 +45,7 @@ layout: base
     <div class="container">
         <h3 class="py-2">
           <a href="{{site.baseurl}}/familias/{{family.scientificName | slugify}}">
-            <span>Família {{ family.scientificName }}</span><br/>
+            <span class="fs-5">Família {{ family.scientificName }}</span><br/>
             <small class="fw-bold">{{family.commonName}}</small></a>
           
         </h3>
@@ -76,16 +76,18 @@ layout: base
               <div class="flex-column me-auto">
 
                 <!-- Species name -->
+                <div class="d-flex flex-nowrap gap-2 align-items-baseline"> <h1>{{species.vernacularNames | first}}</h1>{% include iucn_badge.html %}  </div>
                 <div class="d-flex flex-wrap align-items-baseline">
-                  <h1 class="pe-2 mb-0">
+                  <h2 class="pe-2 mb-0">
                     <i>{{ species.scientificName | escape }}</i>
-                    {% include iucn_badge.html %}</h1>
-                    <h1><small class="text-muted">({{ species.scientificNameAuthorship }})</small>
-                  </h1>
+                  </h2>
+                    <h2><small class="text-muted">({{ species.scientificNameAuthorship }})</small></h2>
                 </div>
-                <!-- Species vernacular names -->
-                <div>
-                  <p class="fw-bold">{{ species.vernacularNames | join: ", " }}</p>
+                <!-- Outros nomes comuns -->
+                <div class="mt-1">
+                  {% if species.vernacularNames.size >1 %}
+                  <p><strong>Outros nomes:</strong> {{ species.vernacularNames | slice: 1, species.vernacularNames.size | join: ", " }}</p>
+                  {% endif }
                 </div>    
                 
                 <!-- Species badges -->
