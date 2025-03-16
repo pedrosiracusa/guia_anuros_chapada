@@ -1,2 +1,41 @@
 <script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+
+<script type="text/javascript">
+
+    function readSpeciesData(){
+
+    }
+    function filtrarComuns(speciesData){
+        return speciesData.filter(
+            species => (species.detectability_ff===0 && species.detectability_f===0)
+        )
+    }
+
+    function filtrarDiurnas(){
+        fetch('species.json')
+            .then(response => response.json())
+            .then(speciesData => {
+                speciesData.filter( species => species.atividade_diu===0 )
+                .map( especie => hide(especie.id))
+            }
+        )
+    }
+
+    function onFilterClick(){
+        //let list = document.getElementsByClassName('species-card')
+        //console.log(list[0].dataset)
+
+        fetch('species.json')
+            .then(response => response.json())
+            .then(speciesData => filtrarComuns(speciesData).map( especie => hide(especie.id)))
+            //.then(spList => hide(spList))
+            // outputs a javascript object from the parsed json
+
+    }
+
+    function hide(speciesToHide){
+        let element = document.querySelectorAll(`[data-species="${speciesToHide}"]` )
+        element[0].style.display = "none"
+    }
+</script>

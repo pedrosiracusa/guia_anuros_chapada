@@ -1,22 +1,24 @@
 <!-- Species list -->
 <div class="row g-0 popup-gallery">
   {% for species in splist %}
-  <div class="col-6 col-lg-3">
-    <a class="portfolio-box" href="{{site.baseurl}}/especies/{{species.scientificName | slugify}}" style="color:{{family.color}}"  >
-      <img class="img-fluid" src="{{site.baseurl}}/assets/img/sp-avatar/{{species.scientificName | slugify}}.jpg" alt="" onError="this.src='https://placehold.co/1800x1200'">
-      <div class="portfolio-box-caption  d-none d-lg-block" style="background-color:{{family.color}};">
-        <div class="portfolio-box-caption-content">
-          <div class="project-category text-faded">{{species.vernacularNames[0]}}</div>
-          <div class="project-name text-faded">{{species.scientificName}}</div>
+  <div class="species-card" data-species="{{species.scientificName | slugify}}" >
+    <div class="col-6 col-lg-3">
+      <a class="portfolio-box" href="{{site.baseurl}}/especies/{{species.scientificName | slugify}}" style="color:{{family.color}}"  >
+        <img class="img-fluid" src="{{site.baseurl}}/assets/img/sp-avatar/{{species.scientificName | slugify}}.jpg" alt="" onError="this.src='https://placehold.co/1800x1200'">
+        <div class="portfolio-box-caption  d-none d-lg-block" style="background-color:{{family.color}};">
+          <div class="portfolio-box-caption-content">
+            <div class="project-category text-faded">{{species.vernacularNames[0]}}</div>
+            <div class="project-name text-faded">{{species.scientificName}}</div>
+          </div>
         </div>
-      </div>
-    </a>
-  </div> 
-  <div class="col-6 d-block d-lg-none ps-1 d-flex align-items-stretch">
-    <a class="unstyled" href="{{site.baseurl}}/especies/{{species.scientificName | slugify}}">
-      <h5>{{species.vernacularNames[0]}}</h5>
-      <h5>{{species.scientificName}}</h5>
-    </a>
+      </a>
+    </div> 
+    <div class="col-6 d-block d-lg-none ps-1 d-flex align-items-stretch">
+      <a class="unstyled" href="{{site.baseurl}}/especies/{{species.scientificName | slugify}}">
+        <h5>{{species.vernacularNames[0]}}</h5>
+        <h5 class="species-name">{{species.scientificName}}</h5>
+      </a>
+    </div>
   </div>
   {% endfor %}
 </div>

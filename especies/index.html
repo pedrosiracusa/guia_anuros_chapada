@@ -11,6 +11,10 @@ title: Espécies
 
 <section id="species-list">
   <div class="container">
+
+
+    <button onclick="onFilterClick()">Mais comuns</button>
+    <button onclick="filtrarDiurnas()">Filtrar diurnas</button>
   <!-- Families list -->
   {% for i in families-spp %}
       {% assign family_id = i.name | slugify %}
