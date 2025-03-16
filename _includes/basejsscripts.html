@@ -5,6 +5,7 @@
 
     var allSpecies=[];
     var selectedSpecies;
+    var filtrosAplicados={};
     const btnFiltrarNoturnas = new bootstrap.Button('#filtrar-especies-noturnas')
     
 
@@ -22,57 +23,50 @@
             })
 
         // Register click events on buttons
-
         const buttons = document.querySelectorAll('.btn');
         buttons.forEach( btn =>{
             btn.addEventListener("click", (event)=>{
-                switch(event.target.id){
-                    case 'filtro-noturnas':
-                        toggleFiltrarNoturnas(event.target)
-                        break
-                    case 'filtro-diurnas':
-                        console.log("Diurnas")
-                        break
-                }
+                toggleFiltrar(event.target)
             })
         })
             
     }
 
-    function toggleFiltrarNoturnas(btn){
-
+    function toggleFiltrar(btn){
         const btnActive = btn.classList.contains('active') ? true : false
-        if (btnActive){
-            const filteredSpecies = this.allSpecies.filter( sp => sp.atividade_not===1 ).map( sp=> sp.id );
-            this.selectedSpecies = this.selectedSpecies.intersection( new Set(filteredSpecies) )
-            this.selectedSpecies.forEach(hide)           
+        const allSpecies = new Set( this.allSpecies.map(sp=>sp.id) )
+
+
+        filterQueries={
+            'filtro-noturnas': sp=>sp.atividade_not===1,
+            'filtro-diurnas': sp=>sp.atividade_diu===1,
+            'filtro-comuns': sp=>sp.detectability_ff==1
+        }
+        if(btnActive){
+            filtrosAplicados[btn.id]=new Set( this.allSpecies.filter( filterQueries[btn.id] ).map(sp=>sp.id) );
         }
         else{
-            this.selectedSpecies = new Set(allSpecies.map(sp=>sp.id)); 
-            this.selectedSpecies.forEach(show)
+            delete filtrosAplicados[btn.id]
         }
 
-        console.log(selectedSpecies)
+        // Iteração final para fazer interseção de todos os filtros aplicados
+        const filtersList = Object.values(filtrosAplicados)
+        let finalSetFilter = filtersList.length>0 ? filtersList[0] : allSpecies;
 
+        for(let i=1; i< filtersList.length;i++ ){
+            finalSetFilter = filtersList[i].intersection(finalSetFilter)
+        }
 
-    }       
+        // Esconde/mostra as espécies filtradas
+        const speciesToShow = finalSetFilter
+        const speciesToHide = allSpecies.difference(speciesToShow)
 
-    function clickFiltrarDiurnas(){
-        const filteredSpecies = this.allSpecies.filter( sp => sp.atividade_diu===0 ).map( sp=> sp.id );
-        selectedSpecies = selectedSpecies.intersection( new Set(filteredSpecies) )
-        selectedSpecies.forEach(hide)
-    }
-
-    function filtrarComuns(speciesData){
-        return speciesData.filter(
-            species => (species.detectability_ff===0 && species.detectability_f===0)
-        )
-
-
+        speciesToHide.forEach(hide)
+        speciesToShow.forEach(show)
+        
     }
 
     
-
 
     function hide(speciesToHide){
         let element = document.querySelectorAll(`[data-species="${speciesToHide}"]` )
