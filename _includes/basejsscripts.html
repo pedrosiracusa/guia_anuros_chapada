@@ -3,39 +3,84 @@
 
 <script type="text/javascript">
 
-    function readSpeciesData(){
+    var allSpecies=[];
+    var selectedSpecies;
+    const btnFiltrarNoturnas = new bootstrap.Button('#filtrar-especies-noturnas')
+    
 
+
+
+
+    window.onload = function(){
+
+        // Read species data
+        fetch('species.json')
+            .then(response => response.json() )
+            .then( speciesData => {
+                allSpecies = speciesData;
+                selectedSpecies = new Set(allSpecies.map(sp=>sp.id));
+            })
+
+        // Register click events on buttons
+
+        const buttons = document.querySelectorAll('.btn');
+        buttons.forEach( btn =>{
+            btn.addEventListener("click", (event)=>{
+                switch(event.target.id){
+                    case 'filtro-noturnas':
+                        toggleFiltrarNoturnas(event.target)
+                        break
+                    case 'filtro-diurnas':
+                        console.log("Diurnas")
+                        break
+                }
+            })
+        })
+            
     }
+
+    function toggleFiltrarNoturnas(btn){
+
+        const btnActive = btn.classList.contains('active') ? true : false
+        if (btnActive){
+            const filteredSpecies = this.allSpecies.filter( sp => sp.atividade_not===1 ).map( sp=> sp.id );
+            this.selectedSpecies = this.selectedSpecies.intersection( new Set(filteredSpecies) )
+            this.selectedSpecies.forEach(hide)           
+        }
+        else{
+            this.selectedSpecies = new Set(allSpecies.map(sp=>sp.id)); 
+            this.selectedSpecies.forEach(show)
+        }
+
+        console.log(selectedSpecies)
+
+
+    }       
+
+    function clickFiltrarDiurnas(){
+        const filteredSpecies = this.allSpecies.filter( sp => sp.atividade_diu===0 ).map( sp=> sp.id );
+        selectedSpecies = selectedSpecies.intersection( new Set(filteredSpecies) )
+        selectedSpecies.forEach(hide)
+    }
+
     function filtrarComuns(speciesData){
         return speciesData.filter(
             species => (species.detectability_ff===0 && species.detectability_f===0)
         )
-    }
 
-    function filtrarDiurnas(){
-        fetch('species.json')
-            .then(response => response.json())
-            .then(speciesData => {
-                speciesData.filter( species => species.atividade_diu===0 )
-                .map( especie => hide(especie.id))
-            }
-        )
-    }
-
-    function onFilterClick(){
-        //let list = document.getElementsByClassName('species-card')
-        //console.log(list[0].dataset)
-
-        fetch('species.json')
-            .then(response => response.json())
-            .then(speciesData => filtrarComuns(speciesData).map( especie => hide(especie.id)))
-            //.then(spList => hide(spList))
-            // outputs a javascript object from the parsed json
 
     }
+
+    
+
 
     function hide(speciesToHide){
         let element = document.querySelectorAll(`[data-species="${speciesToHide}"]` )
         element[0].style.display = "none"
     }
+    function show(speciesToShow){
+        let element = document.querySelectorAll(`[data-species="${speciesToShow}"]` )
+        element[0].style.display = "block"
+    }
+
 </script>

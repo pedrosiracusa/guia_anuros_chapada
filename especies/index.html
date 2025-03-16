@@ -14,7 +14,9 @@ title: Espécies
 
 
     <button onclick="onFilterClick()">Mais comuns</button>
-    <button onclick="filtrarDiurnas()">Filtrar diurnas</button>
+    <button id="filtro-diurnas" type="button" class="btn btn-primary" data-bs-toggle="button" >Filtrar diurnas</button>
+    <button id="filtro-noturnas" type="button" class="btn btn-primary" data-bs-toggle="button">Filtrar noturnas</button>
+
   <!-- Families list -->
   {% for i in families-spp %}
       {% assign family_id = i.name | slugify %}
