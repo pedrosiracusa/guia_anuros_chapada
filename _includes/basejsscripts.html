@@ -6,11 +6,15 @@
     var allSpecies=[];
     var selectedSpecies;
     var filtrosAplicados={};
+    var currentMonth;
     
     
 
     window.onload = function(){
 
+        this.currentMonth = new Date().getMonth()
+        document.querySelector("#filtro-mes .set-month").textContent += ["Jan","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"][this.currentMonth]
+        
         // Read species data
         fetch('species.json')
             .then(response => response.json() )
@@ -43,7 +47,8 @@
             'filtro-comuns': sp=>sp.detectability_ff==1,
             'filtro-endemicas': sp=>(sp.endemic_cerrado===1 || sp.endemic_chapada===1),
             'filtro-pequenas': sp=>sp.tamanho_med < 40,
-            'filtro-grandes': sp=>sp.tamanho_med>80
+            'filtro-grandes': sp=>sp.tamanho_med>80,
+            'filtro-mes': sp=>sp.month_vec[this.currentMonth]===1
         }
 
         if(btnActive){
