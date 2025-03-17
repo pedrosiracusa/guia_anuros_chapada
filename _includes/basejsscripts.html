@@ -24,8 +24,8 @@
         const buttons = document.querySelectorAll('.btn');
         buttons.forEach( btn =>{
             btn.addEventListener("click", (event)=>{
-                toggleFiltrar(event.target)
-                atualizaDadosTela(event.target)
+                toggleFiltrar(event.currentTarget)
+                atualizaDadosTela(event.currentTarget)
             })
         })
 
