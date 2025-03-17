@@ -1,2 +1,105 @@
 <script src="{{ "/assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
 <script src="{{ "/assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+
+<script type="text/javascript">
+
+    var allSpecies=[];
+    var selectedSpecies;
+    var filtrosAplicados={};
+    
+    
+
+    window.onload = function(){
+
+        // Read species data
+        fetch('species.json')
+            .then(response => response.json() )
+            .then( speciesData => {
+                allSpecies = speciesData;
+                this.selectedSpecies = new Set(allSpecies.map(sp=>sp.id));
+
+            })
+
+        // Register click events on buttons
+        const buttons = document.querySelectorAll('.btn');
+        buttons.forEach( btn =>{
+            btn.addEventListener("click", (event)=>{
+                toggleFiltrar(event.target)
+                atualizaDadosTela(event.target)
+            })
+        })
+
+            
+    }
+
+    function toggleFiltrar(btn){
+        const btnActive = btn.classList.contains('active') ? true : false
+        const allSpecies = new Set( this.allSpecies.map(sp=>sp.id) )
+
+
+        filterQueries={
+            'filtro-noturnas': sp=>sp.atividade_not===1,
+            'filtro-diurnas': sp=>sp.atividade_diu===1,
+            'filtro-comuns': sp=>sp.detectability_ff==1,
+            'filtro-endemicas': sp=>(sp.endemic_cerrado===1 || sp.endemic_chapada===1),
+            'filtro-pequenas': sp=>sp.tamanho_med < 40,
+            'filtro-grandes': sp=>sp.tamanho_med>80
+        }
+
+        if(btnActive){
+            filtrosAplicados[btn.id]=new Set( this.allSpecies.filter( filterQueries[btn.id] ).map(sp=>sp.id) );
+            btn.children[0].style.display='inline'
+            
+        }
+        else{
+            delete filtrosAplicados[btn.id]
+            btn.children[0].style.display='none'
+        }
+
+        // Iteração final para fazer interseção de todos os filtros aplicados
+        const filtersList = Object.values(filtrosAplicados)
+        let finalSetFilter = filtersList.length>0 ? filtersList[0] : allSpecies;
+
+        for(let i=1; i< filtersList.length;i++ ){
+            finalSetFilter = filtersList[i].intersection(finalSetFilter)
+        }
+
+        // Esconde/mostra as espécies filtradas
+        const speciesToShow = finalSetFilter
+        this.selectedSpecies=speciesToShow
+        const speciesToHide = allSpecies.difference(speciesToShow)
+
+        speciesToHide.forEach(hide)
+        speciesToShow.forEach(show)
+
+
+        
+        
+    }
+
+    function atualizaDadosTela(btn){
+        document.getElementById("contador-especies-container").style.display = selectedSpecies.size === this.allSpecies.length ? "none" : "block"
+        document.getElementById("contador-especies").innerHTML = selectedSpecies.size;
+        toggleHideEmptyFamilies()
+
+    }
+
+    function toggleHideEmptyFamilies(){
+        document.querySelectorAll(".familia-header").forEach(fh => {
+            const emptySpeciesList = fh.nextElementSibling.clientHeight===0 ? true : false
+            fh.style.display = emptySpeciesList ? "none" : "block"
+        })
+    }
+
+    
+
+    function hide(speciesToHide){
+        let element = document.querySelectorAll(`[data-species="${speciesToHide}"]` )
+        element[0].style.display = "none"
+    }
+    function show(speciesToShow){
+        let element = document.querySelectorAll(`[data-species="${speciesToShow}"]` )
+        element[0].style.display = "block"
+    }
+
+</script>

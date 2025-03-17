@@ -31,6 +31,26 @@ li.species-entry:hover{
 }
 
 
+/*----
+  Species List
+  ----
+*/
+
+.species-list{
+
+  .portfolio-box{ 
+    border: none;
+    border-left: solid .3rem;
+  }
+  
+
+  @include media-breakpoint-up(md){
+    a.portfolio-box{ border:none;}
+  }
+  
+
+}
+
 
 
 /*----
