@@ -24,15 +24,20 @@ title: Espécies
     </div>
     <h6 style="display:none; " id="contador-especies-container">Mostrando <span id="contador-especies"></span> de {{speciesData | size }} espécies</h6>
   <!-- Families list -->
-  {% for i in families-spp %}
+  
+    <ul class="species-list list-unstyled ">
+    {% for i in families-spp %}
       {% assign family_id = i.name | slugify %}
       {% assign family = familiesData[family_id] %}
       {% assign splist = i.items %}
-      <h3 class="text-center mt-3 pt-3 familia-header">Família <a style="color:{{family.color}}" href="{{ site.baseurl }}/familias/{{ family.scientificName | slugify }}">{{ family.scientificName }}</a></h3>
-
-      {% include specieslist.html splist=splist %}
-
-  {% endfor %}
+      <li class="family-list-item">
+        <h3 class="text-center mt-3 pt-3 familia-header">Família <a style="color:{{family.color}}" href="{{ site.baseurl }}/familias/{{ family.scientificName | slugify }}">{{ family.scientificName }}</a></h3>
+        <ul class="list-unstyled row">
+        {% include specieslist.html splist=splist %}
+        </ul>
+      </li>
+    {% endfor %}
+    </ul>
   <!-- end Families list -->
   </div>
 </section>
