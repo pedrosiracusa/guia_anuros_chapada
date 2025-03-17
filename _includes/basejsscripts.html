@@ -7,14 +7,17 @@
     var selectedSpecies;
     var filtrosAplicados={};
     var currentMonth;
+
+    this.currentMonth = new Date().getMonth()
+    document.querySelector("#filtro-mes .set-month").textContent += ["Jan","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"][this.currentMonth]
     
     
 
     window.onload = function(){
 
-        this.currentMonth = new Date().getMonth()
-        document.querySelector("#filtro-mes .set-month").textContent += ["Jan","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"][this.currentMonth]
-        
+        // Load session storage
+        loadSessionStorage()
+
         // Read species data
         fetch('species.json')
             .then(response => response.json() )
@@ -77,9 +80,21 @@
         speciesToHide.forEach(hide)
         speciesToShow.forEach(show)
 
+        // Grava filtros no localstorage TODO: por em funçao
+        sessionStorage.setItem("guia_activeSpeciesFilters", JSON.stringify( 
+            this.filtrosAplicados,
+            (_key, value) => (value instanceof Set ? [...value] : value) )
+        )
+        
+        
+    }
 
-        
-        
+
+    function loadSessionStorage(){
+        activeSpeciesFiltersLoaded = sessionStorage.getItem("activeSpeciesFilters");
+        console.log(activeSpeciesFiltersLoaded)
+
+
     }
 
     function atualizaDadosTela(btn){
