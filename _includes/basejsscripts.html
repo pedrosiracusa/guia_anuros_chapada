@@ -9,7 +9,8 @@
     var currentMonth;
 
     this.currentMonth = new Date().getMonth()
-    document.querySelector("#filtro-mes .set-month").textContent += ["Jan","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"][this.currentMonth]
+    
+    document.querySelector("#filtro-mes") ? document.querySelector("#filtro-mes .set-month").textContent += ["Jan","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"][this.currentMonth] : null
     
     
 
@@ -19,7 +20,7 @@
         loadSessionStorage()
         
         // Register click events on buttons
-        const buttons = document.querySelectorAll('.btn');
+        const buttons = document.querySelectorAll('.filter-bar .btn');
         buttons.forEach( btn =>{
             btn.addEventListener("click", (event)=>{
                 toggleFiltrar(event.currentTarget)
