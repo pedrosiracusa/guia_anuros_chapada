@@ -109,8 +109,12 @@
             }, {})
         }
         
-        let activeSpeciesFiltersLoaded = JSON.parse( sessionStorage.getItem("guia_activeSpeciesFilters") );
-        this.filtrosAplicados = objectMap(activeSpeciesFiltersLoaded, (spList)=>new Set(spList))
+        let activeSpeciesFiltersLoaded = sessionStorage.getItem("guia_activeSpeciesFilters")
+        if (activeSpeciesFiltersLoaded){
+            activeSpeciesFiltersLoaded = JSON.parse( sessionStorage.getItem("guia_activeSpeciesFilters") );
+            this.filtrosAplicados = objectMap(activeSpeciesFiltersLoaded, (spList)=>new Set(spList))
+        }
+
     }
 
     function atualizaDadosTela(btn){
