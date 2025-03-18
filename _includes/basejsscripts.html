@@ -17,16 +17,7 @@
 
         // Load session storage
         loadSessionStorage()
-
-        // Read species data
-        fetch('species.json')
-            .then(response => response.json() )
-            .then( speciesData => {
-                allSpecies = speciesData;
-                this.selectedSpecies = new Set(allSpecies.map(sp=>sp.id));
-
-            })
-
+        
         // Register click events on buttons
         const buttons = document.querySelectorAll('.btn');
         buttons.forEach( btn =>{
@@ -36,13 +27,33 @@
             })
         })
 
+        // Read species data
+        fetch('species.json')
+            .then(response => response.json() )
+            .then( speciesData => {
+                allSpecies = speciesData;
+                onDataLoaded();
+            })
             
+    }
+
+    function onDataLoaded(){
+        // Rotinas para executar após o carregamento dos dados
+        this.selectedSpecies = new Set(allSpecies.map(sp=>sp.id));
+        inicializarFiltros()
+    }
+
+    function inicializarFiltros(){
+        // Ao carregar a página, inicializa filtros que já estavam ativos
+        const botoesAtivos = Object.keys(this.filtrosAplicados);
+        document.querySelectorAll('.filter-bar .btn').forEach(btnFiltro=>
+            botoesAtivos.includes(btnFiltro.id) ? btnFiltro.click() : null
+        )
     }
 
     function toggleFiltrar(btn){
         const btnActive = btn.classList.contains('active') ? true : false
         const allSpecies = new Set( this.allSpecies.map(sp=>sp.id) )
-
 
         filterQueries={
             'filtro-noturnas': sp=>sp.atividade_not===1,
@@ -80,7 +91,7 @@
         speciesToHide.forEach(hide)
         speciesToShow.forEach(show)
 
-        // Grava filtros no localstorage TODO: por em funçao
+        // Grava filtros no localstorage
         sessionStorage.setItem("guia_activeSpeciesFilters", JSON.stringify( 
             this.filtrosAplicados,
             (_key, value) => (value instanceof Set ? [...value] : value) )
@@ -89,12 +100,17 @@
         
     }
 
-
     function loadSessionStorage(){
-        activeSpeciesFiltersLoaded = sessionStorage.getItem("activeSpeciesFilters");
-        console.log(activeSpeciesFiltersLoaded)
-
-
+        // Carrega os dados do session storage
+        function objectMap(object, mapFn) {
+            return Object.keys(object).reduce(function(result, key) {
+                result[key] = mapFn(object[key])
+                return result
+            }, {})
+        }
+        
+        let activeSpeciesFiltersLoaded = JSON.parse( sessionStorage.getItem("guia_activeSpeciesFilters") );
+        this.filtrosAplicados = objectMap(activeSpeciesFiltersLoaded, (spList)=>new Set(spList))
     }
 
     function atualizaDadosTela(btn){
