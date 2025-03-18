@@ -3,9 +3,9 @@
 
 const speciesDataFile = "{{site.baseurl}}"+"/assets/data/species.json"
 
-var allSpecies=[];
-var selectedSpecies;
-var filtrosAplicados={};
+var allSpecies=[]; // Species Data: Array of species data objects
+var selectedSpecies; //  Set([sp1,sp2,...])
+var filtrosAplicados={}; // Object of {'filter-id':Set([sp1,sp2,...])}
 var currentMonth;
 
 this.currentMonth = new Date().getMonth()
@@ -18,21 +18,12 @@ window.onload = function(){
 
     // Load session storage
     loadSessionStorage()
-    
-    // Register click events on buttons
-    const buttons = document.querySelectorAll('.filter-bar .btn');
-    buttons.forEach( btn =>{
-        btn.addEventListener("click", (event)=>{
-            toggleFiltrar(event.currentTarget)
-            atualizaDadosTela(event.currentTarget)
-        })
-    })
 
     // Read species data
     fetch(speciesDataFile)
         .then(response => response.json() )
         .then( speciesData => {
-            allSpecies = speciesData;
+            this.allSpecies = speciesData;
             onDataLoaded();
         })
         
@@ -40,8 +31,22 @@ window.onload = function(){
 
 function onDataLoaded(){
     // Rotinas para executar após o carregamento dos dados
-    this.selectedSpecies = new Set(allSpecies.map(sp=>sp.id));
+    
+    this.selectedSpecies = combineFilters(this.filtrosAplicados)
+        
+    // Register click events on buttons
+    const buttons = document.querySelectorAll('.filter-bar .btn');
+    buttons.forEach( btn =>{
+        btn.addEventListener("click", (event)=>{
+            toggleFiltrar(event.currentTarget)
+        })
+    })
+
+    // Retoma filtros já ativos
     inicializarFiltros()
+
+    // Atualiza tela
+    atualizaTelaListaEspecies()
 }
 
 function inicializarFiltros(){
@@ -54,7 +59,6 @@ function inicializarFiltros(){
 
 function toggleFiltrar(btn){
     const btnActive = btn.classList.contains('active') ? true : false
-    const allSpecies = new Set( this.allSpecies.map(sp=>sp.id) )
 
     filterQueries={
         'filtro-noturnas': sp=>sp.atividade_not===1,
@@ -67,30 +71,15 @@ function toggleFiltrar(btn){
     }
 
     if(btnActive){
-        filtrosAplicados[btn.id]=new Set( this.allSpecies.filter( filterQueries[btn.id] ).map(sp=>sp.id) );
+        this.filtrosAplicados[btn.id]=new Set( this.allSpecies.filter( filterQueries[btn.id] ).map(sp=>sp.id) );
         btn.children[0].style.display='inline'
-        
     }
     else{
-        delete filtrosAplicados[btn.id]
+        delete this.filtrosAplicados[btn.id]
         btn.children[0].style.display='none'
     }
 
-    // Iteração final para fazer interseção de todos os filtros aplicados
-    const filtersList = Object.values(filtrosAplicados)
-    let finalSetFilter = filtersList.length>0 ? filtersList[0] : allSpecies;
-
-    for(let i=1; i< filtersList.length;i++ ){
-        finalSetFilter = filtersList[i].intersection(finalSetFilter)
-    }
-
-    // Esconde/mostra as espécies filtradas
-    const speciesToShow = finalSetFilter
-    this.selectedSpecies=speciesToShow
-    const speciesToHide = allSpecies.difference(speciesToShow)
-
-    speciesToHide.forEach(hide)
-    speciesToShow.forEach(show)
+    this.selectedSpecies = combineFilters(filtrosAplicados)
 
     // Grava filtros no localstorage
     sessionStorage.setItem("guia_activeSpeciesFilters", JSON.stringify( 
@@ -102,6 +91,8 @@ function toggleFiltrar(btn){
     sessionStorage.setItem("guia_activeSpeciesList", JSON.stringify(
         Array.from( this.selectedSpecies )
     ));
+
+    atualizaTelaListaEspecies()
     
 }
 
@@ -118,31 +109,58 @@ function loadSessionStorage(){
     if (activeSpeciesFiltersLoaded){
         activeSpeciesFiltersLoaded = JSON.parse( sessionStorage.getItem("guia_activeSpeciesFilters") );
         this.filtrosAplicados = objectMap(activeSpeciesFiltersLoaded, (spList)=>new Set(spList))
+        this.selectedSpecies = combineFilters(this.filtrosAplicados)
+    }else{
+        this.selectedSpecies = new Set( this.allSpecies.map(sp=>sp.id) ); 
     }
+
+
 
 }
 
-function atualizaDadosTela(btn){
+function combineFilters(filters){
+    // Recebe um objeto com filtros { 'filter-id':Set([item1,item2,...]) }
+    // Retorna um conjunto (Set) com a combinação de todos (intersect)
+    const filtersList = Object.values(filters)
+    let finalSetFilter = filtersList.length>0 ? filtersList[0] : new Set( this.allSpecies.map(sp=>sp.id));
+
+    for(let i=1; i< filtersList.length;i++ ){
+        finalSetFilter = filtersList[i].intersection(finalSetFilter)
+    }
+    return finalSetFilter
+}
+
+
+
+function atualizaTelaListaEspecies(){
+    // rotinas para atualização na tela da lista de espécies
+    // Executa após toggle dos botões e no carregamento inicial da página
+    // Com base nos dados do localstorage
+
+    // Esconde/mostra as espécies filtradas
+    const speciesToShow = this.selectedSpecies
+    const speciesToHide = new Set(this.allSpecies.map(sp=>sp.id)).difference(speciesToShow)
+
+    speciesToHide.forEach(hide)
+    speciesToShow.forEach(show)
+
     document.getElementById("contador-especies-container").style.display = selectedSpecies.size === this.allSpecies.length ? "none" : "block"
     document.getElementById("contador-especies").innerHTML = selectedSpecies.size;
     toggleHideEmptyFamilies()
 
+    function hide(speciesToHide){
+        let element = document.querySelectorAll(`[data-species="${speciesToHide}"]` )
+        element[0].style.display = "none"
+    }
+    function show(speciesToShow){
+        let element = document.querySelectorAll(`[data-species="${speciesToShow}"]` )
+        element[0].style.display = "block"
+    }
+    function toggleHideEmptyFamilies(){
+        document.querySelectorAll(".familia-header").forEach(fh => {
+            const emptySpeciesList = fh.nextElementSibling.clientHeight===0 ? true : false
+            fh.style.display = emptySpeciesList ? "none" : "block"
+        })
+    }
 }
 
-function toggleHideEmptyFamilies(){
-    document.querySelectorAll(".familia-header").forEach(fh => {
-        const emptySpeciesList = fh.nextElementSibling.clientHeight===0 ? true : false
-        fh.style.display = emptySpeciesList ? "none" : "block"
-    })
-}
-
-
-
-function hide(speciesToHide){
-    let element = document.querySelectorAll(`[data-species="${speciesToHide}"]` )
-    element[0].style.display = "none"
-}
-function show(speciesToShow){
-    let element = document.querySelectorAll(`[data-species="${speciesToShow}"]` )
-    element[0].style.display = "block"
-}
