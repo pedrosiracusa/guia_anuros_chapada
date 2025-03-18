@@ -117,8 +117,15 @@ li.species-entry:hover{
 }
 
 
+.filter-bar{
 
-
+  @media(hover:none){ // comportamento em devices que não suportam hover (e.g. mobile)
+    .btn:not(.active){ // evita o sticky hovering em celular
+      --bs-btn-hover-color: var(--bs-secondary);
+      --bs-btn-hover-bg: transparent;
+    }
+  }
+}
 
 
 
