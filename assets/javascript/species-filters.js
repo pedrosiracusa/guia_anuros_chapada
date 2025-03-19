@@ -1,12 +1,16 @@
 ---
 ---
 
+
 const speciesDataFile = "{{site.baseurl}}"+"/assets/data/species.json"
+const pageIsSpeciesList = document.querySelector("section#species-list")
+
 
 var allSpecies=[]; // Species Data: Array of species data objects
 var selectedSpecies; //  Set([sp1,sp2,...])
 var filtrosAplicados={}; // Object of {'filter-id':Set([sp1,sp2,...])}
 var currentMonth;
+var flagSessionStorageEmpty;
 
 this.currentMonth = new Date().getMonth()
 
@@ -14,8 +18,7 @@ document.querySelector("#filtro-mes") ? document.querySelector("#filtro-mes .set
 
 
 
-window.onload = function(){
-
+window.addEventListener('load', function(){
     // Load session storage
     loadSessionStorage()
 
@@ -26,13 +29,20 @@ window.onload = function(){
             this.allSpecies = speciesData;
             onDataLoaded();
         })
-        
-}
+})
+
 
 function onDataLoaded(){
     // Rotinas para executar após o carregamento dos dados
-    
+    if(this.flagSessionStorageEmpty){
+        sessionStorage.setItem("guia_activeSpeciesList", JSON.stringify( this.allSpecies.map(sp=>sp.id) ))
+        sessionStorage.setItem("guia_activeSpeciesFilters", JSON.stringify({}))
+    }
+
+
     this.selectedSpecies = combineFilters(this.filtrosAplicados)
+
+    // if(Object.keys(filtrosAplicados).length===0 && )
         
     // Register click events on buttons
     const buttons = document.querySelectorAll('.filter-bar .btn');
@@ -45,8 +55,9 @@ function onDataLoaded(){
     // Retoma filtros já ativos
     inicializarFiltros()
 
-    // Atualiza tela
-    atualizaTelaListaEspecies()
+    // Atualiza telas
+    atualizaNav()
+    pageIsSpeciesList ? atualizaTelaListaEspecies() : null
 }
 
 function inicializarFiltros(){
@@ -92,7 +103,10 @@ function toggleFiltrar(btn){
         Array.from( this.selectedSpecies )
     ));
 
-    atualizaTelaListaEspecies()
+
+    atualizaNav()
+    pageIsSpeciesList ? atualizaTelaListaEspecies() : null
+
     
 }
 
@@ -107,10 +121,13 @@ function loadSessionStorage(){
     
     let activeSpeciesFiltersLoaded = sessionStorage.getItem("guia_activeSpeciesFilters")
     if (activeSpeciesFiltersLoaded){
+        this.flagSessionStorageEmpty=false;
         activeSpeciesFiltersLoaded = JSON.parse( sessionStorage.getItem("guia_activeSpeciesFilters") );
         this.filtrosAplicados = objectMap(activeSpeciesFiltersLoaded, (spList)=>new Set(spList))
         this.selectedSpecies = combineFilters(this.filtrosAplicados)
     }else{
+        // Loading without session storage -> create it
+        this.flagSessionStorageEmpty=true;
         this.selectedSpecies = new Set( this.allSpecies.map(sp=>sp.id) ); 
     }
 
@@ -130,7 +147,9 @@ function combineFilters(filters){
     return finalSetFilter
 }
 
-
+function atualizaNav(){
+    document.querySelector("#filter-indicator-nav").style.display = Object.keys(this.filtrosAplicados).length===0 ? "none" : "inline"
+}
 
 function atualizaTelaListaEspecies(){
     // rotinas para atualização na tela da lista de espécies
