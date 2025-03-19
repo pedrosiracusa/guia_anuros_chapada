@@ -1,7 +1,6 @@
 ---
 ---
 
-
 const speciesDataFile = "{{site.baseurl}}"+"/assets/data/species.json"
 const pageIsSpeciesList = document.querySelector("section#species-list")
 
@@ -13,9 +12,9 @@ var currentMonth;
 var flagSessionStorageEmpty;
 
 this.currentMonth = new Date().getMonth()
-
-document.querySelector("#filtro-mes") ? document.querySelector("#filtro-mes .set-month").textContent += ["Jan","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"][this.currentMonth] : null
-
+document.querySelectorAll("#filtro-mes .set-month").forEach(filtro=>{
+    filtro.textContent += ["Jan","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"][this.currentMonth]
+})
 
 
 window.addEventListener('load', function(){
@@ -35,22 +34,22 @@ window.addEventListener('load', function(){
 function onDataLoaded(){
     // Rotinas para executar após o carregamento dos dados
     if(this.flagSessionStorageEmpty){
-        sessionStorage.setItem("guia_activeSpeciesList", JSON.stringify( this.allSpecies.map(sp=>sp.id) ))
-        sessionStorage.setItem("guia_activeSpeciesFilters", JSON.stringify({}))
+        this.selectedSpecies = new Set( this.allSpecies.map(sp=>sp.id))
+        this.filtrosAplicados = {}
+        writeSessionStorage()
     }
 
-
     this.selectedSpecies = combineFilters(this.filtrosAplicados)
-
-    // if(Object.keys(filtrosAplicados).length===0 && )
         
-    // Register click events on buttons
-    const buttons = document.querySelectorAll('.filter-bar .btn');
-    buttons.forEach( btn =>{
+    // Register click events on filter buttons
+    document.querySelectorAll('.filter-bar .btn').forEach( btn =>{
         btn.addEventListener("click", (event)=>{
             toggleFiltrar(event.currentTarget)
         })
     })
+    document.querySelector(".nav-filtros-ativos button#limpar-filtros").addEventListener("click",e=>{
+        limpaTodosFiltros();
+    });
 
     // Retoma filtros já ativos
     inicializarFiltros()
@@ -69,6 +68,7 @@ function inicializarFiltros(){
 }
 
 function toggleFiltrar(btn){
+    // toggle nos botões de filtro que aparecem na barra (página lista de espécies)
     const btnActive = btn.classList.contains('active') ? true : false
 
     filterQueries={
@@ -92,6 +92,16 @@ function toggleFiltrar(btn){
 
     this.selectedSpecies = combineFilters(filtrosAplicados)
 
+    writeSessionStorage()
+
+
+    atualizaNav()
+    pageIsSpeciesList ? atualizaTelaListaEspecies() : null
+
+    
+}
+
+function writeSessionStorage(){
     // Grava filtros no localstorage
     sessionStorage.setItem("guia_activeSpeciesFilters", JSON.stringify( 
         this.filtrosAplicados,
@@ -102,12 +112,6 @@ function toggleFiltrar(btn){
     sessionStorage.setItem("guia_activeSpeciesList", JSON.stringify(
         Array.from( this.selectedSpecies )
     ));
-
-
-    atualizaNav()
-    pageIsSpeciesList ? atualizaTelaListaEspecies() : null
-
-    
 }
 
 function loadSessionStorage(){
@@ -130,9 +134,6 @@ function loadSessionStorage(){
         this.flagSessionStorageEmpty=true;
         this.selectedSpecies = new Set( this.allSpecies.map(sp=>sp.id) ); 
     }
-
-
-
 }
 
 function combineFilters(filters){
@@ -149,6 +150,11 @@ function combineFilters(filters){
 
 function atualizaNav(){
     document.querySelector("#filter-indicator-nav").style.display = Object.keys(this.filtrosAplicados).length===0 ? "none" : "inline"
+
+    let filtrosAtivos = Object.keys(this.filtrosAplicados)
+    document.querySelectorAll("#nav-filtros-ativos-list>span").forEach(filtro=> filtro.style.display = filtrosAtivos.includes(filtro.id) ? "inline" : "none" )
+    document.querySelector(".nav-filtros-ativos").style.display = filtrosAtivos.length>0 ? "block" : "none"
+    
 }
 
 function atualizaTelaListaEspecies(){
@@ -181,5 +187,13 @@ function atualizaTelaListaEspecies(){
             fh.style.display = emptySpeciesList ? "none" : "block"
         })
     }
+}
+
+function limpaTodosFiltros(){
+    this.filtrosAplicados={}
+    this.selectedSpecies = new Set(this.allSpecies.map(sp=>sp.id))
+    
+    writeSessionStorage()
+    window.location.reload()
 }
 
