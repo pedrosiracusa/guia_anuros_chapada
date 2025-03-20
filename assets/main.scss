@@ -1,18 +1,18 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-
-@import "variables";
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "variables"; // Neste arquivo é onde fazemos customizações de variáveis
 @import "bootstrap/bootstrap";
 @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "startbootstrap-creative/creative";
 @import "bootstrap_customization";
 
-
 a{
-  color: $custom-primary;
-  &:hover{color:darken($custom-primary,10%)}
+  color: $primary;
+  &:hover{color:darken($primary,10%)}
 }
 
 
@@ -91,8 +91,22 @@ li.species-entry:hover{
   }
 
   // Player
-  #sound-player i{
-    font-size:3rem;
+  #sound-player{
+
+    i{
+      line-height:0;
+      padding:0;
+      font-size:3rem;
+      color: $secondary;
+      --bs-btn-active-border-color: transparent;
+      &:hover{color:$orange-400};
+    }
+
+    i#ctrl-pause{
+      color: $primary;
+      &:hover{color: $orange-400}
+    }
+
   }
 
 
