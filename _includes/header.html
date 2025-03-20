@@ -26,14 +26,15 @@
         <img id="logo" width="160" src="{{site.baseurl}}/assets/img/anfibios_veadeiros_header.png">
       </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+    <span class="navbar-toggler position-relative" type="span" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+      <span id="filter-indicator-nav" style="display:none" class="position-absolute top-0 start-100 translate-middle"><i class="bi bi-filter-circle-fill"></i></span>
+    </span>
 
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Anfíbios dos Veadeiros</h5>
+        <span type="span" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></span>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -52,7 +53,7 @@
             <a class="nav-link" href="#">Chave interativa</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="span" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown
             </a>
             <ul class="dropdown-menu">
@@ -67,8 +68,21 @@
         </ul>
         <form class="d-flex mt-3" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <span class="btn btn-outline-success" type="submit">Search</span>
         </form>
+
+        <div class="nav-filtros-ativos d-lg-none" style="display:none">Filtros ativos:
+          <div id="nav-filtros-ativos-list"  class="d-flex flex-row  flex-wrap gap-1 my-2">
+            <span id="filtro-endemicas" class="badge rounded-pill text-bg-secondary" style="display:none">Endêmicas</span>
+            <span id="filtro-diurnas" class="badge rounded-pill text-bg-secondary" style="display:none">Diurnas</span>
+            <span id="filtro-comuns" class="badge rounded-pill text-bg-secondary" style="display:none">Mais comuns</span>
+            <span id="filtro-noturnas" class="badge rounded-pill text-bg-secondary" style="display:none">Noturnas</span>
+            <span id="filtro-pequenas" class="badge rounded-pill text-bg-secondary" style="display:none">Pequenas (< 4cm)</span>
+            <span id="filtro-grandes" class="badge rounded-pill text-bg-secondary" style="display:none">Grandes (> 8cm)</span>
+            <span id="filtro-mes" class="badge rounded-pill text-bg-secondary" style="display:none">Ocorrem em <span class="set-month"></span></span>
+          </div>
+          <button id="limpar-filtros" type="button" class="btn btn-outline-secondary rounded-pill">Limpar filtros ativos</button>
+        </div>
       </div>
     </div>
 
