@@ -154,7 +154,14 @@ function atualizaNav(){
     let filtrosAtivos = Object.keys(this.filtrosAplicados)
     document.querySelectorAll("#nav-filtros-ativos-list>span").forEach(filtro=> filtro.style.display = filtrosAtivos.includes(filtro.id) ? "inline" : "none" )
     document.querySelector(".nav-filtros-ativos").style.display = filtrosAtivos.length>0 ? "block" : "none"
-    
+        
+    if (document.querySelector(".species-page"))
+        document.querySelector(".sppage-filtros-ativos").style.display = filtrosAtivos.length>0 ? "block" : "none"
+
+}
+
+function atualizaFiltrosAtivosPaginaEspecies(){
+
 }
 
 function atualizaTelaListaEspecies(){
