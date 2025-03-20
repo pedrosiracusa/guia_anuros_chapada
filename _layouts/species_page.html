@@ -133,10 +133,15 @@ layout: base
       
 
       <div class="row">
-
+        
         <div id="sidebar" class="col-12 col-md-auto order-md-2">
-          <div class="d-flex justify-content-end mb-2 mx-3 mx-sm-0">
-            <section id="sidebar">
+          <div class="d-flex flex-md-column justify-content-between mb-2 mx-3 mx-sm-0">
+            <div id="sound-player" class="d-flex justify-content-center">
+              <i id="ctrl-play" class="btn bi bi-play-circle"></i>
+              <i id="ctrl-pause" class="btn bi bi-pause-circle" style="display:none"></i>
+            </div>
+
+            <section id="spsize-compare">
               {% include spsizecompare.html species=species %}
             </section>
           </div>

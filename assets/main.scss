@@ -84,11 +84,14 @@ li.species-entry:hover{
     font-size: .8rem;
   }
 
-
-  // Species profile page
-
+  // Navigation
   i#nav-prev-species,
   i#nav-next-species{
+    font-size:3rem;
+  }
+
+  // Player
+  #sound-player i{
     font-size:3rem;
   }
 
