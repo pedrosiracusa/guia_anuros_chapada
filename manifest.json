@@ -1,0 +1,10 @@
+{
+    "name": "Guia Anuros dos Veadeiros",
+    "short_name": "guia-anuros",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+  }

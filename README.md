@@ -38,3 +38,14 @@ A [Bootstrap 4](https://getbootstrap.com/) start up project for [Github Pages](h
 ## License
 
 [See the license file.](./LICENSE.md)
+
+
+## Usando Service Workers (PWA)
+
+Tutorial em https://fredrickb.com/2019/07/25/turning-jekyll-site-into-a-progressive-web-app/
+
+Basicamente, construir um manifest.json e um workbox-config.js e colocá-los na head, como tags. Também criar o main.js no diretório de javascript do site.
+
+Observações:
+1. Usaremos o comando ```workbox wizard; workbox generateSW workbox-config.js``` para gerar o service worker sw.js , após a build
+1. Devemos apenas mandar o Jekyll fazer a build do site. Para servi-lo temos que usar outro web server, usando a mesma porta (para não reconstruir tudo automaticamente e perder o service worker)
