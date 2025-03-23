@@ -8,23 +8,21 @@ from pydrive.auth import ServiceAccountCredentials
 import settings
 settings.init()
 
+import driveconnect
+
 TEMP_DIR = settings.SCRIPTS_TMPDIR
 TEMP_DIR = f"{TEMP_DIR}/textos-perfil"
 
 
-SCOPES = ['https://www.googleapis.com/auth/drive']
-SERVICE_ACCOUNT_KEY_FILE = f'{Path.home()}/workspace/.sacreds/guia-anuros_service_account_key.json'
-
-gauth = GoogleAuth()
-gauth.credentials = ServiceAccountCredentials.from_json_keyfile_name(SERVICE_ACCOUNT_KEY_FILE,SCOPES)
-drive = GoogleDrive(gauth)
+drive = driveconnect.connectGoogleDrive()
 
 PROJECT_ID = '0B0M5IL0AEOXidHZmTjZzMHlLLWc'
 ROOT_ID = drive.ListFile({'q': f"title contains 'dados_guia_digital' and '{PROJECT_ID}' in parents"}).GetList()[0]['id']
 DIRECTORY_ESPECIES_ID = drive.ListFile({'q': f"title contains 'especies_perfil_textos' and '{ROOT_ID}' in parents"}).GetList()[0]['id']
 DIRECTORY_FAMILIAS_ID = drive.ListFile({'q': f"title contains 'familias_perfil_textos' and '{ROOT_ID}' in parents"}).GetList()[0]['id']
 
-
+### =============================================================
+### Funções para coleta de textos de perfis (espécies e famílias)
 
 arquivos_ignorar = ['modelo','README']
 
@@ -48,6 +46,11 @@ def fetchProfilesDocuments():
         print(f"Baixando documento da espécie {doc['title']}")
         doc.GetContentFile(f"{TEMP_DIR}/especies/{doc['title'].lower()}.md", mimetype="text/plain")
 
+
+
+
+### =======================================
+### Baixar tabelas de espécies e de autores
 
 
 def run():
