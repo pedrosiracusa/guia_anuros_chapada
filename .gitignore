@@ -8,3 +8,4 @@ Gemfile.lock
 token.json
 credentials.json
 .bundle/config
+*.pyc
