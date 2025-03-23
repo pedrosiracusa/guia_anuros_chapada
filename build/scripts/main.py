@@ -45,5 +45,6 @@ if __name__== '__main__':
         prepare()
         fetch_gdrive.fetchTabelaAutores()
         fetch_gdrive.fetchTabelaEspecies()
+        process.processarTabelaEspecies()
         # cleanup()
     
