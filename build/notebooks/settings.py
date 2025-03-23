@@ -9,5 +9,3 @@ def init():
     NOTEBOOKS_PATH = f"{os.path.dirname(__file__)}"
     NOTEBOOKS_TMPDIR = f"{NOTEBOOKS_PATH}/tmp"
     
-    
-

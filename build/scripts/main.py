@@ -20,7 +20,8 @@ def cleanup():
 if __name__== '__main__':
     
     usrOption = input("""
-    1. Atualizar textos de perfis (espécies e famílias)
+    1. Atualizar textos de perfis (espécies e famílias);
+    2. Baixar tabela de espécies
     """)
     
     if usrOption=="1":
@@ -29,5 +30,9 @@ if __name__== '__main__':
         process.run()
         save.run()
         cleanup()
-    
+        
+    elif usrOption=="2":
+        prepare()
+        fetch_gdrive.fetchTabelaEspecies()
+        # cleanup()
     

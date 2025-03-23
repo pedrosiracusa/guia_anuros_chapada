@@ -1,6 +1,8 @@
 import re, os, shutil
 from pathlib import Path
 
+import pandas as pd
+
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 from pydrive.auth import ServiceAccountCredentials
@@ -11,7 +13,9 @@ settings.init()
 import driveconnect
 
 TEMP_DIR = settings.SCRIPTS_TMPDIR
-TEMP_DIR = f"{TEMP_DIR}/textos-perfil"
+DIR_TEXTOS_ESPECIES = f"{TEMP_DIR}/textos-perfil/especies"
+DIR_TEXTOS_FAMILIAS =f"{TEMP_DIR}/textos-perfil/familias"
+
 
 
 drive = driveconnect.connectGoogleDrive()
@@ -39,12 +43,12 @@ def fetchProfilesDocuments():
     
     for doc in getDocsFamilias():
         print(f"Baixando documento da família {doc['title']}")
-        doc.GetContentFile(f"{TEMP_DIR}/familias/{doc['title'].lower()}.md", mimetype="text/plain")
+        doc.GetContentFile(f"{DIR_TEXTOS_FAMILIAS}/{doc['title'].lower()}.md", mimetype="text/plain")
         
         
     for doc in getDocsEspecies():
         print(f"Baixando documento da espécie {doc['title']}")
-        doc.GetContentFile(f"{TEMP_DIR}/especies/{doc['title'].lower()}.md", mimetype="text/plain")
+        doc.GetContentFile(f"{DIR_TEXTOS_ESPECIES}/{doc['title'].lower()}.md", mimetype="text/plain")
 
 
 
@@ -52,12 +56,27 @@ def fetchProfilesDocuments():
 ### =======================================
 ### Baixar tabelas de espécies e de autores
 
+fpath = f"{TEMP_DIR}/speciesdata.csv"
+
+def fetchTabelaEspecies():
+    print("Baixando a tabela de espécies...")
+    gc = driveconnect.connectGoogleSheets()
+    sh = gc.open_by_key("15S4MzEaFHTljkEHVEnvUm32t5Mr0AdNHBk-H818nKsE")
+    
+    print("salvando a tabela de espécies...") 
+    df = pd.DataFrame( sh.get_worksheet(0).get_all_records() ).dropna(how='all',axis=0)
+    df = df[ df['Espécie']!='']
+    df.to_csv(fpath, index=False)
+    
+
 
 def run():
-    os.makedirs(f'{TEMP_DIR}/especies')
-    os.makedirs(f'{TEMP_DIR}/familias')
+    os.makedirs(f'{DIR_TEXTOS_ESPECIES}')
+    os.makedirs(f'{DIR_TEXTOS_FAMILIAS}')
 
     fetchProfilesDocuments()
+    
+    fetchTabelaEspecies()
     
 if __name__=='__main__':
 
