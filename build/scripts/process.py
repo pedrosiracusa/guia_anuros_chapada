@@ -1,4 +1,4 @@
-import re
+import re, json
 import os, glob, shutil
 from bs4 import BeautifulSoup
 from slugify import slugify
@@ -8,8 +8,8 @@ from lxml import etree
 
 import pandas as pd
 import numpy as np
-import re
-import json
+
+
 
 import settings
 settings.init()
@@ -21,10 +21,12 @@ DIR_TEXTOS_ESPECIES_PROCESSADO = f"{DIR_TEXTOS_ESPECIES}/processado"
 DIR_TEXTOS_FAMILIAS =f"{TEMP_DIR}/textos-perfil/familias"
 
 PATH_TABELA_ESPECIES = f"{TEMP_DIR}/especiesdata.csv" 
+PATH_TABELA_AUTORES = f"{TEMP_DIR}/autoresdata.csv"
+
 PATH_DADOS_JSON = f"{TEMP_DIR}/_data"
 PATH_DADOS_ESPECIES_JSON = f"{PATH_DADOS_JSON}/species.json"
 
-PATH_TABELA_AUTORES = f"{TEMP_DIR}/autoresdata.csv"
+
 
 
 ### ======================================================
@@ -75,11 +77,11 @@ def processarTextosEspecies():
             
         
 
-### ===================================
-### Processamento da tabela de espécies
+### ===============================================
+### Processamento das tabelas de espécies e autores
 
 def processarTabelaEspecies():
-    "Iniciando processamento da tabela de espécies"
+    print("Processando tabela de Espécies")
     dataFile = PATH_TABELA_ESPECIES
     df = pd.read_csv(dataFile)
     df = df[df['incluir_guia_web']==1]
@@ -260,7 +262,38 @@ def processarTabelaEspecies():
     with open(f"{path_assets}/species.json",'w') as f:
         json.dump(d, f,indent=1, ensure_ascii=False)
     
+    print("[OK]")
         
+        
+def processarTabelaAutores():
+    print("Processando tabela de Autores")
+    dataFile = PATH_TABELA_AUTORES
+    df = pd.read_csv(dataFile)
+
+    def strToJson(str):
+        if pd.notnull(str):
+            return { k:v  for link in str.split(";") for k,v in re.findall("(.*):\s*(http.*)",link) }
+        else:
+            return {}
+    df['Links'] = df['Links'].apply(strToJson)
+
+    # ### Renomeação de campos
+    df.rename( {'Nome':'nome',
+                'Tipo': 'tipo',
+                'Papel': 'papel',
+                'Descrição': 'descricao',
+                'Links': 'links',
+                'avatar-id':'avatar-img'}, axis=1, inplace=True)
+
+    d = {'autores': df[df['tipo']=='Autor'].drop('tipo',axis=1).to_dict(orient='records'),
+    'colaboradores': df[df['tipo']=='Colaborador'].drop('tipo',axis=1).to_dict(orient='records')}
+
+    # # Exportação
+    species_data_path = f"{TEMP_DIR}/_data/autores.json"
+
+    with open(species_data_path, 'w') as f:
+        json.dump(d, f,indent=1, ensure_ascii=False)
+    print("[OK]")
 
 
 
