@@ -10,16 +10,19 @@ settings.init()
 
 
 TEMP_DIR = settings.SCRIPTS_TMPDIR
-DIR_TEXTOS_ESPECIES = f"{TEMP_DIR}/textos-perfil/especies"
-DIR_TEXTOS_FAMILIAS =f"{TEMP_DIR}/textos-perfil/familias"
+
 
 # Ids das planilhas e diretórios no gdrive
 PLANILHA_ESPECIES_GDRIVE_ID = "15S4MzEaFHTljkEHVEnvUm32t5Mr0AdNHBk-H818nKsE"
 PLANILHA_AUTORES_GDRIVE_ID = "1uJvHm1erMKXguO1qCnS_kdTl-CDd50zff2Vwj1zDTvw"
 GDRIVE_DIR_AVATARS_AUTORES_ID = "1ef4j2eAyJPedQ7A0CGWPz58sASa1u_Zu"
 GDRIVE_DIR_AVATARS_ESPECIES_ID = "18vrp_kabZRKTMjBvoum-dniVvtICQEbd"
+GDRIVE_DIR_TEXTOS_ESPECIES_ID = "16aI72ql4q5XugRIwQSweJNGhZNSLfMTw"
+GDRIVE_DIR_TEXTOS_FAMILIAS_ID = "1xl7oOBJ9JF6CIeEO92IvQc0mBwUGZS4L"
 
 # Caminhos para salvar os arquivos temporariamente
+DIR_TEXTOS_ESPECIES = f"{TEMP_DIR}/textos-perfil/especies"
+DIR_TEXTOS_FAMILIAS =f"{TEMP_DIR}/textos-perfil/familias"
 PATH_TABELA_ESPECIES = f"{TEMP_DIR}/especiesdata.csv" 
 PATH_TABELA_AUTORES = f"{TEMP_DIR}/autoresdata.csv"
 DIR_AVATARS_ESPECIES = f"{TEMP_DIR}/sp-avatar"
@@ -28,37 +31,33 @@ DIR_AVATARS_AUTORES = f"{TEMP_DIR}/authors-avatar"
 
 
 
-drive = driveconnect.connectGoogleDrive()
 
-PROJECT_ID = '0B0M5IL0AEOXidHZmTjZzMHlLLWc'
-ROOT_ID = drive.ListFile({'q': f"title contains 'dados_guia_digital' and '{PROJECT_ID}' in parents"}).GetList()[0]['id']
-DIRECTORY_ESPECIES_ID = drive.ListFile({'q': f"title contains 'especies_perfil_textos' and '{ROOT_ID}' in parents"}).GetList()[0]['id']
-DIRECTORY_FAMILIAS_ID = drive.ListFile({'q': f"title contains 'familias_perfil_textos' and '{ROOT_ID}' in parents"}).GetList()[0]['id']
+drive = driveconnect.connectGoogleDrive()
 
 ### =============================================================
 ### Baixar textos de perfis (espécies e famílias)
 
 arquivos_ignorar = ['modelo','README']
 
-def getDocsFamilias():
-    return [ f for f in drive.ListFile({'q':f"'{DIRECTORY_FAMILIAS_ID}' in parents and mimeType contains 'document'"}).GetList() 
-                if f['title'] not in arquivos_ignorar ]
+def fetchTextosFamilias():
+    os.makedirs(f'{DIR_TEXTOS_FAMILIAS}',exist_ok=True)
+    familiasDocs = [ f for f in drive.ListFile({'q':f"'{GDRIVE_DIR_TEXTOS_FAMILIAS_ID}' in parents and mimeType contains 'document'"}).GetList() 
+                        if f['title'] not in arquivos_ignorar ]
     
-def getDocsEspecies():
-    return [ f for f in drive.ListFile({'q': f"'{DIRECTORY_ESPECIES_ID}' in parents and mimeType contains 'document'"}).GetList()
-                if f['title'] not in arquivos_ignorar ]
-    
-# Fetch all documents for each family
-def fetchProfilesDocuments():    
-    
-    for doc in getDocsFamilias():
+    for doc in familiasDocs:
         print(f"Baixando documento da família {doc['title']}")
         doc.GetContentFile(f"{DIR_TEXTOS_FAMILIAS}/{doc['title'].lower()}.md", mimetype="text/plain")
         
-        
-    for doc in getDocsEspecies():
+    
+def fetchTextosEspecies():
+    os.makedirs(f'{DIR_TEXTOS_ESPECIES}',exist_ok=True)
+    especiesDocs = [ f for f in drive.ListFile({'q': f"'{GDRIVE_DIR_TEXTOS_ESPECIES_ID}' in parents and mimeType contains 'document'"}).GetList()
+                        if f['title'] not in arquivos_ignorar ]
+    
+    for doc in especiesDocs:
         print(f"Baixando documento da espécie {doc['title']}")
         doc.GetContentFile(f"{DIR_TEXTOS_ESPECIES}/{doc['title'].lower()}.md", mimetype="text/plain")
+    
 
 
 
@@ -110,22 +109,17 @@ def fetchAvatarsAutores():
 def fetchAvatarsEspecies():
     os.makedirs(f'{DIR_AVATARS_ESPECIES}',exist_ok=True)
     
-    autoresAvatars = drive.ListFile({
+    especiesAvatars = drive.ListFile({
         'q': f"'{GDRIVE_DIR_AVATARS_ESPECIES_ID}' in parents"
     }).GetList()
     
-    for img in autoresAvatars:
+    for img in especiesAvatars:
         print(f"Baixando imagem de espécie: {img['title']}")
         img.GetContentFile(f"{DIR_AVATARS_ESPECIES}/{img['title'].lower()}")
 
 
 def run():
-    os.makedirs(f'{DIR_TEXTOS_ESPECIES}',exist_ok=True)
-    os.makedirs(f'{DIR_TEXTOS_FAMILIAS}', exist_ok=True)
-
-    fetchProfilesDocuments()
-    
-    fetchTabelaEspecies()
+    pass
     
 if __name__=='__main__':
 

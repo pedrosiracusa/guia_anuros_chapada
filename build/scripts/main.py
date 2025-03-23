@@ -20,19 +20,25 @@ def cleanup():
 if __name__== '__main__':
     
     usrOption = input("""
-    1. Atualizar textos de perfis (espécies e famílias);
-    2. Baixar tabela de espécies
+    1. Atualizar textos de espécies e famílias;
+    2. Atualizar dados de espécies e autores;
+    3. Atualizar avatares de espécies e autores;
     """)
     
-    if usrOption=="1":
+    if False:
         prepare()
-        fetch_gdrive.run()
-        process.run()
-        save.run()
-        cleanup()
+        fetch_gdrive.fetchTextosFamilias()
+        fetch_gdrive.fetchTextosEspecies()
+    
+    elif usrOption=="1":
+        prepare()
+        fetch_gdrive.fetchTextosFamilias()
+        fetch_gdrive.fetchTextosEspecies()
+        #cleanup()
         
     elif usrOption=="2":
         prepare()
+        fetch_gdrive.fetchTabelaAutores()
         fetch_gdrive.fetchTabelaEspecies()
         # cleanup()
     
