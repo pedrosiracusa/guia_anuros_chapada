@@ -26,15 +26,20 @@ if __name__== '__main__':
     """)
     
     if False:
-        prepare()
-        fetch_gdrive.fetchTextosFamilias()
-        fetch_gdrive.fetchTextosEspecies()
+        #prepare()
+        #fetch_gdrive.fetchTextosFamilias()
+        #fetch_gdrive.fetchTextosEspecies()
+    
+        process.processarTextosEspecies()
     
     elif usrOption=="1":
         prepare()
         fetch_gdrive.fetchTextosFamilias()
         fetch_gdrive.fetchTextosEspecies()
-        #cleanup()
+        process.processarTextosEspecies()
+        save.saveFamiliasPages()
+        save.saveEspeciesPages()
+        cleanup()
         
     elif usrOption=="2":
         prepare()

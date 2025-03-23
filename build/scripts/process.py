@@ -11,18 +11,21 @@ import settings
 settings.init()
 
 TEMP_DIR = settings.SCRIPTS_TMPDIR
-TEMP_DIR = f"{TEMP_DIR}/textos-perfil"
-text_dir = f"{TEMP_DIR}/especies"
+
+DIR_TEXTOS_ESPECIES = f"{TEMP_DIR}/textos-perfil/especies"
+DIR_TEXTOS_ESPECIES_PROCESSADO = f"{DIR_TEXTOS_ESPECIES}/processado"
+DIR_TEXTOS_FAMILIAS =f"{TEMP_DIR}/textos-perfil/familias"
+
 
 # # 1. Convertendo artigos de espécies para HTML
 
 def markdownToHtml(fpath):
+    # Faz o parse do markdown p/ html e coloca os elementos de cabeçalho principais em divs, com as classes correspondentes
     with open(fpath, 'r', encoding='utf-8-sig') as f:
         txt = f.read()
         htmlDoc = markdown.markdown(txt,extensions=['extra'])
         
-    # Este código pega o html resultante do parse markdown e coloca os elementos em divs correspondentes
-    soup = BeautifulSoup(htmlDoc)
+    soup = BeautifulSoup(htmlDoc,'lxml')
 
     elements = [i for i in soup.body.children ]
     headersIdxs = [i for i,e in enumerate(soup.body.children) if e.name=='h1' ]
@@ -41,28 +44,29 @@ def markdownToHtml(fpath):
     return BeautifulSoup( "\n".join(str(i) for i in list(soup.html.children) ),'html.parser' ).prettify()
 
 
+def processarTextosEspecies():
+    print("\nIniciando processamento de textos de espécies:")
+    os.makedirs( DIR_TEXTOS_ESPECIES_PROCESSADO, exist_ok=True )
     
-    
-def run():
-    try: shutil.rmtree(f"{text_dir}/processado")
-    except(FileNotFoundError): pass
-    os.makedirs(f'{text_dir}/processado')
-
-    # Grava tudo no subdiretório de processados
-    print("Iniciando processamento de dados...")
-
-    for filePath in glob.glob(f"{text_dir}/*.md"):
+    for fpath in glob.glob(f"{DIR_TEXTOS_ESPECIES}/*.md"):
+        fileNameNoExtension = os.path.splitext(os.path.basename(fpath))[0]
+        print(f"  Processando arquivo {os.path.basename(fpath)}")
         
-        print(f"Processando arquivo: {filePath}")
-        fileDir = os.path.dirname(filePath)
-        fileNameNoExtension = os.path.splitext( os.path.basename(filePath) )[0]
         try:
-            res = markdownToHtml(filePath)
-            with open(f"{fileDir}/processado/{fileNameNoExtension}.md", 'w') as f:
+            res = markdownToHtml(fpath)
+            with open(f"{DIR_TEXTOS_ESPECIES_PROCESSADO}/{fileNameNoExtension}.md",'w') as f:
                 f.write(res)
+            print("[OK]")
             
         except(AttributeError) as e:
-            print(f"Erro no processamento de {filePath}: {e}")
+            print(f"Erro no processamento de {os.path.basename(fpath)}: {e}")
+            print("[ERRO]")
+            
+        
+        
+    
+def run():
+    pass
 
 if __name__=='__main__':
     run()
