@@ -249,9 +249,17 @@ def processarTabelaEspecies():
     # ### Write to json
     d = df.to_dict(orient='records')
 
+    ## Salva em tmp/_data
     os.makedirs(PATH_DADOS_JSON, exist_ok=True)
     with open(PATH_DADOS_ESPECIES_JSON, 'w') as f:
         json.dump(d, f,indent=1, ensure_ascii=False)
+        
+    ## Salva em tmp/assets
+    path_assets = f"{TEMP_DIR}/assets/data"
+    os.makedirs(path_assets, exist_ok=True)
+    with open(f"{path_assets}/species.json",'w') as f:
+        json.dump(d, f,indent=1, ensure_ascii=False)
+    
         
 
 

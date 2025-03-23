@@ -25,6 +25,8 @@ if __name__== '__main__':
     3. Atualizar avatares de espécies e autores;
     """)
     
+    prepare() 
+    
     if False:
         #prepare()
         #fetch_gdrive.fetchTextosFamilias()
@@ -46,5 +48,8 @@ if __name__== '__main__':
         fetch_gdrive.fetchTabelaAutores()
         fetch_gdrive.fetchTabelaEspecies()
         process.processarTabelaEspecies()
-        # cleanup()
+
+    save.save_data() # Salva a pasta /tmp/_data -> /_data
+    save.saveAssetsData() # salva a pasta /tmp/assets/data -> /assets/data
+    #cleanup()
     

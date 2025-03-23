@@ -12,6 +12,7 @@ PROJECT_BASE=settings.PROJECT_BASEPATH
 TGTDIR_ESPECIES = f"{PROJECT_BASE}/especies"
 TGTDIR_FAMILIAS = f"{PROJECT_BASE}/familias"
 
+
 def saveEspeciesPages():
     print("Salvando textos processados de espécies...")
     print(f"{TMPDIR_ESPECIES_PROCESSADO}/*.md")
@@ -38,6 +39,36 @@ def saveFamiliasPages():
 
 
 
+def save_data():
+    print("Salvando dados de _data")
+    flist = glob.glob(f"{TMPDIR}/_data/*")
+    if len(flist)==0:
+        print("Não há arquivos aqui para salvar")
+        return
+    
+    for fpath in flist:
+        fname = os.path.basename(fpath)
+        src=fpath
+        dest = f"{PROJECT_BASE}/_data/{fname}"
+        print(f"  Salvando {src} --> {dest}", fname )
+        shutil.copyfile(src,dest)
+        print(["OK"])
+
+
+def saveAssetsData():
+    print("Salvando dados de assets/data")
+    flist = glob.glob(f"{TMPDIR}/assets/data/*")
+    if len(flist)==0:
+        print("Não há arquivos aqui para salvar")
+        return
+    
+    for fpath in flist:
+        fname = os.path.basename(fpath)
+        src=fpath
+        dest = f"{PROJECT_BASE}/assets/data/{fname}"
+        print(f"  Salvando {src} --> {dest}" )
+        shutil.copyfile(src,dest)
+        print(["OK"])
 
 def run():
     saveEspeciesPages()
