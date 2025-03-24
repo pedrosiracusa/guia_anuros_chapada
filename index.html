@@ -4,44 +4,39 @@ title: home
 ---
 
 
-<section id="capa" class="vh-100" style="background-color:beige">
+<section id="capa" class="vh-100">
   <div class="container h-100" >
     <div class="row h-100 align-items-center">
 
-      <div class="col-md-6 col-xl-5 d-flex flex-column">
+      <div class="col-md-6 col-xl-5 d-flex flex-column mx-3 mx-sm-0">
           <div class="logo">
             <span class="">anfíbios dos</span>
-            <span class="fw-bold" style="font-size:1.14em;">Veadeiros</span>
+            <span class="fw-bold text-primary" style="font-size:1.14em; color:var(--primary)">Veadeiros</span>
           </div>
-          <span class="display-4">Guia de Identificação</span>
+          <span class="display-4 mt-5">Guia de Identificação</span>
           <div class="d-none d-md-flex flex-column" style="margin-top:20vh">
             <span class="text-center">Conheça o guia</span>
-            <i class="bi bi-arrow-down-circle text-center" style="font-size:4em;"></i>
+            <a href="{{site.baseurl}}#apresentacao" class="mx-auto">
+              <i class="bi bi-arrow-down-circle text-center" style="font-size:4em;color:var(--primary)"></i>
+            </a>
           </div>
       </div>
 
 
       <div class="col d-flex flex-column">
         <img src="{{site.baseurl}}/assets/img/landingpage/cover.png" class="img-fluid">
-        <div class="d-flex d-md-none flex-column">
-          <i class="bi bi-arrow-down-circle text-center" style="font-size:4em;"></i>
-        </div>
       </div>
-
-<!-- 
-      <div class="col-12">
-        <p>Hello</p>
-        <button class="btn btn-primary">Conheça as espécies</button>
-      </div> -->
-      
-    </div>
-    <div class="row">
+      <div class="d-flex d-md-none flex-column">
+        <a href="{{site.baseurl}}#apresentacao" class="mx-auto">
+          <i class="bi bi-arrow-down-circle text-center" style="font-size:4em;color:var(--primary)"></i>
+        </a>
+      </div>
       
     </div>
   </div>
 </section>
 
-<section>
+<section id="apresentacao" style="background-color:bisque">
   <div class="container">
     <div class="row py-5">
       <div class="col-12 col-md-6">
@@ -52,12 +47,18 @@ title: home
         <p>Este guia foi criado para ajudar você a explorar e entender a incrível diversidade de anfíbios que habitam a Chapada dos Veadeiros. Com informações acessíveis e práticas, ele é uma ferramenta essencial para quem deseja conhecer melhor essas fascinantes criaturas e apreciar a biodiversidade local.</p>
         <p>Aqui, você encontrará dicas sobre como observar diferentes espécies de anfíbios, aprenderá a identificar suas características e descobrirá o papel fundamental desses animais no ecossistema local.</p>
         <p>Explore o guia e conecte-se com a natureza de maneira única e enriquecedora!</p>
+        <div class="d-flex flex-row">
+          
+          <a href="{{site.baseurl}}/especies" class="btn btn-primary rounded-pill py-2">Conheça as espécies</a>
+        </div>
       </div>
+
+      
     </div>
   </div>
 </section>
 
-<section style="background-color:bisque">
+<section >
   <div class="container" >
     <div class="row py-5 justify-content-center">
       <!-- <div class="col-12 col-md-6">
@@ -77,7 +78,7 @@ title: home
   </div>
 </section>
 
-<section>
+<section style="background-color:#eee" >
   <div class="container">
     <div class="row py-5">
       <div class="col-12">
@@ -121,7 +122,7 @@ title: home
   </div>
 </section>
 
-<section style="background-color:bisque">
+<section>
   <div class="container" >
     <div class="row py-5 justify-content-center">
       <div class="col">
@@ -148,39 +149,6 @@ title: home
     </div>
   </div>
 </section>
-
-
-
-
-<header class="masthead">
-  <div class="container h-100">
-    <div class="row h-100 align-items-center" >
-      <div class="col-md-6 col-xl-5 d-flex flex-column">
-        <img class="img-fluid col-10 col-md-12" src="{{site.baseurl}}/assets/img/anfibios_veadeiros_header.png">
-        <h3 class="mt-0 ms-5 text-uppercase font-weight-light">Guia de Identificação</h3>
-        <!-- This does NOT SHOW in mobile layouts -->
-        <div class= "d-none d-md-block">
-          <h4 style="margin-top:10em;"><a class="text-decoration-none font-weight-bold" href="especies">> Conheça as espécies</a></h4>
-          <h4><a class="text-decoration-none font-weight-bold" href="autores">> Autores</a></h4>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-xl-7 align-self-center">
-        <img src="{{site.baseurl}}/assets/img/landingpage/cover.png" class="img-fluid">
-      </div>
-      
-      <!-- This shows ONLY in mobile layout -->
-      <div class= "col d-md-none">
-        <h1 class="text-center">...</h1>
-      </div>
-    </div>
-  </div>
-</header>
-<!-- This shows ONLY in mobile layout -->
-<div class="d-md-none" style="background-color: #e08f1b; color:white;">
-  <h3><a class="text-decoration-none font-weight-bold text-reset" href="especies">> Conheça as espécies</a></h3>
-  <h3><a class="text-decoration-none font-weight-bold text-reset" href="autores">> Autores</a></h3>
-</div>
 
 
 {%- include footer.html -%}
