@@ -38,5 +38,14 @@ $body-color:                $gray-700;
 // Customização (Anfíbios)
 // Aqui podemos acessar as variáveis do bootstrap https://getbootstrap.com/docs/5.3/customize/color/
 
-$primary: $orange
+$primary: $orange;
 
+
+$display-font-sizes: (
+  1: 4rem,
+  2: 3.5rem,
+  3: 3rem,
+  4: 2.5rem,
+  5: 2rem,
+  6: 1.5rem
+);
