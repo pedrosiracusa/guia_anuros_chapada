@@ -56,7 +56,17 @@ li.species-entry:hover{
   Capa do projeto
   ----
 */
+section#capa{
+  .logo{
+    font-family: "Open sans";
+    line-height:1em;
+    font-size:3rem;
+    @include media-breakpoint-down(md){
+      font-size: 10vw;
+    }
+  }
 
+}
 
 
 
