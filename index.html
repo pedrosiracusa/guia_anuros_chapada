@@ -36,7 +36,27 @@ title: home
   </div>
 </section>
 
-<section id="apresentacao" class="bg-primary-var1 text-white shadow" >
+<section id="apresentacao" class="bg-primary-var1 text-white" >
+
+  <nav class="navbar navbar-expand bg-primary shadow" data-bs-theme="dark">
+    <div class="container">
+      <div class="" id="navbarHome">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          {% for page in site.header_pages %}
+          {% assign my_page = site.pages | where: "path", page | first %}
+          {% if my_page.title %}          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{{my_page.url | relative_url |  remove: '.html'}}">{{ my_page.title | escape }}</a>
+          </li>
+          {% endif %}
+          {% endfor %}
+
+        </ul>
+      </div>
+  
+    </div>
+  </nav>
+  
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-6">
