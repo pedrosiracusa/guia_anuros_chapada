@@ -52,9 +52,21 @@ $display-font-sizes: (
 
 // Customização de cores
 $primary:#ff8e48;
+$primary-var1:#dd7f44;
+$secondary:#6c7948;
+$secondary:#788458;
+$secondary-clear:#fffbda;
+$primary-clear:#ffe8d1;
+
+$primary-dark:$orange-700;
+
 
 $custom-colors: (
-  "primary":$primary
+  "primary":$primary,
+  "primary-var1":$primary-var1,
+  "primary-clear":$primary-clear,
+  "secondary":$secondary,
+  "secondary-clear":$secondary-clear
 );
 
 $theme-colors:map-merge($theme-colors,$custom-colors);
