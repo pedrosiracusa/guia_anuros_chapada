@@ -75,7 +75,6 @@ function toggleFiltrar(btn){
         'filtro-noturnas': sp=>sp.atividade_not===1,
         'filtro-diurnas': sp=>sp.atividade_diu===1,
         'filtro-comuns': sp=>sp.detectability_ff==1,
-        'filtro-endemicas': sp=>(sp.endemic_cerrado===1 || sp.endemic_chapada===1),
         'filtro-pequenas': sp=>sp.tamanho_med < 40,
         'filtro-grandes': sp=>sp.tamanho_med>80,
         'filtro-mes': sp=>sp.month_vec[this.currentMonth]===1
