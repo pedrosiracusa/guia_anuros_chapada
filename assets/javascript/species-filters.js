@@ -11,6 +11,8 @@ var filtrosAplicados={}; // Object of {'filter-id':Set([sp1,sp2,...])}
 var currentMonth;
 var flagSessionStorageEmpty;
 
+// var allPhytos=[];
+
 this.currentMonth = new Date().getMonth()
 document.querySelectorAll("#filtro-mes .set-month").forEach(filtro=>{
     filtro.textContent += ["Jan","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"][this.currentMonth]
@@ -33,6 +35,8 @@ window.addEventListener('load', function(){
 
 function onDataLoaded(){
     // Rotinas para executar após o carregamento dos dados
+
+
     if(this.flagSessionStorageEmpty){
         this.selectedSpecies = new Set( this.allSpecies.map(sp=>sp.id))
         this.filtrosAplicados = {}
@@ -51,6 +55,19 @@ function onDataLoaded(){
         limpaTodosFiltros();
     });
 
+    // Filtro Habitat setup
+    // if(document.querySelector("#filtro-habitat.filter-dropdown")){
+    //     this.loadPhytos()
+    //     //this.setPhytosInDropdown()
+    // }
+
+    // Register click events on dropdown buttons
+    document.querySelectorAll('#filtro-habitat.filter-dropdown ul button').forEach(btn=>{
+        btn.addEventListener("click",(event)=>{
+            selectPhytoInDropdown(event.currentTarget)
+        })
+    })
+
     // Retoma filtros já ativos
     inicializarFiltros()
 
@@ -59,11 +76,81 @@ function onDataLoaded(){
     pageIsSpeciesList ? atualizaTelaListaEspecies() : null
 }
 
+function loadPhytos(){
+    // Carrega todas as fitofisionomias, inicialmente
+    const phytosList = [];
+    this.allSpecies.map( sp=>{
+        sp.phytos.split(',').forEach( phyto=>phytosList.push(phyto))
+    } )
+
+    this.allPhytos = Array.from( new Set(phytosList))
+}
+
+// function setPhytosInDropdown(){
+//     // Adiciona as fitofisionomias ao dropdown
+//     dropdown=document.querySelector(".filter-dropdown ul.dropdown-menu")
+//     console.log(dropdown)
+//     this.allPhytos.forEach(phyto=>{
+//         let li = document.createElement("li")
+//         let btn = document.createElement("button")
+//         btn.classList.add("dropdown-item")
+//         btn.setAttribute('data-id',phyto)
+//         btn.id=`filtro-habitat-${phyto}`
+//         btn.innerText = phyto
+//         li.appendChild(btn)
+//         dropdown.appendChild(li)
+//     })
+// }
+
+function selectPhytoInDropdown(btn){
+    // Função chamada quando o usuário seleciona uma opção no dropdown
+    var dropdownButton = document.querySelector('#filtro-habitat.filter-dropdown button.dropdown-toggle')
+    var activePhyto
+    
+    // clear all active 
+    document.querySelectorAll('.filter-dropdown button.dropdown-item').forEach(i=>i.classList.remove('active'))
+    for (var key in this.filtrosAplicados) if (key.startsWith("filtro-habitat")) delete this.filtrosAplicados[key]
+
+    // reset case
+    if(btn.dataset.id=="reset"){
+        dropdownButton.innerText="Habitat"
+        // delete this.filtrosAplicados["filtro-habitat"]
+        
+    }
+    else{
+        dropdownButton.innerText=btn.textContent
+        btn.classList.add("active")
+        activePhyto=btn.dataset.id
+        
+        this.filtrosAplicados[`filtro-habitat-${activePhyto}`] = new Set( this.allSpecies.filter( sp=>sp.phytos.split(',').includes(activePhyto)).map(sp=>sp.id))
+    }
+    this.selectedSpecies = combineFilters(filtrosAplicados)
+    writeSessionStorage()
+    atualizaNav()
+    pageIsSpeciesList ? atualizaTelaListaEspecies() : null
+}
+
+
+function getActivePhytoInDropdown(){
+    try{
+        return document.querySelector('.filter-dropdown button.dropdown-item.active').dataset.id
+    }catch(e){
+        return null
+    }
+}
+function setActivePhytoInDropdown(){
+
+}
+
 function inicializarFiltros(){
     // Ao carregar a página, inicializa filtros que já estavam ativos
     const botoesAtivos = Object.keys(this.filtrosAplicados);
     document.querySelectorAll('.filter-bar .btn').forEach(btnFiltro=>
         botoesAtivos.includes(btnFiltro.id) ? btnFiltro.click() : null
+    )
+
+    document.querySelectorAll('#filtro-habitat.filter-dropdown button.dropdown-item').forEach(btnDropdown=>
+        botoesAtivos.includes(btnDropdown.id) ? btnDropdown.click(): null
     )
 }
 
@@ -156,6 +243,23 @@ function atualizaNav(){
         
     if (document.querySelector(".species-page"))
         document.querySelector(".sppage-filtros-ativos").style.display = filtrosAtivos.length>0 ? "block" : "none"
+    //atualizaBadgesFiltrosNav()
+}
+
+function atualizaBadgesFiltrosNav(){
+    // Por enquanto só para o dropdown de habitat (fitofisionomias)
+    let filtrosAtivos=Object.keys(this.filtrosAplicados)
+    let filtrosNavSlot=document.querySelector("#nav-filtros-ativos-list")
+
+    document.querySelector("#filter-indicator-nav").style.display = filtrosAtivos.length===0 ? "none" : "inline"
+    document.querySelector(".nav-filtros-ativos").style.display = filtrosAtivos.length>0 ? "block" : "none"
+
+    filtrosNavSlot.innerHTML=''
+    filtrosAtivos.forEach(f=>{
+        let filterBadge = document.createElement("span")
+        filterBadge.innerText=f
+        filtrosNavSlot.appendChild(filterBadge)
+    })
 
 }
 

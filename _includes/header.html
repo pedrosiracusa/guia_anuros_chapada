@@ -79,6 +79,11 @@
             <span id="filtro-pequenas" class="badge rounded-pill text-bg-secondary" style="display:none">Pequenas (< 4cm)</span>
             <span id="filtro-grandes" class="badge rounded-pill text-bg-secondary" style="display:none">Grandes (> 8cm)</span>
             <span id="filtro-mes" class="badge rounded-pill text-bg-secondary" style="display:none">Ocorrem em <span class="set-month"></span></span>
+
+            {% for phyto in site.data.phytophysiognomies %}
+            <span id="filtro-habitat-{{phyto[0]}}" class="badge rounded-pill text-bg-secondary">{{phyto[1].text}}</span>
+            {% endfor %}
+
           </div>
           <button id="limpar-filtros" type="button" class="btn btn-outline-secondary rounded-pill">Limpar filtros ativos</button>
         </div>
