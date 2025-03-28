@@ -55,12 +55,6 @@ function onDataLoaded(){
         limpaTodosFiltros();
     });
 
-    // Filtro Habitat setup
-    // if(document.querySelector("#filtro-habitat.filter-dropdown")){
-    //     this.loadPhytos()
-    //     //this.setPhytosInDropdown()
-    // }
-
     // Register click events on dropdown buttons
     document.querySelectorAll('#filtro-habitat.filter-dropdown ul button').forEach(btn=>{
         btn.addEventListener("click",(event)=>{
@@ -85,23 +79,6 @@ function loadPhytos(){
 
     this.allPhytos = Array.from( new Set(phytosList))
 }
-
-// function setPhytosInDropdown(){
-//     // Adiciona as fitofisionomias ao dropdown
-//     dropdown=document.querySelector(".filter-dropdown ul.dropdown-menu")
-//     console.log(dropdown)
-//     this.allPhytos.forEach(phyto=>{
-//         let li = document.createElement("li")
-//         let btn = document.createElement("button")
-//         btn.classList.add("dropdown-item")
-//         btn.setAttribute('data-id',phyto)
-//         btn.id=`filtro-habitat-${phyto}`
-//         btn.innerText = phyto
-//         li.appendChild(btn)
-//         dropdown.appendChild(li)
-//     })
-// }
-
 function selectPhytoInDropdown(btn){
     // Função chamada quando o usuário seleciona uma opção no dropdown
     var dropdownButton = document.querySelector('#filtro-habitat.filter-dropdown button.dropdown-toggle')
@@ -114,11 +91,14 @@ function selectPhytoInDropdown(btn){
     // reset case
     if(btn.dataset.id=="reset"){
         dropdownButton.innerText="Habitat"
-        // delete this.filtrosAplicados["filtro-habitat"]
+        dropdownButton.dataset.selected="null"
+        dropdownButton.classList.remove("active")
         
     }
     else{
         dropdownButton.innerText=btn.textContent
+        dropdownButton.dataset.selected=btn.dataset.id
+        dropdownButton.classList.add("active")
         btn.classList.add("active")
         activePhyto=btn.dataset.id
         
@@ -243,24 +223,7 @@ function atualizaNav(){
         
     if (document.querySelector(".species-page"))
         document.querySelector(".sppage-filtros-ativos").style.display = filtrosAtivos.length>0 ? "block" : "none"
-    //atualizaBadgesFiltrosNav()
-}
-
-function atualizaBadgesFiltrosNav(){
-    // Por enquanto só para o dropdown de habitat (fitofisionomias)
-    let filtrosAtivos=Object.keys(this.filtrosAplicados)
-    let filtrosNavSlot=document.querySelector("#nav-filtros-ativos-list")
-
-    document.querySelector("#filter-indicator-nav").style.display = filtrosAtivos.length===0 ? "none" : "inline"
-    document.querySelector(".nav-filtros-ativos").style.display = filtrosAtivos.length>0 ? "block" : "none"
-
-    filtrosNavSlot.innerHTML=''
-    filtrosAtivos.forEach(f=>{
-        let filterBadge = document.createElement("span")
-        filterBadge.innerText=f
-        filtrosNavSlot.appendChild(filterBadge)
-    })
-
+    
 }
 
 function atualizaFiltrosAtivosPaginaEspecies(){
