@@ -28,10 +28,9 @@ title: Espécies
       </button>
       <ul class="dropdown-menu">
         <li><button class="dropdown-item" data-id="reset">--TODOS--</button></li>
-        <!-- Os demais itens são adicionados dinamicamente -->
-         {% for phyto in site.data.phytophysiognomies %}
-         <button id="filtro-habitat-{{phyto[0]}}" class="dropdown-item" data-id="{{phyto[0]}}">{{phyto[1].text}}</button>
-         {% endfor %}
+        {% for phyto in site.data.phytophysiognomies %}
+        <button id="filtro-habitat-{{phyto[0]}}" class="dropdown-item" data-id="{{phyto[0]}}">{{phyto[1].text}}</button>
+        {% endfor %}
       </ul>
     
     </div>
