@@ -47,6 +47,24 @@ li.species-entry:hover{
   @include media-breakpoint-up(md){
     a.portfolio-box{ border:none;}
   }
+
+  .splist-item{
+    h1{
+      font-size:1.3rem;
+    }
+    h2{
+      font-size:1.1rem;
+      small{font-size: .7em;}
+    }
+
+    h3{
+      font-size: 1.0rem;
+    }
+
+    h4{ font-size: 1.1rem;}
+
+    p{ font-size:1rem; }
+  }
   
 
 }

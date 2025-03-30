@@ -16,12 +16,23 @@ title: Espécies
     
     <div class="filter-bar d-flex flex-row flex-wrap gap-2 my-2">
       <button id="filtro-comuns" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Mais comuns</button>
-      <button id="filtro-endemicas" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Endêmicas</button>
       <button id="filtro-diurnas" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Diurnas</button>
       <button id="filtro-noturnas" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Noturnas</button>
       <button id="filtro-pequenas" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Pequenas (< 4cm)</button>
       <button id="filtro-grandes" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Grandes (> 8cm)</button>
       <button id="filtro-mes" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Ocorrem em <span class="set-month"></span></button>
+    </div>
+    <div id="filtro-habitat" class="filter-dropdown my-2">
+      <button class="btn btn-outline-secondary rounded-pill dropdown-toggle" type="button" data-bs-toggle="dropdown" data-selected="null" aria-expanded="false">
+        Habitat
+      </button>
+      <ul class="dropdown-menu">
+        <li><button class="dropdown-item" data-id="reset">--TODOS--</button></li>
+        {% for phyto in site.data.phytophysiognomies %}
+        <button id="filtro-habitat-{{phyto[0]}}" class="dropdown-item" data-id="{{phyto[0]}}">{{phyto[1].text}}</button>
+        {% endfor %}
+      </ul>
+    
     </div>
     <h6 style="display:none; " id="contador-especies-container">Mostrando <span id="contador-especies"></span> de {{speciesData | size }} espécies</h6>
   <!-- Families list -->

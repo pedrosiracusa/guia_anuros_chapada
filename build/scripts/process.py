@@ -125,8 +125,8 @@ def processarTabelaEspecies():
     df['vernacularNames'] = df['vernacularNames'].apply(extractVernacularNames)
 
     # Red list
-    df['Red List'] = df['Red List'].str.lower()
-    df = pd.get_dummies(data=df, prefix='redlist', columns=['Red List'], dtype=int)
+    df['redlist_eval'] = df['Red List'].str.lower()
+    # df = pd.get_dummies(data=df, prefix='redlist', columns=['Red List'], dtype=int)
 
     # Endemicidade
     df['endemic_cerrado'] = df['Endêmico (Cerrado)'].apply(lambda x: 1 if x=='sim' else 0)
@@ -193,7 +193,7 @@ def processarTabelaEspecies():
 
     df['tamanho_femea_med'] = df['tamanho_femea'].apply(calculaTamanhoMedio)
     df['tamanho_macho_med'] = df['tamanho_macho'].apply(calculaTamanhoMedio)
-    df['tamanho_med'] = (df['tamanho_macho_med']+df['tamanho_femea_med'])/2
+    df['tamanho_med'] = df['tamanho_macho_med']
 
     # Meses de ocorrência
 
@@ -235,7 +235,7 @@ def processarTabelaEspecies():
     # Select fields to use
     fieldsToUse = ["id", "family", "scientificName","vernacularNames",
     "phytos", "scientificNameAuthorship", "family_id",
-    "endemic_cerrado", "endemic_chapada",
+    "endemic_cerrado", "endemic_chapada", "redlist_eval",
     "detectability_f", "detectability_ff", "detectability_r", "detectability_rr",
     "habitat_breeding_le","habitat_breeding_lo","habitat_breeding_tr",
     "atividade_diu","atividade_not",

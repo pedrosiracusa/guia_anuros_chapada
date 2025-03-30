@@ -51,13 +51,17 @@
 
         <div class="nav-filtros-ativos d-lg-none" style="display:none">Filtros ativos:
           <div id="nav-filtros-ativos-list"  class="d-flex flex-row  flex-wrap gap-1 my-2">
-            <span id="filtro-endemicas" class="badge rounded-pill text-bg-secondary" style="display:none">Endêmicas</span>
             <span id="filtro-diurnas" class="badge rounded-pill text-bg-secondary" style="display:none">Diurnas</span>
             <span id="filtro-comuns" class="badge rounded-pill text-bg-secondary" style="display:none">Mais comuns</span>
             <span id="filtro-noturnas" class="badge rounded-pill text-bg-secondary" style="display:none">Noturnas</span>
             <span id="filtro-pequenas" class="badge rounded-pill text-bg-secondary" style="display:none">Pequenas (< 4cm)</span>
             <span id="filtro-grandes" class="badge rounded-pill text-bg-secondary" style="display:none">Grandes (> 8cm)</span>
             <span id="filtro-mes" class="badge rounded-pill text-bg-secondary" style="display:none">Ocorrem em <span class="set-month"></span></span>
+
+            {% for phyto in site.data.phytophysiognomies %}
+            <span id="filtro-habitat-{{phyto[0]}}" class="badge rounded-pill text-bg-secondary">{{phyto[1].text}}</span>
+            {% endfor %}
+
           </div>
           <button id="limpar-filtros" type="button" class="btn btn-outline-secondary rounded-pill">Limpar filtros ativos</button>
         </div>

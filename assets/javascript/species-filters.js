@@ -11,6 +11,8 @@ var filtrosAplicados={}; // Object of {'filter-id':Set([sp1,sp2,...])}
 var currentMonth;
 var flagSessionStorageEmpty;
 
+// var allPhytos=[];
+
 this.currentMonth = new Date().getMonth()
 document.querySelectorAll("#filtro-mes .set-month").forEach(filtro=>{
     filtro.textContent += ["Jan","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"][this.currentMonth]
@@ -33,6 +35,8 @@ window.addEventListener('load', function(){
 
 function onDataLoaded(){
     // Rotinas para executar após o carregamento dos dados
+
+
     if(this.flagSessionStorageEmpty){
         this.selectedSpecies = new Set( this.allSpecies.map(sp=>sp.id))
         this.filtrosAplicados = {}
@@ -51,6 +55,13 @@ function onDataLoaded(){
         limpaTodosFiltros();
     });
 
+    // Register click events on dropdown buttons
+    document.querySelectorAll('#filtro-habitat.filter-dropdown ul button').forEach(btn=>{
+        btn.addEventListener("click",(event)=>{
+            selectPhytoInDropdown(event.currentTarget)
+        })
+    })
+
     // Retoma filtros já ativos
     inicializarFiltros()
 
@@ -59,11 +70,67 @@ function onDataLoaded(){
     pageIsSpeciesList ? atualizaTelaListaEspecies() : null
 }
 
+function loadPhytos(){
+    // Carrega todas as fitofisionomias, inicialmente
+    const phytosList = [];
+    this.allSpecies.map( sp=>{
+        sp.phytos.split(',').forEach( phyto=>phytosList.push(phyto))
+    } )
+
+    this.allPhytos = Array.from( new Set(phytosList))
+}
+function selectPhytoInDropdown(btn){
+    // Função chamada quando o usuário seleciona uma opção no dropdown
+    var dropdownButton = document.querySelector('#filtro-habitat.filter-dropdown button.dropdown-toggle')
+    var activePhyto
+    
+    // clear all active 
+    document.querySelectorAll('.filter-dropdown button.dropdown-item').forEach(i=>i.classList.remove('active'))
+    for (var key in this.filtrosAplicados) if (key.startsWith("filtro-habitat")) delete this.filtrosAplicados[key]
+
+    // reset case
+    if(btn.dataset.id=="reset"){
+        dropdownButton.innerText="Habitat"
+        dropdownButton.dataset.selected="null"
+        dropdownButton.classList.remove("active")
+        
+    }
+    else{
+        dropdownButton.innerText=btn.textContent
+        dropdownButton.dataset.selected=btn.dataset.id
+        dropdownButton.classList.add("active")
+        btn.classList.add("active")
+        activePhyto=btn.dataset.id
+        
+        this.filtrosAplicados[`filtro-habitat-${activePhyto}`] = new Set( this.allSpecies.filter( sp=>sp.phytos.split(',').includes(activePhyto)).map(sp=>sp.id))
+    }
+    this.selectedSpecies = combineFilters(filtrosAplicados)
+    writeSessionStorage()
+    atualizaNav()
+    pageIsSpeciesList ? atualizaTelaListaEspecies() : null
+}
+
+
+function getActivePhytoInDropdown(){
+    try{
+        return document.querySelector('.filter-dropdown button.dropdown-item.active').dataset.id
+    }catch(e){
+        return null
+    }
+}
+function setActivePhytoInDropdown(){
+
+}
+
 function inicializarFiltros(){
     // Ao carregar a página, inicializa filtros que já estavam ativos
     const botoesAtivos = Object.keys(this.filtrosAplicados);
     document.querySelectorAll('.filter-bar .btn').forEach(btnFiltro=>
         botoesAtivos.includes(btnFiltro.id) ? btnFiltro.click() : null
+    )
+
+    document.querySelectorAll('#filtro-habitat.filter-dropdown button.dropdown-item').forEach(btnDropdown=>
+        botoesAtivos.includes(btnDropdown.id) ? btnDropdown.click(): null
     )
 }
 
@@ -75,7 +142,6 @@ function toggleFiltrar(btn){
         'filtro-noturnas': sp=>sp.atividade_not===1,
         'filtro-diurnas': sp=>sp.atividade_diu===1,
         'filtro-comuns': sp=>sp.detectability_ff==1,
-        'filtro-endemicas': sp=>(sp.endemic_cerrado===1 || sp.endemic_chapada===1),
         'filtro-pequenas': sp=>sp.tamanho_med < 40,
         'filtro-grandes': sp=>sp.tamanho_med>80,
         'filtro-mes': sp=>sp.month_vec[this.currentMonth]===1
@@ -157,7 +223,7 @@ function atualizaNav(){
         
     if (document.querySelector(".species-page"))
         document.querySelector(".sppage-filtros-ativos").style.display = filtrosAtivos.length>0 ? "block" : "none"
-
+    
 }
 
 function atualizaFiltrosAtivosPaginaEspecies(){
