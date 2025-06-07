@@ -1,30 +1,84 @@
-﻿*Rhinella ocellata* é uma espécie de pequeno porte, que possui manchas em formas de ocelos em suas costas, conferindo seu nome *ocellata*. Ocorre perto de corpos d’água, onde se reproduz, em regiões que variam de 200 metros até 1500 metros acima do mar e vocaliza em solo nu arenoso cercado por capim ou outra vegetação arbustiva. Seu encontro na região da Chapada dos Veadeiros representa um importante registro biogeográfico, sendo este o primeiro registro de distribuição desta espécie para esta região. Diferentemente das outras espécies da mesma família, os machos de *R. ocellata* não migram para poças ou outros ambientes aquáticos para formar <glossario>agregações reprodutivas</glossario>. Assim, a espécie tem um período reprodutivo prolongado, onde os machos vocalizam em solos arenosos, próximo a gramíneas ou moitas de vegetação. Como na maioria das espécies do gênero Rhinella, *R. ocellata* se alimenta predominantemente de formigas, dos mais diversos tamanhos. Indivíduos dessa espécie já foram encontrados tanto em ambientes antrópicos quanto preservados, sugerindo que ela consegue se adaptar a ambientes alterados. É encontrado no Cerrado nos estados da Bahia, Goiás, Mato Grosso, Minas Gerais, Pará e Tocantins e, também, em áreas de restinga no Maranhão. 
-
-
-#### Diagnose
-Duas cristas ósseas iniciando no focinho e que se divergem posteriormente, as narinas são proeminentes e direcionadas para cima, <glossario>glândulas paratóides</glossario> não inchadas, dorso coberto por numerosas estruturas parecendo verrugas, <glossario>tarsos</glossario> com dois <glossario>tubérculos</glossario>, dorso com linha pontilhada amarela.
-
-
-#### Curiosidades
-Os machos de *Rhinella ocellata* podem ser facilmente localizados e reconhecidos individualmente pelo padrão de pontos dorsais.
-
-
-  
- 
-Figura retirada do artigo Caldwell, J. P.; Shepard, D. B. (2007, que mostra dois indivíduos de *Rhinella ocellata* e as diferenças no padrão de pontos dorsais.
-
-
-
-
-#### Referências
-Caldwell, J. P.; Shepard, D. B. (2007). Calling Site Fidelity and Call Structure of a Neotropical Toad, Rhinella ocellata (Anura: Bufonidae). Journal of Herpetology, vol. 41, no. 4, pp. 611-621. DOI: 10.1670/07-025.1
-
-
-Batista VG, Oda FH, Costa NQ, Maciel NM & Bastos RP. (2020). Relationship between body size and release call parameters in Rhinella species (Anura: Bufonidae), and the description of the release call of Rhinella ocellata (Gunter, 1858). Herpetology Notes, 13:191-197.
-
-
-Matavelli, R., Campos. A.M., Silva, G.R., Andrade, G.V. (2014): First record of Rhinella ocellata (Günther, 1858) (Bufonidae) for the state of Maranhão, northeastern Brazil. Check List 10: 432–433. html: https://biotaxa.org/hn/article/view/30070/30991 
-
-
-Leão, A. T.; Cochran, D. M. (1952). Revaldidation and re-description of Bufo ocellatus Günther, 1858 (Anura: Bufonidae). Memórias do Instituto Butantan, vol. 24, pp. 271-280. html: https://www.biodiversitylibrary.org/page/52680767#page/279/mode/1up
-(IUCN 2013; Frost 2014) - IUCN 2013. IUCN Red List of Threatened Species. Version 2012.1.Accessible at http:// www.iucnredlist.org/. Captured on 02 November 2013.
+<div class="descricao-geral">
+ <p>
+  Rhinella ocellata é uma espécie de sapo de pequeno porte, reconhecida pelas manchas arredondadas em suas costas que lembram ocelos (olhos), o que inspira seu nome científico. Ocorre em áreas do Cerrado entre 200 e 1500 metros de altitude, sempre próximo a corpos d’água, onde também se reproduz. Seu canto é emitido diretamente sobre solo arenoso, entre gramíneas ou vegetação arbustiva.
+O registro da espécie na Chapada dos Veadeiros representa uma importante ampliação da sua distribuição conhecida — sendo o primeiro para essa região. Diferente de outras espécies de sua família, os machos de R. ocellata não formam
+  <glossario>
+   agregações reprodutivas
+  </glossario>
+  em poças d’água. Em vez disso, apresentam um período reprodutivo prolongado, vocalizando isoladamente em solo seco, mas próximo à vegetação.
+Sua dieta é composta principalmente por formigas de diversos tamanhos, um padrão comum entre espécies do gênero Rhinella. Já foi encontrada tanto em ambientes preservados quanto em áreas antropizadas, sugerindo certa tolerância a alterações ambientais.
+A espécie ocorre nos estados da Bahia, Goiás, Mato Grosso, Minas Gerais, Pará e Tocantins, e também em áreas de restinga no Maranhão.
+ </p>
+</div>
+<div class="onde-encontrar">
+ <h1>
+  Onde encontrar
+ </h1>
+ <p>
+  Prefere áreas de Cerrado com solos arenosos e vegetação rasteira. Vocaliza próximo a capins e arbustos, principalmente durante o período chuvoso.
+ </p>
+</div>
+<div class="diagnose">
+ <h1>
+  Diagnose
+ </h1>
+ <p>
+  Possui cristas ósseas que se iniciam no focinho e se abrem em direção posterior e narinas proeminentes e voltadas para cima.
+  <glossario>
+   Glândulas paratóides
+  </glossario>
+  não inchadas, dorso com verrugas e linha pontilhada amarela e
+  <glossario>
+   Tarsos
+  </glossario>
+  com dois
+  <glossario>
+   tubérculos
+  </glossario>
+  .
+ </p>
+</div>
+<div class="curiosidades">
+ <h1>
+  Curiosidades
+ </h1>
+ <h2>
+  Reconhecimento individual?
+ </h2>
+ <p>
+  Os machos de Rhinella ocellata podem ser reconhecidos individualmente pelo padrão exclusivo de manchas em suas costas.
+ </p>
+ <p>
+  Figura retirada do artigo Caldwell &amp; Shepard (2007), mostrando as variações entre indivíduos de R. ocellata.
+ </p>
+</div>
+<div class="referencias">
+ <h1>
+  Referências
+ </h1>
+ <ol>
+  <li>
+   <p>
+    Caldwell, J. P., &amp; Shepard, D. B. (2007). Calling Site Fidelity and Call Structure of a Neotropical Toad, Rhinella ocellata. Journal of Herpetology, 41(4), 611–621.
+   </p>
+  </li>
+  <li>
+   <p>
+    Guerra, V. (2020). Relationship between body size and release call parameters in Rhinella species (Anura: Bufonidae), and description of the release call of Rhinella ocellata (Günther, 1858). Herpetology Notes, 13, 191–197.
+   </p>
+  </li>
+  <li>
+   <p>
+    Matavelli, R., Campos, A. M., Da Silva, G. R., &amp; de Andrade, G. V. (2014). First record of Rhinella ocellata (Günther, 1858)(Bufonidae) for the state of Maranhão, northeastern Brazil. Check List, 10(2), 432–433.
+   </p>
+  </li>
+  <li>
+   <p>
+    Leão, A. T, &amp; Cochran, D. M. (1952). Revalidação e redescrição de Bufo ocellatus. Memórias do Instituto Butantan, 24, 271–280.
+   </p>
+  </li>
+  <li>
+   IUCN 2013. Red List of Threatened Species. www.iucnredlist.org
+  </li>
+ </ol>
+</div>

@@ -1,22 +1,24 @@
 <div class="descricao-geral">
  <p>
-  Uma das características que mais chama a atenção dessa espécie é a coloração dos seus olhos. O terço superior do olho é dourado e o restante tem a coloração cobre vermelho. A espécie recebe esse nome em homenagem aos cientistas brasileiros Adolfo e Bertha Lutz, que foram pioneiros na descoberta e estudo do gênero Aplastodiscus. Com hábitos florestais e onde há buritizais (
-  <em>
-   Mauritia flexuosa
-  </em>
-  ), é encontrada, durante a noite, em matas ribeirinhas cantando empoleirada em em folhas e galhos até 5 metros de altura, o que dificulta estudos com a espécie. Somente foram encontrados indivíduos em locais com mais 1000 metros acima do nível do mar. Machos são encontrados vocalizando entre dezembro e março e uma fêmea já foi encontrada portando grandes
+  Uma das características que mais chama a atenção dessa espécie é a coloração dos seus olhos: o terço superior da íris é dourado e o restante apresenta um tom cobre-avermelhado. A espécie recebe esse nome em homenagem aos cientistas brasileiros Adolfo e Bertha Lutz, pioneiros na descoberta e estudo do gênero Aplastodiscus.
+Com hábitos florestais e associada a áreas com buritizais (Mauritia flexuosa), pode ser encontrada à noite em matas ribeirinhas, cantando empoleirada em folhas e galhos a até 5 metros de altura — o que dificulta a realização de estudos. Só foi registrada em locais acima de 1.000 metros de altitude. Machos vocalizam entre dezembro e março, e uma fêmea já foi encontrada com grandes
   <glossario>
    ovócitos
   </glossario>
-  em meados de dezembro. O girino da espécie ainda não é conhecido, porém possivelmente são depositados em solo de lama úmida e macia, coberta pela mata densa.
-  <em>
-   A. lutzorum
-  </em>
-  apresenta distribuição dentro do bioma Cerrado, em regiões próximas ao Distrito Federal. Além disso, apresenta uma distribuição separada das demais espécies do gênero Aplastodiscus. O
-  <em>
-   status
-  </em>
-  de conservação desta espécie é desconhecido, porém no artigo de descrição, é sugerido que seja classificada como LC (least Concern) - Menor preocupação - porque ocorre em locais protegidos, como o Parque Nacional da Chapada dos Veadeiros.
+  em dezembro. O girino da espécie ainda é desconhecido, mas acredita-se que os ovos sejam depositados em solo de lama úmida e coberta por vegetação densa.
+A espécie ocorre no bioma Cerrado, em áreas próximas ao Distrito Federal, com uma distribuição isolada em relação às demais espécies do gênero. Seu
+  <glossario>
+   status de conservação
+  </glossario>
+  ainda é indefinido, mas o artigo de descrição sugere classificá-la como LC (Least Concern - Menor preocupação), já que ocorre em áreas protegidas, como o Parque Nacional da Chapada dos Veadeiros.
+ </p>
+</div>
+<div class="onde-encontrar">
+ <h1>
+  Onde encontrar
+ </h1>
+ <p>
+  Espécie de hábitos noturnos, encontrada exclusivamente em altitudes superiores a 1.000 metros, em matas ribeirinhas do Cerrado. Os machos vocalizam entre dezembro e março, geralmente empoleirados em galhos ou folhas a até 5 metros do chão, próximos a buritizais ou áreas com vegetação densa. Sua localização elevada e os ambientes de difícil acesso tornam os registros raros.
  </p>
 </div>
 <div class="diagnose">
@@ -24,43 +26,33 @@
   Diagnose
  </h1>
  <p>
-  <em>
-   Aplastodiscus lutzorum
-  </em>
-  pertence ao grupo
-  <em>
-   A. perviridis
-  </em>
-  por possuir íris bicolores, o saco vocal é verde azulado, o corpo varia de colorações verdes com
+  Aplastodiscus lutzorum pertence ao grupo A. perviridis, apresentando íris bicolor, com saco vocal verde-azulado. O corpo varia entre tons de verde com
   <glossario>
    melanóforos
   </glossario>
-  amarelos dispersos ao longo do corpo e a barriga tem tom amarelo pálido. Além disso, não tem membrana entre os dedos I e II e é diagnosticada pelo seu pequeno comprimento rostro-cloacal (30–36 mm) e pelo canto de anúncio ser 2,5 vezes mais longo (0,12 a 0,15 s) e por apresentar 39 cantos/minuto. Quando olhada de perfil, apresenta focinho arredondado. A pele do dorso é lisa e apresenta pontos castanhos escuros, enquanto que a pele na garganta, barriga, supefície ventral da coxa e do braço é granular.
+  amarelos dispersos, e a barriga é de coloração amarelo-pálida. A espécie não possui membrana entre os dedos I e II. O comprimento rostro-cloacal é pequeno (30–36 mm). Seu canto de anúncio é cerca de 2,5 vezes mais longo (0,12 a 0,15 segundos), com média de 39 cantos por minuto. Visto de perfil, o focinho é arredondado. A pele do dorso é lisa com pontos castanho-escuros, enquanto as regiões da garganta, barriga, coxas e braços (nas superfícies ventrais) são granulares.
  </p>
 </div>
-<div class="curiosidade">
+<div class="curiosidades">
  <h1>
-  Curiosidade
+  Curiosidades
  </h1>
- <p>
-  O nome da espécie é em homenagem aos cientistas brasileiros Adolfo e Bertha Lutz, pioneiros em descobrir e estudar o gênero Aplastodiscus. Adolfo Lutz foi um médico e cientista brasileiro e foi o pioneiro em pesquisas com doenças infecciosas. Foi o primeiro cientista latino-americano a estudar os mecanismos de transmissão da febre amarela pelo
-  <em>
-   Aedes aegypti
-  </em>
-  e se dedicou a estudar a cólera, peste bubônica, febre tifóide, malária, esquistossomose e leishmaniose, além de descrever espécies de anfíbios e insetos. Já Bertha Lutz, filha de Adolfo, foi uma ativista pelos direitos da mulher, bióloga e política brasileira. Trabalhou no Museu Nacional do Rio de Janeiro, com especialização nos anfíbios. Fundou e organizou movimentos que lutavam pelo feminismo e educação, como salários iguais para homens e mulheres, direito à licença-maternidade e contra o trabalho infantil. Como cientista, combateu doenças, contribuiu para a proteção da natureza e conservação da fauna e flora.
- </p>
+ <ol>
+  <li>
+   <h2>
+    Homenagem a dois grandes cientistas!
+   </h2>
+   O nome da espécie homenageia Adolfo e Bertha Lutz. Adolfo Lutz foi médico e pioneiro no estudo de doenças infecciosas no Brasil, sendo o primeiro latino-americano a investigar a transmissão da febre amarela pelo Aedes aegypti, além de contribuir com o conhecimento de diversas doenças e na descrição de espécies. Sua filha, Bertha Lutz, foi uma bióloga, política e ativista pelo direito das mulheres. Trabalhou no Museu Nacional, especializou-se em anfíbios, lutou por igualdade de gênero, direito à licença-maternidade e contra o trabalho infantil, além de defender a proteção da natureza e da biodiversidade brasileira.
+  </li>
+ </ol>
 </div>
 <div class="referencias">
  <h1>
   Referências
  </h1>
- <p>
-  https://pt.wikipedia.org/wiki/Bertha_Lutz
-https://pt.wikipedia.org/wiki/Adolfo_Lutz
-Berneck BVM, Giaretta AA, Brandão RA, Cruz CAG &amp; Haddad CFB. (2017). The first species of
-  <em>
-   Aplastodiscus
-  </em>
-  endemic to the Brazilian Cerrado (Anura, Hylidae). ZooKeys, 642:115-130. doi: 10.3897/zookeys.642.10401.
- </p>
+ <ol>
+  <li>
+   Berneck, B. V. M., Giaretta, A. A., Brandão, R. A., Cruz, C. A. G., &amp; Haddad, C. F. B. (2017). The first species of Aplastodiscus endemic to the Brazilian Cerrado (Anura, Hylidae). ZooKeys, 642, 115–130.
+  </li>
+ </ol>
 </div>

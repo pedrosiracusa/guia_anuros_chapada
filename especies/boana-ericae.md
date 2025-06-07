@@ -1,7 +1,20 @@
 <div class="descricao-geral">
  <p>
-  Boana ericae é uma perereca arborícola de médio porte. O epíteto específico ericae homenageia a Dra. Érica Pellegrini Caramaschi, pelo seu esforço para o conhecimento biológico dos peixes brasileiros.
-Vivem nas bordas e dentro das matas de galeria, onde os machos vocalizam na época reprodutiva (chuva), que vai de novembro a janeiro, próximos de corpos d’água, se empoleirando em arbustos e árvores, em alturas que variam de 0,1m a 1m.  Ainda não se sabe muito sobre a ovoposição e sobre os girinos dessa espécie. Sua distribuição é extremamente restrita, sendo encontrada apenas na região da Chapada dos Veadeiros, no município de Alto Paraíso de Goiás e Cavalcante – GO , o que faz com que ela seja considerada endêmica da Chapada dos Veadeiros. Por ser uma espécie de distribuição pequena, as maiores ameaças são exploração madeireira, mineração e os incêndios, que apesar de serem comuns nesse bioma, também existe ainda muito fogo criminoso.
+  Boana ericae é uma perereca arborícola de porte médio, cujo epíteto específico homenageia a Dra. Érica Pellegrini Caramaschi, em reconhecimento ao seu esforço para o conhecimento biológico dos peixes brasileiros.
+Essa espécie habita as bordas e o interior das matas de galeria, onde os machos vocalizam durante a época reprodutiva, que ocorre entre novembro e janeiro, próximos a corpos d'água. Durante esse período, os machos se empoleiram em arbustos e árvores, em alturas que variam de 0,1m a 1m. Embora muito pouco seja conhecido sobre a
+  <glossario>
+   ovoposição
+  </glossario>
+  e os girinos desta espécie, sabe-se que sua distribuição é extremamente restrita, ocorrendo apenas na região da Chapada dos Veadeiros, nos municípios de Alto Paraíso de Goiás e Cavalcante – GO, o que faz dela uma espécie endêmica dessa região.
+Devido à sua distribuição limitada, as maiores ameaças à espécie são a exploração madeireira, mineração e incêndios, sendo que os incêndios criminosos também representam um risco considerável.
+ </p>
+</div>
+<div class="onde-encontrar">
+ <h1>
+  Onde encontrar
+ </h1>
+ <p>
+  Boana ericae pode ser encontrada nas bordas das matas de galeria e dentro dessas matas da Chapada dos Veadeiros, especificamente nos municípios de Alto Paraíso de Goiás – GO.
  </p>
 </div>
 <div class="diagnose">
@@ -9,11 +22,11 @@ Vivem nas bordas e dentro das matas de galeria, onde os machos vocalizam na épo
   Diagnose
  </h1>
  <p>
-  Possui porte médio (comprimento rostro-cloacal 29,2 mm nos machos e 36,9 mm nas fêmeas), focinho arredondado, dedos com discos adesivos grandes, membrana interdigital bem desenvolvida entre os
+  Essa perereca apresenta porte médio, com comprimento rostro-cloacal variando de 29,2 mm nos machos e 36,9 mm nas fêmeas. Seu focinho é arredondado, com grandes discos adesivos nos dedos e membranas interdigital bem desenvolvidas entre os
   <glossario>
    artelhos
   </glossario>
-  . A coloração dorsal apresenta manchas irregulares de cor marrom-escuro e, lateralmente, apresenta uma estreita faixa amarelo-claro que vai desde a ponta do focinho até a coxa. Nos flancos, há manchas arredondadas de cor amarelo.
+  . A coloração dorsal dessa espécie apresenta manchas irregulares de cor marrom-escuro, enquanto lateralmente, há uma estreita faixa amarelo-claro que vai desde a ponta do focinho até a coxa. Nos flancos, há manchas arredondadas de cor amarela.
  </p>
 </div>
 <div class="curiosidades">
@@ -22,32 +35,37 @@ Vivem nas bordas e dentro das matas de galeria, onde os machos vocalizam na épo
  </h1>
  <ol>
   <li>
-   Existe uma diferença entre
-   <em>
-    Boana ericae
-   </em>
-   e entre outras espécies de Boana relacionadas na osteologia, ou seja, nos ossos. Primeiramente, alguns indivíduos dessa espécie possuem os ossos esverdeados e outros possuem os ossos esbranquiçados. Outras diferenças é na formação em si dos ossos, como  a formação de um prepólex presente e muito curvado (90°) e desenvolvido. O prepólex é um espinho nos dedos das mãos que é um caráter sexual secundário. Ele está presente no macho e serve para ele segurar melhor a fêmea na hora da cópula.
+   <h2>
+    Diferenças osteológicas
+   </h2>
+   <p>
+    Existem diferenças na osteologia entre Boana ericae e outras espécies de Boana relacionadas. Alguns indivíduos dessa espécie apresentam ossos esverdeados, enquanto outros possuem ossos esbranquiçados. Além disso, há a formação de um prepólex muito curvado (90°), que é um espinho nos dedos das mãos, um caráter sexual secundário presente no macho, utilizado para segurar melhor a fêmea durante a cópula.
+   </p>
   </li>
- </ol>
- <p>
-  Imagem retirada do artigo , onde PPE: prepólex proximal, PDE: prepólex distal, CV: crista ventral, S: espinha (coluna vertebral).
- </p>
- <ol>
   <li>
-   Ocorrem variações no padrão do colorido dorsal em
-   <em>
-    Boana ericae
-   </em>
-   quanto ao tamanho e forma das manchas marrom-escuro e a pigmentação esbranquiçada esparsa, assim como quanto à forma e número de manchas brancas laterais.
+   <h2>
+    Variação do padrão de coloração
+   </h2>
+   <p>
+    Há variações no padrão de coloração dorsal de Boana ericae, tanto no tamanho e forma das manchas marrom-escuro quanto na presença de pigmentação esbranquiçada esparsa. Também há diferenças no número e na forma das manchas brancas laterais.
+   </p>
   </li>
  </ol>
 </div>
-<div class="referencias-bibliograficas">
+<div class="referencias">
  <h1>
-  Referências bibliográficas
+  Referências
  </h1>
- <p>
-  Garcia PC &amp; Haddad CF. (2008). Vocalizations and comments on the relationships of Hypsiboas ericae (Amphibia, Hylidae). Iheringia. Série Zoologia, 98(1):161-6.
-Caramaschi U &amp; Cruz CA. (2000). Duas espécies novas de Hyla Laurenti, 1768 do estado de Goiás, Brasil (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, Nova Série, Zoologia, 422:1-2.
- </p>
+ <ol>
+  <li>
+   <p>
+    Garcia, P. C. &amp; Haddad, C. F. (2008). Vocalizations and comments on the relationships of Hypsiboas ericae (Amphibia, Hylidae). Iheringia. Série Zoologia, 98(1), 161-166.
+   </p>
+  </li>
+  <li>
+   <p>
+    Caramaschi, U. &amp; Cruz, C. A. (2000). Duas espécies novas de Hyla Laurenti, 1768 do estado de Goiás, Brasil (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, Nova Série, Zoologia, 422, 1-2.
+   </p>
+  </li>
+ </ol>
 </div>

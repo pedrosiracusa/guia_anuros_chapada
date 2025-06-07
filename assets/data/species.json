@@ -36,11 +36,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "rhaebo-guttatus",
@@ -79,11 +79,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "rhinella-diptycha",
@@ -122,11 +122,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "rhinella-mirandaribeiroi",
@@ -165,11 +165,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "rhinella-ocellata",
@@ -208,11 +208,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "rhinella-rubescens",
@@ -251,11 +251,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "ameerega-flavopicta",
@@ -294,11 +294,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "aplastodiscus-lutzorum",
@@ -337,11 +337,11 @@
    0,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 0,
-  "tcp_hb": 1,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 1
  },
  {
   "id": "boana-albopunctata",
@@ -380,11 +380,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 1,
-  "tcp_hb": 1,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 1
  },
  {
   "id": "boana-ericae",
@@ -424,11 +424,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 0,
-  "tcp_hb": 1,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 1
  },
  {
   "id": "boana-goiana",
@@ -467,11 +467,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 0,
-  "tcp_hb": 1,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 1
  },
  {
   "id": "boana-lundii",
@@ -510,11 +510,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 0,
-  "tcp_hb": 1,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 1
  },
  {
   "id": "boana-raniceps",
@@ -554,11 +554,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 0
  },
  {
   "id": "bokermannohyla-pseudopseudis",
@@ -597,11 +597,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 0
  },
  {
   "id": "dendropsophus-jimi",
@@ -641,11 +641,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 1,
-  "tcp_hb": 0,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "dendropsophus-melanargyreus",
@@ -684,11 +684,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 0,
-  "tcp_hb": 1,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 1
  },
  {
   "id": "dendropsophus-minutus",
@@ -727,11 +727,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 1,
-  "tcp_hb": 0,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 0
  },
  {
   "id": "dendropsophus-rubicundulus",
@@ -770,11 +770,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 1,
-  "tcp_hb": 0,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "ololygon-skaios",
@@ -813,11 +813,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 0
  },
  {
   "id": "pithecopus-hypochondrialis",
@@ -856,11 +856,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 1,
-  "tcp_hb": 1,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 1
  },
  {
   "id": "pithecopus-oreades",
@@ -899,11 +899,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 1,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 0
  },
  {
   "id": "scinax-fuscomarginatus",
@@ -942,11 +942,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 1,
-  "tcp_hb": 0,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 0
  },
  {
   "id": "scinax-fuscovarius",
@@ -986,11 +986,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 1,
-  "tcp_hb": 1,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 1
  },
  {
   "id": "scinax-rogerioi",
@@ -1029,11 +1029,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 1,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "scinax-rupestris",
@@ -1072,11 +1072,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "scinax-similis",
@@ -1115,11 +1115,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 1,
-  "tcp_hb": 1,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 1
  },
  {
   "id": "scinax-squalirostris",
@@ -1158,11 +1158,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 1,
-  "tcp_hb": 0,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "scinax-tigrinus",
@@ -1201,11 +1201,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 1,
-  "tcp_hb": 0,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "trachycephalus-typhonius",
@@ -1244,11 +1244,11 @@
    1,
    1
   ],
+  "tcp_lb": 1,
   "tcp_gr": 0,
-  "tcp_hb": 1,
   "tcp_te": 0,
   "tcp_fs": 0,
-  "tcp_lb": 1
+  "tcp_hb": 1
  },
  {
   "id": "adenomera-cotuba",
@@ -1287,11 +1287,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "adenomera-juikitam",
@@ -1330,11 +1330,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "adenomera-saci",
@@ -1373,11 +1373,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "leptodactylus-furnarius",
@@ -1416,11 +1416,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "leptodactylus-fuscus",
@@ -1460,11 +1460,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "leptodactylus-labyrinthicus",
@@ -1503,11 +1503,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "leptodactylus-macrosternum",
@@ -1546,11 +1546,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "leptodactylus-mystaceus",
@@ -1589,11 +1589,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "leptodactylus-mystacinus",
@@ -1632,11 +1632,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "leptodactylus-sertanejo",
@@ -1675,11 +1675,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "leptodactylus-syphax",
@@ -1718,11 +1718,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "leptodactylus-tapiti",
@@ -1761,11 +1761,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "physalaemus-centralis",
@@ -1806,11 +1806,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "physalaemus-cuvieri",
@@ -1850,11 +1850,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "pseudopaludicola-murundu",
@@ -1893,11 +1893,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "pseudopaludicola-mystacalis",
@@ -1936,11 +1936,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "pseudopaludicola-ternetzi",
@@ -1979,11 +1979,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "elachistocleis-cesarii",
@@ -2022,11 +2022,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "odontophrynus-cultripes",
@@ -2065,11 +2065,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "proceratophrys-branti",
@@ -2108,11 +2108,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "proceratophrys-goyana",
@@ -2151,11 +2151,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "proceratophrys-rotundipalpebra",
@@ -2194,11 +2194,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "proceratophrys-salvatori",
@@ -2239,11 +2239,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "siphonops-paulensis",
@@ -2283,11 +2283,11 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 0,
   "tcp_fs": 1,
-  "tcp_lb": 0
+  "tcp_hb": 0
  },
  {
   "id": "barycholos-ternetzi",
@@ -2326,10 +2326,10 @@
    1,
    1
   ],
+  "tcp_lb": 0,
   "tcp_gr": 0,
-  "tcp_hb": 0,
   "tcp_te": 1,
   "tcp_fs": 0,
-  "tcp_lb": 0
+  "tcp_hb": 0
  }
 ]

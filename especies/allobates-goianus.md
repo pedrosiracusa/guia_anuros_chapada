@@ -1,42 +1,105 @@
-﻿Essa espécie de anuro é bem difícil de ser encontrada. Os machos de *Allobates goianus* cantam em dias chuvosos ou sob a serapilheira úmida ou em galhos no solo dentro de florestas ribeirinhas. Eles começam a vocalizar pela manhã e na época de sua reprodução os ovos são colocados diretamente no solo.
-
-
-Dentro do gênero *Allobates*, essa espécie é a única que ocorre na Chapada dos Veadeiros - GO, sendo esta a sua <glossario>localidade-tipo</glossario>. Essa espécie, atualmente, é encontrada em matas muito fragmentadas de apenas 3 localidades: Chapada dos Veadeiros-GO, Floresta Nacional de Silvânia-GO e Niquelândia. 
-
-
-Ela sofre isolamento geográfico e genético por causa da grande fragmentação das matas. E com essa distribuição muito restrita, ela é <glossario>endêmica</glossario> do Bioma Cerrado e <glossario>endêmica</glossario> de Goiás. É daí que vem o significado do seu <glossario>epíteto-específico</glossario> *goianus*.
-
-
-O *Allobates goianus* precisa de um estudo muito mais aprofundado para entender o seu estado de conservação, já que essa espécie nunca mais foi encontrada nesta região. As principais ameaças à essa espécie são a agricultura (cultivo de culturas e criação de gado), bem como extração de madeira, mineração e construção de barragens, já que tudo isso leva à fragmentação do hábitat e à perda de seu ambiente natural.
- 
-
-
-#### Diagnose
-Se difere por uma mancha no dorso de cor marrom escura em formato de ampulheta e por possuir uma faixa lateral escura que vai da virilha até a ponta do focinho. Possui uma coloração amarela na parte ventral do corpo, íris metálica ouro.
-
-
-
-
-
-
-*Referências*
-Artigo 1: Advertisement calls of three anuran species (Amphibia) from the Cerrado, Central Brazil. Bastos e colaboradores, 2011.
-
-
-Artigo 2: Reproductive modes, habitat use, and richness of anurans from Chapada dos Veadeiros, central Brazil. Santoro e Brandao, 2014.
-
-
-Artigo 3 (descrição): A new account for the endangered Cerrado Rocket Frog Allobates goings (Bokermann, 1975)(Anura: Aromobatidae), with comments on taxonomy and conservation. Carvalho e colaboradores, 2016.
-
-
-
-
-
-
-
-
-#### Curiosidades
-Possuem um comportamento reprodutivo bem curioso, onde os ovos são depositados no solo, dentro de tocas ou fendas úmidas e, logo que os girinos eclodem, os machos os carregam nas costas, até um curso de água dentro da mata de galeria.
-
-
-Este espécie não é mais encontrada na sua localidade tipo (Chapada dos Veadeiros) há muitos anos. Alguns pesquisadores dizem 20 anos. Sua distribuição na Serra da Mesa-GO foi suprimida pelo enchimento de reservatório da Usina Hidrelétrica.
+<div class="descricao-geral">
+ <p>
+  Essa espécie de sapo é bastante difícil de ser encontrada. Os machos de
+  <em>
+   Allobates goianus
+  </em>
+  vocalizam durante os dias chuvosos, sob a
+  <glossario>
+   serapilheira
+  </glossario>
+  úmida ou sobre galhos caídos no solo, sempre dentro de florestas ribeirinhas. O canto começa pela manhã, e na época reprodutiva, os ovos são depositados diretamente no solo.
+Dentro do gênero
+  <em>
+   Allobates
+  </em>
+  , esta é a única espécie registrada na Chapada dos Veadeiros (GO), sendo essa a sua
+  <glossario>
+   localidade-tipo
+  </glossario>
+  . Atualmente, é conhecida apenas em três localidades: Chapada dos Veadeiros-GO, Floresta Nacional de Silvânia-GO e Niquelândia-GO.
+Essa espécie enfrenta
+  <glossario>
+   isolamento geográfico
+  </glossario>
+  e genético devido à intensa fragmentação das florestas. Com uma distribuição extremamente restrita, é considerada
+  <glossario>
+   endêmica
+  </glossario>
+  do bioma Cerrado e também do estado de Goiás. O nome da espécie (goianus) faz referência direta a essa origem.
+  <em>
+   Allobates goianus
+  </em>
+  necessita de estudos mais aprofundados para a avaliação de seu estado de conservação, especialmente porque não há registros recentes da espécie na região. As principais ameaças incluem a agricultura (cultivo e criação de gado), extração de madeira, mineração e construção de barragens — atividades que contribuem para a destruição e fragmentação de seu hábitat natural.
+ </p>
+</div>
+<div class="onde-encontrar">
+ <h1>
+  Onde encontrar
+ </h1>
+ <p>
+  É uma espécie de hábito discreto, associada a florestas ribeirinhas do Cerrado. Os machos vocalizam no início da manhã, especialmente em dias chuvosos, sobre o solo coberto por serapilheira ou em pequenos galhos caídos. Procurar em áreas de mata preservada aumenta as chances de encontrá-lo.
+ </p>
+</div>
+<div class="diagnose">
+ <h1>
+  Diagnose
+ </h1>
+ <p>
+  Distingue-se por apresentar uma mancha marrom-escura no dorso, em formato de ampulheta, e por uma faixa lateral escura que vai da virilha até o focinho. A parte ventral do corpo possui coloração amarela e a íris tem um tom metálico dourado.
+ </p>
+</div>
+<div class="curiosidades">
+ <h1>
+  Curiosidades
+ </h1>
+ <ol>
+  <li>
+   <h2>
+    Comportamento reprodutivo inusitado
+   </h2>
+   Os ovos são colocados no solo, em tocas ou fendas úmidas. Após a eclosão, os machos carregam os girinos nas costas até um curso d'água, geralmente dentro da mata de galeria.
+  </li>
+  <li>
+   <h2>
+    Uma espécie desaparecida?
+   </h2>
+   <em>
+    Allobates goianus
+   </em>
+   não é mais registrado em sua localidade-tipo (Chapada dos Veadeiros) há muitos anos — alguns pesquisadores estimam mais de 20 anos. Em outra localidade, a Serra da Mesa-GO, sua ocorrência foi interrompida pelo enchimento do reservatório de uma usina hidrelétrica.
+  </li>
+  <li>
+   <h2>
+    Fragmentação crítica
+   </h2>
+   A espécie está presente em apenas três locais muito distantes entre si, o que aumenta os riscos à sua sobrevivência e dificulta a dispersão de indivíduos.
+  </li>
+ </ol>
+</div>
+<div class="referencias">
+ <h1>
+  Referências
+ </h1>
+ <ol>
+  <li>
+   <p>
+    Bastos, R. P., Signorelli, L., Morais, A. R., Costa, T. B., Lima, L. P., &amp; Pombal, J. P. (2011). Advertisement calls of three anuran species (Amphibia) from the Cerrado, Central Brazil. South American Journal of Herpetology, 6(2), 67–72.
+   </p>
+  </li>
+  <li>
+   <p>
+    Santoro, G. R., &amp; Brandão, R. A. (2014). Reproductive modes, habitat use, and richness of anurans from Chapada dos Veadeiros, central Brazil. North-Western Journal of Zoology, 10(2), 365–373.
+   </p>
+  </li>
+  <li>
+   <p>
+    Carvalho, T. R., Martins, L. B., &amp; Giaretta, A. A. (2016). A new account for the endangered Cerrado Rocket Frog
+    <em>
+     Allobates goianus
+    </em>
+    (Bokermann, 1975)(Anura: Aromobatidae), with comments on taxonomy and conservation. Acta Herpetologica, 11(1).
+   </p>
+  </li>
+ </ol>
+</div>

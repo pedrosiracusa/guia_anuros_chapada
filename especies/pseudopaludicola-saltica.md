@@ -1,6 +1,25 @@
-﻿É uma espécie de tamanho médio para o gênero, mas de porte pequeno em relação aos anuros. É um anuro terrestre, diurno e noturno, e insetívora. Pode ser encontrada vocalizando no chão encharcado, ou sobre afloramentos de rochas, próximos a filetes de água. A desova é depositada sobre a vegetação aquática submersa e os girinos permanecem em valas no fundo de rios de areia ou rocha com fluxo contínuo de água.
-É uma espécie <glossario>endêmica</glossario> do Cerrado, mas com ampla distribuição neste bioma. Apresenta algum grau de tolerância às modificações no habitat, uma vez que já foi observada utilizando áreas de pastagem. No entanto suas principais ameaças são construções de reservatórios hidroelétricos e expansão das fronteiras agropecuárias.
-
-
-#### Diagnose
-Pode ser diagnosticada das demais espécies deste gênero por apresentar pernas posteriores mais longas e robustas. Possui uma linha vertebral que está presente em 30% dos indivíduos e podem também apresentar manchas dorsolaterais de coloração bege-clara. A coloração dorsal pode variar de marrom-claro ao marrom-oliváceo com padrão de manchas indistintas de coloração marrom-escuro presente também na região posterior da coxa, tíbia e pés. O focinho é acuminado em vista lateral, os dedos possuem franjas dérmicas vestigiais e as pontas são arredondadas.
+<div class="descricao-geral">
+ <p>
+  É uma espécie de tamanho médio dentro do gênero, mas considerada pequena em comparação com outros anuros. Trata-se de um anuro terrestre, ativo tanto durante o dia quanto à noite, com dieta predominantemente
+  <glossario>
+   insetívora
+  </glossario>
+  . Pode ser encontrada vocalizando no chão encharcado ou sobre afloramentos rochosos, geralmente próximos a filetes de água. A reprodução ocorre com a deposição da desova sobre vegetação aquática submersa, e os girinos se desenvolvem em valas no fundo de rios arenosos ou rochosos com fluxo contínuo de água.
+ </p>
+</div>
+<div class="onde-encontrar">
+ <h1>
+  Onde encontrar
+ </h1>
+ <p>
+  Endêmica do bioma Cerrado, é amplamente distribuída na região. Apresenta certa tolerância à modificação ambiental, sendo registrada até em áreas de pastagem. No entanto, sofre impactos negativos pela construção de usinas hidrelétricas e pela expansão agropecuária.
+ </p>
+</div>
+<div class="diagnose">
+ <h1>
+  Diagnose
+ </h1>
+ <p>
+  Distingue-se de outras espécies do mesmo gênero por suas pernas posteriores mais longas e robustas. Pode apresentar uma linha vertebral clara, visível em cerca de 30% dos indivíduos, além de manchas dorsolaterais bege-claras. A coloração dorsal varia do marrom-claro ao marrom-oliváceo, com manchas escuras difusas que também aparecem na parte posterior da coxa, tíbia e pés. O focinho é acuminado em vista lateral. Os dedos possuem franjas dérmicas vestigiais e terminação arredondada.
+ </p>
+</div>

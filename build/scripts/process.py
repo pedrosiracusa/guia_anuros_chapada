@@ -150,7 +150,7 @@ def processarTabelaEspecies():
         'muitoraro': 'rr'
     }
 
-    df['detectability'] = df['detectability'].apply(lambda x: subst_dict[x] if x is not np.NaN else x)
+    df['detectability'] = df['detectability'].apply(lambda x: subst_dict[x] if x is not np.nan else x)
     df = pd.get_dummies(df, prefix='detectability',columns=['detectability'], dtype=int)
 
     # Poleiro
