@@ -1,4 +1,3 @@
-﻿### Rãs ovais
-
-
-Rãs de tamanho pequeno ou médio e é facilmente reconhecíveis por ter o corpo em forma ovalada ou em gota. Além disso, eles possuem uma cabeça triangular com um focinho pontiagudo, olhos pequenos e membros traseiros curtos, com dedos cilíndricos e sem palma entre eles. Todas essas características são devido à sua ecologia, são anuros ativos à noite e têm hábitos mineiros ou semi-subterrâneos, vivendo embaixo do folhiço em regiões alagadas, por isso são muito difíceis de ver. Normalmente, eles são observados quando são agrupados para reproduzir durante as primeiras chuvas da estação.
+﻿### Rãs-ovais
+A família Microhylidae reúne 759 espécies distribuídas em 59 gêneros, com ampla distribuição pelas Américas, sudeste da Ásia, Nova Guiné, norte da Austrália, África subsaariana e Madagascar. Popularmente conhecidas como “rãs de boca estreita”, incluem espécies de hábitats bastante variados, podendo ocorrer formas fossoriais, terrestres, arbóreas e até cavernícolas, com morfologia geralmente compacta, patas posteriores robustas, focinho curto e corpo globoso em forma de gota.
+Apresentam grande diversidade de modos reprodutivos, incluindo desenvolvimento direto e larvas aquáticas.

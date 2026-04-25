@@ -3,16 +3,23 @@
   {
    "nome": "Ana Cecília del Prette",
    "papel": "Produtora de conteúdo e Diagramadora",
-   "descricao": "Bióloga formada pela UnB e doutorando em Zoologia na UFMG. Apaixonada pelas formas da natureza, herpetofauna e evolução, Investiga fluxo gênico entre duas espécies de pererecas-das-folhagens do gênero Pithecopus e busca compreender como processos evolutivos atuaram e moldaram na estruturação genética e distribuição das espécies. Além disso, faz parte deste projeto desde sua criação e origem.",
+   "descricao": "Bióloga e Mestra em Zoologia pela UnB e, atualmente, doutoranda em Zoologia na UFMG. Apaixonada pelas formas da natureza, herpetofauna e evolução. Investiga fluxo gênico entre espécies de pererecas-das-folhagens do gênero *Pithecopus* buscando compreender como processos evolutivos moldaram na estruturação genética e distribuição das espécies. Além disso, idealizou e faz parte deste projeto desde sua criação.",
    "links": {
-    "Instagram": "https://www.instagram.com/anaceciliaholler/",
-    "Herpeto em Foco": "https://www.instagram.com/herpetoemfoco/"
+    "Instagram": "https://www.instagram.com/anaceciliaholler/ (@anaceciliaholler)",
+    "Herpeto em Foco": "https://www.instagram.com/herpetoemfoco/ (@herpetoemfoco)"
    },
    "avatar-img": "acholler"
   },
   {
+   "nome": "Anderson De Lima",
+   "papel": "Produtor de conteúdo e Diagramador",
+   "descricao": "Biólogo, mestre e doutorando em Zoologia pela UnB. Estuda a herpetofauna do Cerrado, com foco nos padrões e processos geradores da diversidade nos grupos Squamata e Anura.",
+   "links": {},
+   "avatar-img": "alima"
+  },
+  {
    "nome": "Beatriz Vasconcelos",
-   "papel": "Produtora de conteúdo e Ilustradora",
+   "papel": "Produtora de conteúdo",
    "descricao": "Bióloga herpetóloga com um pezinho na ornitologia. Adora fotografar, ilustrar (@bandoleta_) e ir à campo para adquirir conhecimento e novas histórias. É mestranda no @mapinguariufms onde estuda a genética populacional do jacaré-paguá Paleosuchus palpebrosus.",
    "links": {},
    "avatar-img": "bvasconcelos"
@@ -33,77 +40,79 @@
     " Linkedin": "https://www.linkedin.com/in/pedrosiracusa/"
    },
    "avatar-img": "pcsiracusa"
-  },
-  {
-   "nome": "Anderson De Lima",
-   "papel": "Produtor de conteúdo",
-   "descricao": "Biólogo, mestre e doutorando em Zoologia pela UnB. Estuda a herpetofauna do Cerrado, com foco nos padrões e processos geradores da diversidade nos grupos Squamata e Anura.",
-   "links": {},
-   "avatar-img": "alima"
   }
  ],
  "colaboradores": [
   {
    "nome": "Reuber Albuquerque Brandão",
-   "papel": "Coordenador",
-   "descricao": NaN,
+   "papel": "Supervisor acadêmico",
+   "descricao": "Professor associado ao Departamento de Engenharia Florestal da UnB e atuou como supervisor do projeto que, em parte, foi realizado no Laboratório de Fauna e Unidades de Conservação (LAFUC)",
    "links": {},
    "avatar-img": "rbrandao"
   },
   {
    "nome": "Yan Soares",
    "papel": "Apoio em campo",
-   "descricao": "Biólogo, mestre em Zoologia/UnB e aluno de doutorado em Ecologia/UnB. No doutorado estudo peixes de riachos do Brasil central.",
+   "descricao": "Biólogo, mestre em Zoologia/UnB e doutorando em Ecologia/UnB. No doutorado estuda peixes de riachos (cascudinhos) do Brasil central.",
    "links": {},
    "avatar-img": "ysoares"
   },
   {
+   "nome": "Carlos José",
+   "papel": "Apoio em campo",
+   "descricao": "Biólogo formado pela UnB e colaborador nas expedições de campo.",
+   "links": {},
+   "avatar-img": "caze"
+  },
+  {
    "nome": "Pedro Oliveira",
    "papel": "Ilustrador",
-   "descricao": "Biólogo, mestrando pela UnB, com experiência em Divulgação Científica e coloração, evolução e morfologia de Scarabaeidae. No projeto, contribuiu com belas ilustrações e componentes de tela.",
+   "descricao": "Biólogo e mestre pela UnB, com experiência em Divulgação Científica. Colaborou com a ilustração das fitofisionomias e de duas espécies do guia.",
    "links": {
     "Portfólio": "https://www.behance.net/gallery/59724787/Botanical-Watercolor"
    },
    "avatar-img": "pholiveira"
   },
   {
-   "nome": "Carlos José",
-   "papel": "Apoio em campo",
-   "descricao": NaN,
-   "links": {},
-   "avatar-img": "caze"
-  },
-  {
    "nome": "Santuário Volta da Serra",
    "papel": "Apoio logístico",
-   "descricao": "Santuário ecológico que promove o turismo sustentável na região da Chapada. Foi onde o projeto do Guia começou!",
+   "descricao": "Santuário ecológico que promove o turismo sustentável na região da Chapada dos Veadeiros. Foi onde o projeto Anfíbios dos Veadeiros começou e onde houveram as primeiras expedições.",
    "links": {
     "Site": "https://fazendavoltadaserra.com.br/"
    },
    "avatar-img": "fvs"
   },
   {
-   "nome": "Parque Nacional da Chapada dos Veadeiros",
+   "nome": "Parque Nacional da Chapada dos Veadeiros (PNCV)",
    "papel": "Apoio logístico",
-   "descricao": NaN,
+   "descricao": "A sede do parque atuou como apoio logísticos às saídas de campo realizada dentro dos limites do Parque Nacional da Chapada dos Veadeiros",
    "links": {
     "Site": "https://pnchapadadosveadeiros.com.br/"
    },
    "avatar-img": "pncv"
   },
   {
-   "nome": "PETBio",
+   "nome": "Laboratório de Fauna e Unidades de Conservação (LAFUC)",
+   "papel": "Apoio logístico",
+   "descricao": "Laboratório da Universidade de Brasília coordenado pelo Professor Reuber Brandão onde surgiram as primeiras aspirações para o desenvolvimento do projeto.",
+   "links": {
+    "Instagram": "https://www.instagram.com/lafuc.unb/ (@lafuc.unb)"
+   },
+   "avatar-img": "lafuc"
+  },
+  {
+   "nome": "PETBio/UnB",
    "papel": "Apoio logístico, financeiro e em campo",
-   "descricao": NaN,
+   "descricao": "Programa do curso de Ciências Biológicas da UnB na qual alguns integrantes deste projeto fizeram parte. Além disso, participou de saidas de campo.",
    "links": {
     "Instagram": "https://www.instagram.com/unbpetbio/"
    },
    "avatar-img": "petbio"
   },
   {
-   "nome": "UNB Cerrado",
+   "nome": "UnB Cerrado",
    "papel": "Apoio financeiro",
-   "descricao": NaN,
+   "descricao": "Instituição que apoiou financeiramente o projeto em dois diferentes editais voltados para pesquisas na região da Chapada dos Veadeiros. Além disso, prestou assistência na realização das saídas de campo.",
    "links": {
     "Site": "https://unbcerrado.unb.br/"
    },

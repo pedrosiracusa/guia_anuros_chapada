@@ -1,4 +1,3 @@
-﻿### Rãs arborícolas
-
-
-Também popularmente conhecidos como pererecas, este grupo apresenta grande diversidade de tamanhos, colorações e morfologias. Possuem como característica comum discos adesivos nas extremidades dos dedos, que permitem que estes animais escalem superfícies lisas e íngremes. É a família com maior número de espécies na região da Chapada dos Veadeiros e está amplamente distribuída nas fitofisionomias presentes na região.
+﻿### Pererecas-arborícolas
+A família Hylidae é composta por 1.077 espécies distribuídas em 52 gêneros, sendo amplamente representada nas Américas, mas com ocorrência também na Eurásia, norte da África e Oceania. Popularmente conhecidos como “pererecas” ou “rãs arborícolas”, os hilídeos apresentam ampla variedade de formas e tamanhos, geralmente com discos adesivos nos dedos adaptados à locomoção em ambientes verticais.
+Essa família ocupa uma diversidade de habitats, desde florestas tropicais e temperadas até ambientes áridos e montanos. A maioria das espécies é arborícola, embora também haja representantes terrestres, aquáticos e semi-fossoriais. Os modos reprodutivos são variados, mas compartilham o desenvolvimento de girinos aquáticos, com oviposição em corpos d’água, bromélias, folhas ou cavidades de árvores.

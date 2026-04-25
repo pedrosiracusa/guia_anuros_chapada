@@ -1,3 +1,3 @@
 ﻿### Rãs-de-chuva
-
-LaLaLa
+A família Strabomantidae é composta por aproximadamente 810 espécies distribuídas em 20 gêneros, com distribuição restrita à América do Sul. Popularmente conhecidas como “rãs terrestres” ou “rãs de floresta nublada”, são em sua maioria espécies de pequeno porte, com hábitos tipicamente terrestres.
+Os strabomantídeos se destacam pelo desenvolvimento direto onde seus ovos são depositados no ambiente terrestre e dão origem a indivíduos já metamorfoseados, sem fase larval aquática. Esse modo reprodutivo é uma adaptação comum em ambientes úmidos e frios de altitude, onde a disponibilidade de corpos d’água pode ser limitada.

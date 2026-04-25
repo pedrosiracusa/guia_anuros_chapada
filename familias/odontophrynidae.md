@@ -1,10 +1,3 @@
 ﻿### Sapos-verruga
-
-
-Os indivíduos desta família são sapos de porte médio, terrestres de ambiente aberto ou de mata de galeria, que tem como característica principal o corpo bem ovóide, robusto e coberto por verrugas. Tem distribuição no sul e leste da América do Sul.
-
-
-
-
-#### Referências bibliográficas
-* Do Nascimento FA, Mott T, Langone JA, Davis CA, De Sa RO. The genus Odontophrynus (Anura: Odontophrynidae): a larval perspective. Zootaxa. 2013 Aug 12;3700(1):140-58.
+A família Odontophrynidae é composta por 54 espécies distribuídas em 3 gêneros, com ocorrência restrita à América do Sul, especialmente nas regiões sul e leste do continente. São anuros geralmente terrestres, de pequeno a médio porte, com corpo robusto e cabeça larga e arredondada.
+Essas espécies ocorrem em uma variedade de ambientes, desde campos abertos até florestas úmidas, mas dependem de corpos d’água, temporários ou permanentes, para a reprodução. O ciclo reprodutivo envolve a postura de ovos em ambientes aquáticos e desenvolvimento larval na forma de girinos. Algumas espécies apresentam comportamento fossorial e reprodução explosiva.
