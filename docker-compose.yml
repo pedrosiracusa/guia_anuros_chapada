@@ -1,6 +1,9 @@
 services:
   jekyll:
-    image: jekyll/jekyll:pages
+    build:
+      context: .
+      dockerfile: Dockerfile.jekyll
+    image: guia-jekyll
     command: jekyll serve --livereload --host 0.0.0.0
     ports:
       - "4000:4000"
@@ -9,3 +12,16 @@ services:
       - .:/srv/jekyll
     user: "1000:1000"
 
+  scripts:
+    build:
+      context: .
+      dockerfile: Dockerfile.scripts
+    image: guia-scripts
+    working_dir: /app/build/scripts
+    volumes:
+      - .:/app
+      - ${HOME}/workspace/.sacreds:/home/pedro/workspace/.sacreds:ro
+    stdin_open: true
+    tty: true
+    profiles:
+      - manual

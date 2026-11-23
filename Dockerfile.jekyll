@@ -1,0 +1,6 @@
+FROM jekyll/jekyll:pages
+
+# Corrige bug do sass 3.7.4 sob Ruby 3.3 (String/nil can't be coerced into Integer)
+RUN sed -i 's/basically_equal?(value, other.value)/other.is_a?(Sass::Script::Value::Number) \&\& basically_equal?(value, other.value)/g' \
+    /usr/local/bundle/gems/sass-3.7.4/lib/sass/script/value/number.rb
+
