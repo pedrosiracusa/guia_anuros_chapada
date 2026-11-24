@@ -148,9 +148,11 @@ layout: base
               <i id="ctrl-pause" class="btn bi bi-pause-circle mx-auto mt-2 mt-md-0" style="display:none"></i>
             </div>
 
+            {% unless species.family_id == "siphonopidae" %}
             <section id="spsize-compare">
               {% include spsizecompare.html species=species %}
             </section>
+            {% endunless %}
           </div>
         </div>
 
