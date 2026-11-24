@@ -10,7 +10,7 @@
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#ffffff",
-  "theme_color": "#e08f1b",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "{{ '/assets/img/pwa/icon-192.png' | relative_url }}",

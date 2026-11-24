@@ -7,29 +7,41 @@ const PRECACHE_URLS = [
   {{ '/' | relative_url | jsonify }},
   {{ '/assets/main.css' | relative_url | jsonify }},
   {{ '/manifest.webmanifest' | relative_url | jsonify }},
+  {%- for page in site.pages -%}
+    {%- if page.url contains '.js' and page.url != '/sw.js' -%}
+      {{ page.url | relative_url | jsonify }},
+    {%- endif -%}
+  {%- endfor -%}
   {%- for page in site.html_pages -%}
-    {%- unless page.url contains '404' or page.url contains 'aa. readme' or page.url contains 'a. modelo' or page.url contains 'dedrobatidae' or page.url contains 'leptodactylus tapiti' -%}
+    {%- unless page.url contains '404' or page.url contains 'aa. readme' or page.url contains 'a. modelo' or page.url contains 'dedrobatidae' or page.url contains 'leptodactylus tapiti' or page.url contains '/assets/' -%}
       {{ page.url | relative_url | jsonify }},
     {%- endunless -%}
   {%- endfor -%}
   {%- for file in site.static_files -%}
-    {%- if file.path contains '/assets/img/' or file.path contains '/assets/audio/' or file.path contains '/assets/javascript/' or file.path contains '/assets/data/' or file.path contains '/assets/sprite/' or file.path contains '/assets/bootstrap-icons/font/' -%}
+    {%- if file.path contains '/assets/javascript/' or file.path contains '/assets/data/' or file.path contains '/assets/sprite/' or file.path contains '/assets/bootstrap-icons/font/' or file.path contains '/assets/img/' or file.path contains '/assets/audio/' -%}
       {{ file.path | relative_url | jsonify }},
     {%- endif -%}
   {%- endfor -%}
 ];
 
+async function precacheInBatches(cache, urls, batchSize = 6) {
+  for (let i = 0; i < urls.length; i += batchSize) {
+    const batch = urls.slice(i, i + batchSize);
+    await Promise.all(
+      batch.map((url) =>
+        cache.add(url).catch((err) => {
+          console.warn("Precache skipped for:", url, err);
+        })
+      )
+    );
+  }
+}
+
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return Promise.all(
-        PRECACHE_URLS.map((url) =>
-          cache.add(url).catch((err) => {
-            console.warn("Precache skipped for:", url, err);
-          })
-        )
-      );
-    }).then(() => self.skipWaiting())
+    caches.open(CACHE_NAME)
+      .then((cache) => precacheInBatches(cache, PRECACHE_URLS, 6))
+      .then(() => self.skipWaiting())
   );
 });
 
@@ -96,14 +108,16 @@ self.addEventListener("fetch", (event) => {
     // Stale-while-revalidate: instant offline/field load, updates in background when online
     event.respondWith(
       caches.open(CACHE_NAME).then(async (cache) => {
+        const cleanPath = url.pathname.replace(/\/$/, "");
         const cached =
           (await cache.match(request, { ignoreSearch: true })) ||
-          (await cache.match(url.pathname.replace(/\/$/, "") + ".html")) ||
-          (await cache.match(url.pathname.replace(/\/$/, "") + "/"));
+          (await cache.match(cleanPath + ".html")) ||
+          (await cache.match(cleanPath + "/")) ||
+          (await cache.match(cleanPath + "/index.html"));
 
         const networkFetch = fetch(request)
           .then((response) => {
-            if (response && response.ok) {
+            if (response && response.ok && !response.redirected) {
               cache.put(request, response.clone());
             }
             return response;
@@ -129,7 +143,7 @@ self.addEventListener("fetch", (event) => {
     caches.match(request, { ignoreSearch: true }).then((cached) => {
       if (cached) return cached;
       return fetch(request).then((response) => {
-        if (response && response.ok) {
+        if (response && response.ok && !response.redirected) {
           const copy = response.clone();
           caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
         }
