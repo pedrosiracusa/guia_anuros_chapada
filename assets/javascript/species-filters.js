@@ -234,12 +234,13 @@ function differenceSets(setA, setB) {
 }
 
 function combineFilters(filters) {
+    const allIds = new Set(allSpecies.map(sp => sp.id));
     const filtersList = Object.values(filters);
     if (filtersList.length === 0) {
-        return new Set(allSpecies.map(sp => sp.id));
+        return allIds;
     }
 
-    let finalSetFilter = new Set(filtersList[0]);
+    let finalSetFilter = allSpecies.length > 0 ? intersectSets(allIds, filtersList[0]) : new Set(filtersList[0]);
     for (let i = 1; i < filtersList.length; i++) {
         finalSetFilter = intersectSets(finalSetFilter, filtersList[i]);
     }
