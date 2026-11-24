@@ -3,7 +3,8 @@ layout: null
 ---
 const CACHE_NAME = "anfibios-veadeiros-{{ site.time | date: '%Y%m%d%H%M%S' }}";
 
-const PRECACHE_URLS = [
+// 1. Core shell + all HTML pages + CSS + JS + JSON + fonts (~1-2 MB, fast install)
+const CORE_URLS = [
   {{ '/' | relative_url | jsonify }},
   {{ '/assets/main.css' | relative_url | jsonify }},
   {{ '/manifest.webmanifest' | relative_url | jsonify }},
@@ -18,58 +19,93 @@ const PRECACHE_URLS = [
     {%- endunless -%}
   {%- endfor -%}
   {%- for file in site.static_files -%}
-    {%- if file.path contains '/assets/javascript/' or file.path contains '/assets/data/' or file.path contains '/assets/sprite/' or file.path contains '/assets/bootstrap-icons/font/' or file.path contains '/assets/img/' or file.path contains '/assets/audio/' -%}
+    {%- if file.path contains '/assets/javascript/' or file.path contains '/assets/data/' or file.path contains '/assets/sprite/' or file.path contains '/assets/bootstrap-icons/font/' or file.path contains '/assets/img/pwa/' -%}
       {{ file.path | relative_url | jsonify }},
     {%- endif -%}
   {%- endfor -%}
 ];
 
-async function precacheInBatches(cache, urls, batchSize = 6) {
+// 2. Heavy media: species photos, diagnose images, habitat icons, audio calls (~30 MB)
+const MEDIA_URLS = [
+  {%- for file in site.static_files -%}
+    {%- if (file.path contains '/assets/img/' or file.path contains '/assets/audio/') and not (file.path contains '/assets/img/pwa/') -%}
+      {{ file.path | relative_url | jsonify }},
+    {%- endif -%}
+  {%- endfor -%}
+];
+
+async function cacheUrlClean(cache, url) {
+  const existing = await cache.match(url, { ignoreSearch: true });
+  if (existing) return;
+
+  const res = await fetch(url);
+  if (!res.ok) return;
+
+  // Cloudflare Pages / Pretty URLs may 308-redirect .html -> extensionless;
+  // browsers reject returning a `redirected: true` Response for navigate requests.
+  const cleanRes = res.redirected
+    ? new Response(res.body, {
+        status: res.status,
+        statusText: res.statusText,
+        headers: res.headers,
+      })
+    : res;
+
+  await cache.put(url, cleanRes.clone());
+  if (res.redirected && res.url) {
+    await cache.put(new URL(res.url).pathname, cleanRes);
+  }
+}
+
+async function precacheInBatches(cache, urls, batchSize = 6, onProgress = null) {
+  let done = 0;
   for (let i = 0; i < urls.length; i += batchSize) {
     const batch = urls.slice(i, i + batchSize);
     await Promise.all(
       batch.map(async (url) => {
         try {
-          const res = await fetch(url);
-          if (!res.ok) return;
-          // Cloudflare Pages / Pretty URLs may 308-redirect .html -> extensionless;
-          // browsers reject returning a `redirected: true` Response for navigate requests.
-          const cleanRes = res.redirected
-            ? new Response(res.body, {
-                status: res.status,
-                statusText: res.statusText,
-                headers: res.headers,
-              })
-            : res;
-          await cache.put(url, cleanRes.clone());
-          if (res.redirected && res.url) {
-            await cache.put(new URL(res.url).pathname, cleanRes);
-          }
+          await cacheUrlClean(cache, url);
         } catch (err) {
           console.warn("Precache skipped for:", url, err);
+        } finally {
+          done += 1;
         }
       })
     );
+    if (onProgress) onProgress(done, urls.length);
+  }
+}
+
+async function broadcastProgress(done, total) {
+  const clients = await self.clients.matchAll({ type: "window" });
+  for (const client of clients) {
+    client.postMessage({ type: "OFFLINE_PROGRESS", done, total });
   }
 }
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => precacheInBatches(cache, PRECACHE_URLS, 6))
+      .then((cache) => precacheInBatches(cache, CORE_URLS, 6))
       .then(() => self.skipWaiting())
   );
 });
 
 self.addEventListener("activate", (event) => {
   event.waitUntil(
-    caches.keys().then((keys) =>
-      Promise.all(
+    (async () => {
+      const keys = await caches.keys();
+      await Promise.all(
         keys
           .filter((key) => key !== CACHE_NAME)
           .map((key) => caches.delete(key))
-      )
-    ).then(() => self.clients.claim())
+      );
+      await self.clients.claim();
+
+      // Download images and audio in the background once SW is active
+      const cache = await caches.open(CACHE_NAME);
+      await precacheInBatches(cache, MEDIA_URLS, 6, broadcastProgress);
+    })()
   );
 });
 

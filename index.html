@@ -19,6 +19,7 @@ title: home
           <button type="button" class="btn-install-pwa btn btn-link btn-sm text-decoration-none text-secondary fw-semibold px-0" style="display:none;">
             <i class="bi bi-download me-2"></i>Instalar guia offline
           </button>
+          <div class="offline-sync-status small text-secondary mt-1" style="display:none;"></div>
         </div>
       </div>
 
@@ -36,6 +37,7 @@ title: home
     <button type="button" class="btn-install-pwa btn btn-link text-decoration-none text-white fw-semibold mt-1" style="display:none;">
       <i class="bi bi-download me-2"></i>Instalar guia offline
     </button>
+    <div class="offline-sync-status small text-white text-center" style="display:none;"></div>
   </div>
 </div>
 
@@ -115,6 +117,26 @@ title: home
         }
       });
     });
+
+    if ("serviceWorker" in navigator) {
+      const statusEls = document.querySelectorAll(".offline-sync-status");
+      navigator.serviceWorker.addEventListener("message", (event) => {
+        if (!event.data || event.data.type !== "OFFLINE_PROGRESS") return;
+        const { done, total } = event.data;
+        statusEls.forEach((el) => {
+          el.style.display = "block";
+          if (done < total) {
+            const pct = Math.round((done / total) * 100);
+            el.textContent = `Baixando guia para uso offline (${pct}%)...`;
+          } else {
+            el.textContent = "Guia pronto para uso offline ✓";
+            setTimeout(() => {
+              el.style.display = "none";
+            }, 4000);
+          }
+        });
+      });
+    }
   })();
 </script>
 
