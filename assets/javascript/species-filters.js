@@ -7,6 +7,7 @@ const pageIsSpeciesList = Boolean(document.querySelector("section#species-list")
 let allSpecies = []; // Array of species data objects
 let selectedSpecies = new Set(); // Set([sp1, sp2, ...])
 let filtrosAplicados = {}; // Object of {'filter-id': Set([sp1, sp2, ...])}
+let searchQuery = "";
 const currentMonth = new Date().getMonth();
 let flagSessionStorageEmpty = false;
 
@@ -58,6 +59,14 @@ function onDataLoaded() {
             selectPhytoInDropdown(event.currentTarget);
         });
     });
+
+    // Register input event on text search
+    const searchInput = document.getElementById("filtro-busca");
+    if (searchInput) {
+        searchInput.addEventListener("input", event => {
+            applyTextSearch(event.target.value);
+        });
+    }
 
     // Restore active filters UI state without re-triggering click side-effects
     inicializarFiltros();
@@ -134,6 +143,20 @@ function inicializarFiltros() {
     }
 }
 
+function normalizeText(str) {
+    return String(str || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+}
+
+function applyTextSearch(query) {
+    searchQuery = query || "";
+    if (pageIsSpeciesList) {
+        atualizaTelaListaEspecies();
+    }
+}
+
 function toggleFiltrar(btn) {
     const btnActive = btn.classList.contains("active");
 
@@ -181,6 +204,8 @@ function loadSessionStorage() {
     if (activeSpeciesFiltersLoaded) {
         flagSessionStorageEmpty = false;
         const parsed = JSON.parse(activeSpeciesFiltersLoaded);
+        // Ignore legacy filtro-busca if present in sessionStorage
+        delete parsed["filtro-busca"];
         filtrosAplicados = Object.keys(parsed).reduce((result, key) => {
             result[key] = new Set(parsed[key]);
             return result;
@@ -246,7 +271,23 @@ function atualizaNav() {
 }
 
 function atualizaTelaListaEspecies() {
-    const speciesToShow = selectedSpecies;
+    const trimmedSearch = normalizeText(searchQuery.trim());
+    let speciesToShow = selectedSpecies;
+
+    if (trimmedSearch) {
+        const searchMatches = new Set(
+            allSpecies
+                .filter(sp => {
+                    const haystack = normalizeText(
+                        `${sp.scientificName} ${sp.family} ${(sp.vernacularNames || []).join(" ")}`
+                    );
+                    return haystack.includes(trimmedSearch);
+                })
+                .map(sp => sp.id)
+        );
+        speciesToShow = intersectSets(selectedSpecies, searchMatches);
+    }
+
     const allSpeciesIds = new Set(allSpecies.map(sp => sp.id));
     const speciesToHide = differenceSets(allSpeciesIds, speciesToShow);
 
@@ -262,12 +303,12 @@ function atualizaTelaListaEspecies() {
         });
     });
 
-    const hasActiveFilters = Object.keys(filtrosAplicados).length > 0;
+    const hasActiveFilters = Object.keys(filtrosAplicados).length > 0 || trimmedSearch.length > 0;
     const contadorContainer = document.getElementById("contador-especies-container");
     const contadorEl = document.getElementById("contador-especies");
     if (contadorContainer && contadorEl) {
         contadorContainer.style.setProperty("display", hasActiveFilters ? "flex" : "none", "important");
-        contadorEl.textContent = selectedSpecies.size;
+        contadorEl.textContent = speciesToShow.size;
     }
 
     document.querySelectorAll(".familia-header").forEach(fh => {
@@ -278,7 +319,13 @@ function atualizaTelaListaEspecies() {
 
 function limpaTodosFiltros() {
     filtrosAplicados = {};
+    searchQuery = "";
     selectedSpecies = new Set(allSpecies.map(sp => sp.id));
+
+    const searchInput = document.getElementById("filtro-busca");
+    if (searchInput) {
+        searchInput.value = "";
+    }
 
     document.querySelectorAll(".filter-bar .btn").forEach(btn => {
         btn.classList.remove("active");
