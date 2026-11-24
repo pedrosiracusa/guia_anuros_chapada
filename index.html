@@ -15,6 +15,11 @@ title: home
           <a class="btn btn-primary btn-lg rounded-pill px-4 fw-semibold text-white shadow-sm" href="{{ '/especies' | relative_url }}">Conheça as espécies</a>
           <a class="btn btn-outline-primary btn-lg rounded-pill px-4 fw-semibold" href="{{ '/autores' | relative_url }}">Autores</a>
         </div>
+        <div class="d-none d-md-block mt-3">
+          <button type="button" class="btn-install-pwa btn btn-link btn-sm text-decoration-none text-secondary fw-semibold px-0" style="display:none;">
+            <i class="bi bi-download me-2"></i>Instalar guia offline
+          </button>
+        </div>
       </div>
 
       <div class="col-md-6 col-xl-7 align-self-center">
@@ -28,8 +33,90 @@ title: home
   <div class="d-grid gap-2">
     <a class="btn btn-light btn-lg rounded-pill fw-semibold" style="color: #e08f1b;" href="{{ '/especies' | relative_url }}">Conheça as espécies</a>
     <a class="btn btn-outline-light btn-lg rounded-pill fw-semibold" href="{{ '/autores' | relative_url }}">Autores</a>
+    <button type="button" class="btn-install-pwa btn btn-link text-decoration-none text-white fw-semibold mt-1" style="display:none;">
+      <i class="bi bi-download me-2"></i>Instalar guia offline
+    </button>
   </div>
 </div>
+
+<!-- Modal com instruções para iOS Safari -->
+<div class="modal fade" id="iosInstallModal" tabindex="-1" aria-labelledby="iosInstallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="iosInstallModalLabel">Instalar no iPhone / iPad</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <p class="mb-2">Para instalar o guia e usar sem internet no iOS:</p>
+        <ol class="mb-0">
+          <li>Toque no botão <strong>Compartilhar</strong> <i class="bi bi-box-arrow-up"></i> na barra do Safari.</li>
+          <li>Selecione <strong>Adicionar à Tela de Início</strong>.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const installButtons = document.querySelectorAll(".btn-install-pwa");
+    if (installButtons.length === 0) return;
+
+    const isStandalone =
+      window.matchMedia("(display-mode: standalone)").matches ||
+      window.navigator.standalone === true;
+    if (isStandalone) return;
+
+    const isIos = /iphone|ipad|ipod/i.test(window.navigator.userAgent);
+    let deferredPrompt = null;
+
+    function showButtons() {
+      installButtons.forEach((btn) => {
+        btn.style.display = "inline-block";
+      });
+    }
+
+    function hideButtons() {
+      installButtons.forEach((btn) => {
+        btn.style.display = "none";
+      });
+    }
+
+    window.addEventListener("beforeinstallprompt", (event) => {
+      event.preventDefault();
+      deferredPrompt = event;
+      showButtons();
+    });
+
+    if (isIos) {
+      showButtons();
+    }
+
+    window.addEventListener("appinstalled", () => {
+      deferredPrompt = null;
+      hideButtons();
+    });
+
+    installButtons.forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        if (deferredPrompt) {
+          deferredPrompt.prompt();
+          const { outcome } = await deferredPrompt.userChoice;
+          deferredPrompt = null;
+          if (outcome === "accepted") {
+            hideButtons();
+          }
+        } else if (isIos && window.bootstrap) {
+          const modalEl = document.getElementById("iosInstallModal");
+          if (modalEl) {
+            window.bootstrap.Modal.getOrCreateInstance(modalEl).show();
+          }
+        }
+      });
+    });
+  })();
+</script>
 
 
 
