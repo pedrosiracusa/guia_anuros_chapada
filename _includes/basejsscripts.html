@@ -6,3 +6,13 @@
 <script src="{{"/assets/javascript/species-navigator.js" | relative_url }}" type="text/javascript"></script>
 <script src="{{"/assets/javascript/species-sounds.js" | relative_url }}" type="text/javascript"></script>
 <script src="{{"/assets/javascript/species-diagnose.js" | relative_url }}" type="text/javascript"></script>
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("{{ '/sw.js' | relative_url }}").catch(function (err) {
+        console.warn("Service worker registration failed:", err);
+      });
+    });
+  }
+</script>
