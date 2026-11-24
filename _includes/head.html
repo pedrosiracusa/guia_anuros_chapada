@@ -2,6 +2,13 @@
  <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e08f1b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="{{ site.title | escape }}">
+  <link rel="manifest" href="{{ "/manifest.webmanifest" | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ "/assets/img/pwa/apple-touch-icon.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ "/assets/img/pwa/icon-192.png" | relative_url }}">
   {%- seo -%}
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700&display=swap" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="{{ "/assets/bootstrap-icons/font/bootstrap-icons.css" | relative_url }}">
