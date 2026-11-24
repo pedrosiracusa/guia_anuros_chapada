@@ -2,8 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @import "bootstrap/functions";
-@import "bootstrap/variables";
 @import "variables"; // Neste arquivo é onde fazemos customizações de variáveis
+@import "bootstrap/variables";
 @import "bootstrap/bootstrap";
 @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";

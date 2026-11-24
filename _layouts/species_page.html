@@ -69,20 +69,21 @@ layout: base
 
           <!-- Species basic info -->
           <div id="species-basicinfo" class="col-md-7">
-            <div class="sppage-filtros-ativos" style="display: none;">
-              <div class="d-none d-lg-flex flex-row flex-nowrap align-items-baseline gap-2" >
-                <span class="text-nowrap" >Filtros ativos:</span>
-                <div id="nav-filtros-ativos-list"  class="d-flex flex-row  flex-wrap gap-1 my-2">
-                  <span id="filtro-diurnas" class="badge rounded-pill text-bg-secondary" style="display:none">Diurnas</span>
-                  <span id="filtro-comuns" class="badge rounded-pill text-bg-secondary" style="display:none">Mais comuns</span>
-                  <span id="filtro-noturnas" class="badge rounded-pill text-bg-secondary" style="display:none">Noturnas</span>
-                  <span id="filtro-pequenas" class="badge rounded-pill text-bg-secondary" style="display:none">Pequenas (< 4cm)</span>
-                  <span id="filtro-grandes" class="badge rounded-pill text-bg-secondary" style="display:none">Grandes (> 8cm)</span>
-                  <span id="filtro-mes" class="badge rounded-pill text-bg-secondary" style="display:none">Ocorrem em <span class="set-month"></span></span>
+            <div class="sppage-filtros-ativos mb-2" style="display: none;">
+              <div class="d-flex flex-row flex-wrap align-items-center gap-2">
+                <span class="text-nowrap">Filtros ativos:</span>
+                <div class="nav-filtros-ativos-list d-flex flex-row flex-wrap gap-1 my-2">
+                  <span data-filter-id="filtro-diurnas" class="badge rounded-pill text-bg-secondary" style="display:none">Diurnas</span>
+                  <span data-filter-id="filtro-comuns" class="badge rounded-pill text-bg-secondary" style="display:none">Mais comuns</span>
+                  <span data-filter-id="filtro-noturnas" class="badge rounded-pill text-bg-secondary" style="display:none">Noturnas</span>
+                  <span data-filter-id="filtro-pequenas" class="badge rounded-pill text-bg-secondary" style="display:none">Pequenas (< 4cm)</span>
+                  <span data-filter-id="filtro-grandes" class="badge rounded-pill text-bg-secondary" style="display:none">Grandes (> 8cm)</span>
+                  <span data-filter-id="filtro-mes" class="badge rounded-pill text-bg-secondary" style="display:none">Ocorrem em <span class="set-month"></span></span>
                   {% for phyto in site.data.phytophysiognomies %}
-                  <span id="filtro-habitat-{{phyto[0]}}" class="badge rounded-pill text-bg-secondary">{{phyto[1].text}}</span>
+                  <span data-filter-id="filtro-habitat-{{phyto[0]}}" class="badge rounded-pill text-bg-secondary" style="display:none">{{phyto[1].text}}</span>
                   {% endfor %}
                 </div>
+                <button type="button" class="btn-limpar-filtros btn btn-sm btn-outline-secondary rounded-pill text-nowrap">Limpar</button>
               </div>
             </div>
 

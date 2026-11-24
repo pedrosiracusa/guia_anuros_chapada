@@ -5,8 +5,6 @@ title: Espécies
 
 {% assign speciesData = site.data.species %}
 {% assign familiesData = site.data.families %}
-{% assign families-spp =  speciesData | group_by_exp: "i", "i[1].family"  %}
-
 {% assign families-spp = speciesData | group_by: "family" %}
 
 <section id="species-list">
@@ -14,16 +12,16 @@ title: Espécies
 
 
     
-    <div class="filter-bar d-flex flex-row flex-wrap gap-2 my-2">
-      <button id="filtro-comuns" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Mais comuns</button>
-      <button id="filtro-diurnas" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Diurnas</button>
-      <button id="filtro-noturnas" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Noturnas</button>
-      <button id="filtro-pequenas" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Pequenas (< 4cm)</button>
-      <button id="filtro-grandes" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Grandes (> 8cm)</button>
-      <button id="filtro-mes" type="button" class="btn  btn-outline-secondary rounded-pill" data-bs-toggle="button" ><span style="display:none"><i class="bi bi-x"></i></span>Ocorrem em <span class="set-month"></span></button>
+    <div class="filter-bar d-flex flex-row flex-wrap gap-1 gap-md-2 my-2">
+      <button id="filtro-comuns" type="button" class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="button"><span style="display:none"><i class="bi bi-x"></i></span>Mais comuns</button>
+      <button id="filtro-diurnas" type="button" class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="button"><span style="display:none"><i class="bi bi-x"></i></span>Diurnas</button>
+      <button id="filtro-noturnas" type="button" class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="button"><span style="display:none"><i class="bi bi-x"></i></span>Noturnas</button>
+      <button id="filtro-pequenas" type="button" class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="button"><span style="display:none"><i class="bi bi-x"></i></span>Pequenas (< 4cm)</button>
+      <button id="filtro-grandes" type="button" class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="button"><span style="display:none"><i class="bi bi-x"></i></span>Grandes (> 8cm)</button>
+      <button id="filtro-mes" type="button" class="btn btn-sm btn-outline-secondary rounded-pill" data-bs-toggle="button"><span style="display:none"><i class="bi bi-x"></i></span>Ocorrem em <span class="set-month"></span></button>
     </div>
     <div id="filtro-habitat" class="filter-dropdown my-2">
-      <button class="btn btn-outline-secondary rounded-pill dropdown-toggle" type="button" data-bs-toggle="dropdown" data-selected="null" aria-expanded="false">
+      <button class="btn btn-sm btn-outline-secondary rounded-pill dropdown-toggle" type="button" data-bs-toggle="dropdown" data-selected="null" aria-expanded="false">
         Habitat
       </button>
       <ul class="dropdown-menu">
@@ -34,7 +32,10 @@ title: Espécies
       </ul>
     
     </div>
-    <h6 style="display:none; " id="contador-especies-container">Mostrando <span id="contador-especies"></span> de {{speciesData | size }} espécies</h6>
+    <div id="contador-especies-container" class="d-flex align-items-center gap-2 my-2" style="display:none !important;">
+      <h6 class="mb-0">Mostrando <span id="contador-especies"></span> de {{speciesData | size }} espécies</h6>
+      <button type="button" class="btn-limpar-filtros btn btn-sm btn-outline-secondary rounded-pill">Limpar filtros</button>
+    </div>
   <!-- Families list -->
   
     <ul class="species-list list-unstyled ">

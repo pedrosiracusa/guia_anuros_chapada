@@ -1,11 +1,13 @@
 ---
 ---
 
-if(document.querySelector("div.species-page")){ // Only runs in species pages
+const speciesPageDiagnoseEl = document.querySelector("div.species-page");
+
+if(speciesPageDiagnoseEl){ // Only runs in species pages
 
 
     window.addEventListener('load', function(){
-        const speciesId = document.URL.substr( document.URL.lastIndexOf('/')+1)
+        const speciesId = speciesPageDiagnoseEl.id;
         diagnoseDiv = document.createElement("div")
         diagnoseDiv.classList.add("col-xl-6", "col-lg-8")
         diagnoseDiv.id = "img-diagnose"

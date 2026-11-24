@@ -11,27 +11,24 @@ title: home
         <img class="img-fluid col-10 col-md-12" src="{{site.baseurl}}/assets/img/anfibios_veadeiros_header.png">
         <h3 class="mt-0 ms-5 text-uppercase font-weight-light">Guia de Identificação</h3>
         <!-- This does NOT SHOW in mobile layouts -->
-        <div class= "d-none d-md-block">
-          <h4 style="margin-top:10em;"><a class="text-decoration-none font-weight-bold" href="especies">> Conheça as espécies</a></h4>
-          <h4><a class="text-decoration-none font-weight-bold" href="autores">> Autores</a></h4>
+        <div class="d-none d-md-flex flex-wrap gap-3 mt-5 pt-4">
+          <a class="btn btn-primary btn-lg rounded-pill px-4 fw-semibold text-white shadow-sm" href="{{ '/especies' | relative_url }}">Conheça as espécies</a>
+          <a class="btn btn-outline-primary btn-lg rounded-pill px-4 fw-semibold" href="{{ '/autores' | relative_url }}">Autores</a>
         </div>
       </div>
 
       <div class="col-md-6 col-xl-7 align-self-center">
-        <img src="{{site.baseurl}}/assets/img/landingpage/cover.png" class="img-fluid">
-      </div>
-      
-      <!-- This shows ONLY in mobile layout -->
-      <div class= "col d-md-none">
-        <h1 class="text-center">...</h1>
+        <img src="{{site.baseurl}}/assets/img/landingpage/cover.png" class="img-fluid" alt="{{ site.title | escape }}">
       </div>
     </div>
   </div>
 </header>
 <!-- This shows ONLY in mobile layout -->
-<div class="d-md-none" style="background-color: #e08f1b; color:white;">
-  <h3><a class="text-decoration-none font-weight-bold text-reset" href="especies">> Conheça as espécies</a></h3>
-  <h3><a class="text-decoration-none font-weight-bold text-reset" href="autores">> Autores</a></h3>
+<div class="d-md-none p-4" style="background-color: #e08f1b;">
+  <div class="d-grid gap-2">
+    <a class="btn btn-light btn-lg rounded-pill fw-semibold" style="color: #e08f1b;" href="{{ '/especies' | relative_url }}">Conheça as espécies</a>
+    <a class="btn btn-outline-light btn-lg rounded-pill fw-semibold" href="{{ '/autores' | relative_url }}">Autores</a>
+  </div>
 </div>
 
 

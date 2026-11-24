@@ -2,9 +2,11 @@ var soundIsPlaying=false;
 var loopCounter=0;
 
 
-if(document.querySelector(".species-page")){
+const speciesPageSoundEl = document.querySelector(".species-page");
 
-    const speciesId = document.URL.substr( document.URL.lastIndexOf('/')+1)
+if(speciesPageSoundEl){
+
+    const speciesId = speciesPageSoundEl.id;
     const fileUrl = `../assets/audio/species_calls/${speciesId}`
 
     var sound = new Howl({

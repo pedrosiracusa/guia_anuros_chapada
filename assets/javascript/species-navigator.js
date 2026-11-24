@@ -1,35 +1,40 @@
-if(document.querySelector("div.species-page")){ // Only runs in species pages
+const speciesPageEl = document.querySelector("div.species-page");
 
-    var speciesList = []
-    const nextSpeciesButton = document.querySelector('a#next-species');
-    const previousSpeciesButton = document.querySelector('a#previous-species')
+if (speciesPageEl) {
+    const nextSpeciesButton = document.querySelector("a#next-species");
+    const previousSpeciesButton = document.querySelector("a#previous-species");
+    const speciesId = speciesPageEl.id;
 
-    const baseUrl = document.URL.substr(0,document.URL.lastIndexOf('/'))
-    const speciesId = document.URL.substr( document.URL.lastIndexOf('/')+1)
+    function resolveSpeciesHref(anchor, offset) {
+        let speciesList = null;
+        try {
+            speciesList = JSON.parse(sessionStorage.getItem("guia_activeSpeciesList"));
+        } catch (_e) {
+            speciesList = null;
+        }
 
-    // load species list from session storage
-    speciesList = JSON.parse( sessionStorage.getItem("guia_activeSpeciesList") );
+        if (!Array.isArray(speciesList) || speciesList.length === 0) return;
 
-    // Event listener for click on next species
-    nextSpeciesButton.addEventListener("click", (event)=>{
-        let currentSpeciesIdx = speciesList.indexOf(speciesId);
-        let nextSpeciesIdx = (currentSpeciesIdx+1) % speciesList.length
-        let nextSpeciesId=speciesList[nextSpeciesIdx]
-        nextSpeciesButton.href= `${baseUrl + '/' + nextSpeciesId}`
-    })
+        const currentSpeciesIdx = speciesList.indexOf(speciesId);
+        if (currentSpeciesIdx === -1) return;
 
-    // Event listener for click on previous species
-    previousSpeciesButton.addEventListener("click",(event)=>{
-        let currentSpeciesIdx = speciesList.indexOf(speciesId);
-        let previousSpeciesIdx = (speciesList.length + currentSpeciesIdx - 1) % speciesList.length
-        let previousSpeciesId=speciesList[previousSpeciesIdx]
-        previousSpeciesButton.href=`${baseUrl + '/' + previousSpeciesId}`
-    })
+        const targetIdx = (speciesList.length + currentSpeciesIdx + offset) % speciesList.length;
+        const targetId = speciesList[targetIdx];
+        const currentHref = anchor.getAttribute("href");
+        if (currentHref) {
+            anchor.setAttribute("href", currentHref.replace(/[^/]+\/?$/, targetId));
+        }
+    }
 
-    // window.addEventListener('load', function(){
-    // })
+    if (nextSpeciesButton) {
+        nextSpeciesButton.addEventListener("click", () => {
+            resolveSpeciesHref(nextSpeciesButton, 1);
+        });
+    }
 
-    
+    if (previousSpeciesButton) {
+        previousSpeciesButton.addEventListener("click", () => {
+            resolveSpeciesHref(previousSpeciesButton, -1);
+        });
+    }
 }
-
-
