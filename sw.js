@@ -28,11 +28,27 @@ async function precacheInBatches(cache, urls, batchSize = 6) {
   for (let i = 0; i < urls.length; i += batchSize) {
     const batch = urls.slice(i, i + batchSize);
     await Promise.all(
-      batch.map((url) =>
-        cache.add(url).catch((err) => {
+      batch.map(async (url) => {
+        try {
+          const res = await fetch(url);
+          if (!res.ok) return;
+          // Cloudflare Pages / Pretty URLs may 308-redirect .html -> extensionless;
+          // browsers reject returning a `redirected: true` Response for navigate requests.
+          const cleanRes = res.redirected
+            ? new Response(res.body, {
+                status: res.status,
+                statusText: res.statusText,
+                headers: res.headers,
+              })
+            : res;
+          await cache.put(url, cleanRes.clone());
+          if (res.redirected && res.url) {
+            await cache.put(new URL(res.url).pathname, cleanRes);
+          }
+        } catch (err) {
           console.warn("Precache skipped for:", url, err);
-        })
-      )
+        }
+      })
     );
   }
 }
