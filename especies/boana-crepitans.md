@@ -1,6 +1,9 @@
 <div class="descricao-geral">
  <p>
-  Boana crepitans chama atenção pelos diversos padrões de cores com que pode ser encontrada. É uma perereca generalista que vive em vegetação herbácea próxima a corpos d’água, tanto em áreas abertas quanto em ambientes
+  <em>
+   Boana crepitans
+  </em>
+  chama atenção pelos diversos padrões de cores com que pode ser encontrada. É uma perereca generalista que vive em vegetação herbácea próxima a corpos d’água, tanto em áreas abertas quanto em ambientes
   <glossario>
    rupestres
   </glossario>
@@ -30,7 +33,10 @@ Os machos vocalizam a partir da meia-noite, durante todo o ano, estando em galho
   Diagnose
  </h1>
  <p>
-  Boana crepitans possui focinho arredondado, tímpano grande e bem visível, e apresenta membranas entre os dedos. A íris tem borda esverdeada, uma característica que ajuda a diferenciar essa espécie das demais do mesmo gênero. Seu dorso é amarelo-esverdeado com manchas e pontos castanhos, e os
+  <em>
+   Boana crepitans
+  </em>
+  possui focinho arredondado, tímpano grande e bem visível, e apresenta membranas entre os dedos. A íris tem borda esverdeada, uma característica que ajuda a diferenciar essa espécie das demais do mesmo gênero. Seu dorso é amarelo-esverdeado com manchas e pontos castanhos, e os
   <glossario>
    flancos
   </glossario>
@@ -55,7 +61,10 @@ Os machos vocalizam a partir da meia-noite, durante todo o ano, estando em galho
     Grande distribuição
    </h2>
    <p>
-    Boana crepitans ocorre em diferentes biomas e em uma ampla região do Brasil, o que demonstra sua grande capacidade de adaptação a diferentes tipos de ambientes.
+    <em>
+     Boana crepitans
+    </em>
+    ocorre em diferentes biomas e em uma ampla região do Brasil, o que demonstra sua grande capacidade de adaptação a diferentes tipos de ambientes.
    </p>
   </li>
   <li>
@@ -83,10 +92,12 @@ Os machos vocalizam a partir da meia-noite, durante todo o ano, estando em galho
     Silva, L.,A., Carvalho, P. S., Pereira, E. A., Fadel, R. M., Dantas, S. P., Brandão, R. A., &amp; Santana, D. J. (2020). Richness, diversity patterns, and taxonomic notes of amphibians from the Tocantins state. Biota Neotropica, 20(1), e20190838.
    </p>
   </li>
-  <li>
-   <p>
-    Nascimento, A. P. B., Almeida, A. , Lantyer-Silva, A. S., &amp; Zina, J. (2015). Biologia reprodutiva de Hypsiboas crepitans (Amphibia, Anura, Hylidae). Boletim do Museu de Biologia Mello Leitão, 37(3), 271–291.
-   </p>
-  </li>
  </ol>
+ <p>
+  Nascimento, A. P. B., Almeida, A. , Lantyer-Silva, A. S., &amp; Zina, J. (2015). Biologia reprodutiva de
+  <em>
+   Hypsiboas crepitans
+  </em>
+  (Amphibia, Anura, Hylidae). Boletim do Museu de Biologia Mello Leitão, 37(3), 271–291.
+ </p>
 </div>

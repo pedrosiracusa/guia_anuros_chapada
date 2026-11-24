@@ -40,7 +40,11 @@ Sua reprodução é prolongada, ou seja, ocorre durante o ano inteiro, o que per
   </li>
   <li>
    <p>
-    Furtado, S. (2017). Behavioural responses of Boana lundii (Anura: Hylidae) to visual and acoustic aggressive stimuli. Herpetology Notes, 10, 659-664.
+    Furtado, S. (2017). Behavioural responses of
+    <em>
+     Boana lundii
+    </em>
+    (Anura: Hylidae) to visual and acoustic aggressive stimuli. Herpetology Notes, 10, 659-664.
    </p>
   </li>
  </ol>

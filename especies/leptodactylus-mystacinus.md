@@ -1,6 +1,9 @@
 <div class="descricao-geral">
  <p>
-  Leptodactylus mystacinus é uma espécie de porte médio a grande, com corpo robusto, que pertence ao grupo fuscus. Seu nome vem do grego mystax, que significa lábio superior ou bigode — referência à faixa clara que cobre o lábio da maioria dos indivíduos, dando a aparência de um bigode. Machos e fêmeas podem ser diferenciados pelo focinho mais achatado e pela ausência de asperezas nos polegares e no peito dos machos adultos. É uma espécie noturna e
+  <em>
+   Leptodactylus mystacinus
+  </em>
+  é uma espécie de porte médio a grande, com corpo robusto, que pertence ao grupo fuscus. Seu nome vem do grego mystax, que significa lábio superior ou bigode — referência à faixa clara que cobre o lábio da maioria dos indivíduos, dando a aparência de um bigode. Machos e fêmeas podem ser diferenciados pelo focinho mais achatado e pela ausência de asperezas nos polegares e no peito dos machos adultos. É uma espécie noturna e
   <glossario>
    territorialista
   </glossario>
@@ -8,7 +11,11 @@
   <glossario>
    simpatria
   </glossario>
-  com Leptodactylus fuscus.
+  com
+  <em>
+   Leptodactylus fuscus
+  </em>
+  .
 Associada a áreas abertas e bordas de mata, vocaliza nas margens ou nas proximidades de lagoas. Os machos constroem câmaras subterrâneas para
   <glossario>
    ovoposição
@@ -21,7 +28,11 @@ Associada a áreas abertas e bordas de mata, vocaliza nas margens ou nas proximi
   Onde encontrar
  </h1>
  <p>
-  Você pode encontrar o Leptodactylus mystacinus à noite, em áreas abertas ou nas bordas de matas, especialmente próximas a lagoas e brejos. Os machos costumam vocalizar nesses locais e podem ser ouvidos com facilidade. Também são encontrados em ambientes modificados pelo ser humano, como pastagens e estradas.
+  Você pode encontrar o
+  <em>
+   Leptodactylus mystacinus
+  </em>
+  à noite, em áreas abertas ou nas bordas de matas, especialmente próximas a lagoas e brejos. Os machos costumam vocalizar nesses locais e podem ser ouvidos com facilidade. Também são encontrados em ambientes modificados pelo ser humano, como pastagens e estradas.
  </p>
 </div>
 <div class="diagnose">
@@ -52,7 +63,11 @@ Associada a áreas abertas e bordas de mata, vocaliza nas margens ou nas proximi
  <ol>
   <li>
    <p>
-    Heyer, M. M., Heyer, W. R., Spear, S. &amp; Sá, R. O. (2003). Leptodactylus mystacinus. Catalogue of American Amphibians and Reptiles, 767, 1–11.
+    Heyer, M. M., Heyer, W. R., Spear, S. &amp; Sá, R. O. (2003).
+    <em>
+     Leptodactylus mystacinus
+    </em>
+    . Catalogue of American Amphibians and Reptiles, 767, 1–11.
    </p>
   </li>
   <li>
@@ -70,15 +85,19 @@ Associada a áreas abertas e bordas de mata, vocaliza nas margens ou nas proximi
     Zina, J., Ennser, J., Pinheiro, S. C. P., Haddad, C. F. B. &amp; Toledo, L. F. (2007). Taxocenose de anuros de uma mata semidecídua do interior do Estado de São Paulo e comparações com outras taxocenoses do Estado, Brasil. Biota Neotropica 7(2).
    </p>
   </li>
-  <li>
-   <p>
-    Oyamaguchi, H. M. (2006). Distribuição espacial e temporal de espécies simpátricas de Leptodactylus do grupo fuscus em áreas naturais e antrópicas na região de Itirapina e Brotas, sudoeste do Brasil. Dissertação de mestrado, Universidade de São Paulo, São Paulo.
-   </p>
-  </li>
-  <li>
-   <p>
-    Giaretta, A. A. &amp; Oliveira-Filho, J. C. (2006). Leptodactylus mystacinus (shovel-nosed frog). Parental care. Herpetology Review, 37(2), 204–205.
-   </p>
-  </li>
  </ol>
+ <p>
+  Oyamaguchi, H. M. (2006). Distribuição espacial e temporal de espécies simpátricas de
+  <em>
+   Leptodactylus
+  </em>
+  do grupo fuscus em áreas naturais e antrópicas na região de Itirapina e Brotas, sudoeste do Brasil. Dissertação de mestrado, Universidade de São Paulo, São Paulo.
+ </p>
+ <p>
+  Giaretta, A. A. &amp; Oliveira-Filho, J. C. (2006).
+  <em>
+   Leptodactylus mystacinus
+  </em>
+  (shovel-nosed frog). Parental care. Herpetology Review, 37(2), 204–205.
+ </p>
 </div>

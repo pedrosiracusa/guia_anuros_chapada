@@ -1,6 +1,13 @@
 <div class="descricao-geral">
  <p>
-  Rhinella mirandaribeiroi é um sapo de tamanho médio, pertencente ao grupo de espécies relacionadas a Rhinella granulosa, que reúne mais de 12 espécies. O
+  <em>
+   Rhinella mirandaribeiroi
+  </em>
+  é um sapo de tamanho médio, pertencente ao grupo de espécies relacionadas a
+  <em>
+   Rhinella granulosa
+  </em>
+  , que reúne mais de 12 espécies. O
   <glossario>
    epíteto-específico
   </glossario>
@@ -59,11 +66,19 @@ Essa espécie já foi registrada vocalizando em diferentes tipos de ambientes, c
     Macho com macho?
    </h2>
    <p>
-    Um macho de Rhinella mirandaribeiroi já foi registrado em
+    Um macho de
+    <em>
+     Rhinella mirandaribeiroi
+    </em>
+    já foi registrado em
     <glossario>
      amplexo
     </glossario>
-    com um macho de Rhinella marina. Isso ocorreu provavelmente devido ao padrão de
+    com um macho de
+    <em>
+     Rhinella marina
+    </em>
+    . Isso ocorreu provavelmente devido ao padrão de
     <glossario>
      reprodução explosiva
     </glossario>
@@ -72,20 +87,46 @@ Essa espécie já foi registrada vocalizando em diferentes tipos de ambientes, c
   </li>
  </ol>
  <p>
-  Figura retirada do artigo: Sodré, Davidson, et al. (2018) – A case of prolonged amplexus between males of Rhinella mirandaribeiroi and R. marina on Marajó Island, state of Pará, Brazil. Herpetology Notes 11: 127–128.
+  Figura retirada do artigo: Sodré, Davidson, et al. (2018) – A case of prolonged amplexus between males of
+  <em>
+   Rhinella mirandaribeiroi
+  </em>
+  and
+  <em>
+   R. marina
+  </em>
+  on Marajó Island, state of Pará, Brazil. Herpetology Notes 11: 127–128.
 Referências
-* Narvaes, P., Rodrigues, M. T. (2009). Taxonomic revision of Rhinella granulosa species group (Amphibia, Anura, Bufonidae), with a description of a new species. Arquivos de Zoologia, 40(1)., 1–73.
+Narvaes, P., Rodrigues, M. T. (2009). Taxonomic revision of
+  <em>
+   Rhinella granulosa
+  </em>
+  species group (Amphibia, Anura,
+  <em>
+   Bufo
+  </em>
+  nidae), with a description of a new species. Arquivos de Zoologia, 40(1)., 1–73.
  </p>
- <ul>
-  <li>
-   <p>
-    Sodré, D., Rocha, T., Rendeiro, F., &amp; Vallinoto, M. (2018). A case of prolonged amplexus between males of Rhinella mirandaribeiroi and R. marina. Herpetology Notes, 11:127–128.
-   </p>
-  </li>
-  <li>
-   <p>
-    Gallardo, J. M. (1965). The species Bufo granulosus Spix (Salientia: Bufonidae) and its geographic variation. Bulletin of the Museum of Comparative Zoology, 134, 107–138.
-   </p>
-  </li>
- </ul>
+ <p>
+  Sodré, D., Rocha, T., Rendeiro, F., &amp; Vallinoto, M. (2018). A case of prolonged amplexus between males of
+  <em>
+   Rhinella mirandaribeiroi
+  </em>
+  and
+  <em>
+   R. marina
+  </em>
+  . Herpetology Notes, 11:127–128.
+ </p>
+ <p>
+  Gallardo, J. M. (1965). The species
+  <em>
+   Bufo granulosus
+  </em>
+  Spix (Salientia:
+  <em>
+   Bufo
+  </em>
+  nidae) and its geographic variation. Bulletin of the Museum of Comparative Zoology, 134, 107–138.
+ </p>
 </div>

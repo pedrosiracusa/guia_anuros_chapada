@@ -29,10 +29,19 @@
  </h1>
  <ol>
   <li>
-   Campos, L. A. (2013). Three new species of Proceratophrys Miranda-Ribeiro 1920 from Brazilian Cerrado (Anura, Odontophrynidae). Zootaxa, 3750(4), 321–347.
+   Campos, L. A. (2013). Three new species of
+   <em>
+    Proceratophrys
+   </em>
+   Miranda-Ribeiro 1920 from Brazilian Cerrado (Anura, Odontophrynidae). Zootaxa, 3750(4), 321–347.
   </li>
   <li>
-   Martins, L. B., &amp; Giaretta, A. A. (2013). Morphological and acoustic characterization of Proceratophrys goyana (Lissamphibia: Anura: Odontophrynidae), with the description of a sympatric and related new species. Zootaxa, 3750(4), 301–320.
+   Martins, L. B., &amp; Giaretta, A. A. (2013). Morphological and acoustic characterization of
+   <em>
+    Proceratophrys goyana
+   </em>
+   (Lissamphibia: Anura: Odontophrynidae), with the description of a sympatric and related new species. Zootaxa, 3750(4), 301–320.
+3.
   </li>
  </ol>
 </div>

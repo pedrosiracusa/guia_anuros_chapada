@@ -28,7 +28,11 @@
   Diagnose
  </h1>
  <p>
-  Apresenta pele rugosa, porte robusto e tímpano oculto. Não possui glândula tibial nem glândula paratoide, ao contrário de Odontophrynus cultripes, que apresenta essas glândulas evidentes.
+  Apresenta pele rugosa, porte robusto e tímpano oculto. Não possui glândula tibial nem glândula paratoide, ao contrário de
+  <em>
+   Odontophrynus cultripes
+  </em>
+  , que apresenta essas glândulas evidentes.
  </p>
 </div>
 <div class="referencias">
@@ -37,7 +41,11 @@
  </h1>
  <ol>
   <li>
-   Magalhães, F. M., Brandão, R. A., Garda, A. A., &amp; Mângia, S. (2020). Revisiting the generic position and acoustic diagnosis of Odontophrynus salvatori (Anura: Odontophrynidae). Herpetological Journal, 30, 189–196.
+   Magalhães, F. M., Brandão, R. A., Garda, A. A., &amp; Mângia, S. (2020). Revisiting the generic position and acoustic diagnosis of
+   <em>
+    Odontophrynus salvatori
+   </em>
+   (Anura: Odontophrynidae). Herpetological Journal, 30, 189–196.
   </li>
   <li>
    Vaz-Silva, W., Maciel, N. M., Nomura, F., Morais, A. R., Batista, V. G., Santos, D. L., Andrade, S. P., Oliveira, A. Â. B., Brandão, R. A., Bastos, R.P. (2020). Guia de identificação das espécies de anfíbios (Anura e Gymnophiona) do estado de Goiás e do Distrito Federal, Brasil Central [online]. Curitiba: Sociedade Brasileira de Zoologia, 223 p. Zoologia: guias e manuais de identificação series.

@@ -12,7 +12,10 @@
   Onde encontrar
  </h1>
  <p>
-  Scinax squalirostris é encontrada principalmente em áreas abertas, associadas a touceiras de capim e vegetação marginal de lagoas permanentes e temporárias. Pode ser observada em ambientes rurais, incluindo abrigos artificiais, açudes e outras áreas antropizadas. Sua distribuição abrange várias regiões do Brasil e outros países da América do Sul, com registros frequentes em áreas de transição entre biomas.
+  <em>
+   Scinax squalirostris
+  </em>
+  é encontrada principalmente em áreas abertas, associadas a touceiras de capim e vegetação marginal de lagoas permanentes e temporárias. Pode ser observada em ambientes rurais, incluindo abrigos artificiais, açudes e outras áreas antropizadas. Sua distribuição abrange várias regiões do Brasil e outros países da América do Sul, com registros frequentes em áreas de transição entre biomas.
  </p>
 </div>
 <div class="diagnose">
@@ -32,7 +35,10 @@
    <h2>
     Mal formações
    </h2>
-   Scinax squalirostris é conhecida por ser mais sensível a produtos químicos do que outras espécies de anuros. Em um estudo realizado em Botucatu, os pesquisadores encontraram um macho com uma anormalidade na falange do dedo esquerdo, provavelmente devido a causas naturais. Algumas
+   <em>
+    Scinax squalirostris
+   </em>
+   é conhecida por ser mais sensível a produtos químicos do que outras espécies de anuros. Em um estudo realizado em Botucatu, os pesquisadores encontraram um macho com uma anormalidade na falange do dedo esquerdo, provavelmente devido a causas naturais. Algumas
    <glossario>
     mutações genéticas
    </glossario>
@@ -47,23 +53,47 @@
  <h1>
   Referências
  </h1>
- <ol>
-  <li>
-   Alcalde, L., &amp; Rosset, S. D. (2003). Descripción y comparación del condrocráneo en larvas de Hyla raniceps (Cope, 1862), Scinax granulatus (Peters, 1871) y
-   <em>
-    Scinax squalirostris
-   </em>
-   (A. Lutz, 1925) (Anura: hylidae). Cuadernos de Herpetología, 17(1-2), 33-49.
-  </li>
-  <li>
-   <p>
-    Silva, N. R., &amp; Toledo, L. F. (2010): Bokermannohyla saxicola (NCN), Scinax curicica (Lanceback Treefrog), Scinax squalirostris (Snouted Treefrog), Trachycephalus mesophaeus (Golden-eyed Treefrog), and Elachistocleis sp. (Oval Frog). Morphology. Herpetological Review, 41, 333–334.
-   </p>
-  </li>
-  <li>
-   <p>
-    Jorgewich-Cohen, G., Cavalcanti, I. R. S., &amp; Kanasiro, A. (2019). Abnormalities in hylid frogs: a case study of schizodactyly in the striped snouted treefrog, Scinax squalirostris (Lutz, 1925) (Amphibia: Anura: Hylidae). Herpetology Notes, 12, 1015-1018.
-   </p>
-  </li>
- </ol>
+ <p>
+  Alcalde, L., &amp; Rosset, S. D. (2003). Descripción y comparación del condrocráneo en larvas de
+  <em>
+   Hyla raniceps
+  </em>
+  (Cope, 1862),
+  <em>
+   Scinax granulatus
+  </em>
+  (Peters, 1871) y
+  <em>
+   Scinax squalirostris
+  </em>
+  (A. Lutz, 1925) (Anura: hylidae). Cuadernos de Herpetología, 17(1-2), 33-49.
+Silva, N. R., &amp; Toledo, L. F. (2010):
+  <em>
+   Bokermannohyla saxicola
+  </em>
+  (NCN),
+  <em>
+   Scinax curicica
+  </em>
+  (Lanceback Treefrog),
+  <em>
+   Scinax squalirostris
+  </em>
+  (Snouted Treefrog),
+  <em>
+   Trachycephalus mesophaeus
+  </em>
+  (Golden-eyed Treefrog), and
+  <em>
+   Elachistocleis sp.
+  </em>
+  (Oval Frog). Morphology. Herpetological Review, 41, 333–334.
+ </p>
+ <p>
+  Jorgewich-Cohen, G., Cavalcanti, I. R. S., &amp; Kanasiro, A. (2019). Abnormalities in hylid frogs: a case study of schizodactyly in the striped snouted treefrog,
+  <em>
+   Scinax squalirostris
+  </em>
+  (Lutz, 1925) (Amphibia: Anura: Hylidae). Herpetology Notes, 12, 1015-1018.
+ </p>
 </div>

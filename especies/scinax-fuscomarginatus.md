@@ -34,7 +34,10 @@
      Assimetria flutuante
     </glossario>
    </h2>
-   Scinax fuscomarginatus apresenta altos níveis de
+   <em>
+    Scinax fuscomarginatus
+   </em>
+   apresenta altos níveis de
    <glossario>
     assimetria flutuante
    </glossario>
@@ -46,26 +49,36 @@
  <h1>
   Referências
  </h1>
- <ol>
-  <li>
-   <p>
-    Brusquetti, F., Jansen, M., Barrio–Amorós, C., Segalla, M., &amp; Haddad, C. F. B. (2014). Taxonomic review of Scinax fuscomarginatus (Lutz, 1925) and related species (Anura; Hylidae). Zoological Journal of the Linnean Society, 171, 783–821.
-   </p>
-  </li>
-  <li>
-   <p>
-    Costa, R. N. (2014). Medindo os Impactos do Glifosato e do Estresse Ambiental com uma Régua: Assimetria Flutuante e Mortalidade em Girinos (Amphibia: Anura) de Physalaemus cuvieri (Leptodactylidae) e Scinax fuscomarginatus (Hylidae). Dissertação - UFG - Programa de Pós-Graduação em Ecologia e Evolução.
-   </p>
-  </li>
-  <li>
-   <p>
-    Leite Jr, J. M. A., Sampaio, J. M., Silva–Leite, R. R., Toledo, L. F., Loebmann, D., &amp; Leite, J. R. S. (2008). Amphibia, Anura, Hylidae, Scinax fuscomarginatus: Distribution extension. Check List, 4, 475–477.
-   </p>
-  </li>
-  <li>
-   <p>
-    Michelin, G., Ceron, K., &amp; Santana, D. J. (2020). Prey availability influences the diet of Scinax fuscomarginatus in a Cerrado area, Central Brazil. Animal Biodiversity and Conservation, 43(2), 169-175.
-   </p>
-  </li>
- </ol>
+ <p>
+  Brusquetti, F., Jansen, M., Barrio–Amorós, C., Segalla, M., &amp; Haddad, C. F. B. (2014). Taxonomic review of
+  <em>
+   Scinax fuscomarginatus
+  </em>
+  (Lutz, 1925) and related species (Anura; Hylidae). Zoological Journal of the Linnean Society, 171, 783–821.
+ </p>
+ <p>
+  Costa, R. N. (2014). Medindo os Impactos do Glifosato e do Estresse Ambiental com uma Régua: Assimetria Flutuante e Mortalidade em Girinos (Amphibia: Anura) de
+  <em>
+   Physalaemus cuvieri
+  </em>
+  (Leptodactylidae) e
+  <em>
+   Scinax fuscomarginatus
+  </em>
+  (Hylidae). Dissertação - UFG - Programa de Pós-Graduação em Ecologia e Evolução.
+ </p>
+ <p>
+  Leite Jr, J. M. A., Sampaio, J. M., Silva–Leite, R. R., Toledo, L. F., Loebmann, D., &amp; Leite, J. R. S. (2008). Amphibia, Anura, Hylidae,
+  <em>
+   Scinax fuscomarginatus
+  </em>
+  : Distribution extension. Check List, 4, 475–477.
+ </p>
+ <p>
+  Michelin, G., Ceron, K., &amp; Santana, D. J. (2020). Prey availability influences the diet of
+  <em>
+   Scinax fuscomarginatus
+  </em>
+  in a Cerrado area, Central Brazil. Animal Biodiversity and Conservation, 43(2), 169-175.
+ </p>
 </div>

@@ -1,6 +1,9 @@
 <div class="descricao-geral">
  <p>
-  Scinax rupestris habita riachos temporários de alta altitude (1.000 metros) nas montanhas rochosas quartzíticas da região da Chapada dos Veadeiros, em Goiás, sendo
+  <em>
+   Scinax rupestris
+  </em>
+  habita riachos temporários de alta altitude (1.000 metros) nas montanhas rochosas quartzíticas da região da Chapada dos Veadeiros, em Goiás, sendo
   <glossario>
    endêmica
   </glossario>
@@ -33,7 +36,27 @@
     Ambiente rupestre
    </h2>
    <p>
-    Esta espécie compartilha os mesmos habitats da Chapada dos Veadeiros com outras espécies, como Ameerega flavopicta (Dendrobatidae), Bokermannohyla pseudopseudis (Hylidae), Leptodactylus tapiti (Leptodactylidae), Proceratophrys goyana e P. salvatori (Odontophrynidae)
+    Esta espécie compartilha os mesmos habitats da Chapada dos Veadeiros com outras espécies, como
+    <em>
+     Ameerega flavopicta
+    </em>
+    (Dendrobatidae),
+    <em>
+     Bokermannohyla pseudopseudis
+    </em>
+    (Hylidae),
+    <em>
+     Leptodactylus tapiti
+    </em>
+    (Leptodactylidae),
+    <em>
+     Proceratophrys goyana
+    </em>
+    e
+    <em>
+     P. salvatori
+    </em>
+    (Odontophrynidae)
    </p>
   </li>
   <li>
@@ -41,7 +64,15 @@
     Onde eu vim parar!
    </h2>
    <p>
-    Curiosamente, um indivíduo de Scinax rupestris foi encontrado no estômago de B. pseudopseudis.
+    Curiosamente, um indivíduo de
+    <em>
+     Scinax rupestris
+    </em>
+    foi encontrado no estômago de
+    <em>
+     B. pseudopseudis
+    </em>
+    .
    </p>
   </li>
  </ol>
@@ -50,9 +81,11 @@
  <h1>
   Referências
  </h1>
- <ol>
-  <li>
-   Araujo-Vieira, K., Brandão, R. A., &amp; Faria, D. C. C. (2015). A new species of Rock-Dwelling Scinax Wagler (Anura: Hylidae) from Chapada dos Veadeiros, Central Brazil. Zootaxa, 3915(1), 052–066.
-  </li>
- </ol>
+ <p>
+  Araujo-Vieira, K., Brandão, R. A., &amp; Faria, D. C. C. (2015). A new species of Rock-Dwelling
+  <em>
+   Scinax
+  </em>
+  Wagler (Anura: Hylidae) from Chapada dos Veadeiros, Central Brazil. Zootaxa, 3915(1), 052–066.
+ </p>
 </div>

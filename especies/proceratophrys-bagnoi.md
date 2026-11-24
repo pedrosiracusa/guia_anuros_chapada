@@ -8,7 +8,10 @@
   Onde encontrar
  </h1>
  <p>
-  Proceratophrys bagnoi é encontrada em áreas de Campo Sujo e Campo Limpo, em regiões próximas à Mata de Galeria nos estados do Mato Grosso e Goiás. A espécie ocupa ambientes abertos, como campos e bordas de florestas, e provavelmente deposita seus ovos em áreas próximas a riachos.
+  <em>
+   Proceratophrys bagnoi
+  </em>
+  é encontrada em áreas de Campo Sujo e Campo Limpo, em regiões próximas à Mata de Galeria nos estados do Mato Grosso e Goiás. A espécie ocupa ambientes abertos, como campos e bordas de florestas, e provavelmente deposita seus ovos em áreas próximas a riachos.
  </p>
 </div>
 <div class="diagnose">
@@ -25,7 +28,11 @@
  </h1>
  <ol>
   <li>
-   Brandão, R. A., Caramaschi, U., Vaz-Silva, W., &amp; Campos, L. A. (2013). Three new species of Proceratophrys Miranda-Ribeiro 1920 from Brazilian Cerrado (Anura, Odontophrynidae). Zootaxa, 3750 (4), 321–347.
+   Brandão, R. A., Caramaschi, U., Vaz-Silva, W., &amp; Campos, L. A. (2013). Three new species of
+   <em>
+    Proceratophrys
+   </em>
+   Miranda-Ribeiro 1920 from Brazilian Cerrado (Anura, Odontophrynidae). Zootaxa, 3750 (4), 321–347.
   </li>
   <li>
    Vaz-Silva, W., Maciel, N. M., Nomura, F., Morais, A. R., Batista, V. G., Santos, D. L., Andrade, S. P., Oliveira, A. Â. B., Brandão, R. A., Bastos, R.P. (2020). Guia de identificação das espécies de anfíbios (Anura e Gymnophiona) do estado de Goiás e do Distrito Federal, Brasil Central [online]. Curitiba: Sociedade Brasileira de Zoologia, 223 p. Zoologia: guias e manuais de identificação series.

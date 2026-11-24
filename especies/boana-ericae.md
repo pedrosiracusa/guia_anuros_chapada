@@ -1,6 +1,9 @@
 <div class="descricao-geral">
  <p>
-  Boana ericae é uma perereca arborícola de porte médio, cujo epíteto específico homenageia a Dra. Érica Pellegrini Caramaschi, em reconhecimento ao seu esforço para o conhecimento biológico dos peixes brasileiros.
+  <em>
+   Boana ericae
+  </em>
+  é uma perereca arborícola de porte médio, cujo epíteto específico homenageia a Dra. Érica Pellegrini Caramaschi, em reconhecimento ao seu esforço para o conhecimento biológico dos peixes brasileiros.
 Essa espécie habita as bordas e o interior das matas de galeria, onde os machos vocalizam durante a época reprodutiva, que ocorre entre novembro e janeiro, próximos a corpos d'água. Durante esse período, os machos se empoleiram em arbustos e árvores, em alturas que variam de 0,1m a 1m. Embora muito pouco seja conhecido sobre a
   <glossario>
    ovoposição
@@ -14,7 +17,10 @@ Devido à sua distribuição limitada, as maiores ameaças à espécie são a ex
   Onde encontrar
  </h1>
  <p>
-  Boana ericae pode ser encontrada nas bordas das matas de galeria e dentro dessas matas da Chapada dos Veadeiros, especificamente nos municípios de Alto Paraíso de Goiás – GO.
+  <em>
+   Boana ericae
+  </em>
+  pode ser encontrada nas bordas das matas de galeria e dentro dessas matas da Chapada dos Veadeiros, especificamente nos municípios de Alto Paraíso de Goiás – GO.
  </p>
 </div>
 <div class="diagnose">
@@ -39,7 +45,15 @@ Devido à sua distribuição limitada, as maiores ameaças à espécie são a ex
     Diferenças osteológicas
    </h2>
    <p>
-    Existem diferenças na osteologia entre Boana ericae e outras espécies de Boana relacionadas. Alguns indivíduos dessa espécie apresentam ossos esverdeados, enquanto outros possuem ossos esbranquiçados. Além disso, há a formação de um prepólex muito curvado (90°), que é um espinho nos dedos das mãos, um caráter sexual secundário presente no macho, utilizado para segurar melhor a fêmea durante a cópula.
+    Existem diferenças na osteologia entre
+    <em>
+     Boana ericae
+    </em>
+    e outras espécies de
+    <em>
+     Boana
+    </em>
+    relacionadas. Alguns indivíduos dessa espécie apresentam ossos esverdeados, enquanto outros possuem ossos esbranquiçados. Além disso, há a formação de um prepólex muito curvado (90°), que é um espinho nos dedos das mãos, um caráter sexual secundário presente no macho, utilizado para segurar melhor a fêmea durante a cópula.
    </p>
   </li>
   <li>
@@ -47,7 +61,11 @@ Devido à sua distribuição limitada, as maiores ameaças à espécie são a ex
     Variação do padrão de coloração
    </h2>
    <p>
-    Há variações no padrão de coloração dorsal de Boana ericae, tanto no tamanho e forma das manchas marrom-escuro quanto na presença de pigmentação esbranquiçada esparsa. Também há diferenças no número e na forma das manchas brancas laterais.
+    Há variações no padrão de coloração dorsal de
+    <em>
+     Boana ericae
+    </em>
+    , tanto no tamanho e forma das manchas marrom-escuro quanto na presença de pigmentação esbranquiçada esparsa. Também há diferenças no número e na forma das manchas brancas laterais.
    </p>
   </li>
  </ol>
@@ -56,16 +74,18 @@ Devido à sua distribuição limitada, as maiores ameaças à espécie são a ex
  <h1>
   Referências
  </h1>
- <ol>
-  <li>
-   <p>
-    Garcia, P. C. &amp; Haddad, C. F. (2008). Vocalizations and comments on the relationships of Hypsiboas ericae (Amphibia, Hylidae). Iheringia. Série Zoologia, 98(1), 161-166.
-   </p>
-  </li>
-  <li>
-   <p>
-    Caramaschi, U. &amp; Cruz, C. A. (2000). Duas espécies novas de Hyla Laurenti, 1768 do estado de Goiás, Brasil (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, Nova Série, Zoologia, 422, 1-2.
-   </p>
-  </li>
- </ol>
+ <p>
+  Garcia, P. C. &amp; Haddad, C. F. (2008). Vocalizations and comments on the relationships of
+  <em>
+   Hypsiboas ericae
+  </em>
+  (Amphibia, Hylidae). Iheringia. Série Zoologia, 98(1), 161-166.
+ </p>
+ <p>
+  Caramaschi, U. &amp; Cruz, C. A. (2000). Duas espécies novas de
+  <em>
+   Hyla
+  </em>
+  Laurenti, 1768 do estado de Goiás, Brasil (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, Nova Série, Zoologia, 422, 1-2.
+ </p>
 </div>

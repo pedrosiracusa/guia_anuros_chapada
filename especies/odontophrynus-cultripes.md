@@ -1,6 +1,10 @@
 <div class="descricao-geral">
  <p>
-  Espécie de tamanho grande quando comparada com as espécies do mesmo grupo. O epíteto específico cultripes vem do latim e refere-se a duas palavras: “faca” ou “lâmina” e “pé” ou “pata”, possivelmente por conta do comportamento da espécie de cavar muito rapidamente quando se sente ameaçada, fazendo movimentos laterais para se esconder. Além disso, a espécie é semi-fossorial e ocupa margens de riachos em ambientes florestais. Há registro de que os machos vocalizam durante as estações seca e chuvosa. Possivelmente, os ovos são depositados no lodo de corpos d’água. O. cultripes é possivelmente associada com florestas semidecíduas, matas de galerias e bordas de floresta, associado a poças temporárias, inclusive artificiais. Indivíduos são encontrados apenas em altitudes maiores que 800 metros. Apesar de ser considerada uma espécie não ameaçada de extinção, o desenvolvimento de infraestrutura e a atividade agrícola têm sido causas para sua perda de habitat.
+  Espécie de tamanho grande quando comparada com as espécies do mesmo grupo. O epíteto específico cultripes vem do latim e refere-se a duas palavras: “faca” ou “lâmina” e “pé” ou “pata”, possivelmente por conta do comportamento da espécie de cavar muito rapidamente quando se sente ameaçada, fazendo movimentos laterais para se esconder. Além disso, a espécie é semi-fossorial e ocupa margens de riachos em ambientes florestais. Há registro de que os machos vocalizam durante as estações seca e chuvosa. Possivelmente, os ovos são depositados no lodo de corpos d’água.
+  <em>
+   O. cultripes
+  </em>
+  é possivelmente associada com florestas semidecíduas, matas de galerias e bordas de floresta, associado a poças temporárias, inclusive artificiais. Indivíduos são encontrados apenas em altitudes maiores que 800 metros. Apesar de ser considerada uma espécie não ameaçada de extinção, o desenvolvimento de infraestrutura e a atividade agrícola têm sido causas para sua perda de habitat.
  </p>
 </div>
 <div class="onde-encontrar">
@@ -8,7 +12,10 @@
   Onde encontrar
  </h1>
  <p>
-  Odontophrynus cultripes é encontrado em áreas de florestas semidecíduas, matas de galerias e bordas de floresta, especialmente em altitudes superiores a 800 metros. A espécie é associada a margens de riachos e poças temporárias, inclusive em ambientes alterados, como poças artificiais. Sua distribuição abrange principalmente áreas no estado de Goiás e outras regiões de cerrado com florestas.
+  <em>
+   Odontophrynus cultripes
+  </em>
+  é encontrado em áreas de florestas semidecíduas, matas de galerias e bordas de floresta, especialmente em altitudes superiores a 800 metros. A espécie é associada a margens de riachos e poças temporárias, inclusive em ambientes alterados, como poças artificiais. Sua distribuição abrange principalmente áreas no estado de Goiás e outras regiões de cerrado com florestas.
  </p>
 </div>
 <div class="diagnose">
@@ -25,7 +32,11 @@
  </h1>
  <ol>
   <li>
-   Caramaschi, U. &amp; Napoli, M. F. (2012). Taxonomic revision of the Odontophrynus cultripes species group, with description of a new related species (Anura, Cycloramphidae). Zootaxa, 3155, 1–20.
+   Caramaschi, U. &amp; Napoli, M. F. (2012). Taxonomic revision of the
+   <em>
+    Odontophrynus cultripes
+   </em>
+   species group, with description of a new related species (Anura, Cycloramphidae). Zootaxa, 3155, 1–20.
   </li>
   <li>
    Frost, D. R. (2018). Amphibian Species of the World: an Online Reference. Version 6.0 (Date of access). Electronic Database accessible at American Museum of Natural History.

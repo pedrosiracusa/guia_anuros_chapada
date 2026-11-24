@@ -46,7 +46,11 @@ Possui ampla distribuição pela América do Sul e é comumente encontrada em á
    Frost, D. R. (2021). Amphibian Species of the World: an Online Reference. Version 6.0. Acesso em: link. American Museum of Natural History, New York, USA.
   </li>
   <li>
-   Magalhães, F. D., Lyra, M. L., Carvalho, T. R., Baldo, D., Brusquetti, F., Burella, P., Colli, G. R., Gehara, M. C., Giaretta, A. A., Haddad, C. F., &amp; Langone, J. A. (2020). Taxonomic review of South American Butter Frogs: Phylogeny, geographic patterns, and species delimitation in the Leptodactylus latrans species group (Anura: Leptodactylidae). Herpetological Monographs, 34(1), 131-77.
+   Magalhães, F. D., Lyra, M. L., Carvalho, T. R., Baldo, D., Brusquetti, F., Burella, P., Colli, G. R., Gehara, M. C., Giaretta, A. A., Haddad, C. F., &amp; Langone, J. A. (2020). Taxonomic review of South American Butter Frogs: Phylogeny, geographic patterns, and species delimitation in the
+   <em>
+    Leptodactylus latrans
+   </em>
+   species group (Anura: Leptodactylidae). Herpetological Monographs, 34(1), 131-77.
   </li>
  </ol>
 </div>

@@ -1,6 +1,9 @@
 <div class="descricao-geral">
  <p>
-  Pseudopaludicola murundu é uma pequena rã de médio porte, com hábitos associados a ambientes abertos e úmidos. O nome da espécie vem do tupi “murundu”, que significa pequenas elevações no solo cobertas por vegetação. Essas estruturas são justamente os locais mais comuns de vocalização da espécie, especialmente após chuvas. Os machos vocalizam diretamente no solo, próximos a poças rasas, geralmente sobre os próprios murundus. As fêmeas são um pouco maiores, não possuem
+  <em>
+   Pseudopaludicola murundu
+  </em>
+  é uma pequena rã de médio porte, com hábitos associados a ambientes abertos e úmidos. O nome da espécie vem do tupi “murundu”, que significa pequenas elevações no solo cobertas por vegetação. Essas estruturas são justamente os locais mais comuns de vocalização da espécie, especialmente após chuvas. Os machos vocalizam diretamente no solo, próximos a poças rasas, geralmente sobre os próprios murundus. As fêmeas são um pouco maiores, não possuem
   <glossario>
    saco vocal
   </glossario>
@@ -24,7 +27,11 @@
   Diagnose
  </h1>
  <p>
-  Espécie de médio porte dentro do gênero Pseudopaludicola, caracterizada pelos tubérculos antebraquiais hipertrofiados nos machos. O
+  Espécie de médio porte dentro do gênero
+  <em>
+   Pseudopaludicola
+  </em>
+  , caracterizada pelos tubérculos antebraquiais hipertrofiados nos machos. O
   <glossario>
    saco vocal
   </glossario>
@@ -48,12 +55,16 @@
  <h1>
   Referências
  </h1>
- <ol>
-  <li>
-   Andrade, F. S.; Haga, I. A.; Lyra, M. L. et al. (2020). Geographic distributions of Pseudopaludicola boliviana and congeneric long-legged species (Anura: Leiuperinae). Studies on Neotropical Fauna and Environment, 1–17.
-  </li>
-  <li>
-   Toledo, L. F.; Siqueira, S.; Duarte, T. C. et al. (2010). Description of a new species of Pseudopaludicola Miranda-Ribeiro, 1926 from the State of São Paulo, Southeastern Brazil (Anura, Leiuperidae). Zootaxa, 2496, 38–48.
-  </li>
- </ol>
+ <p>
+  Andrade, F. S.; Haga, I. A.; Lyra, M. L. et al. (2020). Geographic distributions of
+  <em>
+   Pseudopaludicola boliviana
+  </em>
+  and congeneric long-legged species (Anura: Leiuperinae). Studies on Neotropical Fauna and Environment, 1–17.
+Toledo, L. F.; Siqueira, S.; Duarte, T. C. et al. (2010). Description of a new species of
+  <em>
+   Pseudopaludicola
+  </em>
+  Miranda-Ribeiro, 1926 from the State of São Paulo, Southeastern Brazil (Anura, Leiuperidae). Zootaxa, 2496, 38–48.
+ </p>
 </div>

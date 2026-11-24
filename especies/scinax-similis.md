@@ -4,7 +4,11 @@
   <glossario>
    polimórfica
   </glossario>
-  , muito semelhante ao S. fuscovarius. É arborícola, de hábitos noturnos e associada a áreas abertas. Utiliza poços permanentes ou temporários, além de vegetação marginal, gramíneas e arbustos para reprodução. É comumente encontrada próxima às cidades e em áreas rurais, onde utiliza abrigos artificiais. Já foi observada se reproduzindo em açudes e áreas antropizadas. Possui um modo reprodutivo do tipo 1, em que os ovos e girinos são
+  , muito semelhante ao
+  <em>
+   S. fuscovarius
+  </em>
+  . É arborícola, de hábitos noturnos e associada a áreas abertas. Utiliza poços permanentes ou temporários, além de vegetação marginal, gramíneas e arbustos para reprodução. É comumente encontrada próxima às cidades e em áreas rurais, onde utiliza abrigos artificiais. Já foi observada se reproduzindo em açudes e áreas antropizadas. Possui um modo reprodutivo do tipo 1, em que os ovos e girinos são
   <glossario>
    exotróficos
   </glossario>
@@ -40,7 +44,11 @@
    <h2>
     Onde eu moro
    </h2>
-   Dois indivíduos de Scinax similis foram encontrados dentro de um cupinzeiro na ARIE-JK durante uma consultoria que realizamos.
+   Dois indivíduos de
+   <em>
+    Scinax similis
+   </em>
+   foram encontrados dentro de um cupinzeiro na ARIE-JK durante uma consultoria que realizamos.
   </li>
  </ol>
 </div>

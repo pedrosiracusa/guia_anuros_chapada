@@ -1,6 +1,13 @@
 <div class="descricao-geral">
  <p>
-  Dendropsophus melanargyreus é uma espécie pertencente ao grupo D. marmoratus. É arborícola e pode ser encontrada em florestas úmidas ou nas bordas de florestas, onde utiliza folhas ou galhos próximos ou à margem de corpos d’água. Sua reprodução ocorre principalmente na época chuvosa, quando os machos vocalizam em arbustos suspensos sobre poças, enquanto as fêmeas depositam cerca de 400 ovos, que ficam aderidos a plantas emergentes. As larvas eclodem e caem na água, onde completam o desenvolvimento larval. Esta espécie ocorre no interior de Goiás, Mato Grosso, no nordeste do Brasil, além de Suriname e Guiana Francesa, com registros também na Bolívia, Paraguai e São Paulo.
+  <em>
+   Dendropsophus melanargyreus
+  </em>
+  é uma espécie pertencente ao grupo
+  <em>
+   D. marmoratus
+  </em>
+  . É arborícola e pode ser encontrada em florestas úmidas ou nas bordas de florestas, onde utiliza folhas ou galhos próximos ou à margem de corpos d’água. Sua reprodução ocorre principalmente na época chuvosa, quando os machos vocalizam em arbustos suspensos sobre poças, enquanto as fêmeas depositam cerca de 400 ovos, que ficam aderidos a plantas emergentes. As larvas eclodem e caem na água, onde completam o desenvolvimento larval. Esta espécie ocorre no interior de Goiás, Mato Grosso, no nordeste do Brasil, além de Suriname e Guiana Francesa, com registros também na Bolívia, Paraguai e São Paulo.
  </p>
 </div>
 <div class="onde-encontrar">
@@ -28,7 +35,15 @@
    <h2>
     Predação por aranhas
    </h2>
-   Anuros são importantes predadores, auxiliando no controle populacional das presas que consomem. No entanto, eles também servem como fonte de nutrientes para outros predadores. Moura &amp; Azevedo registraram um momento em que Dendropsophus melanargyreus foi predado por uma aranha-gigante-pescadora (Ancylometes rufus).
+   Anuros são importantes predadores, auxiliando no controle populacional das presas que consomem. No entanto, eles também servem como fonte de nutrientes para outros predadores. Moura &amp; Azevedo registraram um momento em que
+   <em>
+    Dendropsophus melanargyreus
+   </em>
+   foi predado por uma aranha-gigante-pescadora (
+   <em>
+    Ancylometes rufus
+   </em>
+   ).
   </li>
  </ol>
  <p>
@@ -39,21 +54,37 @@
  <h1>
   Referências
  </h1>
- <ol>
-  <li>
-   <p>
-    Barros, R. A. (2016). Ecologia trófica e espacial de Dendropsophus melanargyreus (Cope, 1887), D. minutus (Peters, 1871) e Scinax ruber (Laurenti, 1768) (Anura: Hylidae) em um fragmento florestal na Amazônia oriental. Dissertação - UFPA - Programa de Pós-graduação em Zoologia.
-   </p>
-  </li>
-  <li>
-   <p>
-    Moura, M. R., &amp; Azevedo, L. P. (2011). Observation of predation of the giant fishing spider Ancylometes rufus (Walckenaer, 1837) (Araneae, Ctenidae) on Dendropsophus melanargyreus Cope, 1877 (Anura, Hylidae). Biota Neotropica, 11(4), 349-351.
-   </p>
-  </li>
-  <li>
-   <p>
-    Silva, F. R., Prado, V. H. M., &amp; Rossa-Feres, D. C. (2010). Amphibia, Anura, Hylidae, Dendropsophus melanargyreus (Cope, 1887): Distribution extension, new state record and geographic distribution map. Check List, 6(3), 402-404.
-   </p>
-  </li>
- </ol>
+ <p>
+  Barros, R. A. (2016). Ecologia trófica e espacial de
+  <em>
+   Dendropsophus melanargyreus
+  </em>
+  (Cope, 1887),
+  <em>
+   D. minutus
+  </em>
+  (Peters, 1871) e
+  <em>
+   Scinax ruber
+  </em>
+  (Laurenti, 1768) (Anura: Hylidae) em um fragmento florestal na Amazônia oriental. Dissertação - UFPA - Programa de Pós-graduação em Zoologia.
+ </p>
+ <p>
+  Moura, M. R., &amp; Azevedo, L. P. (2011). Observation of predation of the giant fishing spider
+  <em>
+   Ancylometes rufus
+  </em>
+  (Walckenaer, 1837) (Araneae, Ctenidae) on
+  <em>
+   Dendropsophus melanargyreus
+  </em>
+  Cope, 1877 (Anura, Hylidae). Biota Neotropica, 11(4), 349-351.
+ </p>
+ <p>
+  Silva, F. R., Prado, V. H. M., &amp; Rossa-Feres, D. C. (2010). Amphibia, Anura, Hylidae,
+  <em>
+   Dendropsophus melanargyreus
+  </em>
+  (Cope, 1887): Distribution extension, new state record and geographic distribution map. Check List, 6(3), 402-404.
+ </p>
 </div>

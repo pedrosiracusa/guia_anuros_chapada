@@ -1,6 +1,10 @@
 <div class="descricao-geral">
  <p>
-  O gênero é caracterizado por possuir sacos vocais laterais, ou seja, quando o animal está cantando e inflando esses sacos, eles acabam sendo projetados para a região dorsal, posterior à cabeça e oposta à mandíbula, um saco para cada lado da cabeça. A espécie Trachycephalus typhonius é um sapo de porte médio para grande, florestal de hábito arborícola, noturno e diurno, e possui
+  O gênero é caracterizado por possuir sacos vocais laterais, ou seja, quando o animal está cantando e inflando esses sacos, eles acabam sendo projetados para a região dorsal, posterior à cabeça e oposta à mandíbula, um saco para cada lado da cabeça. A espécie
+  <em>
+   Trachycephalus typhonius
+  </em>
+  é um sapo de porte médio para grande, florestal de hábito arborícola, noturno e diurno, e possui
   <glossario>
    reprodução explosiva
   </glossario>
@@ -18,7 +22,10 @@ Após o
   Onde encontrar
  </h1>
  <p>
-  Trachycephalus typhonius tem uma ampla distribuição na América do Sul, sendo encontrada em várias regiões do Brasil, especialmente na floresta tropical. Ela pode ser encontrada tanto em áreas urbanas quanto em zonas de floresta, com preferências por áreas próximas a corpos d'água temporários e permanentes. Esta espécie também tem capacidade de se adaptar a ambientes modificados, como áreas rurais, tornando-se comum em regiões de vegetação secundária e áreas com presença de bromélias e plantas aquáticas.
+  <em>
+   Trachycephalus typhonius
+  </em>
+  tem uma ampla distribuição na América do Sul, sendo encontrada em várias regiões do Brasil, especialmente na floresta tropical. Ela pode ser encontrada tanto em áreas urbanas quanto em zonas de floresta, com preferências por áreas próximas a corpos d'água temporários e permanentes. Esta espécie também tem capacidade de se adaptar a ambientes modificados, como áreas rurais, tornando-se comum em regiões de vegetação secundária e áreas com presença de bromélias e plantas aquáticas.
  </p>
 </div>
 <div class="diagnose">
@@ -61,16 +68,30 @@ Após o
    Cott, H. B. (1926). Observations on the life-habits of some batrachians and reptiles from the lower Amazon: and a note on some mammals from Marajo Island. Proceedings of the Zoological Society of London, 1159-1178.
   </li>
   <li>
-   Oliver, J. A. (1951). 'Gliding' in amphibians and reptiles, with a remark on an arboreal adaptation in the lizard, Anolis carolinensis carolinensis Voigt. The American Naturalist, 85(822), 171-176.
+   Oliver, J. A. (1951). 'Gliding' in amphibians and reptiles, with a remark on an arboreal adaptation in the lizard,
+   <em>
+    Anolis carolinensis
+   </em>
+   carolinensis Voigt. The American Naturalist, 85(822), 171-176.
   </li>
   <li>
-   McDiarmid, R. W. (1968). Populational variation in the frog genus Phrynohyas Fitzinger in Middle America. Contributions in Science of the Natural History Museum of Los Angeles County, 134, 1-25.
+   McDiarmid, R. W. (1968). Populational variation in the frog genus
+   <em>
+    Phrynohyas
+   </em>
+   Fitzinger in Middle America. Contributions in Science of the Natural History Museum of Los Angeles County, 134, 1-25.
   </li>
   <li>
    Savage, J. M. (2002). The Amphibians and Reptiles of Costa Rica. University of Chicago Press, Chicago and London.
-  </li>
-  <li>
-   Leary, C., &amp; Razafindratsita, V. (1998). Attempted predation on a hylid frog, Phrynohyas venulosa, by an indigo snake, Drymachon corais, and the response of conspecific frogs to distress calls. Amphibia Reptilia, 19, 442-446.
+Leary, C., &amp; Razafindratsita, V. (1998). Attempted predation on a hylid frog,
+   <em>
+    Phrynohyas venulosa
+   </em>
+   , by an indigo snake,
+   <em>
+    Drymachon corais
+   </em>
+   , and the response of conspecific frogs to distress calls. Amphibia Reptilia, 19, 442-446.
   </li>
  </ol>
 </div>

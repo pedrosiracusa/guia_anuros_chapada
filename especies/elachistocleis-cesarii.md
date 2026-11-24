@@ -33,7 +33,11 @@ Os machos vocalizam dentro dos lagos e poços, agarrados à vegetação emergent
    Eterovick, P. C., &amp; Sazima, I. (2004). Anfíbios da Serra do Cipó, Minas Gerais. Belo Horizonte, Editora PUC Minas, 150p.
   </li>
   <li>
-   Toledo, L. F., Loebmann, D., &amp; Haddad, C. F. B. (2010). Revalidation and redescription of Elachistocleis cesarii (Miranda-Ribeiro, 1920) (Anura: Microhylidae). Zootaxa, 2418, 50–60.
+   Toledo, L. F., Loebmann, D., &amp; Haddad, C. F. B. (2010). Revalidation and redescription of
+   <em>
+    Elachistocleis cesarii
+   </em>
+   (Miranda-Ribeiro, 1920) (Anura: Microhylidae). Zootaxa, 2418, 50–60.
   </li>
   <li>
    Vaz-Silva, W., Maciel, N. M., Nomura, F., Morais, A. R., Batista, V.G., Santos, D. L., Andrade, S. P., Oliveira, A. Â. B., Brandão, R. A., Bastos, R. P. (2020). Guia de identificação das espécies de anfíbios (Anura e Gymnophiona) do estado de Goiás e do Distrito Federal, Brasil Central [online]. Curitiba: Sociedade Brasileira de Zoologia, 223p. Zoologia: guias e manuais de identificação series.

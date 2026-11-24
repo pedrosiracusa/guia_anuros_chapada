@@ -1,6 +1,14 @@
 <div class="descricao-geral">
  <p>
-  Espécie de pequeno porte, Leptodactylus tapiti é endêmica do Cerrado e conhecida apenas da sua localidade-tipo, em Alto Paraíso de Goiás, no estado de Goiás. Embora os autores não expliquem o significado do nome "tapiti", essa é uma palavra de origem indígena usada para se referir a coelhos. É possível que o nome tenha sido escolhido por analogia ao comportamento escavador da espécie, semelhante ao observado em Leptodactylus cunicularius. Os machos vocalizam a partir do solo, frequentemente na entrada de tocas que eles mesmos cavam. Aparentemente, formam coros sincronizados durante a vocalização. A reprodução ocorre na estação chuvosa; os girinos são depositados nas tocas e, após a eclosão, deslocam-se pelo solo úmido até atingirem riachos temporários. A espécie é sensível ao fogo provocado, pois alterações na vegetação próxima a corpos d’água afetam diretamente seus sítios reprodutivos.
+  Espécie de pequeno porte,
+  <em>
+   Leptodactylus tapiti
+  </em>
+  é endêmica do Cerrado e conhecida apenas da sua localidade-tipo, em Alto Paraíso de Goiás, no estado de Goiás. Embora os autores não expliquem o significado do nome "tapiti", essa é uma palavra de origem indígena usada para se referir a coelhos. É possível que o nome tenha sido escolhido por analogia ao comportamento escavador da espécie, semelhante ao observado em
+  <em>
+   Leptodactylus cunicularius
+  </em>
+  . Os machos vocalizam a partir do solo, frequentemente na entrada de tocas que eles mesmos cavam. Aparentemente, formam coros sincronizados durante a vocalização. A reprodução ocorre na estação chuvosa; os girinos são depositados nas tocas e, após a eclosão, deslocam-se pelo solo úmido até atingirem riachos temporários. A espécie é sensível ao fogo provocado, pois alterações na vegetação próxima a corpos d’água afetam diretamente seus sítios reprodutivos.
  </p>
 </div>
 <div class="onde-encontrar">
@@ -40,7 +48,11 @@
    <h2>
     Ameaças
    </h2>
-   Apesar de sua capacidade de escavação e comportamento críptico, L. tapiti é altamente vulnerável a incêndios, que alteram drasticamente a estrutura da vegetação usada como abrigo e sítio reprodutivo.
+   Apesar de sua capacidade de escavação e comportamento críptico,
+   <em>
+    L. tapiti
+   </em>
+   é altamente vulnerável a incêndios, que alteram drasticamente a estrutura da vegetação usada como abrigo e sítio reprodutivo.
   </li>
  </ol>
 </div>
@@ -51,7 +63,11 @@
  <ol>
   <li>
    <p>
-    Heyer, R., Silvano, D., Colli, G. (2004). Leptodactylus tapiti. In: IUCN 2010. IUCN Red List of Threatened Species. Version 2010.4. Disponível em:
+    Heyer, R., Silvano, D., Colli, G. (2004).
+    <em>
+     Leptodactylus tapiti
+    </em>
+    . In: IUCN 2010. IUCN Red List of Threatened Species. Version 2010.4. Disponível em:
     <www.iucnredlist.org>
      . Acesso em: 26 mai. 2011.
     </www.iucnredlist.org>
@@ -62,15 +78,19 @@
     Machado, A. B. M. (2005). Lista da Fauna Brasileira Ameaçada de Extinção: incluindo as listas das espécies Quase ameaçadas e as Deficientes em dados. Belo Horizonte: Fundação Biodiversitas.
    </p>
   </li>
-  <li>
-   <p>
-    Sá, R. O., Grant, T., Camargo, A., Heyer, W. R., Ponssa, M. L. &amp; Stanley, E. (2014). Systematics of the Neotropical genus Leptodactylus Fitzinger, 1826 (Anura: Leptodactylidae): Phylogeny, the relevance of non-molecular evidence, and species accounts. South American Journal of Herpetology, 9(Spec. Issue 1), S1–S128.
-   </p>
-  </li>
-  <li>
-   <p>
-    Brandão, R. A., Alvares, G. F. R., &amp; Sá, R. O. (2013). The advertisement call of the poorly known Leptodactylus tapiti (Anura, Leptodactylidae). Zootaxa, 3616, 284–286.
-   </p>
-  </li>
  </ol>
+ <p>
+  Sá, R. O., Grant, T., Camargo, A., Heyer, W. R., Ponssa, M. L. &amp; Stanley, E. (2014). Systematics of the Neotropical genus
+  <em>
+   Leptodactylus
+  </em>
+  Fitzinger, 1826 (Anura: Leptodactylidae): Phylogeny, the relevance of non-molecular evidence, and species accounts. South American Journal of Herpetology, 9(Spec. Issue 1), S1–S128.
+ </p>
+ <p>
+  Brandão, R. A., Alvares, G. F. R., &amp; Sá, R. O. (2013). The advertisement call of the poorly known
+  <em>
+   Leptodactylus tapiti
+  </em>
+  (Anura, Leptodactylidae). Zootaxa, 3616, 284–286.
+ </p>
 </div>

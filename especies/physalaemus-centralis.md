@@ -1,6 +1,9 @@
 <div class="descricao-geral">
  <p>
-  Physalaemus centralis pertence ao grupo cuvieri, mas possui características morfológicas e comportamentais que a tornam facilmente distinguível. É frequentemente encontrada camuflada no solo durante o período reprodutivo, quando os machos vocalizam próximos a poças temporárias. A espécie apresenta reprodução explosiva e deposita seus ovos em ninhos de espuma diretamente na água. Os machos são territorialistas e defendem seus territórios vocais com cantos específicos e, em alguns casos, com agressões físicas. Possui saco vocal enegrecido e se alimenta principalmente de insetos. A distribuição da espécie abrange áreas abertas do Cerrado brasileiro e do Chaco, ocorrendo desde o nordeste do Paraguai e Bolívia até o Centro-Oeste brasileiro, com registros também no Nordeste e Sudeste. Não é considerada ameaçada, mas sofre pressões locais devido à urbanização e à expansão agropecuária.
+  <em>
+   Physalaemus centralis
+  </em>
+  pertence ao grupo cuvieri, mas possui características morfológicas e comportamentais que a tornam facilmente distinguível. É frequentemente encontrada camuflada no solo durante o período reprodutivo, quando os machos vocalizam próximos a poças temporárias. A espécie apresenta reprodução explosiva e deposita seus ovos em ninhos de espuma diretamente na água. Os machos são territorialistas e defendem seus territórios vocais com cantos específicos e, em alguns casos, com agressões físicas. Possui saco vocal enegrecido e se alimenta principalmente de insetos. A distribuição da espécie abrange áreas abertas do Cerrado brasileiro e do Chaco, ocorrendo desde o nordeste do Paraguai e Bolívia até o Centro-Oeste brasileiro, com registros também no Nordeste e Sudeste. Não é considerada ameaçada, mas sofre pressões locais devido à urbanização e à expansão agropecuária.
  </p>
 </div>
 <div class="onde-encontrar">
@@ -16,7 +19,11 @@
   Diagnose
  </h1>
  <p>
-  Espécie de tamanho moderado, com comprimento rostro-cloacal (CRC) de até 39,2 mm nos machos e 38,1 mm nas fêmeas. Apresenta uma faixa marrom escura que se estende do focinho até os flancos. Embora semelhante a Physalaemus cuvieri, pode ser diferenciada pelo maior tamanho corporal e pela presença de ocelos escuros na região próxima à
+  Espécie de tamanho moderado, com comprimento rostro-cloacal (CRC) de até 39,2 mm nos machos e 38,1 mm nas fêmeas. Apresenta uma faixa marrom escura que se estende do focinho até os flancos. Embora semelhante a
+  <em>
+   Physalaemus cuvieri
+  </em>
+  , pode ser diferenciada pelo maior tamanho corporal e pela presença de ocelos escuros na região próxima à
   <glossario>
    cloaca
   </glossario>
@@ -48,19 +55,21 @@
  </h1>
  <ol>
   <li>
-   <p>
-    Frost, D. R. (2018). Amphibian Species of the World: an Online Reference. Version 6.0. American Museum of Natural History, New York, USA. Disponível em: http://research.amnh.org/herpetology/amphibia/index.html
-   </p>
-  </li>
-  <li>
-   <p>
-    Brasileiro, C. A. &amp; Martins, M. (2006). Breeding biology of Physalaemus centralis Bokermann, (Anura: Leptodactylidae) in southeastern Brazil. Journal of Natural History, 40(17–18), 1199–1209.
-   </p>
-  </li>
-  <li>
-   <p>
-    Brasileiro, C.A. (1998). Physalaemus centralis: male–male combat. Herpetological Review, 29, 165.
-   </p>
+   Frost, D. R. (2018). Amphibian Species of the World: an Online Reference. Version 6.0. American Museum of Natural History, New York, USA. Disponível em: http://research.amnh.org/herpetology/amphibia/index.html
   </li>
  </ol>
+ <p>
+  Brasileiro, C. A. &amp; Martins, M. (2006). Breeding biology of
+  <em>
+   Physalaemus centralis
+  </em>
+  Bokermann, (Anura: Leptodactylidae) in southeastern Brazil. Journal of Natural History, 40(17–18), 1199–1209.
+ </p>
+ <p>
+  Brasileiro, C.A. (1998).
+  <em>
+   Physalaemus centralis
+  </em>
+  : male–male combat. Herpetological Review, 29, 165.
+ </p>
 </div>

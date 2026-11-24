@@ -33,7 +33,11 @@ Possui uma distribuição mais restrita, associada às serras e chapadas dos est
    <h2>
     O primeiro de todos
    </h2>
-   O primeiro indivíduo de Scinax rogerioi foi encontrado e descrito na Chapada dos Veadeiros, no município de Alto Paraíso de Goiás. O
+   O primeiro indivíduo de
+   <em>
+    Scinax rogerioi
+   </em>
+   foi encontrado e descrito na Chapada dos Veadeiros, no município de Alto Paraíso de Goiás. O
    <glossario>
     epíteto específico
    </glossario>
@@ -45,9 +49,11 @@ Possui uma distribuição mais restrita, associada às serras e chapadas dos est
  <h1>
   Referências
  </h1>
- <ol>
-  <li>
-   Baêta, D., &amp; Pombal, J. P. (2009). A New Species Of Scinax (Anura: Hylidae) From Rocky Montane Fields In Southeastern And Central Brazil. Zootaxa, 2269(2269), 53-64.
-  </li>
- </ol>
+ <p>
+  Baêta, D., &amp; Pombal, J. P. (2009). A New Species Of
+  <em>
+   Scinax
+  </em>
+  (Anura: Hylidae) From Rocky Montane Fields In Southeastern And Central Brazil. Zootaxa, 2269(2269), 53-64.
+ </p>
 </div>

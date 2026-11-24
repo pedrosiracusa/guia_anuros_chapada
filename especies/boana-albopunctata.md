@@ -36,10 +36,18 @@
  </h4>
  <ul>
   <li>
-   Guimarães TC, de Figueiredo GB, Mesquita DO, Vasconcellos MM. Ecology of Hypsiboas albopunctatus (Anura: Hylidae) in a Neotropical savanna. Journal of Herpetology. 2011 Jun 14;45(2):244-50.
+   Guimarães TC, de Figueiredo GB, Mesquita DO, Vasconcellos MM. Ecology of
+   <em>
+    Hypsiboas albopunctatus
+   </em>
+   (Anura: Hylidae) in a Neotropical savanna. Journal of Herpetology. 2011 Jun 14;45(2):244-50.
   </li>
   <li>
-   Toledo LF, Britto FB, Araújo OG, Giasson LM, Haddad CF. The occurrence of Batrachochytrium dendrobatidis in Brazil and the inclusion of 17 new cases of infection. South American Journal of Herpetology. 2006;1(3):185-91.
+   Toledo LF, Britto FB, Araújo OG, Giasson LM, Haddad CF. The occurrence of
+   <em>
+    Batrachochytrium dendrobatidis
+   </em>
+   in Brazil and the inclusion of 17 new cases of infection. South American Journal of Herpetology. 2006;1(3):185-91.
   </li>
  </ul>
 </div>

@@ -41,10 +41,18 @@
    Toledo, L. F., Zina, J. &amp; Haddad, C. F. B. (2003). Distribuição espacial e temporal de uma comunidade de anfíbios anuros do Município de Rio Claro, São Paulo, Brasil. Holos Environment, 3(2), 136-149.
   </li>
   <li>
-   Toledo L. F., Castanho L. M., Haddad C. F. B. (2005). Recognition and distribution of Leptodactylus mystaceus (Anura; Leptodactylidae) in the State of São Paulo, Southeastern Brazil. Biota Neotropica, 5(1), 57-62.
+   Toledo L. F., Castanho L. M., Haddad C. F. B. (2005). Recognition and distribution of
+   <em>
+    Leptodactylus mystaceus
+   </em>
+   (Anura; Leptodactylidae) in the State of São Paulo, Southeastern Brazil. Biota Neotropica, 5(1), 57-62.
   </li>
   <li>
-   Heyer, W. R. (1978). Systematics of the fuscus group of the frog genus Leptodactylus (Amphibia, Leptodactylidae). Science Bulletin, Natural History Museum of Los Angeles County, 29, 1–85.
+   Heyer, W. R. (1978). Systematics of the fuscus group of the frog genus
+   <em>
+    Leptodactylus
+   </em>
+   (Amphibia, Leptodactylidae). Science Bulletin, Natural History Museum of Los Angeles County, 29, 1–85.
   </li>
   <li>
    Maffei, F., Ubaid, F. K., &amp; Jim, J. (2011). Anfíbios da Fazenda Rio Claro, Lençóis Paulista, SP, Brasil. Bauru: Editora Canal.

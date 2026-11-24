@@ -1,6 +1,9 @@
 <div class="descricao-geral">
  <p>
-  Bokermannohyla pseudopseudis é uma espécie de anuro
+  <em>
+   Bokermannohyla pseudopseudis
+  </em>
+  é uma espécie de anuro
   <glossario>
    endêmica
   </glossario>
@@ -9,7 +12,10 @@
    forragear
   </glossario>
   e se camuflar de eventuais predadores.
-Bokermannohyla pseudopseudis é um
+  <em>
+   Bokermannohyla pseudopseudis
+  </em>
+  é um
   <glossario>
    predador generalista
   </glossario>
@@ -21,7 +27,11 @@ Bokermannohyla pseudopseudis é um
   Onde encontrar
  </h1>
  <p>
-  Os girinos de Bokermannohyla pseudopseudis podem ser encontrados em poços profundos com substrato formado por rochas de quartzo, especialmente em regiões de planalto da Chapada dos Veadeiros e do Distrito Federal.
+  Os girinos de
+  <em>
+   Bokermannohyla pseudopseudis
+  </em>
+  podem ser encontrados em poços profundos com substrato formado por rochas de quartzo, especialmente em regiões de planalto da Chapada dos Veadeiros e do Distrito Federal.
  </p>
 </div>
 <div class="diagnose">
@@ -29,7 +39,11 @@ Bokermannohyla pseudopseudis é um
   Diagnose
  </h1>
  <p>
-  A principal característica diagnóstica de B. pseudopseudis é o seu canto. Além disso, essa espécie possui corpo acinzentado com manchas mais escuras distribuídas por todo o corpo. Quando vista de cima, a espécie apresenta um corpo arredondado e um
+  A principal característica diagnóstica de
+  <em>
+   B. pseudopseudis
+  </em>
+  é o seu canto. Além disso, essa espécie possui corpo acinzentado com manchas mais escuras distribuídas por todo o corpo. Quando vista de cima, a espécie apresenta um corpo arredondado e um
   <glossario>
    prepólex
   </glossario>
@@ -60,7 +74,11 @@ Bokermannohyla pseudopseudis é um
     Girinos vorazes
    </h2>
    <p>
-    Os girinos de B. pseudopseudis são predadores, alimentando-se de invertebrados aquáticos e até de girinos irmãos ou de girinos de outras espécies menores ou menos desenvolvidos. Uma característica interessante é que os girinos podem atingir até 15 cm de comprimento, sendo seu corpo maior que o do adulto.
+    Os girinos de
+    <em>
+     B. pseudopseudis
+    </em>
+    são predadores, alimentando-se de invertebrados aquáticos e até de girinos irmãos ou de girinos de outras espécies menores ou menos desenvolvidos. Uma característica interessante é que os girinos podem atingir até 15 cm de comprimento, sendo seu corpo maior que o do adulto.
    </p>
   </li>
   <li>
@@ -81,16 +99,18 @@ Bokermannohyla pseudopseudis é um
  <h1>
   Referências
  </h1>
- <ol>
-  <li>
-   <p>
-    Magalhães, R. F., Garda, A. A., Marques, N. C., &amp; Brandão, R. A. (2016). Sexual dimorphism and resource utilisation by the Veadeiros waterfall frog Bokermannohyla pseudopseudis (Anura: Hylidae). Salamandra, 52(2), 171-177.
-   </p>
-  </li>
-  <li>
-   <p>
-    Leite, F. S., Pezzuti, T. L., &amp; de Anchietta Garcia, P. C. (2012). A new species of the Bokermannohyla pseudopseudis group from the Espinhaço range, central Bahia, Brazil (Anura: Hylidae). Herpetologica, 68(3), 401-409.
-   </p>
-  </li>
- </ol>
+ <p>
+  Magalhães, R. F., Garda, A. A., Marques, N. C., &amp; Brandão, R. A. (2016). Sexual dimorphism and resource utilisation by the Veadeiros waterfall frog
+  <em>
+   Bokermannohyla pseudopseudis
+  </em>
+  (Anura: Hylidae). Salamandra, 52(2), 171-177.
+ </p>
+ <p>
+  Leite, F. S., Pezzuti, T. L., &amp; de Anchietta Garcia, P. C. (2012). A new species of the
+  <em>
+   Bokermannohyla pseudopseudis
+  </em>
+  group from the Espinhaço range, central Bahia, Brazil (Anura: Hylidae). Herpetologica, 68(3), 401-409.
+ </p>
 </div>

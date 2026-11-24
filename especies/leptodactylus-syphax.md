@@ -58,7 +58,11 @@
   </li>
   <li>
    <p>
-    Andrade, E. B., Guimarães, R., Leite Jr, J. M. A. &amp; Leite, J. R. S. A. (2011). Amphibia, Anura, Leptodactylidae, Leptodactylus syphax Bokermann, 1969: Distribution extension and geographic distribution map. Journal of Species Lists and Distribution, 7(5).
+    Andrade, E. B., Guimarães, R., Leite Jr, J. M. A. &amp; Leite, J. R. S. A. (2011). Amphibia, Anura, Leptodactylidae,
+    <em>
+     Leptodactylus syphax
+    </em>
+    Bokermann, 1969: Distribution extension and geographic distribution map. Journal of Species Lists and Distribution, 7(5).
    </p>
   </li>
   <li>
@@ -66,15 +70,19 @@
     Eterovick, P. C. &amp; Sazima, I. (2004). Amphibians from the Serra do Cipó, Minas Gerais, Brazil. PUC Minas: Belo Horizonte.
    </p>
   </li>
-  <li>
-   <p>
-    Silva, W. R., Giaretta, A. A. &amp; Facure, K. G. (2008). Vocal repertory of two species of the Leptodactylus pentadactylus group (Anura, Leptodactylidae). Contemporary Herpetology, 2008, 1–6.
-   </p>
-  </li>
-  <li>
-   <p>
-    Sá, R. O., Grant, T., Camargo, A., Heyer, W. R., Ponssa, M. L. &amp; Stanley, E. (2014). Systematics of the Neotropical genus Leptodactylus Fitzinger, 1826 (Anura: Leptodactylidae): Phylogeny, the relevance of non-molecular evidence, and species accounts. South American Journal of Herpetology, 9(1), S1–S100.
-   </p>
-  </li>
  </ol>
+ <p>
+  Silva, W. R., Giaretta, A. A. &amp; Facure, K. G. (2008). Vocal repertory of two species of the
+  <em>
+   Leptodactylus pentadactylus
+  </em>
+  group (Anura, Leptodactylidae). Contemporary Herpetology, 2008, 1–6.
+ </p>
+ <p>
+  Sá, R. O., Grant, T., Camargo, A., Heyer, W. R., Ponssa, M. L. &amp; Stanley, E. (2014). Systematics of the Neotropical genus
+  <em>
+   Leptodactylus
+  </em>
+  Fitzinger, 1826 (Anura: Leptodactylidae): Phylogeny, the relevance of non-molecular evidence, and species accounts. South American Journal of Herpetology, 9(1), S1–S100.
+ </p>
 </div>

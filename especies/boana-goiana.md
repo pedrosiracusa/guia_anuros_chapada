@@ -32,7 +32,11 @@ Essa espécie tem uma ampla distribuição no Brasil Central, mas suas populaç�
  <ol>
   <li>
    <p>
-    Menin, M., Silva, R., &amp; Giaretta, A. A. (2004). Reproductive biology of Hyla goiana (Anura, Hylidae). Iheringia Série Zoologia, 94(1).
+    Menin, M., Silva, R., &amp; Giaretta, A. A. (2004). Reproductive biology of
+    <em>
+     Hyla goiana
+    </em>
+    (Anura, Hylidae). Iheringia Série Zoologia, 94(1).
    </p>
   </li>
   <li>

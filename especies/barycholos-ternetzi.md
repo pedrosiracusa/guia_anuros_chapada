@@ -54,13 +54,21 @@ Outro ponto importante é que essa rã é
  </h1>
  <ol>
   <li>
-   Lemes, P., Tessarolo, G., Morais, A. R., &amp; Bastos, R. P. (2012). Acoustic repertoire of Barycholos ternetzi (Anura: Strabomantidae) in central Brazil. South Smerican Journal of herpetology, 7(2), 157-164.
-  </li>
-  <li>
-   Caramaschi, U., &amp; Pombal, J. (2011). The type series of Pseudopaludicola ternetzi Miranda-Ribeiro, 1937 (Anura, Leiuperidae) with designation of a lectotype. Zootaxa, 3051, 62-64.
-  </li>
-  <li>
-   Gurgel, G., Horta, G., Ferreira, V., et al. (2019). Dieta de Barycholos ternetzi (Miranda-Ribeiro, 1937) (Anura: Craugastoridae) no Cerrado do Brasil Central. Acta Biologica Brasiliensia, 2(1).
+   Lemes, P., Tessarolo, G., Morais, A. R., &amp; Bastos, R. P. (2012). Acoustic repertoire of
+   <em>
+    Barycholos ternetzi
+   </em>
+   (Anura: Strabomantidae) in central Brazil. South Smerican Journal of herpetology, 7(2), 157-164.
+Caramaschi, U., &amp; Pombal, J. (2011). The type series of
+   <em>
+    Pseudopaludicola ternetzi
+   </em>
+   Miranda-Ribeiro, 1937 (Anura, Leiuperidae) with designation of a lectotype. Zootaxa, 3051, 62-64.
+Gurgel, G., Horta, G., Ferreira, V., et al. (2019). Dieta de
+   <em>
+    Barycholos ternetzi
+   </em>
+   (Miranda-Ribeiro, 1937) (Anura: Craugastoridae) no Cerrado do Brasil Central. Acta Biologica Brasiliensia, 2(1).
   </li>
  </ol>
 </div>

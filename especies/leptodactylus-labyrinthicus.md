@@ -70,16 +70,26 @@ Sua dieta inclui desde invertebrados até pequenos vertebrados, capturando qualq
  </h1>
  <ol>
   <li>
-   Silva, W. R., &amp; Giaretta, A. A. (2008). Further notes on the natural history of the South American pepper frog, Leptodactylus labyrinthicus (Spix, 1824) (Anura, Leptodactylidae). Brazilian Journal of Biology, 68(2), 403–407.
-  </li>
-  <li>
-   Shepard, D. B., &amp; Caldwell, J. P. (2005). From foam to free-living: ecology of larval Leptodactylus labyrinthicus. Copeia, 2005(4), 803–811.
-  </li>
-  <li>
-   Prado A. C. P., Uetanabaro M., Haddad C. F. (2002). Description of a new reproductive mode in Leptodactylus (Anura, Leptodactylidae), with a review of the reproductive specialization toward terrestriality in the genus. Copeia, 2002(4), 1128–1133.
-  </li>
-  <li>
-   Cardoso, A. J., &amp; Sazima, I. (1977). Batracofagia na fase adulta e larvária da rã-pimenta, Leptodactylus labyrinthicus (Spix, 1824) - Anura, Leptodactylidae. Ciência e Cultura, 29(10), 1130–1132.
+   Silva, W. R., &amp; Giaretta, A. A. (2008). Further notes on the natural history of the South American pepper frog,
+   <em>
+    Leptodactylus labyrinthicus
+   </em>
+   (Spix, 1824) (Anura, Leptodactylidae). Brazilian Journal of Biology, 68(2), 403–407.
+Shepard, D. B., &amp; Caldwell, J. P. (2005). From foam to free-living: ecology of larval
+   <em>
+    Leptodactylus labyrinthicus
+   </em>
+   . Copeia, 2005(4), 803–811.
+Prado A. C. P., Uetanabaro M., Haddad C. F. (2002). Description of a new reproductive mode in
+   <em>
+    Leptodactylus
+   </em>
+   (Anura, Leptodactylidae), with a review of the reproductive specialization toward terrestriality in the genus. Copeia, 2002(4), 1128–1133.
+Cardoso, A. J., &amp; Sazima, I. (1977). Batracofagia na fase adulta e larvária da rã-pimenta,
+   <em>
+    Leptodactylus labyrinthicus
+   </em>
+   (Spix, 1824) - Anura, Leptodactylidae. Ciência e Cultura, 29(10), 1130–1132.
   </li>
  </ol>
 </div>

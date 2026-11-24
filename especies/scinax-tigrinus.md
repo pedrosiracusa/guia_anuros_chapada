@@ -12,7 +12,10 @@
   Onde encontrar
  </h1>
  <p>
-  Scinax tigrinus é uma espécie com distribuição restrita, encontrada nos estados de Minas Gerais, Goiás e no Distrito Federal. Prefere áreas abertas próximas a fragmentos florestais e pode ser observada em ambientes com poços permanentes ou temporários, especialmente aqueles com vegetação marginal. Também ocorre em áreas modificadas, como pastos e campos de soja, indicando sua capacidade de tolerar algum grau de alteração no habitat.
+  <em>
+   Scinax tigrinus
+  </em>
+  é uma espécie com distribuição restrita, encontrada nos estados de Minas Gerais, Goiás e no Distrito Federal. Prefere áreas abertas próximas a fragmentos florestais e pode ser observada em ambientes com poços permanentes ou temporários, especialmente aqueles com vegetação marginal. Também ocorre em áreas modificadas, como pastos e campos de soja, indicando sua capacidade de tolerar algum grau de alteração no habitat.
  </p>
 </div>
 <div class="diagnose">
@@ -27,9 +30,11 @@
  <h1>
   Referências
  </h1>
- <ol>
-  <li>
-   Nunes, I., Carvalho Jr, R. D., &amp; Pereira, EG. (2010). A new species of Scinax Wagler (Anura: Hylidae) from Cerrado of Brazil. Zootaxa, 2514(1), 24-34.
-  </li>
- </ol>
+ <p>
+  Nunes, I., Carvalho Jr, R. D., &amp; Pereira, EG. (2010). A new species of
+  <em>
+   Scinax
+  </em>
+  Wagler (Anura: Hylidae) from Cerrado of Brazil. Zootaxa, 2514(1), 24-34.
+ </p>
 </div>

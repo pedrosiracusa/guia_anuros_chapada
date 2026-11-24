@@ -28,7 +28,15 @@
    <h2>
     Predação por vertebrados
    </h2>
-   Há diversos registros de Scinax fuscovarius sendo predada por vertebrados, mas na imagem abaixo, pode-se ver essa espécie sendo predada por uma aranha (Ancylometes sp.) e por uma barata d'água (Lethocerus cf. bruchi). Os anuros são fundamentais para o equilíbrio ecológico, tanto como predadores quanto como presas no ambiente.
+   Há diversos registros de
+   <em>
+    Scinax fuscovarius
+   </em>
+   sendo predada por vertebrados, mas na imagem abaixo, pode-se ver essa espécie sendo predada por uma aranha (
+   <em>
+    Ancylometes sp.
+   </em>
+   ) e por uma barata d'água (Lethocerus cf. bruchi). Os anuros são fundamentais para o equilíbrio ecológico, tanto como predadores quanto como presas no ambiente.
   </li>
  </ol>
  <p>
@@ -42,12 +50,20 @@
  <ol>
   <li>
    <p>
-    Braga, L. R., Brandão, R. A., &amp; Colli, G. R. (2010). Amphibia, Anura, Hylidae, Hypsiboas buriti (Caramaschi and Cruz, 1999): Distribution update and map. Check List, 1-6(2).
+    Braga, L. R., Brandão, R. A., &amp; Colli, G. R. (2010). Amphibia, Anura, Hylidae,
+    <em>
+     Hypsiboas buriti
+    </em>
+    (Caramaschi and Cruz, 1999): Distribution update and map. Check List, 1-6(2).
    </p>
   </li>
   <li>
    <p>
-    Faivovich, J. (2005). A new species of Scinax (Anura: Hylidae) from Misiones, Argentina. Herpetologica, 61(1), 69-77.
+    Faivovich, J. (2005). A new species of
+    <em>
+     Scinax
+    </em>
+    (Anura: Hylidae) from Misiones, Argentina. Herpetologica, 61(1), 69-77.
    </p>
   </li>
   <li>
@@ -55,10 +71,12 @@
     Frost, J. M., Butler, K. T., Brivio, F., Hendon, C. H., Van Schilfgaarde, M., &amp; Walsh, A. (2014). Atomistic origins of high-performance in hybrid halide perovskite solar cells. Nano Letters, 14(5), 2584-90.
    </p>
   </li>
-  <li>
-   <p>
-    Maffei, F., Bolfarini, M., &amp; Ubaid, FK. (2014). Predation of Scinax fuscovarius (Anura: Hylidae) by two invertebrates in Southeastern Brazil. Herpetology Notes, 7, 371-374.
-   </p>
-  </li>
  </ol>
+ <p>
+  Maffei, F., Bolfarini, M., &amp; Ubaid, FK. (2014). Predation of
+  <em>
+   Scinax fuscovarius
+  </em>
+  (Anura: Hylidae) by two invertebrates in Southeastern Brazil. Herpetology Notes, 7, 371-374.
+ </p>
 </div>

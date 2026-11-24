@@ -5,7 +5,11 @@
    sacral
   </glossario>
   da mesma cor. O nome da espécie homenageia o Dr. Jorge Jim, em reconhecimento à sua contribuição para o conhecimento dos anuros brasileiros
- A espécie é encontrada vocalizando em partes superiores da grama (acima de 1 metro de altura) e habita nascentes, córregos e poças permanentes de áreas abertas. Seu padrão reprodutivo é prolongado, com os machos vocalizando de outubro a fevereiro, e os girinos sendo abundantes ao longo de toda a estação chuvosa. D. jimi apresenta um modo reprodutivo tipo 1, no qual os ovos e girinos são
+ A espécie é encontrada vocalizando em partes superiores da grama (acima de 1 metro de altura) e habita nascentes, córregos e poças permanentes de áreas abertas. Seu padrão reprodutivo é prolongado, com os machos vocalizando de outubro a fevereiro, e os girinos sendo abundantes ao longo de toda a estação chuvosa.
+  <em>
+   D. jimi
+  </em>
+  apresenta um modo reprodutivo tipo 1, no qual os ovos e girinos são
   <glossario>
    exotróficos
   </glossario>
@@ -51,7 +55,11 @@ A espécie é
     <glossario>
      amplexo
     </glossario>
-    de D. jimi é do tipo axilar, onde o macho usa as patas dianteiras para segurar a fêmea na região peitoral. O número de ovos varia de 400 a 500 em média.
+    de
+    <em>
+     D. jimi
+    </em>
+    é do tipo axilar, onde o macho usa as patas dianteiras para segurar a fêmea na região peitoral. O número de ovos varia de 400 a 500 em média.
    </p>
   </li>
   <li>
@@ -59,7 +67,11 @@ A espécie é
     Competição entre machos
    </h2>
    <p>
-    Machos de D. jimi competem pelos melhores poleiros, realizando uma divisão de habitat entre si. Os indivíduos com melhores condições corporais ocupam os
+    Machos de
+    <em>
+     D. jimi
+    </em>
+    competem pelos melhores poleiros, realizando uma divisão de habitat entre si. Os indivíduos com melhores condições corporais ocupam os
     <glossario>
      poleiros
     </glossario>
@@ -71,7 +83,15 @@ A espécie é
     Padrões dorsais
    </h2>
    <p>
-    A espécie apresenta uma grande variedade de padrões dorsais, que podem variar entre diferentes localidades. Esses padrões estão ilustrados abaixo, com base no estudo de Napoli M &amp; Caramaschi U. (1999) no artigo "Variation and description of two new Brazilian Hyla of the H. tritaeniata complex (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, 407:1-11".
+    A espécie apresenta uma grande variedade de padrões dorsais, que podem variar entre diferentes localidades. Esses padrões estão ilustrados abaixo, com base no estudo de Napoli M &amp; Caramaschi U. (1999) no artigo "Variation and description of two new Brazilian
+    <em>
+     Hyla
+    </em>
+    of the
+    <em>
+     H. tritaeniata
+    </em>
+    complex (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, 407:1-11".
    </p>
   </li>
  </ol>
@@ -88,7 +108,15 @@ A espécie é
   </li>
   <li>
    <p>
-    Napoli, M., &amp; Caramaschi, U. (1999). Variation and description of two new Brazilian Hyla of the H. tritaeniata complex (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, 407, 1-11.
+    Napoli, M., &amp; Caramaschi, U. (1999). Variation and description of two new Brazilian
+    <em>
+     Hyla
+    </em>
+    of the
+    <em>
+     H. tritaeniata
+    </em>
+    complex (Amphibia, Anura, Hylidae). Boletim do Museu Nacional, 407, 1-11.
    </p>
   </li>
   <li>

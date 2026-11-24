@@ -44,7 +44,11 @@
    <h2>
     Descoberta histórica!
    </h2>
-   Na época do Brasil Colônia, quando a capital era o Rio de Janeiro, o interior do país era pouco conhecido. Um médico, que trabalhava com animais em busca de medicamentos naturais, fez uma viagem até a Chapada dos Veadeiros, região então quase desconhecida. Durante essa viagem, ele encontrou o primeiro Proceratophrys goyana em uma estrada que hoje é conhecida como “estrada velha”, localizada na Fazenda Volta da Serra. Atualmente, a espécie é o símbolo da Fazenda.
+   Na época do Brasil Colônia, quando a capital era o Rio de Janeiro, o interior do país era pouco conhecido. Um médico, que trabalhava com animais em busca de medicamentos naturais, fez uma viagem até a Chapada dos Veadeiros, região então quase desconhecida. Durante essa viagem, ele encontrou o primeiro
+   <em>
+    Proceratophrys goyana
+   </em>
+   em uma estrada que hoje é conhecida como “estrada velha”, localizada na Fazenda Volta da Serra. Atualmente, a espécie é o símbolo da Fazenda.
   </li>
  </ol>
 </div>
@@ -55,12 +59,20 @@
  <ol>
   <li>
    <p>
-    Martins, L. B., Giaretta, A. A. 2013. Morphological and acoustic characterization of Proceratophrys goyana (Lissamphibia: Anura: Odontophrynidae), with the description of a sympatric and related new species. Zootaxa 3750: 301–320.
+    Martins, L. B., Giaretta, A. A. 2013. Morphological and acoustic characterization of
+    <em>
+     Proceratophrys goyana
+    </em>
+    (Lissamphibia: Anura: Odontophrynidae), with the description of a sympatric and related new species. Zootaxa 3750: 301–320.
    </p>
   </li>
   <li>
    <p>
-    Martins, L. B., Giaretta, A. A. 2008. História Natural de uma espécie de Proceratophrys (Anura, Alsodinae) do bioma Cerrado. VII Encontro Interno e XII Seminário de Iniciação Científica da Universidade Federal de Uberlândia.
+    Martins, L. B., Giaretta, A. A. 2008. História Natural de uma espécie de
+    <em>
+     Proceratophrys
+    </em>
+    (Anura, Alsodinae) do bioma Cerrado. VII Encontro Interno e XII Seminário de Iniciação Científica da Universidade Federal de Uberlândia.
    </p>
   </li>
   <li>

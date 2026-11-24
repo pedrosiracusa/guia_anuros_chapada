@@ -1,6 +1,10 @@
 <div class="descricao-geral">
  <p>
-  O sapo-forneiro (Leptodactylus furnarius) é uma espécie de porte médio, terrestre, noturna e
+  O sapo-forneiro (
+  <em>
+   Leptodactylus furnarius
+  </em>
+  ) é uma espécie de porte médio, terrestre, noturna e
   <glossario>
    insetívora
   </glossario>
@@ -60,16 +64,32 @@ Os machos diferenciam-se das fêmeas pela coloração mais escura na região gul
  </h1>
  <ol>
   <li>
-   Baldo, D., Tomatis, C., &amp; Segalla, M. V. (2008). Amphibia, Anura, Leptodactylidae, Leptodactylus furnarius: New country record, geographic distribution map and advertisement call. Check List, 4, 98–102.
+   Baldo, D., Tomatis, C., &amp; Segalla, M. V. (2008). Amphibia, Anura, Leptodactylidae,
+   <em>
+    Leptodactylus furnarius
+   </em>
+   : New country record, geographic distribution map and advertisement call. Check List, 4, 98–102.
   </li>
   <li>
    Santos, T. G., Giovanelli, J. G., Storti, L. F., &amp; Brasileiro, C. A. (2010). Geographic distribution extension in Brazil. Check List, 6(2), 253–254.
   </li>
   <li>
-   Heyer, W. R., &amp; Heyer, M. M. (2004). Leptodactylus furnarius Sazima and Bokermann, Cerrado Oven Frog. Catalogue of American Amphibians and Reptiles, 785, 1–785.5.
+   Heyer, W. R., &amp; Heyer, M. M. (2004).
+   <em>
+    Leptodactylus furnarius
+   </em>
+   Sazima and Bokermann, Cerrado Oven Frog. Catalogue of American Amphibians and Reptiles, 785, 1–785.5.
   </li>
   <li>
-   Filho, J. C. O., &amp; Giaretta, A. A. (2008). Reproductive behavior of Leptodactylus mystacinus with notes on courtship call of other Leptodactylus species. Iheringia, Série Zoologia, 98(4), 508–515.
+   Filho, J. C. O., &amp; Giaretta, A. A. (2008). Reproductive behavior of
+   <em>
+    Leptodactylus mystacinus
+   </em>
+   with notes on courtship call of other
+   <em>
+    Leptodactylus
+   </em>
+   species. Iheringia, Série Zoologia, 98(4), 508–515.
   </li>
   <li>
    Frost, D. R. (2019). Amphibian Species of the World: an Online Reference http://research.amnh.org/herpetology/amphibia/index.html.

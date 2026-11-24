@@ -19,7 +19,11 @@ A espécie ocorre em quase todo o território brasileiro e pode ser encontrada e
   Diagnose
  </h1>
  <p>
-  De porte médio, apresenta seis pregas dorsolaterais bem evidentes, além de manchas irregulares no dorso, cuja coloração varia de cinza a verde-escuro, com ocelos em diferentes tons de marrom. O ventre é creme. Possui faixas longitudinais nas coxas e nos tarsos. A faixa dorsolateral é de cor creme, e a íris é bronze. O tímpano é distinto e há membrana supratimpânica presente. Apresenta pernas longas e braços mais robustos que os de L. furnarius. Não possui membranas interdigitais nem discos adesivos. Possui cinco dedos, sendo incluída no grupo Pentadactylus.
+  De porte médio, apresenta seis pregas dorsolaterais bem evidentes, além de manchas irregulares no dorso, cuja coloração varia de cinza a verde-escuro, com ocelos em diferentes tons de marrom. O ventre é creme. Possui faixas longitudinais nas coxas e nos tarsos. A faixa dorsolateral é de cor creme, e a íris é bronze. O tímpano é distinto e há membrana supratimpânica presente. Apresenta pernas longas e braços mais robustos que os de
+  <em>
+   L. furnarius
+  </em>
+  . Não possui membranas interdigitais nem discos adesivos. Possui cinco dedos, sendo incluída no grupo Pentadactylus.
  </p>
 </div>
 <div class="curiosidades">
@@ -41,19 +45,35 @@ A espécie ocorre em quase todo o território brasileiro e pode ser encontrada e
  </h1>
  <ol>
   <li>
-   De-Carvalho, C. B., Freitas, E. B., &amp; Faria, R. G. (2008). História natural de Leptodactylus mystacinus e Leptodactylus fuscus (Anura: Leptodactylidae) no Cerrado do Brasil Central. Biota Neotropica, 8(3), 105–115.
+   De-Carvalho, C. B., Freitas, E. B., &amp; Faria, R. G. (2008). História natural de
+   <em>
+    Leptodactylus mystacinus
+   </em>
+   e
+   <em>
+    Leptodactylus fuscus
+   </em>
+   (Anura: Leptodactylidae) no Cerrado do Brasil Central. Biota Neotropica, 8(3), 105–115.
   </li>
   <li>
-   Heyer, R. W. (1978). Systematics of the fuscus group of the genus Leptodactylus (Amphibia, Leptodactylidae). Natural History Museum of Los Angeles County Science Bulletin, 29, 1–85.
+   Heyer, R. W. (1978). Systematics of the fuscus group of the genus
+   <em>
+    Leptodactylus
+   </em>
+   (Amphibia, Leptodactylidae). Natural History Museum of Los Angeles County Science Bulletin, 29, 1–85.
   </li>
   <li>
    Frost, D. R. (2019). Amphibian Species of the World: an Online Reference. http://research.amnh.org/herpetology/amphibia/index.html.
-  </li>
-  <li>
-   Martins, M. (1988). Biologia reprodutiva de Leptodactylus fuscus em Boa Vista, Roraima (Amphibia: Anura). Revista Brasileira de Biologia, 48(4), 969–977.
-  </li>
-  <li>
-   Junqueira, V. S., Santos, P. S., &amp; Silva, E. T. (2016). Dieta de Leptodactylus fuscus (Anura, Leptodactylidae) em uma área rural de Caatinga, Minas Gerais. Revista de Ciências, 7(1), 65–74.
+Martins, M. (1988). Biologia reprodutiva de
+   <em>
+    Leptodactylus fuscus
+   </em>
+   em Boa Vista, Roraima (Amphibia: Anura). Revista Brasileira de Biologia, 48(4), 969–977.
+Junqueira, V. S., Santos, P. S., &amp; Silva, E. T. (2016). Dieta de
+   <em>
+    Leptodactylus fuscus
+   </em>
+   (Anura, Leptodactylidae) em uma área rural de Caatinga, Minas Gerais. Revista de Ciências, 7(1), 65–74.
   </li>
  </ol>
 </div>

@@ -37,7 +37,11 @@
     Indicadores de qualidade de ambiente
    </h2>
    <p>
-    As frágeis cabeceiras de riachos de montanha são a moradia desses peculiares e interessantes anfíbios. A presença dessas espécies de Pithecopus nesses locais indica boa qualidade dos habitats e das águas. E, como diria Guimarães Rosa: "perto da água, tudo é feliz." - Fala de Reuber Brandão na reportagem “Pererecas das nascentes”.
+    As frágeis cabeceiras de riachos de montanha são a moradia desses peculiares e interessantes anfíbios. A presença dessas espécies de
+    <em>
+     Pithecopus
+    </em>
+    nesses locais indica boa qualidade dos habitats e das águas. E, como diria Guimarães Rosa: "perto da água, tudo é feliz." - Fala de Reuber Brandão na reportagem “Pererecas das nascentes”.
 (https://www.oeco.org.br/colunas/reuber-brandao/23755-pererecas-das-nascentes/)
    </p>
   </li>
@@ -47,18 +51,26 @@
  <h1>
   Referências
  </h1>
- <ol>
-  <li>
-   Haga, I. A., Andrade, F. S., Bruschi, D., et al. (2017). Unrevealing the leaf frogs Cerrado diversity: A new species of Pithecopus (Anura, Arboranae, Phyllomedusidae) from Mato Grosso state, Brazil. PLoS ONE, 12(9).
-  </li>
-  <li>
-   Conceição, K., Konno, K., Melo, R. L., Antoniazzi, M. M., Jared, C., et al. (2007). Isolation and characterization of a novel bradykinin potentiating peptide (BPP) from the skin secretion of Phyllomedusa hypochondrialis. Peptides, 28(3), 515–523.
-  </li>
-  <li>
-   Bruschi, D. P., Busin, C. S., Toledo, L. F., et al. (2013). Evaluation of the taxonomic status of populations assigned to Phyllomedusa hypochondrialis (Anura, Hylidae, Phyllomedusinae) based on molecular, chromosomal, and morphological approaches. BMC Genetics, 14(70).
-  </li>
-  <li>
-   Freitas, E. B., De-Carvalho, C. B., Faria, R. G., et al. (2008). Phyllomedusa azurea (Anura: Hylidae, Phyllomedusinae) no Cerrado do Brasil Central. Biota Neotropica, 8(4).
-  </li>
- </ol>
+ <p>
+  Haga, I. A., Andrade, F. S., Bruschi, D., et al. (2017). Unrevealing the leaf frogs Cerrado diversity: A new species of
+  <em>
+   Pithecopus
+  </em>
+  (Anura, Arboranae, Phyllomedusidae) from Mato Grosso state, Brazil. PLoS ONE, 12(9).
+Conceição, K., Konno, K., Melo, R. L., Antoniazzi, M. M., Jared, C., et al. (2007). Isolation and characterization of a novel bradykinin potentiating peptide (BPP) from the skin secretion of
+  <em>
+   Phyllomedusa hypochondrialis
+  </em>
+  . Peptides, 28(3), 515–523.
+Bruschi, D. P., Busin, C. S., Toledo, L. F., et al. (2013). Evaluation of the taxonomic status of populations assigned to
+  <em>
+   Phyllomedusa hypochondrialis
+  </em>
+  (Anura, Hylidae, Phyllomedusinae) based on molecular, chromosomal, and morphological approaches. BMC Genetics, 14(70).
+Freitas, E. B., De-Carvalho, C. B., Faria, R. G., et al. (2008).
+  <em>
+   Phyllomedusa azurea
+  </em>
+  (Anura: Hylidae, Phyllomedusinae) no Cerrado do Brasil Central. Biota Neotropica, 8(4).
+ </p>
 </div>

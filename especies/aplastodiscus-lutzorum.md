@@ -1,7 +1,15 @@
 <div class="descricao-geral">
  <p>
-  Uma das características que mais chama a atenção dessa espécie é a coloração dos seus olhos: o terço superior da íris é dourado e o restante apresenta um tom cobre-avermelhado. A espécie recebe esse nome em homenagem aos cientistas brasileiros Adolfo e Bertha Lutz, pioneiros na descoberta e estudo do gênero Aplastodiscus.
-Com hábitos florestais e associada a áreas com buritizais (Mauritia flexuosa), pode ser encontrada à noite em matas ribeirinhas, cantando empoleirada em folhas e galhos a até 5 metros de altura — o que dificulta a realização de estudos. Só foi registrada em locais acima de 1.000 metros de altitude. Machos vocalizam entre dezembro e março, e uma fêmea já foi encontrada com grandes
+  Uma das características que mais chama a atenção dessa espécie é a coloração dos seus olhos: o terço superior da íris é dourado e o restante apresenta um tom cobre-avermelhado. A espécie recebe esse nome em homenagem aos cientistas brasileiros Adolfo e Bertha Lutz, pioneiros na descoberta e estudo do gênero
+  <em>
+   Aplastodiscus
+  </em>
+  .
+Com hábitos florestais e associada a áreas com buritizais (
+  <em>
+   Mauritia flexuosa
+  </em>
+  ), pode ser encontrada à noite em matas ribeirinhas, cantando empoleirada em folhas e galhos a até 5 metros de altura — o que dificulta a realização de estudos. Só foi registrada em locais acima de 1.000 metros de altitude. Machos vocalizam entre dezembro e março, e uma fêmea já foi encontrada com grandes
   <glossario>
    ovócitos
   </glossario>
@@ -26,7 +34,14 @@ A espécie ocorre no bioma Cerrado, em áreas próximas ao Distrito Federal, com
   Diagnose
  </h1>
  <p>
-  Aplastodiscus lutzorum pertence ao grupo A. perviridis, apresentando íris bicolor, com saco vocal verde-azulado. O corpo varia entre tons de verde com
+  <em>
+   Aplastodiscus lutzorum
+  </em>
+  pertence ao grupo
+  <em>
+   A. perviridis
+  </em>
+  , apresentando íris bicolor, com saco vocal verde-azulado. O corpo varia entre tons de verde com
   <glossario>
    melanóforos
   </glossario>
@@ -42,7 +57,11 @@ A espécie ocorre no bioma Cerrado, em áreas próximas ao Distrito Federal, com
    <h2>
     Homenagem a dois grandes cientistas!
    </h2>
-   O nome da espécie homenageia Adolfo e Bertha Lutz. Adolfo Lutz foi médico e pioneiro no estudo de doenças infecciosas no Brasil, sendo o primeiro latino-americano a investigar a transmissão da febre amarela pelo Aedes aegypti, além de contribuir com o conhecimento de diversas doenças e na descrição de espécies. Sua filha, Bertha Lutz, foi uma bióloga, política e ativista pelo direito das mulheres. Trabalhou no Museu Nacional, especializou-se em anfíbios, lutou por igualdade de gênero, direito à licença-maternidade e contra o trabalho infantil, além de defender a proteção da natureza e da biodiversidade brasileira.
+   O nome da espécie homenageia Adolfo e Bertha Lutz. Adolfo Lutz foi médico e pioneiro no estudo de doenças infecciosas no Brasil, sendo o primeiro latino-americano a investigar a transmissão da febre amarela pelo
+   <em>
+    Aedes aegypti
+   </em>
+   , além de contribuir com o conhecimento de diversas doenças e na descrição de espécies. Sua filha, Bertha Lutz, foi uma bióloga, política e ativista pelo direito das mulheres. Trabalhou no Museu Nacional, especializou-se em anfíbios, lutou por igualdade de gênero, direito à licença-maternidade e contra o trabalho infantil, além de defender a proteção da natureza e da biodiversidade brasileira.
   </li>
  </ol>
 </div>
@@ -50,9 +69,11 @@ A espécie ocorre no bioma Cerrado, em áreas próximas ao Distrito Federal, com
  <h1>
   Referências
  </h1>
- <ol>
-  <li>
-   Berneck, B. V. M., Giaretta, A. A., Brandão, R. A., Cruz, C. A. G., &amp; Haddad, C. F. B. (2017). The first species of Aplastodiscus endemic to the Brazilian Cerrado (Anura, Hylidae). ZooKeys, 642, 115–130.
-  </li>
- </ol>
+ <p>
+  Berneck, B. V. M., Giaretta, A. A., Brandão, R. A., Cruz, C. A. G., &amp; Haddad, C. F. B. (2017). The first species of
+  <em>
+   Aplastodiscus
+  </em>
+  endemic to the Brazilian Cerrado (Anura, Hylidae). ZooKeys, 642, 115–130.
+ </p>
 </div>

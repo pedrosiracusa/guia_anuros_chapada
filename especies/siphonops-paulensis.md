@@ -1,6 +1,9 @@
 <div class="descricao-geral">
  <p>
-  Siphonops paulensis atinge até 30 cm de comprimento. Possui hábito fossorial, portanto, pode ser encontrada enterrada no solo ou eventualmente se deslocando na superfície. Após fortes chuvas, as tocas submergem, forçando o deslocamento da espécie nos solos alagados. Possui fecundação interna, são ovíparas (desenvolvimento dos embriões é direto, ou seja, quando saem do ovo já são miniaturas dos adultos) e as desovas podem ter de quatro a seis ovos. A fêmea cuida dos ovos, permanecendo enrolada na desova até a eclosão. Se alimentam de pequenos insetos e minhocas. Ocorrem desde o Nordeste até o Sul do Brasil, Bolívia, sul do Paraguai e extremo nordeste da Argentina. A espécie é classificada como não ameaçada, porém não há muito conhecimento sobre a biologia dela.
+  <em>
+   Siphonops paulensis
+  </em>
+  atinge até 30 cm de comprimento. Possui hábito fossorial, portanto, pode ser encontrada enterrada no solo ou eventualmente se deslocando na superfície. Após fortes chuvas, as tocas submergem, forçando o deslocamento da espécie nos solos alagados. Possui fecundação interna, são ovíparas (desenvolvimento dos embriões é direto, ou seja, quando saem do ovo já são miniaturas dos adultos) e as desovas podem ter de quatro a seis ovos. A fêmea cuida dos ovos, permanecendo enrolada na desova até a eclosão. Se alimentam de pequenos insetos e minhocas. Ocorrem desde o Nordeste até o Sul do Brasil, Bolívia, sul do Paraguai e extremo nordeste da Argentina. A espécie é classificada como não ameaçada, porém não há muito conhecimento sobre a biologia dela.
  </p>
  <p>
   Diagnose
