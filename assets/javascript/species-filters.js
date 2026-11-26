@@ -312,9 +312,11 @@ function atualizaTelaListaEspecies() {
         contadorEl.textContent = speciesToShow.size;
     }
 
-    document.querySelectorAll(".familia-header").forEach(fh => {
-        const emptySpeciesList = fh.nextElementSibling && fh.nextElementSibling.clientHeight === 0;
-        fh.style.display = emptySpeciesList ? "none" : "block";
+    [".familia-header", ".ordem-header"].forEach(selector => {
+        document.querySelectorAll(selector).forEach(header => {
+            const isEmpty = header.nextElementSibling && header.nextElementSibling.clientHeight === 0;
+            header.style.display = isEmpty ? "none" : "block";
+        });
     });
 }
 

@@ -39,21 +39,32 @@ title: Espécies
       <h6 class="mb-0">Mostrando <span id="contador-especies"></span> de {{speciesData | size }} espécies</h6>
       <button type="button" class="btn-limpar-filtros btn btn-sm btn-outline-secondary rounded-pill">Limpar filtros</button>
     </div>
-  <!-- Families list -->
-  
-    <ul class="species-list list-unstyled ">
+  <!-- Orders and Families list -->
+  {% assign orders = "Anura|Anuros,Gymnophiona|Cecílias" | split: "," %}
+  {% for order_entry in orders %}
+    {% assign order_parts = order_entry | split: "|" %}
+    {% assign order_key = order_parts[0] %}
+    {% assign order_common = order_parts[1] %}
+    <h2 class="ordem-header text-center mt-4 pt-3 pb-2 border-bottom">
+      {{ order_common }}
+      <small class="d-block text-body-secondary fw-normal fs-6">Ordem <i>{{ order_key }}</i></small>
+    </h2>
+    <ul class="species-list list-unstyled">
     {% for i in families-spp %}
       {% assign family_id = i.name | slugify %}
       {% assign family = familiesData[family_id] %}
-      {% assign splist = i.items %}
-      <li class="family-list-item">
-        <h3 class="text-center mt-3 pt-3 familia-header">Família <a style="color:{{family.color}}" href="{{ site.baseurl }}/familias/{{ family.scientificName | slugify }}">{{ family.scientificName }}</a></h3>
-        <ul class="list-unstyled row">
-        {% include specieslist.html splist=splist %}
-        </ul>
-      </li>
+      {% if family.order == order_key %}
+        {% assign splist = i.items %}
+        <li class="family-list-item">
+          <h3 class="text-center mt-3 pt-3 familia-header">Família <a style="color:{{family.color}}" href="{{ site.baseurl }}/familias/{{ family.scientificName | slugify }}">{{ family.scientificName }}</a></h3>
+          <ul class="list-unstyled row">
+          {% include specieslist.html splist=splist %}
+          </ul>
+        </li>
+      {% endif %}
     {% endfor %}
     </ul>
-  <!-- end Families list -->
+  {% endfor %}
+  <!-- end Orders and Families list -->
   </div>
 </section>
