@@ -36,7 +36,9 @@ title: home
     </div>
   </div>
   <a href="#mobile-actions" class="mobile-scroll-indicator d-md-none" aria-label="Rolar para as opções">
-    <i class="bi bi-chevron-down"></i>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="6 9 12 15 18 9"></polyline>
+    </svg>
   </a>
 </header>
 <!-- This shows ONLY in mobile layout -->
@@ -83,7 +85,8 @@ title: home
         const target = document.getElementById("mobile-actions");
         if (target) {
           event.preventDefault();
-          target.scrollIntoView({ behavior: "smooth" });
+          const top = target.getBoundingClientRect().top + window.pageYOffset;
+          window.scrollTo({ top, behavior: "smooth" });
         }
       });
 

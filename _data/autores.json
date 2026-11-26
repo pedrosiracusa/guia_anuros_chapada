@@ -3,7 +3,7 @@
   {
    "nome": "Ana Cecília del Prette",
    "papel": "Produtora de conteúdo e Diagramadora",
-   "descricao": "Bióloga e Mestra em Zoologia pela UnB e, atualmente, doutoranda em Zoologia na UFMG. Apaixonada pelas formas da natureza, herpetofauna e evolução. Investiga fluxo gênico entre espécies de pererecas-das-folhagens do gênero *Pithecopus* buscando compreender como processos evolutivos moldaram na estruturação genética e distribuição das espécies. Além disso, idealizou e faz parte deste projeto desde sua criação.",
+   "descricao": "Bióloga pela UnB e doutora em Zoologia pela UFMG. Apaixonada pelas formas da natureza, herpetofauna e evolução. Investiguei como a dinâmica de fluxo gênico e variação fenotipica moldaram a estruturação genética e distribuição de espécies de pererecas. Faz parte do @herpetoemfoco. Idealizou esse projeto e faz parte dele desde sua criação.",
    "links": {
     "Instagram": "https://www.instagram.com/anaceciliaholler/ (@anaceciliaholler)",
     "Herpeto em Foco": "https://www.instagram.com/herpetoemfoco/ (@herpetoemfoco)"
@@ -43,6 +43,16 @@
   }
  ],
  "colaboradores": [
+  {
+   "nome": "Luis Lima",
+   "papel": "Fotógrafo",
+   "descricao": "Biólogo pelo CEUB, mestre e doutorando em Zoologia pela UnB. Estuda a herpetofauna do Cerrado, com foco na ecologia e conservação de comunidades. Além da pesquisa, atua como fotógrafo de fauna, divulgando suas imagens por meio da página Registro Animal (@registroanimal) e colaborando ativamente com diversos projetos de conservação.",
+   "links": {
+    "Instagram": "https://instagram.com/registroanimal",
+    " iNaturalist": "https://www.inaturalist.org/observations?user_id=registroanimal"
+   },
+   "avatar-img": "luislima"
+  },
   {
    "nome": "Reuber Albuquerque Brandão",
    "papel": "Supervisor acadêmico",
