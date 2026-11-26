@@ -30,6 +30,7 @@ html{
 
 // Masthead (landing page)
 header.masthead{
+  position: relative;
   height:100vh;
   min-height:500px;
   background-color:white;
@@ -37,6 +38,53 @@ header.masthead{
   padding-bottom:0;
   h1{ font-size:4em;}
   h3{font-size:1.75em;}
+}
+
+.mobile-scroll-indicator {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #e08f1b;
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(224, 143, 27, 0.4);
+  z-index: 10;
+  animation: mobileScrollBounce 1.6s ease-in-out infinite;
+  transition: opacity 0.25s ease;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+  }
+
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes mobileScrollBounce {
+  0%, 100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 8px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-scroll-indicator {
+    animation: none;
+  }
 }
 
 

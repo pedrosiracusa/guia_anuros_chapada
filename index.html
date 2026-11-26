@@ -21,6 +21,13 @@ title: home
           </button>
           <div class="offline-sync-status small text-secondary mt-1" style="display:none;"></div>
         </div>
+        {%- if site.email and site.email != "" -%}
+        <div class="d-none d-md-block mt-2">
+          <a class="text-decoration-none text-secondary small" href="mailto:{{ site.email }}">
+            <i class="bi bi-envelope me-2"></i>{{ site.email }}
+          </a>
+        </div>
+        {%- endif -%}
       </div>
 
       <div class="col-md-6 col-xl-7 align-self-center">
@@ -28,9 +35,12 @@ title: home
       </div>
     </div>
   </div>
+  <a href="#mobile-actions" class="mobile-scroll-indicator d-md-none" aria-label="Rolar para as opções">
+    <i class="bi bi-chevron-down"></i>
+  </a>
 </header>
 <!-- This shows ONLY in mobile layout -->
-<div class="d-md-none p-4" style="background-color: #e08f1b;">
+<div id="mobile-actions" class="d-md-none p-4" style="background-color: #e08f1b;">
   <div class="d-grid gap-2">
     <a class="btn btn-light btn-lg rounded-pill fw-semibold" style="color: #e08f1b;" href="{{ '/especies/' | relative_url }}">Conheça as espécies</a>
     <a class="btn btn-outline-light btn-lg rounded-pill fw-semibold" href="{{ '/autores' | relative_url }}">Autores</a>
@@ -38,6 +48,11 @@ title: home
       <i class="bi bi-download me-2"></i>Instalar guia offline
     </button>
     <div class="offline-sync-status small text-white text-center" style="display:none;"></div>
+    {%- if site.email and site.email != "" -%}
+    <a class="text-decoration-none text-white text-center small mt-1" href="mailto:{{ site.email }}">
+      <i class="bi bi-envelope me-2"></i>{{ site.email }}
+    </a>
+    {%- endif -%}
   </div>
 </div>
 
@@ -62,6 +77,25 @@ title: home
 
 <script>
   (function () {
+    const scrollIndicator = document.querySelector(".mobile-scroll-indicator");
+    if (scrollIndicator) {
+      scrollIndicator.addEventListener("click", (event) => {
+        const target = document.getElementById("mobile-actions");
+        if (target) {
+          event.preventDefault();
+          target.scrollIntoView({ behavior: "smooth" });
+        }
+      });
+
+      window.addEventListener(
+        "scroll",
+        () => {
+          scrollIndicator.classList.toggle("is-hidden", window.scrollY > 40);
+        },
+        { passive: true }
+      );
+    }
+
     const installButtons = document.querySelectorAll(".btn-install-pwa");
     if (installButtons.length === 0) return;
 

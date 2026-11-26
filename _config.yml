@@ -14,20 +14,27 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Anfíbios dos Veadeiros
-email: ""
+tagline: "Guia de Identificação de Anuros da Chapada dos Veadeiros"
+lang: pt-BR
+email: "guiaanuros@gmail.com"
+author: "Anfíbios dos Veadeiros"
+logo: "/assets/img/anfibios_veadeiros_header.png"
 description: >- # this means to ignore newlines until "baseurl:"
-  Um projeto batráquio!
+  Guia de identificação de anfíbios anuros (sapos, rãs e pererecas) da Chapada
+  dos Veadeiros e do Cerrado, com fotos, cantos, distribuição e história
+  natural das espécies.
 #baseurl: "/guia_anuros_chapada" # the subpath of your site, e.g. /blog
-#url: "http://pedrosiracusa.com" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "https://pedrosiracusa.github.io" # substitua pela URL pública em produção (importante para canonical e sitemap.xml)
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
-repository: "nicolas-van/bootstrap-4-github-pages"
+repository: "pedrosiracusa/guia_anuros_chapada"
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # A list of the pages to display in the navigation bar
 header_pages:
@@ -36,6 +43,11 @@ header_pages:
   
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/img/landingpage/cover.png"
+
   - scope:
       path: "assets/img"
     values:
