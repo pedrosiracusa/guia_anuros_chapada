@@ -58,25 +58,31 @@ Este guia é feito com carinho, primazia e profissionalismo, voltado tanto para 
   </div>
   {% endfor %}
 
+<hr class="my-5">
+
 <h1 class="text-center">Parceiros e Colaboradores</h1>
 <p class="text-center lead">Sabe quem mais contribuiu? Muita gratidão à nossa rede de parceiros e colaboradores!</p>
 
-<div class="row mb-5">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-5">
   {% for colaborador in site.data.autores.colaboradores %}
-  <div class="col-6 col-sm-3 text-center">
-    <img class="image-fluid rounded-circle w-75 py-3" src="{{site.baseurl}}/assets/img/authors-avatar/{{colaborador.avatar-img}}.jpg" alt="Generic placeholder image">
-    <h5>{{ colaborador.nome }}</h5>
-    <h6 class="text-muted">{{colaborador.papel}}</h6>
-    <p>{{colaborador.descricao}}</p>
-    <div class="btn-group" role="group">
-      {% for link in colaborador.links %}
-      <a class="btn btn-outline-primary" href="{{link[1]}}" target="_blank" role="button">{{link[0]}}</a>
-      {% endfor %}
+  <div class="col">
+    <div class="d-flex flex-row flex-md-column align-items-start align-items-md-center text-start text-md-center gap-3 gap-md-2 h-100">
+      <img class="rounded-circle flex-shrink-0" style="width: 88px; height: 88px; object-fit: cover;" src="{{site.baseurl}}/assets/img/authors-avatar/{{colaborador.avatar-img}}.jpg" alt="{{ colaborador.nome | escape }}">
+      <div>
+        <h5 class="mb-1">{{ colaborador.nome }}</h5>
+        <h6 class="text-muted mb-2">{{ colaborador.papel }}</h6>
+        <p class="mb-2">{{ colaborador.descricao }}</p>
+        {% if colaborador.links.size > 0 %}
+        <div class="btn-group btn-group-sm" role="group">
+          {% for link in colaborador.links %}
+          <a class="btn btn-outline-primary" href="{{link[1]}}" target="_blank" role="button">{{link[0]}}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
     </div>
   </div>
   {% endfor %}
-
-
 </div>
 
 
